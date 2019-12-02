@@ -1,0 +1,1089 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{58252807-DA6A-4077-9F42-3356BEAC3C34}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TWS</RootNamespace>
+    <AssemblyName>TWS</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>L:\EcxPublish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://192.168.1.7:8075/</InstallUrl>
+    <ProductName>ECX Trader</ProductName>
+    <PublisherName>LTech India</PublisherName>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <TrustUrlParameters>true</TrustUrlParameters>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>3B3F29933060A5719643AD9913B20E502848AC9E</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>TWS_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Nevron.Diagram.WinForm, Version=9.11.3.12, Culture=neutral, PublicKeyToken=8232c9976c3abc48, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Nevron DLLS\Nevron.Diagram.WinForm.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Nevron.Presentation, Version=9.11.3.12, Culture=neutral, PublicKeyToken=6656c5d1103e75cc, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Nevron DLLS\Nevron.Presentation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Nevron.System, Version=9.11.3.12, Culture=neutral, PublicKeyToken=6a987feae5e496fd, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Nevron DLLS\Nevron.System.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Nevron.UI.WebForm.Controls, Version=9.11.3.12, Culture=neutral, PublicKeyToken=b5bb1156a58c1618, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Nevron DLLS\Nevron.UI.WebForm.Controls.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Nevron.UI.WinForm.Docking, Version=9.11.3.12, Culture=neutral, PublicKeyToken=446d8963349a628a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Nevron DLLS\Nevron.UI.WinForm.Docking.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Nevron.UI.WinForm.Skins, Version=9.11.3.12, Culture=neutral, PublicKeyToken=231d012f86497c6a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Nevron DLLS\Nevron.UI.WinForm.Skins.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TWSLibrary, Version=1.0.0.12, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\bin\TWSLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="WebSocket4Net, Version=0.8.0.0, Culture=neutral, PublicKeyToken=eb4e154b696bf72a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ExternalDlls\WebSocket4Net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cls\AlertAction.cs" />
+    <Compile Include="Cls\ChartProperty.cs" />
+    <Compile Include="Cls\clsChartMenuHandler.cs" />
+    <Compile Include="Cls\clsCryptorEngine.cs" />
+    <Compile Include="Cls\clsGlobal.cs" />
+    <Compile Include="Cls\ClsJSONlib.cs" />
+    <Compile Include="Cls\clsNewOrder.cs" />
+    <Compile Include="Cls\clsPopNotify.cs" />
+    <Compile Include="Cls\clsSavedMW.cs" />
+    <Compile Include="Cls\clsTWSDataManagerJSON.cs" />
+    <Compile Include="Cls\clsDom.cs" />
+    <Compile Include="Cls\clsEnum.cs" />
+    <Compile Include="Cls\clsFullScreen.cs" />
+    <Compile Include="Cls\clsHotKeyManager.cs" />
+    <Compile Include="Cls\ClsHotKeySettings.cs" />
+    <Compile Include="Cls\clsOrderEntry.cs" />
+    <Compile Include="Cls\clsTWSContractManager.cs" />
+    <Compile Include="Cls\clsPalsaUtility.cs" />
+    <Compile Include="Cls\clsTWSOrderManagerJSON.cs" />
+    <Compile Include="Cls\IndicatorList.cs" />
+    <Compile Include="Cls\InputBox.cs" />
+    <Compile Include="Cls\PALSASettings.cs" />
+    <Compile Include="Cls\clsQueue.cs" />
+    <Compile Include="DataSet\DS4BuyDom.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4BuyDom.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\DS4Dom.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4Dom.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet\DS4SellDom.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4SellDom.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4AccountInfo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4AccountInfo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4MarketDepth.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4MarketDepth.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4MarketWatch.cs">
+      <DependentUpon>DS4MarketWatch.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4MarketWatch.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4MarketWatch.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4MessageLog.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4MessageLog.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4NetPosition.cs">
+      <DependentUpon>DS4NetPosition.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4NetPosition.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4NetPosition.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4OrderHistory.cs">
+      <DependentUpon>DS4OrderHistory.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4OrderHistory.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4OrderHistory.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4TradeHistory.cs">
+      <DependentUpon>DS4TradeHistory.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4TradeHistory1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4TradeHistory.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Frm\AlertTestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\AlertTestForm.Designer.cs">
+      <DependentUpon>AlertTestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmAboutUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmAboutUs.designer.cs">
+      <DependentUpon>frmAboutUs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmAccountsToTrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmAccountsToTrade.Designer.cs">
+      <DependentUpon>frmAccountsToTrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmAdminMessageLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmAdminMessageLog.Designer.cs">
+      <DependentUpon>frmAdminMessageLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\FrmBase.Designer.cs">
+      <DependentUpon>frmBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmChangePassword.Designer.cs">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmCommonCustomize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmCommonCustomize.Designer.cs">
+      <DependentUpon>frmCommonCustomize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmCommonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmCommonForm.Designer.cs">
+      <DependentUpon>frmCommonForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmIndexView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmIndexView.Designer.cs">
+      <DependentUpon>frmIndexView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmIndicator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmIndicator.designer.cs">
+      <DependentUpon>frmIndicator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmLoadInitialDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmLoadInitialDetails.designer.cs">
+      <DependentUpon>frmLoadInitialDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmLockWorkStation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmLockWorkStation.Designer.cs">
+      <DependentUpon>frmLockWorkStation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmMails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmMails.Designer.cs">
+      <DependentUpon>frmMails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmMarketPictureNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmMarketPictureNew.Designer.cs">
+      <DependentUpon>frmMarketPictureNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmMarketQuote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmMarketQuote.Designer.cs">
+      <DependentUpon>frmMarketQuote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmMarketStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmMarketStatus.Designer.cs">
+      <DependentUpon>frmMarketStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmMarketWatchNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmMarketWatchNew.Designer.cs">
+      <DependentUpon>frmMarketWatchNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmMarketWatchSave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmMarketWatchSave.Designer.cs">
+      <DependentUpon>frmMarketWatchSave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmMessageLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmMessageLog.Designer.cs">
+      <DependentUpon>frmMessageLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmMostActiveProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmMostActiveProducts.Designer.cs">
+      <DependentUpon>frmMostActiveProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmNetPosition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmNetPosition.Designer.cs">
+      <DependentUpon>frmNetPosition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmOrderBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmOrderBook.Designer.cs">
+      <DependentUpon>frmOrderBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmOrderSimulator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmOrderSimulator.Designer.cs">
+      <DependentUpon>frmOrderSimulator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmParticipaintList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmParticipaintList.Designer.cs">
+      <DependentUpon>frmParticipaintList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmPortfolio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmPortfolio.Designer.cs">
+      <DependentUpon>frmPortfolio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmPreferences.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmPreferences.Designer.cs">
+      <DependentUpon>frmPreferences.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmProductInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmProductInfo.Designer.cs">
+      <DependentUpon>frmProductInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmOrderEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmOrderEntry.Designer.cs">
+      <DependentUpon>frmOrderEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmReloadConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmReloadConfig.Designer.cs">
+      <DependentUpon>frmReloadConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmRiskMonitor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmRiskMonitor.Designer.cs">
+      <DependentUpon>frmRiskMonitor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmSnapQuote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmSnapQuote.Designer.cs">
+      <DependentUpon>frmSnapQuote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmSurveillance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmSurveillance.Designer.cs">
+      <DependentUpon>frmSurveillance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmTopGainersLosers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmTopGainersLosers.Designer.cs">
+      <DependentUpon>frmTopGainersLosers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmTradeWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmTradeWindow.Designer.cs">
+      <DependentUpon>frmTradeWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\frmTradeWindowFilter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm\frmTradeWindowFilter.designer.cs">
+      <DependentUpon>frmTradeWindowFilter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm\ui_uctlGridMarketWatch.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ServerHostIps.cs" />
+    <Compile Include="Service References\InstrumentService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="SingleApplication.cs" />
+    <Compile Include="uctl\uctlTickerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uctl\uctlTickerControl.Designer.cs">
+      <DependentUpon>uctlTickerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="uctl\uctlTickerTape.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="uctl\uctlTickerTape.Designer.cs">
+      <DependentUpon>uctlTickerTape.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <None Include="Properties\DataSources\ClientDLL_Model.InstrumentServiceReference.InstrumentData.datasource" />
+    <None Include="Properties\DataSources\ClientDLL_Model.InstrumentServiceReference.InstrumentInfo.datasource" />
+    <None Include="Resources\Default.ico" />
+    <None Include="Resources\favicon.ico" />
+    <None Include="Resources\BTTrader.ico" />
+    <Content Include="BrandInfo\About.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="BrandInfo\BrandInfo.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="BrandInfo\favicon.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\AboutLogo.jpg" />
+    <None Include="Resources\DefaultSplsh.png" />
+    <None Include="Service References\InstrumentService\configuration91.svcinfo" />
+    <None Include="Service References\InstrumentService\configuration.svcinfo" />
+    <None Include="Service References\InstrumentService\ExchangeInstrumentService1.wsdl" />
+    <None Include="Service References\InstrumentService\ExchangeInstrumentService3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\InstrumentService\ExchangeInstrumentService31.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\InstrumentService\ExchangeInstrumentService32.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\InstrumentService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\AlertTestForm.resx">
+      <DependentUpon>AlertTestForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmAboutUs.resx">
+      <DependentUpon>frmAboutUs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmAccountsToTrade.resx">
+      <DependentUpon>frmAccountsToTrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmAdminMessageLog.resx">
+      <DependentUpon>frmAdminMessageLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmBase.resx">
+      <DependentUpon>frmBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmChangePassword.resx">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmCommonCustomize.resx">
+      <DependentUpon>frmCommonCustomize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmCommonForm.resx">
+      <DependentUpon>frmCommonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmIndexView.resx">
+      <DependentUpon>frmIndexView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmIndicator.resx">
+      <DependentUpon>frmIndicator.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmLoadInitialDetails.resx">
+      <DependentUpon>frmLoadInitialDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmLockWorkStation.resx">
+      <DependentUpon>frmLockWorkStation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmMails.resx">
+      <DependentUpon>frmMails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmMarketQuote.resx">
+      <DependentUpon>frmMarketQuote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmMarketStatus.resx">
+      <DependentUpon>frmMarketStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmMarketWatchNew.resx">
+      <DependentUpon>frmMarketWatchNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmMarketWatchSave.resx">
+      <DependentUpon>frmMarketWatchSave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmMessageLog.resx">
+      <DependentUpon>frmMessageLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmMostActiveProducts.resx">
+      <DependentUpon>frmMostActiveProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmNetPosition.resx">
+      <DependentUpon>frmNetPosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmOrderBook.resx">
+      <DependentUpon>frmOrderBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmOrderSimulator.resx">
+      <DependentUpon>frmOrderSimulator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmParticipaintList.resx">
+      <DependentUpon>frmParticipaintList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmPortfolio.resx">
+      <DependentUpon>frmPortfolio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmPreferences.resx">
+      <DependentUpon>frmPreferences.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmProductInfo.resx">
+      <DependentUpon>frmProductInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmOrderEntry.resx">
+      <DependentUpon>frmOrderEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmReloadConfig.resx">
+      <DependentUpon>frmReloadConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmRiskMonitor.resx">
+      <DependentUpon>frmRiskMonitor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmSnapQuote.resx">
+      <DependentUpon>frmSnapQuote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmSurveillance.resx">
+      <DependentUpon>frmSurveillance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmTopGainersLosers.resx">
+      <DependentUpon>frmTopGainersLosers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmTradeWindow.resx">
+      <DependentUpon>frmTradeWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm\frmTradeWindowFilter.resx">
+      <DependentUpon>frmTradeWindowFilter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="DS\DS4MarketDepth.xsc">
+      <DependentUpon>DS4MarketDepth.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4MarketDepth.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4MarketDepth.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS\DS4MarketDepth.xss">
+      <DependentUpon>DS4MarketDepth.xsd</DependentUpon>
+    </None>
+    <Content Include="favicon.ico" />
+    <None Include="Resources\DownArrow.png" />
+    <None Include="Resources\Unchanged.png" />
+    <None Include="Resources\UpArrow.png" />
+    <Content Include="Resx\Localization.en.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resx\Localization.hi.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="uctl\uctlTickerControl.resx">
+      <DependentUpon>uctlTickerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="uctl\uctlTickerTape.resx">
+      <DependentUpon>uctlTickerTape.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSet\DS4BuyDom.xsc">
+      <DependentUpon>DS4BuyDom.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\DS4BuyDom.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4BuyDom.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\DS4BuyDom.xss">
+      <DependentUpon>DS4BuyDom.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\DS4Dom.xsc">
+      <DependentUpon>DS4Dom.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\DS4Dom.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4Dom.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\DS4Dom.xss">
+      <DependentUpon>DS4Dom.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\DS4SellDom.xsc">
+      <DependentUpon>DS4SellDom.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet\DS4SellDom.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4SellDom.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet\DS4SellDom.xss">
+      <DependentUpon>DS4SellDom.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4AccountInfo.xsc">
+      <DependentUpon>DS4AccountInfo.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4AccountInfo.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4AccountInfo.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS\DS4AccountInfo.xss">
+      <DependentUpon>DS4AccountInfo.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4MarketWatch.xsc">
+      <DependentUpon>DS4MarketWatch.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4MarketWatch.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4MarketWatch.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS\DS4MarketWatch.xss">
+      <DependentUpon>DS4MarketWatch.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4MessageLog.xsc">
+      <DependentUpon>DS4MessageLog.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4MessageLog.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4MessageLog.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS\DS4MessageLog.xss">
+      <DependentUpon>DS4MessageLog.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4NetPosition.xsc">
+      <DependentUpon>DS4NetPosition.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4NetPosition.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4NetPosition.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS\DS4NetPosition.xss">
+      <DependentUpon>DS4NetPosition.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4OrderHistory.xsc">
+      <DependentUpon>DS4OrderHistory.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4OrderHistory.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4OrderHistory.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS\DS4OrderHistory.xss">
+      <DependentUpon>DS4OrderHistory.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4TradeHistory.xsc">
+      <DependentUpon>DS4TradeHistory.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4TradeHistory.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4TradeHistory1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS\DS4TradeHistory.xss">
+      <DependentUpon>DS4TradeHistory.xsd</DependentUpon>
+    </None>
+    <None Include="OCX\StockChartRegister.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="PALSA_TemporaryKey.pfx" />
+    <None Include="Properties\DataSources\CommonLibrary.UserControls.uctlOrderBook.datasource" />
+    <None Include="Properties\DataSources\PALSA.Properties.Settings.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <None Include="Service References\InstrumentService\TWS.InstrumentService.InstrumentData.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\InstrumentService\TWS.InstrumentService.InstrumentInfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\InstrumentService\TWS.InstrumentService.UserInfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="TWS_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Visual.C++.10.0.x86">
+      <Visible>False</Visible>
+      <ProductName>Visual C++ 2010 Runtime Libraries %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Localization Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="OCX\StockChartX.ocx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="Resx\Alert.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resx\Circle_Green.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resx\Circle_Grey.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resx\Circle_Red.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resx\red-thumb-20.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resx\Symbols.XML">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resx\thumb-up-20.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Service References\InstrumentService\ExchangeInstrumentService1.disco" />
+    <Content Include="Skins\Aqua.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Skins\MoonLight.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Skins\Royal.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Skins\Wood.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resx\chart.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resx\DownArrow.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resx\DownArrowForMarketQuote.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resx\file-strip.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resx\fileBrown.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resx\marketBrown.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resx\marketstip.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resx\NoChangeArrowForMarketWatch.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resx\order-strip.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resx\toolbar-strip16.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resx\toolbarstrip20.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resx\orderBrown.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resx\toolbarstrip20Brown.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resx\toolbarstrip24.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resx\toolBrown.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resx\Unchanged.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resx\UpArrow.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resx\UpArrowForMarketQuote.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resx\viewstrip-png.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resx\windowstrip.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resx\viewBrown.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resx\windowBrown.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ServerHostIps.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Skins\MacOS.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Skins\Office 2007 Black.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Skins\Office 2007 Blue.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Skins\Orange.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Skins\Vista.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="en\TWSLibrary.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="GeneralUtilty.pdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Auto</PublishState>
+      <IncludeHash>False</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="hi\TWSLibrary.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="Logging.pdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Auto</PublishState>
+      <IncludeHash>False</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="PALSA.pdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Auto</PublishState>
+      <IncludeHash>False</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Resx\Localization.en.resx">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Resx\Localization.hi.resx">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="Resx\Symbols.XML">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="ServerHostIps.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="TWSLibrary.pdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Auto</PublishState>
+      <IncludeHash>False</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\InstrumentService\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="OMSExchange" Class="dbMan_OMS_OrderUpdateDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.1.87;Initial Catalog=OMSExchange;User ID=sa" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="OMSExchangeConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.OMS_OrdersUpdate" Method="OMS_OrdersUpdate">
+    <Parameter Name="OrderID" Parameter="orderID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="AccountID" Parameter="accountID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="OrderTime" Parameter="orderTime" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="Side" Parameter="side" Type="System.String" DbType="VarChar(10)" />
+    <Parameter Name="PositionSize" Parameter="positionSize" Type="System.Int32" DbType="Int" />
+    <Parameter Name="SymbolID" Parameter="symbolID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="OrderType" Parameter="orderType" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="OrderPrice" Parameter="orderPrice" Type="System.Int32" DbType="Int" />
+    <Parameter Name="TriggerPrice" Parameter="triggerPrice" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Comment" Parameter="comment" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="OrderStatus" Parameter="orderStatus" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="Validity" Parameter="validity" Type="System.DateTime" DbType="DateTime" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

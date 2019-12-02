@@ -1,0 +1,5 @@
+D:\DevIndia\twschart-1-\bin\GeneralUtilty.dll
+D:\DevIndia\twschart-1-\bin\GeneralUtilty.pdb
+D:\DevIndia\twschart-1-\archive\GeneralUtilty\obj\Debug\GeneralUtilty.csprojAssemblyReference.cache
+D:\DevIndia\twschart-1-\archive\GeneralUtilty\obj\Debug\GeneralUtilty.dll
+D:\DevIndia\twschart-1-\archive\GeneralUtilty\obj\Debug\GeneralUtilty.pdb

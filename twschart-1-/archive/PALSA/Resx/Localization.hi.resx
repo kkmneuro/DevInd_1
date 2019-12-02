@@ -1,0 +1,930 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Account" xml:space="preserve">
+    <value>खाता</value>
+  </data>
+  <data name="Action" xml:space="preserve">
+    <value>कार्रवाई</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>जोड़ना</value>
+  </data>
+  <data name="Admin" xml:space="preserve">
+    <value>व्यवस्थापक</value>
+  </data>
+  <data name="Alert" xml:space="preserve">
+    <value>चेतावनी</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>सब</value>
+  </data>
+  <data name="AllColumns" xml:space="preserve">
+    <value>सभी कालम</value>
+  </data>
+  <data name="AlwaysOpenTheOrderBookWith" xml:space="preserve">
+    <value>हमेशा ऑर्डर बुक के साथ खोलें</value>
+  </data>
+  <data name="AlwaysUseMinimumQtyGivenHere" xml:space="preserve">
+    <value>हमेशा न्यूनतम मात्रा को देखते हुए यहाँ का उपयोग करें</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>लागू</value>
+  </data>
+  <data name="Arrange" xml:space="preserve">
+    <value>व्यवस्था</value>
+  </data>
+  <data name="Asset" xml:space="preserve">
+    <value>संपत्ति</value>
+  </data>
+  <data name="Auto" xml:space="preserve">
+    <value>स्वत:</value>
+  </data>
+  <data name="AutoLockWorkStation" xml:space="preserve">
+    <value>ऑटो ताला वर्कस्टेशन</value>
+  </data>
+  <data name="Average" xml:space="preserve">
+    <value>औसत</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>बार</value>
+  </data>
+  <data name="Bar" xml:space="preserve">
+    <value>वापस</value>
+  </data>
+  <data name="Beep" xml:space="preserve">
+    <value>बीप</value>
+  </data>
+  <data name="Body" xml:space="preserve">
+    <value>प्रधान भाग</value>
+  </data>
+  <data name="Book" xml:space="preserve">
+    <value>किताब</value>
+  </data>
+  <data name="Borrow" xml:space="preserve">
+    <value>उधार</value>
+  </data>
+  <data name="Both" xml:space="preserve">
+    <value>दोनों</value>
+  </data>
+  <data name="Bottom" xml:space="preserve">
+    <value>तल</value>
+  </data>
+  <data name="Buy" xml:space="preserve">
+    <value>खरीदना</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>रद्द</value>
+  </data>
+  <data name="Cascade" xml:space="preserve">
+    <value>कैस्केड</value>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>परिवर्तन</value>
+  </data>
+  <data name="Check" xml:space="preserve">
+    <value>चेक</value>
+  </data>
+  <data name="Clear" xml:space="preserve">
+    <value>स्पष्ट</value>
+  </data>
+  <data name="Client" xml:space="preserve">
+    <value>ग्राहक</value>
+  </data>
+  <data name="ClientNameEnable" xml:space="preserve">
+    <value>ग्राहक नाम सक्षम</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>बंद करें</value>
+  </data>
+  <data name="CloseOrderEntryAfterSubmission" xml:space="preserve">
+    <value>प्रस्तुत करने के बाद बंद ऑर्डर एंट्री</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>कोड</value>
+  </data>
+  <data name="ColumnProfile" xml:space="preserve">
+    <value>कालम प्रोफ़ाइल</value>
+  </data>
+  <data name="CombinationOrder" xml:space="preserve">
+    <value>संयोजन आदेश</value>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>टिप्पणी</value>
+  </data>
+  <data name="Commission" xml:space="preserve">
+    <value>छूट</value>
+  </data>
+  <data name="Commodity" xml:space="preserve">
+    <value>वस्तु</value>
+  </data>
+  <data name="Condition" xml:space="preserve">
+    <value>शर्त</value>
+  </data>
+  <data name="Contract" xml:space="preserve">
+    <value>अनुबंध</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>प्रतिलिपि</value>
+  </data>
+  <data name="Counter" xml:space="preserve">
+    <value>काउंटर</value>
+  </data>
+  <data name="Create" xml:space="preserve">
+    <value>बनाना</value>
+  </data>
+  <data name="Credit" xml:space="preserve">
+    <value>जमा</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>मुद्रा</value>
+  </data>
+  <data name="Current" xml:space="preserve">
+    <value>वर्तमान</value>
+  </data>
+  <data name="CursorSetting" xml:space="preserve">
+    <value>कर्सर सेटिंग्स</value>
+  </data>
+  <data name="Customize" xml:space="preserve">
+    <value>अनुकूलित</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>तारीख</value>
+  </data>
+  <data name="Default" xml:space="preserve">
+    <value>डिफ़ॉल्ट</value>
+  </data>
+  <data name="DefaultInstrumentName" xml:space="preserve">
+    <value>डिफ़ॉल्ट साधन नाम</value>
+  </data>
+  <data name="DefaultProfile" xml:space="preserve">
+    <value>डिफ़ॉल्ट प्रोफ़ाइल</value>
+  </data>
+  <data name="Deposit" xml:space="preserve">
+    <value>जमा</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>विवरण</value>
+  </data>
+  <data name="Detailed" xml:space="preserve">
+    <value>विस्तृत</value>
+  </data>
+  <data name="DifferentProductOrder" xml:space="preserve">
+    <value>विभिन्न उत्पाद आदेश</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>अक्षम</value>
+  </data>
+  <data name="DisableProductDetails" xml:space="preserve">
+    <value>उत्पाद विवरण</value>
+  </data>
+  <data name="Display" xml:space="preserve">
+    <value>प्रदर्शन</value>
+  </data>
+  <data name="Editor" xml:space="preserve">
+    <value>संपादक</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>ईमेल</value>
+  </data>
+  <data name="Enable" xml:space="preserve">
+    <value>सक्षम</value>
+  </data>
+  <data name="Entered" xml:space="preserve">
+    <value>प्रवेश</value>
+  </data>
+  <data name="Entry" xml:space="preserve">
+    <value>प्रवेश</value>
+  </data>
+  <data name="Exchange" xml:space="preserve">
+    <value>विनिमय</value>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>निकास द्वार</value>
+  </data>
+  <data name="Expiry" xml:space="preserve">
+    <value>समाप्ति</value>
+  </data>
+  <data name="Fair" xml:space="preserve">
+    <value>निष्पक्ष</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>फिल्टर</value>
+  </data>
+  <data name="FilterBar" xml:space="preserve">
+    <value>फिल्टर बार</value>
+  </data>
+  <data name="FlashMessageBar" xml:space="preserve">
+    <value>फ्लैश संदेश पट्टी</value>
+  </data>
+  <data name="Forex" xml:space="preserve">
+    <value>विदेशी मुद्रा</value>
+  </data>
+  <data name="FreshOrder" xml:space="preserve">
+    <value>नया आदेश</value>
+  </data>
+  <data name="From" xml:space="preserve">
+    <value>से</value>
+  </data>
+  <data name="FullScreen" xml:space="preserve">
+    <value>पूर्ण स्क्रीन</value>
+  </data>
+  <data name="Gainers" xml:space="preserve">
+    <value>गेनर्स</value>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>सामान्य</value>
+  </data>
+  <data name="Grid" xml:space="preserve">
+    <value>ग्रिड</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>वर्ग</value>
+  </data>
+  <data name="Headline" xml:space="preserve">
+    <value>शीर्षक</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>सहायता</value>
+  </data>
+  <data name="Hide" xml:space="preserve">
+    <value>छिपाना</value>
+  </data>
+  <data name="High" xml:space="preserve">
+    <value>उच्च</value>
+  </data>
+  <data name="History" xml:space="preserve">
+    <value>इतिहास</value>
+  </data>
+  <data name="Hot" xml:space="preserve">
+    <value>गरम</value>
+  </data>
+  <data name="Id" xml:space="preserve">
+    <value>पहचान</value>
+  </data>
+  <data name="In" xml:space="preserve">
+    <value>में</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>क्रम - सूची</value>
+  </data>
+  <data name="Indicator" xml:space="preserve">
+    <value>सूचक</value>
+  </data>
+  <data name="IndiciesView" xml:space="preserve">
+    <value>सूचकांक देखें</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>जानकारी</value>
+  </data>
+  <data name="Initiated" xml:space="preserve">
+    <value>शुरू</value>
+  </data>
+  <data name="Instrument" xml:space="preserve">
+    <value>साधन</value>
+  </data>
+  <data name="Integrated" xml:space="preserve">
+    <value>एकीकृत</value>
+  </data>
+  <data name="Interest" xml:space="preserve">
+    <value>ब्याज</value>
+  </data>
+  <data name="Iteration" xml:space="preserve">
+    <value>चलना</value>
+  </data>
+  <data name="Keys" xml:space="preserve">
+    <value>कुंजी</value>
+  </data>
+  <data name="Last" xml:space="preserve">
+    <value>अंतिम</value>
+  </data>
+  <data name="LastUsed" xml:space="preserve">
+    <value>पिछले इस्तेमाल किया</value>
+  </data>
+  <data name="Lend" xml:space="preserve">
+    <value>उधार देना</value>
+  </data>
+  <data name="Life" xml:space="preserve">
+    <value>कार्यकाल</value>
+  </data>
+  <data name="Limit" xml:space="preserve">
+    <value>सीमा</value>
+  </data>
+  <data name="Load" xml:space="preserve">
+    <value>लोड</value>
+  </data>
+  <data name="LockWorkStation" xml:space="preserve">
+    <value>लॉक वर्कस्टेशन</value>
+  </data>
+  <data name="Log" xml:space="preserve">
+    <value>लॉग</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>लॉगिन</value>
+  </data>
+  <data name="LogOff" xml:space="preserve">
+    <value>लॉग ऑफ़</value>
+  </data>
+  <data name="Losers" xml:space="preserve">
+    <value>हारे</value>
+  </data>
+  <data name="Loss" xml:space="preserve">
+    <value>घाटा</value>
+  </data>
+  <data name="Lot" xml:space="preserve">
+    <value>लॉट</value>
+  </data>
+  <data name="Low" xml:space="preserve">
+    <value>निम्न</value>
+  </data>
+  <data name="Mails" xml:space="preserve">
+    <value>मेल</value>
+  </data>
+  <data name="Market" xml:space="preserve">
+    <value>बाजार</value>
+  </data>
+  <data name="MarketOrder" xml:space="preserve">
+    <value>बाजार आदेश</value>
+  </data>
+  <data name="Maximum" xml:space="preserve">
+    <value>अधिकतम</value>
+  </data>
+  <data name="MaxMessageInMessageLog" xml:space="preserve">
+    <value>प्रवेश करें संदेश में अधिकतम संदेश</value>
+  </data>
+  <data name="Member" xml:space="preserve">
+    <value>सदस्य</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>संदेश</value>
+  </data>
+  <data name="MessageBar" xml:space="preserve">
+    <value>संदेश पट्टी</value>
+  </data>
+  <data name="MessageBarMessageType" xml:space="preserve">
+    <value>संदेश बार संदेश का प्रकार</value>
+  </data>
+  <data name="MessageBox" xml:space="preserve">
+    <value>संदेश बॉक्स</value>
+  </data>
+  <data name="Middle" xml:space="preserve">
+    <value>मध्यम</value>
+  </data>
+  <data name="MinOrderQty" xml:space="preserve">
+    <value>न्यूनतम आदेश प्रविष्टि</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>मिनट</value>
+  </data>
+  <data name="Modified" xml:space="preserve">
+    <value>संशोधित</value>
+  </data>
+  <data name="Modify" xml:space="preserve">
+    <value>संशोधित</value>
+  </data>
+  <data name="Money" xml:space="preserve">
+    <value>धन</value>
+  </data>
+  <data name="Months" xml:space="preserve">
+    <value>महीने</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>नाम</value>
+  </data>
+  <data name="Net" xml:space="preserve">
+    <value>शुद्ध</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>नया</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>समाचार</value>
+  </data>
+  <data name="Number" xml:space="preserve">
+    <value>संख्या</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>बंद</value>
+  </data>
+  <data name="Oi" xml:space="preserve">
+    <value>ओइ</value>
+  </data>
+  <data name="Ok" xml:space="preserve">
+    <value>ठीक</value>
+  </data>
+  <data name="Omni" xml:space="preserve">
+    <value>सर्व</value>
+  </data>
+  <data name="OnEventDo" xml:space="preserve">
+    <value>घटना पर करते हैं</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>खुला</value>
+  </data>
+  <data name="OpenAllViewsWith" xml:space="preserve">
+    <value>के साथ सभी दृश्य खोलें</value>
+  </data>
+  <data name="OpenPositionAlertOnLogoff" xml:space="preserve">
+    <value>ओपन स्थिति चेतावनी पर बंद प्रवेश करें</value>
+  </data>
+  <data name="Option" xml:space="preserve">
+    <value>विकल्प</value>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>आदेश</value>
+  </data>
+  <data name="OrderCancellation" xml:space="preserve">
+    <value>आदेश रद्द</value>
+  </data>
+  <data name="OrderEntryMultiple" xml:space="preserve">
+    <value>आदेश प्रविष्टि एकाधिक</value>
+  </data>
+  <data name="OrderEntryOnce" xml:space="preserve">
+    <value>आदेश प्रविष्टि एक बार</value>
+  </data>
+  <data name="OrderModification" xml:space="preserve">
+    <value>आदेश संशोधन</value>
+  </data>
+  <data name="OrderValidity" xml:space="preserve">
+    <value>आदेश वैधता</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>अन्य</value>
+  </data>
+  <data name="OTROrderAlert" xml:space="preserve">
+    <value>OTR आदेश चेतावनी</value>
+  </data>
+  <data name="OutsideDPROrder" xml:space="preserve">
+    <value>डीपीआर आदेश के बाहर</value>
+  </data>
+  <data name="Pair" xml:space="preserve">
+    <value>जोड़ा</value>
+  </data>
+  <data name="Panel" xml:space="preserve">
+    <value>पैनल</value>
+  </data>
+  <data name="Pas" xml:space="preserve">
+    <value>के रूप में</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>अपूर्ण</value>
+  </data>
+  <data name="PendingOrdersAlertOnLogoff" xml:space="preserve">
+    <value>लंबित पर बंद प्रवेश करें चेतावनी आदेश</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>अवधि</value>
+  </data>
+  <data name="Periodicity" xml:space="preserve">
+    <value>आवधिकता</value>
+  </data>
+  <data name="PFor" xml:space="preserve">
+    <value>के लिए</value>
+  </data>
+  <data name="Picture" xml:space="preserve">
+    <value>तस्वीर</value>
+  </data>
+  <data name="PlaceBuyOrder" xml:space="preserve">
+    <value>प्लेस खरीदें आदेश</value>
+  </data>
+  <data name="PlaceSellOrder" xml:space="preserve">
+    <value>प्लेस बेच आदेश</value>
+  </data>
+  <data name="Portfolio" xml:space="preserve">
+    <value>पोर्टफोलियो</value>
+  </data>
+  <data name="Position" xml:space="preserve">
+    <value>स्थिति</value>
+  </data>
+  <data name="PreferenceAlertTitleLabel" xml:space="preserve">
+    <value>एक संदेश के रूप में एक पुष्टिकरण के लिए संकेत करने के लिए एक विकल्प का चयन करें</value>
+  </data>
+  <data name="PreferenceGeneralLogLabelText" xml:space="preserve">
+    <value>कार्रवाई का चयन करें जब एक perticular घटना जैसे होता है आदेश की पुष्टि पर बीप</value>
+  </data>
+  <data name="Preferences" xml:space="preserve">
+    <value>पसंद</value>
+  </data>
+  <data name="PrefixClientIdWith" xml:space="preserve">
+    <value>उपसर्ग क्लाइंट आईडी के साथ</value>
+  </data>
+  <data name="PrefixOmniIdWith" xml:space="preserve">
+    <value>आईडी के साथ उपसर्ग ओमनी</value>
+  </data>
+  <data name="Prevent" xml:space="preserve">
+    <value>रोकें</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>पिछला</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>मूल्य</value>
+  </data>
+  <data name="PriceAlert" xml:space="preserve">
+    <value>मूल्य चेतावनी</value>
+  </data>
+  <data name="PriceDecimalSelection" xml:space="preserve">
+    <value>मूल्य दशमलव चयन</value>
+  </data>
+  <data name="PrintOrderConfirmation" xml:space="preserve">
+    <value>मुद्रण आदेश पुष्टिकरण</value>
+  </data>
+  <data name="PrintTradeConfirmation" xml:space="preserve">
+    <value>मुद्रण व्यापार पुष्टिकरण</value>
+  </data>
+  <data name="Product" xml:space="preserve">
+    <value>उत्पाद</value>
+  </data>
+  <data name="Profit" xml:space="preserve">
+    <value>लाभ</value>
+  </data>
+  <data name="QtyAlert" xml:space="preserve">
+    <value>मात्रा चेतावनी</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>मात्रा</value>
+  </data>
+  <data name="Quotation" xml:space="preserve">
+    <value>उद्धरण</value>
+  </data>
+  <data name="Quote" xml:space="preserve">
+    <value>उद्धरण</value>
+  </data>
+  <data name="Range" xml:space="preserve">
+    <value>रेंज</value>
+  </data>
+  <data name="Real" xml:space="preserve">
+    <value>असली</value>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>संदर्भ</value>
+  </data>
+  <data name="Remarks" xml:space="preserve">
+    <value>टिप्पणियाँ</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>हटाना</value>
+  </data>
+  <data name="Report" xml:space="preserve">
+    <value>रिपोर्ट</value>
+  </data>
+  <data name="RestoreDefaults" xml:space="preserve">
+    <value>डिफ़ॉल्ट बहाल करें</value>
+  </data>
+  <data name="RetainLastClientId" xml:space="preserve">
+    <value>अंतिम क्लाइंट आईडी को रखें</value>
+  </data>
+  <data name="RetainLastParticipaintCode" xml:space="preserve">
+    <value>अंतिम प्रतिभागी कोड को रखें</value>
+  </data>
+  <data name="Reverse" xml:space="preserve">
+    <value>उल्टा</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>सुरक्षित करना</value>
+  </data>
+  <data name="Scrip" xml:space="preserve">
+    <value>पत्रक</value>
+  </data>
+  <data name="Script" xml:space="preserve">
+    <value>लिपि</value>
+  </data>
+  <data name="Scroll" xml:space="preserve">
+    <value>स्क्रॉल</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>खोज</value>
+  </data>
+  <data name="Security" xml:space="preserve">
+    <value>सुरक्षा</value>
+  </data>
+  <data name="Segment" xml:space="preserve">
+    <value>खंड</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>चयन</value>
+  </data>
+  <data name="SelectDefualtWorkSpace" xml:space="preserve">
+    <value>डिफ़ॉल्ट कार्यस्थान का चयन करें</value>
+  </data>
+  <data name="Selected" xml:space="preserve">
+    <value>चयनित</value>
+  </data>
+  <data name="SelectInformationinPreferencePortolio" xml:space="preserve">
+    <value>पसंद पोर्टफोलियो में गठन का चयन करें</value>
+  </data>
+  <data name="Sell" xml:space="preserve">
+    <value>बेचना</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>भेजें</value>
+  </data>
+  <data name="Series" xml:space="preserve">
+    <value>श्रेणी</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>सेटिंग्स</value>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>प्रदर्शन</value>
+  </data>
+  <data name="ShowDateTime" xml:space="preserve">
+    <value>दिखाएँ दिनांक समय</value>
+  </data>
+  <data name="Snap" xml:space="preserve">
+    <value>स्नैप</value>
+  </data>
+  <data name="Source" xml:space="preserve">
+    <value>स्रोत</value>
+  </data>
+  <data name="Speed" xml:space="preserve">
+    <value>गति</value>
+  </data>
+  <data name="Spread" xml:space="preserve">
+    <value>विस्तार</value>
+  </data>
+  <data name="Statement" xml:space="preserve">
+    <value>कथन</value>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>स्थति</value>
+  </data>
+  <data name="StatusBar" xml:space="preserve">
+    <value>स्थिति पट्टी</value>
+  </data>
+  <data name="Stop" xml:space="preserve">
+    <value>रोक</value>
+  </data>
+  <data name="Strike" xml:space="preserve">
+    <value>Strike</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>विषय</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>सबमिट</value>
+  </data>
+  <data name="Swap" xml:space="preserve">
+    <value>अदला - बदली</value>
+  </data>
+  <data name="Symbol" xml:space="preserve">
+    <value>प्रतीक</value>
+  </data>
+  <data name="Take" xml:space="preserve">
+    <value>लेना</value>
+  </data>
+  <data name="Taxes" xml:space="preserve">
+    <value>कर</value>
+  </data>
+  <data name="Tender" xml:space="preserve">
+    <value>टेंडर</value>
+  </data>
+  <data name="Terminal" xml:space="preserve">
+    <value>अंतिम</value>
+  </data>
+  <data name="Test" xml:space="preserve">
+    <value>परीक्षण</value>
+  </data>
+  <data name="The" xml:space="preserve">
+    <value>वही</value>
+  </data>
+  <data name="Ticker" xml:space="preserve">
+    <value>टिकर</value>
+  </data>
+  <data name="TileHorizontally" xml:space="preserve">
+    <value>क्षैतिज टाइल</value>
+  </data>
+  <data name="TileVertically" xml:space="preserve">
+    <value>अनुलंब रूप में टाइल करें</value>
+  </data>
+  <data name="Time" xml:space="preserve">
+    <value>समय</value>
+  </data>
+  <data name="TimeFormatTobeUsedInViews" xml:space="preserve">
+    <value>समय दृश्य में प्रयुक्त स्वरूप</value>
+  </data>
+  <data name="Timeout" xml:space="preserve">
+    <value>समय समाप्त</value>
+  </data>
+  <data name="TimeWithSeconds" xml:space="preserve">
+    <value>सेकंड के साथ समय</value>
+  </data>
+  <data name="To" xml:space="preserve">
+    <value>से</value>
+  </data>
+  <data name="ToolBar" xml:space="preserve">
+    <value>उपकरण पट्टी</value>
+  </data>
+  <data name="Top" xml:space="preserve">
+    <value>शीर्ष</value>
+  </data>
+  <data name="Total" xml:space="preserve">
+    <value>कुल</value>
+  </data>
+  <data name="Trade" xml:space="preserve">
+    <value>व्यापार</value>
+  </data>
+  <data name="Traded" xml:space="preserve">
+    <value>कारोबार</value>
+  </data>
+  <data name="TradeModification" xml:space="preserve">
+    <value>व्यापार संशोधन</value>
+  </data>
+  <data name="Trader" xml:space="preserve">
+    <value>व्यापारी</value>
+  </data>
+  <data name="Trades" xml:space="preserve">
+    <value>ट्रेडों</value>
+  </data>
+  <data name="Trading" xml:space="preserve">
+    <value>व्यापार</value>
+  </data>
+  <data name="TradingCurrencyAlert" xml:space="preserve">
+    <value>ट्रेडिंग मुद्रा चेतावनी</value>
+  </data>
+  <data name="Trend" xml:space="preserve">
+    <value>प्रवृत्ति</value>
+  </data>
+  <data name="TriggerPriceSameAsLimitPrice" xml:space="preserve">
+    <value>उत्प्रेरक सीमा मूल्य के रूप में समान मूल्य</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>टाइप</value>
+  </data>
+  <data name="Unit" xml:space="preserve">
+    <value>इकाई</value>
+  </data>
+  <data name="UnregisteredClientAlert" xml:space="preserve">
+    <value>अपंजीकृत क्लाइंट चेतावनी</value>
+  </data>
+  <data name="Updated" xml:space="preserve">
+    <value>अद्यतित</value>
+  </data>
+  <data name="Used" xml:space="preserve">
+    <value>प्रयुक्त</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>उपयोगकर्ता</value>
+  </data>
+  <data name="Validity" xml:space="preserve">
+    <value>वैधता</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>मूल्य</value>
+  </data>
+  <data name="ValueAlert" xml:space="preserve">
+    <value>मूल्य चेतावनी</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>दृश्य</value>
+  </data>
+  <data name="Volume" xml:space="preserve">
+    <value>आयतन</value>
+  </data>
+  <data name="Watch" xml:space="preserve">
+    <value>घड़ी</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>भार</value>
+  </data>
+  <data name="Window" xml:space="preserve">
+    <value>खिड़की</value>
+  </data>
+  <data name="Withdrawal" xml:space="preserve">
+    <value>वापसी</value>
+  </data>
+  <data name="WorkSpace" xml:space="preserve">
+    <value>कार्यस्थान</value>
+  </data>
+  <data name="WorkStation" xml:space="preserve">
+    <value>वर्कस्टेशन</value>
+  </data>
+  <data name="Yield" xml:space="preserve">
+    <value>उपज</value>
+  </data>
+  <data name="Your" xml:space="preserve">
+    <value>आपके</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Participant" xml:space="preserve">
+    <value />
+  </data>
+</root>

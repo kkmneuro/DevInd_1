@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS4CommonSettingNew" targetNamespace="http://tempuri.org/DS4CommonSettingNew.xsd" xmlns:mstns="http://tempuri.org/DS4CommonSettingNew.xsd" xmlns="http://tempuri.org/DS4CommonSettingNew.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS4CommonSettingNew" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DS4CommonSettingNew" msprop:Generator_UserDSName="DS4CommonSettingNew" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtCommonSettings" msprop:Generator_UserTableName="dtCommonSettings" msprop:Generator_RowDeletedName="dtCommonSettingsRowDeleted" msprop:Generator_TableClassName="dtCommonSettingsDataTable" msprop:Generator_RowChangedName="dtCommonSettingsRowChanged" msprop:Generator_RowClassName="dtCommonSettingsRow" msprop:Generator_RowChangingName="dtCommonSettingsRowChanging" msprop:Generator_RowEvArgName="dtCommonSettingsRowChangeEvent" msprop:Generator_RowEvHandlerName="dtCommonSettingsRowChangeEventHandler" msprop:Generator_TablePropName="dtCommonSettings" msprop:Generator_TableVarName="tabledtCommonSettings" msprop:Generator_RowDeletingName="dtCommonSettingsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_UserColumnName="ID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInTable="IDColumn" type="xs:int" />
+              <xs:element name="Property" msprop:Generator_UserColumnName="Property" msprop:nullValue="_null" msprop:Generator_ColumnVarNameInTable="columnProperty" msprop:Generator_ColumnPropNameInTable="PropertyColumn" msprop:Generator_ColumnPropNameInRow="Property" type="xs:string" minOccurs="0" />
+              <xs:element name="Value" msprop:Generator_UserColumnName="Value" msprop:nullValue="_null" msprop:Generator_ColumnVarNameInTable="columnValue" msprop:Generator_ColumnPropNameInTable="ValueColumn" msprop:Generator_ColumnPropNameInRow="Value" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtCommonSettings" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

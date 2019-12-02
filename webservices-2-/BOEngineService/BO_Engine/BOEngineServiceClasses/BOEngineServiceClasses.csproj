@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7843A920-FA70-46F8-A00C-B83ECAC4662F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BOEngineServiceClasses</RootNamespace>
+    <AssemblyName>BOEngineServiceClasses</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clsAccount.cs" />
+    <Compile Include="clsAccountGroup.cs" />
+    <Compile Include="clsAccountTransaction.cs" />
+    <Compile Include="clsBank.cs" />
+    <Compile Include="clsBroker.cs" />
+    <Compile Include="clsBrokerList.cs" />
+    <Compile Include="clsBrokerOperationsLog.cs" />
+    <Compile Include="clsClientInfo.cs" />
+    <Compile Include="clsCollateralInfo.cs" />
+    <Compile Include="clsCollateralTransInfo.cs" />
+    <Compile Include="clsCollateralTypes.cs" />
+    <Compile Include="clsCommonSettings.cs" />
+    <Compile Include="clsContractSpecification.cs" />
+    <Compile Include="clsCountryDetail.cs" />
+    <Compile Include="clsCurrency.cs" />
+    <Compile Include="clsFeeMaster.cs" />
+    <Compile Include="clsHistoricalData.cs" />
+    <Compile Include="clsHoliday.cs" />
+    <Compile Include="clsInstrumentClosingPrice.cs" />
+    <Compile Include="clsIPAccessList.cs" />
+    <Compile Include="clsLeverage.cs" />
+    <Compile Include="clsMasterInfo.cs" />
+    <Compile Include="clsModifyTrades.cs" />
+    <Compile Include="clsModule.cs" />
+    <Compile Include="clsNewOrder.cs" />
+    <Compile Include="clsParticipaintList.cs" />
+    <Compile Include="clsSecurityType.cs" />
+    <Compile Include="clsSettleTrade.cs" />
+    <Compile Include="clsTaxMaster.cs" />
+    <Compile Include="clsTGAccountConnectionSettings.cs" />
+    <Compile Include="clsTimeSettings.cs" />
+    <Compile Include="clsTradingGateway.cs" />
+    <Compile Include="clsVirtualDealer.cs" />
+    <Compile Include="IBroker.cs" />
+    <Compile Include="IClientInfo.cs" />
+    <Compile Include="ICollateralInfo.cs" />
+    <Compile Include="ICollateralTransInfo.cs" />
+    <Compile Include="ICollateralTypes.cs" />
+    <Compile Include="ICommonSettings.cs" />
+    <Compile Include="IContractSpecification.cs" />
+    <Compile Include="IFeeMaster.cs" />
+    <Compile Include="IHoliday.cs" />
+    <Compile Include="IInstrumentClosingPrice.cs" />
+    <Compile Include="IIPAccessList.cs" />
+    <Compile Include="IMasterInfo.cs" />
+    <Compile Include="ITaxMaster.cs" />
+    <Compile Include="ITGAccountConnectionSettings.cs" />
+    <Compile Include="ITimeSettings.cs" />
+    <Compile Include="ITradingGateway.cs" />
+    <Compile Include="IVirtualDealer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

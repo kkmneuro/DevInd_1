@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS4NewClientInfo" targetNamespace="http://tempuri.org/DS4NewClientInfo.xsd" xmlns:mstns="http://tempuri.org/DS4NewClientInfo.xsd" xmlns="http://tempuri.org/DS4NewClientInfo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS4NewClientInfo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS4NewClientInfo" msprop:Generator_DataSetName="DS4NewClientInfo" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtNewClientInfo" msprop:Generator_UserTableName="dtNewClientInfo" msprop:Generator_RowDeletedName="dtNewClientInfoRowDeleted" msprop:Generator_RowChangedName="dtNewClientInfoRowChanged" msprop:Generator_RowClassName="dtNewClientInfoRow" msprop:Generator_RowChangingName="dtNewClientInfoRowChanging" msprop:Generator_RowEvArgName="dtNewClientInfoRowChangeEvent" msprop:Generator_RowEvHandlerName="dtNewClientInfoRowChangeEventHandler" msprop:Generator_TableClassName="dtNewClientInfoDataTable" msprop:Generator_TableVarName="tabledtNewClientInfo" msprop:Generator_RowDeletingName="dtNewClientInfoRowDeleting" msprop:Generator_TablePropName="dtNewClientInfo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BrokerID" msprop:Generator_UserColumnName="BrokerID" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnBrokerID" msprop:Generator_ColumnPropNameInTable="BrokerIDColumn" msprop:Generator_ColumnPropNameInRow="BrokerID" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="AccountID" msprop:Generator_UserColumnName="AccountID" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnAccountID" msprop:Generator_ColumnPropNameInTable="AccountIDColumn" msprop:Generator_ColumnPropNameInRow="AccountID" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="DateOfRegistration" msprop:Generator_UserColumnName="DateOfRegistration" msprop:Generator_ColumnPropNameInRow="DateOfRegistration" msprop:Generator_ColumnVarNameInTable="columnDateOfRegistration" msprop:Generator_ColumnPropNameInTable="DateOfRegistrationColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Capital" msprop:Generator_UserColumnName="Capital" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnCapital" msprop:Generator_ColumnPropNameInTable="CapitalColumn" msprop:Generator_ColumnPropNameInRow="Capital" type="xs:long" default="0" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

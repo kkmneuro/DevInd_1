@@ -1,0 +1,930 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="BOEngineService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="WSHttpBinding_IBOEngineService_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/BOEngine" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/BOEngineServiceClasses" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IBOEngineService_AuthenticateLogin_InputMessage">
+    <wsdl:part name="parameters" element="tns:AuthenticateLogin" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_AuthenticateLogin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AuthenticateLoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_LogOut_InputMessage">
+    <wsdl:part name="parameters" element="tns:LogOut" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_LogOut_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LogOutResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_HandleBrokerOperationsLog_InputMessage">
+    <wsdl:part name="parameters" element="tns:HandleBrokerOperationsLog" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_HandleBrokerOperationsLog_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HandleBrokerOperationsLogResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetHistoricalData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetHistoricalData" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetHistoricalData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetHistoricalDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_HandleIPAccessList_InputMessage">
+    <wsdl:part name="parameters" element="tns:HandleIPAccessList" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_HandleIPAccessList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HandleIPAccessListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_HandleFeeMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:HandleFeeMaster" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_HandleFeeMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HandleFeeMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_HandleTaxMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:HandleTaxMaster" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_HandleTaxMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HandleTaxMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_HandleHoliday_InputMessage">
+    <wsdl:part name="parameters" element="tns:HandleHoliday" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_HandleHoliday_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HandleHolidayResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_HandleContractSpecfication_InputMessage">
+    <wsdl:part name="parameters" element="tns:HandleContractSpecfication" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_HandleContractSpecfication_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HandleContractSpecficationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_HandleContractSession_InputMessage">
+    <wsdl:part name="parameters" element="tns:HandleContractSession" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_HandleContractSession_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HandleContractSessionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetMasterInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMasterInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetMasterInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMasterInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetLeverageList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLeverageList" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetLeverageList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLeverageListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetModules_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetModules" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetModules_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetModulesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetParticipaintList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetParticipaintList" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetParticipaintList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetParticipaintListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetSecurityType_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSecurityType" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetSecurityType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSecurityTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetCurrencyList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCurrencyList" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetCurrencyList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCurrencyListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetBrokerList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBrokerList" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetBrokerList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBrokerListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetCountryDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCountryDetails" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetCountryDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCountryDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetAccountGroup_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccountGroup" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetAccountGroup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccountGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_HandleTimeSettings_InputMessage">
+    <wsdl:part name="parameters" element="tns:HandleTimeSettings" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_HandleTimeSettings_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HandleTimeSettingsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_HandleTradingGateway_InputMessage">
+    <wsdl:part name="parameters" element="tns:HandleTradingGateway" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_HandleTradingGateway_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HandleTradingGatewayResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_HandleBrokers_InputMessage">
+    <wsdl:part name="parameters" element="tns:HandleBrokers" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_HandleBrokers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HandleBrokersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetCollateralTypes_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCollateralTypes" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetCollateralTypes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCollateralTypesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetClientInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetClientInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetClientInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetClientInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_InsertIntoClientInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntoClientInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_InsertIntoClientInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntoClientInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_UpdateClientInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateClientInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_UpdateClientInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateClientInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_AuthenticateClientID_InputMessage">
+    <wsdl:part name="parameters" element="tns:AuthenticateClientID" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_AuthenticateClientID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AuthenticateClientIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetBankInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBankInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetBankInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBankInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_InsertIntoBankInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntoBankInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_InsertIntoBankInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntoBankInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_UpdateBankInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateBankInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_UpdateBankInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateBankInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetAccounts_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccounts" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetAccounts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccountsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_InsertIntoAccount_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntoAccount" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_InsertIntoAccount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntoAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_UpdateAccount_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAccount" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_UpdateAccount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetCollateralInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCollateralInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetCollateralInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCollateralInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_HandleCollateralTransInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:HandleCollateralTransInfo" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_HandleCollateralTransInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HandleCollateralTransInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetCollateralTransactionHistory_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCollateralTransactionHistory" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetCollateralTransactionHistory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCollateralTransactionHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetTradeOrdersDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTradeOrdersDetails" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetTradeOrdersDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTradeOrdersDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetTradeDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTradeDetails" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetTradeDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTradeDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_ModifyTrade_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModifyTrade" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_ModifyTrade_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModifyTradeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_NewTrade_InputMessage">
+    <wsdl:part name="parameters" element="tns:NewTrade" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_NewTrade_OutputMessage">
+    <wsdl:part name="parameters" element="tns:NewTradeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_SettleTrade_InputMessage">
+    <wsdl:part name="parameters" element="tns:SettleTrade" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_SettleTrade_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SettleTradeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetMapOrders_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMapOrders" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetMapOrders_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMapOrdersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetAccountIDsByAccountType_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccountIDsByAccountType" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_GetAccountIDsByAccountType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccountIDsByAccountTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_HandleTGAccountConnetionSettings_InputMessage">
+    <wsdl:part name="parameters" element="tns:HandleTGAccountConnetionSettings" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_HandleTGAccountConnetionSettings_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HandleTGAccountConnetionSettingsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_HandleVirtualDealer_InputMessage">
+    <wsdl:part name="parameters" element="tns:HandleVirtualDealer" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_HandleVirtualDealer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HandleVirtualDealerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_HandleCommonSettings_InputMessage">
+    <wsdl:part name="parameters" element="tns:HandleCommonSettings" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_HandleCommonSettings_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HandleCommonSettingsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_HandleInstClosingPrice_InputMessage">
+    <wsdl:part name="parameters" element="tns:HandleInstClosingPrice" />
+  </wsdl:message>
+  <wsdl:message name="IBOEngineService_HandleInstClosingPrice_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HandleInstClosingPriceResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IBOEngineService">
+    <wsdl:operation name="AuthenticateLogin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/AuthenticateLogin" message="tns:IBOEngineService_AuthenticateLogin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/AuthenticateLoginResponse" message="tns:IBOEngineService_AuthenticateLogin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LogOut">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/LogOut" message="tns:IBOEngineService_LogOut_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/LogOutResponse" message="tns:IBOEngineService_LogOut_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="HandleBrokerOperationsLog">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/HandleBrokerOperationsLog" message="tns:IBOEngineService_HandleBrokerOperationsLog_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/HandleBrokerOperationsLogResponse" message="tns:IBOEngineService_HandleBrokerOperationsLog_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHistoricalData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/GetHistoricalData" message="tns:IBOEngineService_GetHistoricalData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/GetHistoricalDataResponse" message="tns:IBOEngineService_GetHistoricalData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="HandleIPAccessList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/HandleIPAccessList" message="tns:IBOEngineService_HandleIPAccessList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/HandleIPAccessListResponse" message="tns:IBOEngineService_HandleIPAccessList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="HandleFeeMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/HandleFeeMaster" message="tns:IBOEngineService_HandleFeeMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/HandleFeeMasterResponse" message="tns:IBOEngineService_HandleFeeMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="HandleTaxMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/HandleTaxMaster" message="tns:IBOEngineService_HandleTaxMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/HandleTaxMasterResponse" message="tns:IBOEngineService_HandleTaxMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="HandleHoliday">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/HandleHoliday" message="tns:IBOEngineService_HandleHoliday_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/HandleHolidayResponse" message="tns:IBOEngineService_HandleHoliday_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="HandleContractSpecfication">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/HandleContractSpecfication" message="tns:IBOEngineService_HandleContractSpecfication_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/HandleContractSpecficationResponse" message="tns:IBOEngineService_HandleContractSpecfication_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="HandleContractSession">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/HandleContractSession" message="tns:IBOEngineService_HandleContractSession_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/HandleContractSessionResponse" message="tns:IBOEngineService_HandleContractSession_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMasterInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/GetMasterInfo" message="tns:IBOEngineService_GetMasterInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/GetMasterInfoResponse" message="tns:IBOEngineService_GetMasterInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLeverageList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/GetLeverageList" message="tns:IBOEngineService_GetLeverageList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/GetLeverageListResponse" message="tns:IBOEngineService_GetLeverageList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetModules">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/GetModules" message="tns:IBOEngineService_GetModules_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/GetModulesResponse" message="tns:IBOEngineService_GetModules_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetParticipaintList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/GetParticipaintList" message="tns:IBOEngineService_GetParticipaintList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/GetParticipaintListResponse" message="tns:IBOEngineService_GetParticipaintList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSecurityType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/GetSecurityType" message="tns:IBOEngineService_GetSecurityType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/GetSecurityTypeResponse" message="tns:IBOEngineService_GetSecurityType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencyList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/GetCurrencyList" message="tns:IBOEngineService_GetCurrencyList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/GetCurrencyListResponse" message="tns:IBOEngineService_GetCurrencyList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBrokerList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/GetBrokerList" message="tns:IBOEngineService_GetBrokerList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/GetBrokerListResponse" message="tns:IBOEngineService_GetBrokerList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCountryDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/GetCountryDetails" message="tns:IBOEngineService_GetCountryDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/GetCountryDetailsResponse" message="tns:IBOEngineService_GetCountryDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountGroup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/GetAccountGroup" message="tns:IBOEngineService_GetAccountGroup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/GetAccountGroupResponse" message="tns:IBOEngineService_GetAccountGroup_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="HandleTimeSettings">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/HandleTimeSettings" message="tns:IBOEngineService_HandleTimeSettings_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/HandleTimeSettingsResponse" message="tns:IBOEngineService_HandleTimeSettings_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="HandleTradingGateway">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/HandleTradingGateway" message="tns:IBOEngineService_HandleTradingGateway_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/HandleTradingGatewayResponse" message="tns:IBOEngineService_HandleTradingGateway_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="HandleBrokers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/HandleBrokers" message="tns:IBOEngineService_HandleBrokers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/HandleBrokersResponse" message="tns:IBOEngineService_HandleBrokers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCollateralTypes">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/GetCollateralTypes" message="tns:IBOEngineService_GetCollateralTypes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/GetCollateralTypesResponse" message="tns:IBOEngineService_GetCollateralTypes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetClientInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/GetClientInfo" message="tns:IBOEngineService_GetClientInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/GetClientInfoResponse" message="tns:IBOEngineService_GetClientInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntoClientInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/InsertIntoClientInfo" message="tns:IBOEngineService_InsertIntoClientInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/InsertIntoClientInfoResponse" message="tns:IBOEngineService_InsertIntoClientInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateClientInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/UpdateClientInfo" message="tns:IBOEngineService_UpdateClientInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/UpdateClientInfoResponse" message="tns:IBOEngineService_UpdateClientInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AuthenticateClientID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/AuthenticateClientID" message="tns:IBOEngineService_AuthenticateClientID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/AuthenticateClientIDResponse" message="tns:IBOEngineService_AuthenticateClientID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBankInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/GetBankInfo" message="tns:IBOEngineService_GetBankInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/GetBankInfoResponse" message="tns:IBOEngineService_GetBankInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntoBankInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/InsertIntoBankInfo" message="tns:IBOEngineService_InsertIntoBankInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/InsertIntoBankInfoResponse" message="tns:IBOEngineService_InsertIntoBankInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBankInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/UpdateBankInfo" message="tns:IBOEngineService_UpdateBankInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/UpdateBankInfoResponse" message="tns:IBOEngineService_UpdateBankInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAccounts">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/GetAccounts" message="tns:IBOEngineService_GetAccounts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/GetAccountsResponse" message="tns:IBOEngineService_GetAccounts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntoAccount">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/InsertIntoAccount" message="tns:IBOEngineService_InsertIntoAccount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/InsertIntoAccountResponse" message="tns:IBOEngineService_InsertIntoAccount_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAccount">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/UpdateAccount" message="tns:IBOEngineService_UpdateAccount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/UpdateAccountResponse" message="tns:IBOEngineService_UpdateAccount_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCollateralInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/GetCollateralInfo" message="tns:IBOEngineService_GetCollateralInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/GetCollateralInfoResponse" message="tns:IBOEngineService_GetCollateralInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="HandleCollateralTransInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/HandleCollateralTransInfo" message="tns:IBOEngineService_HandleCollateralTransInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/HandleCollateralTransInfoResponse" message="tns:IBOEngineService_HandleCollateralTransInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCollateralTransactionHistory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/GetCollateralTransactionHistory" message="tns:IBOEngineService_GetCollateralTransactionHistory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/GetCollateralTransactionHistoryResponse" message="tns:IBOEngineService_GetCollateralTransactionHistory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTradeOrdersDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/GetTradeOrdersDetails" message="tns:IBOEngineService_GetTradeOrdersDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/GetTradeOrdersDetailsResponse" message="tns:IBOEngineService_GetTradeOrdersDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTradeDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/GetTradeDetails" message="tns:IBOEngineService_GetTradeDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/GetTradeDetailsResponse" message="tns:IBOEngineService_GetTradeDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModifyTrade">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/ModifyTrade" message="tns:IBOEngineService_ModifyTrade_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/ModifyTradeResponse" message="tns:IBOEngineService_ModifyTrade_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="NewTrade">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/NewTrade" message="tns:IBOEngineService_NewTrade_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/NewTradeResponse" message="tns:IBOEngineService_NewTrade_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SettleTrade">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/SettleTrade" message="tns:IBOEngineService_SettleTrade_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/SettleTradeResponse" message="tns:IBOEngineService_SettleTrade_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMapOrders">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/GetMapOrders" message="tns:IBOEngineService_GetMapOrders_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/GetMapOrdersResponse" message="tns:IBOEngineService_GetMapOrders_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountIDsByAccountType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/GetAccountIDsByAccountType" message="tns:IBOEngineService_GetAccountIDsByAccountType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/GetAccountIDsByAccountTypeResponse" message="tns:IBOEngineService_GetAccountIDsByAccountType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="HandleTGAccountConnetionSettings">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/HandleTGAccountConnetionSettings" message="tns:IBOEngineService_HandleTGAccountConnetionSettings_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/HandleTGAccountConnetionSettingsResponse" message="tns:IBOEngineService_HandleTGAccountConnetionSettings_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="HandleVirtualDealer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/HandleVirtualDealer" message="tns:IBOEngineService_HandleVirtualDealer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/HandleVirtualDealerResponse" message="tns:IBOEngineService_HandleVirtualDealer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="HandleCommonSettings">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/HandleCommonSettings" message="tns:IBOEngineService_HandleCommonSettings_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/HandleCommonSettingsResponse" message="tns:IBOEngineService_HandleCommonSettings_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="HandleInstClosingPrice">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBOEngineService/HandleInstClosingPrice" message="tns:IBOEngineService_HandleInstClosingPrice_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBOEngineService/HandleInstClosingPriceResponse" message="tns:IBOEngineService_HandleInstClosingPrice_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSHttpBinding_IBOEngineService" type="tns:IBOEngineService">
+    <wsp:PolicyReference URI="#WSHttpBinding_IBOEngineService_policy" />
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AuthenticateLogin">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/AuthenticateLogin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LogOut">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/LogOut" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HandleBrokerOperationsLog">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/HandleBrokerOperationsLog" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHistoricalData">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/GetHistoricalData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HandleIPAccessList">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/HandleIPAccessList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HandleFeeMaster">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/HandleFeeMaster" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HandleTaxMaster">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/HandleTaxMaster" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HandleHoliday">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/HandleHoliday" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HandleContractSpecfication">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/HandleContractSpecfication" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HandleContractSession">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/HandleContractSession" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMasterInfo">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/GetMasterInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLeverageList">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/GetLeverageList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetModules">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/GetModules" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetParticipaintList">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/GetParticipaintList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSecurityType">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/GetSecurityType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencyList">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/GetCurrencyList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBrokerList">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/GetBrokerList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCountryDetails">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/GetCountryDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountGroup">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/GetAccountGroup" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HandleTimeSettings">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/HandleTimeSettings" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HandleTradingGateway">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/HandleTradingGateway" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HandleBrokers">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/HandleBrokers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCollateralTypes">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/GetCollateralTypes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetClientInfo">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/GetClientInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntoClientInfo">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/InsertIntoClientInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateClientInfo">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/UpdateClientInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AuthenticateClientID">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/AuthenticateClientID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBankInfo">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/GetBankInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntoBankInfo">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/InsertIntoBankInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBankInfo">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/UpdateBankInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccounts">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/GetAccounts" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntoAccount">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/InsertIntoAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAccount">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/UpdateAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCollateralInfo">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/GetCollateralInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HandleCollateralTransInfo">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/HandleCollateralTransInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCollateralTransactionHistory">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/GetCollateralTransactionHistory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTradeOrdersDetails">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/GetTradeOrdersDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTradeDetails">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/GetTradeDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModifyTrade">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/ModifyTrade" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NewTrade">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/NewTrade" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SettleTrade">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/SettleTrade" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMapOrders">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/GetMapOrders" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountIDsByAccountType">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/GetAccountIDsByAccountType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HandleTGAccountConnetionSettings">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/HandleTGAccountConnetionSettings" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HandleVirtualDealer">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/HandleVirtualDealer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HandleCommonSettings">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/HandleCommonSettings" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HandleInstClosingPrice">
+      <soap12:operation soapAction="http://tempuri.org/IBOEngineService/HandleInstClosingPrice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BOEngineService">
+    <wsdl:port name="WSHttpBinding_IBOEngineService" binding="tns:WSHttpBinding_IBOEngineService">
+      <soap12:address location="http://217.160.11.198:8533/BOEngineService.svc" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>http://217.160.11.198:8533/BOEngineService.svc</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Dns>217.160.11.198</Dns>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

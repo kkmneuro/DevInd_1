@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="BOExchange" Class="dbMan_BO_InsertTGAccountConnectionSettingsDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.1.5;Initial Catalog=BOExchange;User ID=sa" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="BOExchangeConnectionString5" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_InsertTGAccountConnectionSettings" Method="BO_InsertTGAccountConnectionSettings">
+    <Parameter Name="TradingGatewayID" Parameter="tradingGatewayID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="AccountID" Parameter="accountID" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Password" Parameter="password" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="IsEnable" Parameter="isEnable" Type="System.Boolean" DbType="Bit" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

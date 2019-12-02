@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="BOExchange" Class="dbMan_BO_UpdateCommonSettingDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=BOExchange;User ID=sa" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="BOExchangeConnectionString4" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_UpdateCommonSettings" Method="BO_UpdateCommonSettings">
+    <Parameter Name="ID" Parameter="iD" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Value" Parameter="value" Type="System.String" DbType="VarChar(256)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

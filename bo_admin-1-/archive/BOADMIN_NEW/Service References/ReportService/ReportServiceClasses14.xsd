@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/ReportServiceClasses" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ReportServiceClasses" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="TradeReportSearchValues">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccountNumber" type="xs:int" />
+      <xs:element minOccurs="0" name="BrokerID" type="xs:int" />
+      <xs:element minOccurs="0" name="BrokerParentID" type="xs:int" />
+      <xs:element minOccurs="0" name="DateValue" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="OrderNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="OrderType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Side" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Symbol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TIF_ID" type="xs:int" />
+      <xs:element minOccurs="0" name="ToDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="TradeNumber" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TradeReportSearchValues" nillable="true" type="tns:TradeReportSearchValues" />
+  <xs:simpleType name="TradeReportSearchType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="BY_DATE" />
+      <xs:enumeration value="BY_SIDE" />
+      <xs:enumeration value="BY_ACCOUNT_NUMBER" />
+      <xs:enumeration value="BY_ORDER_TYPE" />
+      <xs:enumeration value="BY_ORDER_NUMBER" />
+      <xs:enumeration value="BY_TRADE_NUMBER" />
+      <xs:enumeration value="BY_DATE_SIDE" />
+      <xs:enumeration value="BY_DATE_ACCOUNT_NUMBER" />
+      <xs:enumeration value="BY_DATE_SIDE_ACCOUNT_NUMBER" />
+      <xs:enumeration value="BY_DATE_ORDER_TYPE" />
+      <xs:enumeration value="BY_DATE_SIDE_ORDER_TYPE" />
+      <xs:enumeration value="BY_DATE_SIDE_ACCOUNT_NUMBER_ORDER_TYPE" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="TradeReportSearchType" nillable="true" type="tns:TradeReportSearchType" />
+  <xs:complexType name="ArrayOfclsTradeReport">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsTradeReport" nillable="true" type="tns:clsTradeReport" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsTradeReport" nillable="true" type="tns:ArrayOfclsTradeReport" />
+  <xs:complexType name="clsTradeReport">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccountID" type="xs:int" />
+      <xs:element minOccurs="0" name="BrokerID" type="xs:int" />
+      <xs:element minOccurs="0" name="BrokerType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ITCM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Lot" type="xs:long" />
+      <xs:element minOccurs="0" name="OrderDateTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="OrderNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="OrderType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Price" type="xs:long" />
+      <xs:element minOccurs="0" name="STM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ServerResponseID" type="xs:int" />
+      <xs:element minOccurs="0" name="Side" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Symbol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TCM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TradeNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="TradePrice" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TradeTime" type="xs:dateTime" />    
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsTradeReport" nillable="true" type="tns:clsTradeReport" />
+  <xs:complexType name="ArrayOfclsOrderReport">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsOrderReport" nillable="true" type="tns:clsOrderReport" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsOrderReport" nillable="true" type="tns:ArrayOfclsOrderReport" />
+  <xs:complexType name="clsOrderReport">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccountID" type="xs:int" />
+      <xs:element minOccurs="0" name="AverageFillPrice" type="xs:decimal" />
+      <xs:element minOccurs="0" name="BrokerID" type="xs:int" />
+      <xs:element minOccurs="0" name="Commission" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ExecutionQty" type="xs:int" />
+      <xs:element minOccurs="0" name="Lot" type="xs:long" />
+      <xs:element minOccurs="0" name="OrderDateTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="OrderNumber" type="xs:long" />
+      <xs:element minOccurs="0" name="OrderStatus" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="OrderType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Price" type="xs:long" />
+      <xs:element minOccurs="0" name="ServerResponseID" type="xs:int" />
+      <xs:element minOccurs="0" name="Side" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Symbol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TIF" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Tax" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsOrderReport" nillable="true" type="tns:clsOrderReport" />
+  <xs:complexType name="ClientCommissionSearchValues">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccountNumber" type="xs:int" />
+      <xs:element minOccurs="0" name="BrokerID" type="xs:int" />
+      <xs:element minOccurs="0" name="BrokerParentID" type="xs:int" />
+      <xs:element minOccurs="0" name="DateValue" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Symbol" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ClientCommissionSearchValues" nillable="true" type="tns:ClientCommissionSearchValues" />
+  <xs:simpleType name="ClientCommissionSearchType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="BY_DATE" />
+      <xs:enumeration value="BY_ACCOUNT_NUMBER" />
+      <xs:enumeration value="BY_SYMBOL" />
+      <xs:enumeration value="BY_DATE_ACCOUNT_NUMBER" />
+      <xs:enumeration value="BY_DATE_SYMBOL" />
+      <xs:enumeration value="BY_DATE_ACCOUNT_NUMBER_SYMBOL" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ClientCommissionSearchType" nillable="true" type="tns:ClientCommissionSearchType" />
+  <xs:complexType name="ArrayOfclsClientCommission">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsClientCommission" nillable="true" type="tns:clsClientCommission" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsClientCommission" nillable="true" type="tns:ArrayOfclsClientCommission" />
+  <xs:complexType name="clsClientCommission">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccountID" type="xs:int" />
+      <xs:element minOccurs="0" name="BrokerID" type="xs:int" />
+      <xs:element minOccurs="0" name="BuyAvg" type="xs:double" />
+      <xs:element minOccurs="0" name="BuyQty" type="xs:int" />
+      <xs:element minOccurs="0" name="BuyValue" type="xs:double" />
+      <xs:element minOccurs="0" name="ClosingPrice" type="xs:long" />
+      <xs:element minOccurs="0" name="Commission" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CommissionVatTotal" type="xs:decimal" />
+      <xs:element minOccurs="0" name="GrossM2M" type="xs:double" />
+      <xs:element minOccurs="0" name="GrossPL" type="xs:decimal" />
+      <xs:element minOccurs="0" name="M2M" type="xs:double" />
+      <xs:element minOccurs="0" name="NetAvgPrice" type="xs:decimal" />
+      <xs:element minOccurs="0" name="NetPL" type="xs:decimal" />
+      <xs:element minOccurs="0" name="NetQty" type="xs:int" />
+      <xs:element minOccurs="0" name="NetValue" type="xs:decimal" />
+      <xs:element minOccurs="0" name="SellAvg" type="xs:double" />
+      <xs:element minOccurs="0" name="SellQty" type="xs:int" />
+      <xs:element minOccurs="0" name="SellValue" type="xs:double" />
+      <xs:element minOccurs="0" name="ServerResponseID" type="xs:int" />
+      <xs:element minOccurs="0" name="SettledQty" type="xs:int" />
+      <xs:element minOccurs="0" name="Symbol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TradeDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="UsedMargin" type="xs:decimal" />
+      <xs:element minOccurs="0" name="VatOnCommission" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsClientCommission" nillable="true" type="tns:clsClientCommission" />
+  <xs:complexType name="StockLevelSearchValues">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BrokerID" type="xs:int" />
+      <xs:element minOccurs="0" name="BrokerParentID" type="xs:int" />
+      <xs:element minOccurs="0" name="FromDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ProductType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Symbol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ToDate" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="StockLevelSearchValues" nillable="true" type="tns:StockLevelSearchValues" />
+  <xs:simpleType name="StockLevelSearchType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="BY_DATE" />
+      <xs:enumeration value="BY_PRODUCT_TYPE" />
+      <xs:enumeration value="BY_SYMBOL" />
+      <xs:enumeration value="BY_DATE_PRODUCT_TYPE" />
+      <xs:enumeration value="BY_DATE_SYMBOL" />
+      <xs:enumeration value="BY_DATE_PRODUCT_TYPE_SYMBOL" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="StockLevelSearchType" nillable="true" type="tns:StockLevelSearchType" />
+  <xs:complexType name="ArrayOfclsStockLevel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsStockLevel" nillable="true" type="tns:clsStockLevel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsStockLevel" nillable="true" type="tns:ArrayOfclsStockLevel" />
+  <xs:complexType name="clsStockLevel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BuyUnit" type="xs:int" />
+      <xs:element minOccurs="0" name="Capital" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ProductType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SellUnit" type="xs:int" />
+      <xs:element minOccurs="0" name="ServerResponseID" type="xs:int" />
+      <xs:element minOccurs="0" name="Symbol" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsStockLevel" nillable="true" type="tns:clsStockLevel" />
+  <xs:complexType name="ClientHoldingSearchValues">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccountID" type="xs:int" />
+      <xs:element minOccurs="0" name="BrokerID" type="xs:int" />
+      <xs:element minOccurs="0" name="BrokerParentID" type="xs:int" />
+      <xs:element minOccurs="0" name="ClientName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Symbol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TradeDate" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ClientHoldingSearchValues" nillable="true" type="tns:ClientHoldingSearchValues" />
+  <xs:simpleType name="ClientHoldingSearchType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="BY_TRADE_DATE" />
+      <xs:enumeration value="BY_CLIENT_NAME" />
+      <xs:enumeration value="BY_SYMBOL" />
+      <xs:enumeration value="BY_ACCOUNT_ID" />
+      <xs:enumeration value="BY_TRADE_DATE_CLIENT_NAME" />
+      <xs:enumeration value="BY_TRADE_DATE_ACCOUNT_ID" />
+      <xs:enumeration value="BY_TRADE_DATE_SYMBOL" />
+      <xs:enumeration value="BY_TRADE_DATE_CLIENT_NAME_ACCOUNT_ID" />
+      <xs:enumeration value="BY_TRADE_DATE_CLIENT_NAME_SYMBOL" />
+      <xs:enumeration value="BY_TRADE_DATE_CLIENT_NAME_ACCOUNT_ID_SYMBOL" />
+      <xs:enumeration value="ALL" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ClientHoldingSearchType" nillable="true" type="tns:ClientHoldingSearchType" />
+  <xs:complexType name="ArrayOfclsClientHoldingStock">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsClientHoldingStock" nillable="true" type="tns:clsClientHoldingStock" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsClientHoldingStock" nillable="true" type="tns:ArrayOfclsClientHoldingStock" />
+  <xs:complexType name="clsClientHoldingStock">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccountID" type="xs:int" />
+      <xs:element minOccurs="0" name="BrokerCompany" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BrokerID" type="xs:int" />
+      <xs:element minOccurs="0" name="BuyQty" type="xs:int" />
+      <xs:element minOccurs="0" name="ClientName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SellQty" type="xs:int" />
+      <xs:element minOccurs="0" name="ServerResponseID" type="xs:int" />
+      <xs:element minOccurs="0" name="Symbol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TradeDate" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsClientHoldingStock" nillable="true" type="tns:clsClientHoldingStock" />
+  <xs:complexType name="MarginSearchValues">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccountID" type="xs:int" />
+      <xs:element minOccurs="0" name="BrokerID" type="xs:int" />
+      <xs:element minOccurs="0" name="FromDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ToDate" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MarginSearchValues" nillable="true" type="tns:MarginSearchValues" />
+  <xs:simpleType name="MarginSearchType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="BY_DATE" />
+      <xs:enumeration value="BY_ACCOUNT_ID" />
+      <xs:enumeration value="BY_BROKER_ID" />
+      <xs:enumeration value="BY_DATE_ACCOUNT_ID" />
+      <xs:enumeration value="BY_DATE_BROKER_ID" />
+      <xs:enumeration value="BY_DATE_ACOUNT_ID_BROKER_ID" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="MarginSearchType" nillable="true" type="tns:MarginSearchType" />
+  <xs:complexType name="ArrayOfclsMarginReports">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsMarginReports" nillable="true" type="tns:clsMarginReports" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsMarginReports" nillable="true" type="tns:ArrayOfclsMarginReports" />
+  <xs:complexType name="clsMarginReports">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CACode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ClientCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CommVatTotal" type="xs:double" />
+      <xs:element minOccurs="0" name="Equity" type="xs:long" />
+      <xs:element minOccurs="0" name="FloatingProfitLoss" type="xs:double" />
+      <xs:element minOccurs="0" name="FreeMargin" type="xs:decimal" />
+      <xs:element minOccurs="0" name="NetMtm" type="xs:decimal" />
+      <xs:element minOccurs="0" name="OpeningBalance" type="xs:long" />
+      <xs:element minOccurs="0" name="SNo" type="xs:int" />
+      <xs:element minOccurs="0" name="STM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ServerResponseID" type="xs:int" />
+      <xs:element minOccurs="0" name="SettledProfitLoss" type="xs:double" />
+      <xs:element minOccurs="0" name="TCM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TM" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UsedMargin" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsMarginReports" nillable="true" type="tns:clsMarginReports" />
+  <xs:complexType name="AccountTransSearchValues">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccountID" type="xs:int" />
+      <xs:element minOccurs="0" name="BrokerID" type="xs:int" />
+      <xs:element minOccurs="0" name="BrokerParentID" type="xs:int" />
+      <xs:element minOccurs="0" name="FromDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ToDate" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AccountTransSearchValues" nillable="true" type="tns:AccountTransSearchValues" />
+  <xs:complexType name="ArrayOfclsAccountTrans">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsAccountTrans" nillable="true" type="tns:clsAccountTrans" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsAccountTrans" nillable="true" type="tns:ArrayOfclsAccountTrans" />
+  <xs:complexType name="clsAccountTrans">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccountID" type="xs:int" />
+      <xs:element minOccurs="0" name="Amount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ChequeNo" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PaymentDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="PaymentMode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PaymentType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ServerResponseID" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsAccountTrans" nillable="true" type="tns:clsAccountTrans" />
+  <xs:complexType name="ArrayOfclsTopTradedInstruments">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsTopTradedInstruments" nillable="true" type="tns:clsTopTradedInstruments" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsTopTradedInstruments" nillable="true" type="tns:ArrayOfclsTopTradedInstruments" />
+  <xs:complexType name="clsTopTradedInstruments">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CMP" type="xs:long" />
+      <xs:element minOccurs="0" name="Change" type="xs:long" />
+      <xs:element minOccurs="0" name="PercentageChange" type="xs:long" />
+      <xs:element minOccurs="0" name="ServerResponseID" type="xs:int" />
+      <xs:element minOccurs="0" name="Symbol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Value" type="xs:double" />
+      <xs:element minOccurs="0" name="Volume" type="xs:long" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsTopTradedInstruments" nillable="true" type="tns:clsTopTradedInstruments" />
+  <xs:complexType name="ArrayOfclsNewClientInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsNewClientInfo" nillable="true" type="tns:clsNewClientInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsNewClientInfo" nillable="true" type="tns:ArrayOfclsNewClientInfo" />
+  <xs:complexType name="clsNewClientInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccountID" type="xs:int" />
+      <xs:element minOccurs="0" name="BrokerID" type="xs:int" />
+      <xs:element minOccurs="0" name="Capital" type="xs:long" />
+      <xs:element minOccurs="0" name="DateOfRegistration" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="ServerResponseID" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsNewClientInfo" nillable="true" type="tns:clsNewClientInfo" />
+  <xs:complexType name="clsReportsMasterInfo">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="OrderTypes" nillable="true" type="q1:ArrayOfKeyValueOfintstring" />
+      <xs:element minOccurs="0" name="ServerResponseID" type="xs:int" />
+      <xs:element xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="SideTypes" nillable="true" type="q2:ArrayOfKeyValueOfintstring" />
+      <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="TIFTypes" nillable="true" type="q3:ArrayOfKeyValueOfintstring" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsReportsMasterInfo" nillable="true" type="tns:clsReportsMasterInfo" />
+  <xs:complexType name="DayClosingSearchValues">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BrokerID" type="xs:int" />
+      <xs:element minOccurs="0" name="BrokerParentID" type="xs:int" />
+      <xs:element minOccurs="0" name="Date" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Symbol" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DayClosingSearchValues" nillable="true" type="tns:DayClosingSearchValues" />
+  <xs:complexType name="ArrayOfclsDayClosing">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsDayClosing" nillable="true" type="tns:clsDayClosing" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsDayClosing" nillable="true" type="tns:ArrayOfclsDayClosing" />
+  <xs:complexType name="clsDayClosing">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BrokerId" type="xs:int" />
+      <xs:element minOccurs="0" name="Buy" type="xs:long" />
+      <xs:element minOccurs="0" name="BuyQty" type="xs:long" />
+      <xs:element minOccurs="0" name="BuyValue" type="xs:long" />
+      <xs:element minOccurs="0" name="Close" type="xs:long" />
+      <xs:element minOccurs="0" name="High" type="xs:long" />
+      <xs:element minOccurs="0" name="Low" type="xs:long" />
+      <xs:element minOccurs="0" name="Open" type="xs:long" />
+      <xs:element minOccurs="0" name="PrevDayClose" type="xs:long" />
+      <xs:element minOccurs="0" name="SNo" type="xs:int" />
+      <xs:element minOccurs="0" name="Sell" type="xs:long" />
+      <xs:element minOccurs="0" name="SellQty" type="xs:long" />
+      <xs:element minOccurs="0" name="SellValue" type="xs:long" />
+      <xs:element minOccurs="0" name="ServerResponseID" type="xs:int" />
+      <xs:element minOccurs="0" name="Symbol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TradeDate" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsDayClosing" nillable="true" type="tns:clsDayClosing" />
+</xs:schema>

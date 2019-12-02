@@ -1,0 +1,46 @@
+﻿  stdafx.cpp
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  dllmain.cpp
+  DatabaseImpl.cpp
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+D:\Windows Kits\10\Include\10.0.18362.0\ucrt\crtdbg.h(303,1): warning C4005: '_malloca': macro redefinition
+D:\Windows Kits\10\Include\10.0.18362.0\ucrt\malloc.h(122): message : see previous definition of '_malloca'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Database\src\DatabaseImpl.h(25,17): warning C4099: 'Parameter': type name first seen using 'struct' now seen using 'class'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Database\src\DatabaseImpl.h(25): message : see declaration of 'Parameter'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Database\src\DatabaseImpl.cpp(25,1): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1961): message : see declaration of '_snprintf'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Database\src\DatabaseImpl.cpp(28,1): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1961): message : see declaration of '_snprintf'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Database\src\DatabaseImpl.cpp(32,1): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1961): message : see declaration of '_snprintf'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Database\src\DatabaseImpl.cpp(35,1): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1961): message : see declaration of '_snprintf'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Database\src\DatabaseImpl.cpp(39,1): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1961): message : see declaration of '_snprintf'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Database\src\DatabaseImpl.cpp(42,1): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1961): message : see declaration of '_snprintf'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Database\src\DatabaseImpl.cpp(46,1): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1961): message : see declaration of '_snprintf'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Database\src\DatabaseImpl.cpp(49,1): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1961): message : see declaration of '_snprintf'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Database\src\DatabaseImpl.cpp(53,1): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1961): message : see declaration of '_snprintf'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Database\src\DatabaseImpl.cpp(56,1): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1961): message : see declaration of '_snprintf'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Database\src\DatabaseImpl.cpp(778,1): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1961): message : see declaration of '_snprintf'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Database\src\DatabaseImpl.cpp(781,1): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1961): message : see declaration of '_snprintf'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Database\src\DatabaseImpl.cpp(792,1): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1961): message : see declaration of '_snprintf'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Database\src\DatabaseImpl.cpp(795,1): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1961): message : see declaration of '_snprintf'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Database\src\DatabaseImpl.cpp(806,9): warning C4101: 'dwRstEvt': unreferenced local variable
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Database\src\DatabaseImpl.cpp(1054,8): warning C4101: 'dwConnEvt': unreferenced local variable
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Database\src\DatabaseImpl.cpp(1053,10): warning C4101: 'hr': unreferenced local variable
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Database\src\DatabaseImpl.cpp(2025,14): warning C4018: '>=': signed/unsigned mismatch
+  Database.cpp
+  Generating Code...
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Database\src\DatabaseImpl.cpp(2113,14): warning C4018: '>=': signed/unsigned mismatch
+Database.rc(10): fatal error RC1015: cannot open include file 'afxres.h'.
+  

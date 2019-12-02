@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="OMSExchange_NG" Class="dbMan_BO_OMSExchange_InsertNewOrderDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=127.0.0.1;Initial Catalog=OMSExchange_NG;User ID=sa" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="OMSExchangeConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_OMSExchange_InsertNewOrder" Method="BO_OMSExchange_InsertNewOrder">
+    <Parameter Name="AccountID" Parameter="accountID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PositionSize" Parameter="positionSize" Type="System.Int64" DbType="BigInt" />
+    <Parameter Name="Price" Parameter="price" Type="System.Int64" DbType="BigInt" />
+    <Parameter Name="OrderType" Parameter="orderType" Type="System.Char" DbType="Char(1)" />
+    <Parameter Name="OrderStatusID" Parameter="orderStatusID" Type="System.Char" DbType="Char(1)" />
+    <Parameter Name="Side" Parameter="side" Type="System.Char" DbType="Char(1)" />
+    <Parameter Name="Symbol" Parameter="symbol" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="TIF" Parameter="tIF" Type="System.Char" DbType="Char(1)" />
+    <Parameter Name="IPAddress" Parameter="iPAddress" Type="System.String" DbType="VarChar(15)" />
+    <Parameter Name="ExpireDate" Parameter="expireDate" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="OrderID" Parameter="orderID" Type="System.Int64" DbType="BigInt" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="BOExchange" Class="dbMan_BO_UpdateIPAccessListDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.1.87;Initial Catalog=BOExchange;Persist Security Info=True;User ID=sa" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="BOExchangeConnectionString1" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_UpdateIPAccessList" Method="BO_UpdateIPAccessList">
+    <Parameter Name="Key" Parameter="key" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Action" Parameter="action" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="From" Parameter="from" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="To" Parameter="to" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Comment" Parameter="comment" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

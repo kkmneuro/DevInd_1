@@ -1,0 +1,148 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.23.28106.4 (cceea574).
+//
+// D:\DevIndia\exchangeprojects-3-\archive\WSS\src\ProtocolLib\bin\Debug\contractserver.tlh
+//
+// C++ source equivalent of Win32 type library ContractServer.tlb
+// compiler-generated file created 11/21/19 at 19:22:41 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct __declspec(uuid("d4a7d382-fdfe-4ba3-8533-00b53f485980"))
+/* LIBID */ __ContractServerLib;
+struct /* coclass */ ContractManager;
+struct __declspec(uuid("c31e5b34-eb45-4f47-ad30-9758e0c5e506"))
+/* dual interface */ IContractManager;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IContractManager, __uuidof(IContractManager));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("41c21f76-c69a-4d5b-b049-54c3d7e6c016"))
+ContractManager;
+    // [ default ] interface IContractManager
+
+struct __declspec(uuid("c31e5b34-eb45-4f47-ad30-9758e0c5e506"))
+IContractManager : IDispatch
+{
+    //
+    // Raw methods provided by interface
+    //
+
+      virtual HRESULT __stdcall SetPriceBook (
+        /*[in]*/ char productType,
+        /*[in]*/ BSTR product,
+        /*[in]*/ BSTR contract,
+        /*[in]*/ BSTR exchange,
+        BSTR provider,
+        /*[in]*/ char quotesStreamType,
+        /*[in]*/ unsigned __int64 price,
+        /*[in]*/ unsigned __int64 size,
+        /*[in]*/ double time,
+        unsigned long marketLevel ) = 0;
+      virtual HRESULT __stdcall InitializeServer ( ) = 0;
+      virtual HRESULT __stdcall SetPrice (
+        char productType,
+        BSTR product,
+        BSTR contract,
+        BSTR exchange,
+        BSTR provider,
+        unsigned __int64 price,
+        unsigned long size,
+        double dateTime,
+        char streamType,
+        /*[out]*/ long * retVal ) = 0;
+      virtual HRESULT __stdcall GetLatestPrice (
+        char productType,
+        BSTR product,
+        BSTR contract,
+        BSTR exchange,
+        BSTR provider,
+        /*[out]*/ unsigned __int64 * size,
+        /*[out]*/ unsigned __int64 * price ) = 0;
+      virtual HRESULT __stdcall ValidateOrder (
+        char productType,
+        BSTR product,
+        BSTR contract,
+        BSTR exchange,
+        BSTR provider,
+        unsigned __int64 price,
+        unsigned __int64 StopPx,
+        unsigned long Qty,
+        char OrderType,
+        char Side,
+        /*[out]*/ long * retVal ) = 0;
+      virtual HRESULT __stdcall ValidateOrderRMS (
+        /*[in]*/ double BuySideTurnOver,
+        /*[in]*/ double SellSideTurnOver,
+        /*[in]*/ unsigned __int64 MAxAllowablePosition,
+        /*[in]*/ char Side,
+        /*[in]*/ char productType,
+        /*[in]*/ BSTR product,
+        /*[in]*/ BSTR contract,
+        /*[in]*/ BSTR exchange,
+        /*[in]*/ BSTR provider,
+        /*[in]*/ unsigned __int64 Qty,
+        /*[in]*/ unsigned __int64 price,
+        /*[out]*/ long * retVal ) = 0;
+      virtual HRESULT __stdcall GetInitialMargin (
+        /*[in]*/ char productType,
+        /*[in]*/ BSTR product,
+        /*[in]*/ BSTR contract,
+        /*[in]*/ BSTR exchange,
+        /*[in]*/ BSTR provider,
+        /*[in]*/ char OrderType,
+        /*[out]*/ unsigned long * initialMargin,
+        /*[out]*/ unsigned long * digits ) = 0;
+      virtual HRESULT __stdcall WriteContractsFile ( ) = 0;
+      virtual HRESULT __stdcall GetAltSymbol (
+        /*[in]*/ BSTR lpSymbol,
+        /*[in]*/ BSTR symbol,
+        /*[out]*/ BSTR * altSymbol,
+        /*[out]*/ BSTR * altProduct ) = 0;
+      virtual HRESULT __stdcall GetSymbolParameters (
+        char productType,
+        BSTR product,
+        BSTR contract,
+        BSTR gateway,
+        /*[out]*/ unsigned long * ulSellInitialMargin,
+        /*[out]*/ unsigned long * ulBuyInitialMargin,
+        /*[out]*/ unsigned long * ulContractSize,
+        /*[out]*/ unsigned long * digits ) = 0;
+      virtual HRESULT __stdcall GetAllLatestPrice (
+        char productType,
+        BSTR product,
+        BSTR contract,
+        BSTR gateway,
+        /*[out]*/ unsigned __int64 * ulBidSize,
+        /*[out]*/ unsigned __int64 * ulBidPrice,
+        /*[out]*/ unsigned __int64 * ulAskSize,
+        /*[out]*/ unsigned __int64 * ulAskPrice,
+        /*[out]*/ unsigned __int64 * ulLastSize,
+        /*[out]*/ unsigned __int64 * ulLastPrice ) = 0;
+};
+
+//
+// Named GUID constants initializations
+//
+
+extern "C" const GUID __declspec(selectany) LIBID_ContractServerLib =
+    {0xd4a7d382,0xfdfe,0x4ba3,{0x85,0x33,0x00,0xb5,0x3f,0x48,0x59,0x80}};
+extern "C" const GUID __declspec(selectany) CLSID_ContractManager =
+    {0x41c21f76,0xc69a,0x4d5b,{0xb0,0x49,0x54,0xc3,0xd7,0xe6,0xc0,0x16}};
+extern "C" const GUID __declspec(selectany) IID_IContractManager =
+    {0xc31e5b34,0xeb45,0x4f47,{0xad,0x30,0x97,0x58,0xe0,0xc5,0xe5,0x06}};
+
+#pragma pack(pop)

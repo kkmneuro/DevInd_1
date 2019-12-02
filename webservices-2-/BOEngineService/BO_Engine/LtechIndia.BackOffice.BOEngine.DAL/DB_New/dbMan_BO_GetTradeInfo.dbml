@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="OMSExchange" Class="dbMan_BO_GetTradeInfoDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.1.101;Initial Catalog=OMSExchange;Persist Security Info=True;User ID=sa" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="OMSExchangeConnectionString3" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.OMS_GetTradesInfo" Method="OMS_GetTradesInfo">
+    <Parameter Name="Date" Parameter="date" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="ToDate" Parameter="toDate" Type="System.DateTime" DbType="DateTime" />
+    <ElementType Name="OMS_GetTradesInfoResult">
+      <Column Name="FK_AccountID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PK_OrderID" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="TradeNo" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="OrderDateTimeRequested" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Side" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="PositionSize" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="ProviderName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ExchangeName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ContractName" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ProductName" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ProductType" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Price" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="StopPx" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="FilledQty" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LeaveQty" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AvgFillPRice" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="Reason" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="OrderStatus" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="GTD" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PositionSize1" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="BrokerName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="AccountTypeID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SettledQty" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

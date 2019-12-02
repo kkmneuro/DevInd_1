@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="BOExchange" Class="dbMan_BO_GetOrderTypesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.1.87;Initial Catalog=BOExchange;Persist Security Info=True;User ID=sa" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="BOExchangeConnectionString1" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_GetOrderTypes" Method="BO_GetOrderTypes">
+    <ElementType Name="BO_GetOrderTypesResult">
+      <Column Name="OrderName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

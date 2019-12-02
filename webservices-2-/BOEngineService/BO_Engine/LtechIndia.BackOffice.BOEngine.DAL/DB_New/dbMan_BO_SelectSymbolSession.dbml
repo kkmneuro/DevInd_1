@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="BOExchange" Class="dbMan_BO_SelectSymbolSessionDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.1.87;Initial Catalog=BOExchange;Persist Security Info=True;User ID=sa" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="BOExchangeConnectionString1" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_SelectSymbolsession" Method="BO_SelectSymbolsession">
+    <Parameter Name="Id" Parameter="id" Type="System.Int32" DbType="Int" />
+    <ElementType Name="BO_SelectSymbolsessionResult">
+      <Column Name="Fk_InstruementID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Day" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Quotes" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Trade" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="UseTimelimits" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsEnableTradingSessions" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="StartDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="EndDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

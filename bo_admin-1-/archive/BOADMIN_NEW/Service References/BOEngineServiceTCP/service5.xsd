@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="clsInstrumentSwaps">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="IsEnable" type="xs:boolean" />
+      <xs:element minOccurs="0" name="LongPosition" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ShortPosition" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsInstrumentSwaps" nillable="true" type="tns:clsInstrumentSwaps" />
+  <xs:complexType name="ArrayOfclsSymbolSession">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsSymbolSession" nillable="true" type="tns:clsSymbolSession" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsSymbolSession" nillable="true" type="tns:ArrayOfclsSymbolSession" />
+  <xs:complexType name="clsSymbolSession">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Day" type="tns:DAYS" />
+      <xs:element minOccurs="0" name="EndDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="IsUseTimelimits" type="xs:boolean" />
+      <xs:element minOccurs="0" name="QuoteSession" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SessionEODMarketMaker" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StartDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="TradeSession" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsSymbolSession" nillable="true" type="tns:clsSymbolSession" />
+  <xs:simpleType name="DAYS">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="SUN">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="MON">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">2</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="TUE">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">3</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="WED">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">4</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="THU">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">5</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="FRI">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">6</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="SAT">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">7</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="DAYS" nillable="true" type="tns:DAYS" />
+  <xs:complexType name="ArrayOfclsSymbolSessionNew">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsSymbolSessionNew" nillable="true" type="tns:clsSymbolSessionNew" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsSymbolSessionNew" nillable="true" type="tns:ArrayOfclsSymbolSessionNew" />
+  <xs:complexType name="clsSymbolSessionNew">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ServerResponseID" type="xs:int" />
+      <xs:element minOccurs="0" name="lstSession" nillable="true" type="tns:ArrayOfclsSymbolSession" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsSymbolSessionNew" nillable="true" type="tns:clsSymbolSessionNew" />
+</xs:schema>

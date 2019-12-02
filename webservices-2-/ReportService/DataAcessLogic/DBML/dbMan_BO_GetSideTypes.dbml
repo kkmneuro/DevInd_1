@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="BOExchange" Class="dbMan_BO_GetSideTypesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.1.101;Initial Catalog=BOExchange;User ID=sa" SettingsObjectName="DataAcessLogic.Properties.Settings" SettingsPropertyName="BOExchangeConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_GetSideTypes" Method="BO_GetSideTypes">
+    <ElementType Name="BO_GetSideTypesResult">
+      <Column Name="PK_SideID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

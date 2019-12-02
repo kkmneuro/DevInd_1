@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="BOExchange" Class="dbMan_BO_HolidaySelectDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.1.87;Initial Catalog=BOExchange;Persist Security Info=True;User ID=sa" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="BOExchangeConnectionString1" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_HolidaySelect" Method="BO_HolidaySelect">
+    <ElementType Name="BO_HolidaySelectResult">
+      <Column Name="PK_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="FromTime" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ToTime" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Symbol" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="IsEnable" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="IsEveryYear" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(256)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

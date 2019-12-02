@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS4BrokerCollateralInfo" targetNamespace="http://tempuri.org/DS4BrokerCollateralInfo.xsd" xmlns:mstns="http://tempuri.org/DS4BrokerCollateralInfo.xsd" xmlns="http://tempuri.org/DS4BrokerCollateralInfo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="BOExchangeConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="BOExchangeConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.clsInterface4OME.Properties.Settings.GlobalReference.Default.BOExchangeConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS4BrokerCollateralInfo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS4BrokerCollateralInfo" msprop:Generator_DataSetName="DS4BrokerCollateralInfo" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtBrokerCollateralInfo" msprop:Generator_UserTableName="dtBrokerCollateralInfo" msprop:Generator_RowDeletedName="dtBrokerCollateralInfoRowDeleted" msprop:Generator_RowChangedName="dtBrokerCollateralInfoRowChanged" msprop:Generator_RowClassName="dtBrokerCollateralInfoRow" msprop:Generator_RowChangingName="dtBrokerCollateralInfoRowChanging" msprop:Generator_RowEvArgName="dtBrokerCollateralInfoRowChangeEvent" msprop:Generator_RowEvHandlerName="dtBrokerCollateralInfoRowChangeEventHandler" msprop:Generator_TableClassName="dtBrokerCollateralInfoDataTable" msprop:Generator_TableVarName="tabledtBrokerCollateralInfo" msprop:Generator_RowDeletingName="dtBrokerCollateralInfoRowDeleting" msprop:Generator_TablePropName="dtBrokerCollateralInfo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AccountGroupID" msprop:Generator_UserColumnName="AccountGroupID" msprop:Generator_ColumnPropNameInRow="AccountGroupID" msprop:Generator_ColumnVarNameInTable="columnAccountGroupID" msprop:Generator_ColumnPropNameInTable="AccountGroupIDColumn" type="xs:int" />
+              <xs:element name="AccountGroupName" msprop:Generator_UserColumnName="AccountGroupName" msprop:Generator_ColumnPropNameInRow="AccountGroupName" msprop:Generator_ColumnVarNameInTable="columnAccountGroupName" msprop:Generator_ColumnPropNameInTable="AccountGroupNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Owner" msprop:Generator_UserColumnName="Owner" msprop:Generator_ColumnPropNameInRow="Owner" msprop:Generator_ColumnVarNameInTable="columnOwner" msprop:Generator_ColumnPropNameInTable="OwnerColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Leverage" msprop:Generator_UserColumnName="Leverage" msprop:Generator_ColumnPropNameInRow="Leverage" msprop:Generator_ColumnVarNameInTable="columnLeverage" msprop:Generator_ColumnPropNameInTable="LeverageColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ParentAccountGroupID" msprop:Generator_UserColumnName="ParentAccountGroupID" msprop:Generator_ColumnPropNameInRow="ParentAccountGroupID" msprop:Generator_ColumnVarNameInTable="columnParentAccountGroupID" msprop:Generator_ColumnPropNameInTable="ParentAccountGroupIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ParentOwner" msprop:Generator_UserColumnName="ParentOwner" msprop:Generator_ColumnPropNameInRow="ParentOwner" msprop:Generator_ColumnVarNameInTable="columnParentOwner" msprop:Generator_ColumnPropNameInTable="ParentOwnerColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalCollateral" msprop:Generator_UserColumnName="TotalCollateral" msprop:Generator_ColumnPropNameInRow="TotalCollateral" msprop:Generator_ColumnVarNameInTable="columnTotalCollateral" msprop:Generator_ColumnPropNameInTable="TotalCollateralColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Unallocated" msprop:Generator_UserColumnName="Unallocated" msprop:Generator_ColumnPropNameInRow="Unallocated" msprop:Generator_ColumnVarNameInTable="columnUnallocated" msprop:Generator_ColumnPropNameInTable="UnallocatedColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Utilized" msprop:Generator_UserColumnName="Utilized" msprop:Generator_ColumnPropNameInRow="Utilized" msprop:Generator_ColumnVarNameInTable="columnUtilized" msprop:Generator_ColumnPropNameInTable="UtilizedColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PayInShortage" msprop:Generator_UserColumnName="PayInShortage" msprop:Generator_ColumnPropNameInRow="PayInShortage" msprop:Generator_ColumnVarNameInTable="columnPayInShortage" msprop:Generator_ColumnPropNameInTable="PayInShortageColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="PayOutShortage" msprop:Generator_UserColumnName="PayOutShortage" msprop:Generator_ColumnPropNameInRow="PayOutShortage" msprop:Generator_ColumnVarNameInTable="columnPayOutShortage" msprop:Generator_ColumnPropNameInTable="PayOutShortageColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CollateralforTrading" msprop:Generator_UserColumnName="CollateralforTrading" msprop:Generator_ColumnPropNameInRow="CollateralforTrading" msprop:Generator_ColumnVarNameInTable="columnCollateralforTrading" msprop:Generator_ColumnPropNameInTable="CollateralforTradingColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="IsEnable" msprop:Generator_UserColumnName="IsEnable" msprop:Generator_ColumnPropNameInRow="IsEnable" msprop:Generator_ColumnVarNameInTable="columnIsEnable" msprop:Generator_ColumnPropNameInTable="IsEnableColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="BrokerType" msprop:Generator_UserColumnName="BrokerType" msprop:Generator_ColumnPropNameInRow="BrokerType" msprop:Generator_ColumnVarNameInTable="columnBrokerType" msprop:Generator_ColumnPropNameInTable="BrokerTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FK_BrokerTypeID" msprop:Generator_UserColumnName="FK_BrokerTypeID" msprop:Generator_ColumnPropNameInRow="FK_BrokerTypeID" msprop:Generator_ColumnVarNameInTable="columnFK_BrokerTypeID" msprop:Generator_ColumnPropNameInTable="FK_BrokerTypeIDColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtCollateralTypeMaster" msprop:Generator_UserTableName="dtCollateralTypeMaster" msprop:Generator_RowDeletedName="dtCollateralTypeMasterRowDeleted" msprop:Generator_RowChangedName="dtCollateralTypeMasterRowChanged" msprop:Generator_RowClassName="dtCollateralTypeMasterRow" msprop:Generator_RowChangingName="dtCollateralTypeMasterRowChanging" msprop:Generator_RowEvArgName="dtCollateralTypeMasterRowChangeEvent" msprop:Generator_RowEvHandlerName="dtCollateralTypeMasterRowChangeEventHandler" msprop:Generator_TableClassName="dtCollateralTypeMasterDataTable" msprop:Generator_TableVarName="tabledtCollateralTypeMaster" msprop:Generator_RowDeletingName="dtCollateralTypeMasterRowDeleting" msprop:Generator_TablePropName="dtCollateralTypeMaster">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="CollateralTypeID" msdata:Caption="PK_CollateralTypeID" msprop:Generator_UserColumnName="CollateralTypeID" msprop:Generator_ColumnVarNameInTable="columnCollateralTypeID" msprop:Generator_ColumnPropNameInRow="CollateralTypeID" msprop:Generator_ColumnPropNameInTable="CollateralTypeIDColumn" type="xs:int" />
+              <xs:element name="CollateralType" msprop:Generator_UserColumnName="CollateralType" msprop:Generator_ColumnVarNameInTable="columnCollateralType" msprop:Generator_ColumnPropNameInRow="CollateralType" msprop:Generator_ColumnPropNameInTable="CollateralTypeColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtLastCollateralTransaction" msprop:Generator_UserTableName="dtLastCollateralTransaction" msprop:Generator_RowDeletedName="dtLastCollateralTransactionRowDeleted" msprop:Generator_RowChangedName="dtLastCollateralTransactionRowChanged" msprop:Generator_RowClassName="dtLastCollateralTransactionRow" msprop:Generator_RowChangingName="dtLastCollateralTransactionRowChanging" msprop:Generator_RowEvArgName="dtLastCollateralTransactionRowChangeEvent" msprop:Generator_RowEvHandlerName="dtLastCollateralTransactionRowChangeEventHandler" msprop:Generator_TableClassName="dtLastCollateralTransactionDataTable" msprop:Generator_TableVarName="tabledtLastCollateralTransaction" msprop:Generator_RowDeletingName="dtLastCollateralTransactionRowDeleting" msprop:Generator_TablePropName="dtLastCollateralTransaction">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FK_AccountGroupId" msprop:Generator_UserColumnName="FK_AccountGroupId" msprop:Generator_ColumnPropNameInRow="FK_AccountGroupId" msprop:Generator_ColumnVarNameInTable="columnFK_AccountGroupId" msprop:Generator_ColumnPropNameInTable="FK_AccountGroupIdColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="FK_CollateralTypeId" msprop:Generator_UserColumnName="FK_CollateralTypeId" msprop:Generator_ColumnPropNameInRow="FK_CollateralTypeId" msprop:Generator_ColumnVarNameInTable="columnFK_CollateralTypeId" msprop:Generator_ColumnPropNameInTable="FK_CollateralTypeIdColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="CollateralType" msprop:Generator_UserColumnName="CollateralType" msprop:Generator_ColumnVarNameInTable="columnCollateralType" msprop:Generator_ColumnPropNameInRow="CollateralType" msprop:Generator_ColumnPropNameInTable="CollateralTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Amount" msprop:Generator_UserColumnName="Amount" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInRow="Amount" msprop:Generator_ColumnPropNameInTable="AmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TotalAmount" msprop:Generator_UserColumnName="TotalAmount" msprop:Generator_ColumnPropNameInRow="TotalAmount" msprop:Generator_ColumnVarNameInTable="columnTotalAmount" msprop:Generator_ColumnPropNameInTable="TotalAmountColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="TransactionType" msprop:Generator_UserColumnName="TransactionType" msprop:Generator_ColumnVarNameInTable="columnTransactionType" msprop:Generator_ColumnPropNameInRow="TransactionType" msprop:Generator_ColumnPropNameInTable="TransactionTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TransactionDate" msprop:Generator_UserColumnName="TransactionDate" msprop:Generator_ColumnVarNameInTable="columnTransactionDate" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="TransactionDate" msprop:Generator_ColumnPropNameInTable="TransactionDateColumn" type="xs:string" default="NULL" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtBrokerCollateralInfo" />
+      <xs:field xpath="mstns:AccountGroupID" />
+    </xs:unique>
+    <xs:unique name="dtCollateralTypeMaster_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtCollateralTypeMaster" />
+      <xs:field xpath="mstns:CollateralTypeID" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="dtBrokerCollateralInfo_dtLastCollateralTransaction" msdata:parent="dtBrokerCollateralInfo" msdata:child="dtLastCollateralTransaction" msdata:parentkey="AccountGroupID" msdata:childkey="FK_AccountGroupId" msprop:Generator_UserRelationName="dtBrokerCollateralInfo_dtLastCollateralTransaction" msprop:Generator_RelationVarName="relationdtBrokerCollateralInfo_dtLastCollateralTransaction" msprop:Generator_UserChildTable="dtLastCollateralTransaction" msprop:Generator_UserParentTable="dtBrokerCollateralInfo" msprop:Generator_ParentPropName="dtBrokerCollateralInfoRow" msprop:Generator_ChildPropName="GetdtLastCollateralTransactionRows" />
+      <msdata:Relationship name="dtCollateralTypeMaster_dtLastCollateralTransaction" msdata:parent="dtCollateralTypeMaster" msdata:child="dtLastCollateralTransaction" msdata:parentkey="CollateralTypeID" msdata:childkey="FK_CollateralTypeId" msprop:Generator_UserRelationName="dtCollateralTypeMaster_dtLastCollateralTransaction" msprop:Generator_RelationVarName="relationdtCollateralTypeMaster_dtLastCollateralTransaction" msprop:Generator_UserChildTable="dtLastCollateralTransaction" msprop:Generator_UserParentTable="dtCollateralTypeMaster" msprop:Generator_ParentPropName="dtCollateralTypeMasterRow" msprop:Generator_ChildPropName="GetdtLastCollateralTransactionRows" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

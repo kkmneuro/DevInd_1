@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="BOExchange" Class="dbMan_BO_GetRoutingRequestTypeDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.1.101;Initial Catalog=BOExchange;User ID=sa" SettingsObjectName="DataAcessLogic.Properties.Settings" SettingsPropertyName="BOExchangeConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_GetRoutingRequestType" Method="BO_GetRoutingRequestType">
+    <ElementType Name="BO_GetRoutingRequestTypeResult">
+      <Column Name="PK_RequestTypeID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="RequestTypeName" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

@@ -1,0 +1,6 @@
+LANGUAGE:English
+GROUP:demoforex-eur
+LANGUAGE:Russian
+GROUP:demoforex-eur
+LANGUAGE:Chinease
+GROUP:demoforex-eur

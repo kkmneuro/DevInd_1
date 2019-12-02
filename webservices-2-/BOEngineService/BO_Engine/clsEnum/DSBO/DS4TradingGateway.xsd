@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS4TradingGateway" targetNamespace="http://tempuri.org/DS4TradingGateway.xsd" xmlns:mstns="http://tempuri.org/DS4TradingGateway.xsd" xmlns="http://tempuri.org/DS4TradingGateway.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS4TradingGateway" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS4TradingGateway" msprop:Generator_DataSetName="DS4TradingGateway" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtTradingGateway" msprop:Generator_UserTableName="dtTradingGateway" msprop:Generator_RowDeletedName="dtTradingGatewayRowDeleted" msprop:Generator_RowChangedName="dtTradingGatewayRowChanged" msprop:Generator_RowClassName="dtTradingGatewayRow" msprop:Generator_RowChangingName="dtTradingGatewayRowChanging" msprop:Generator_RowEvArgName="dtTradingGatewayRowChangeEvent" msprop:Generator_RowEvHandlerName="dtTradingGatewayRowChangeEventHandler" msprop:Generator_TableClassName="dtTradingGatewayDataTable" msprop:Generator_TableVarName="tabledtTradingGateway" msprop:Generator_RowDeletingName="dtTradingGatewayRowDeleting" msprop:Generator_TablePropName="dtTradingGateway">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PK_TradingGateWaysID" msprop:Generator_UserColumnName="PK_TradingGateWaysID" msprop:Generator_ColumnVarNameInTable="columnPK_TradingGateWaysID" msprop:Generator_ColumnPropNameInRow="PK_TradingGateWaysID" msprop:Generator_ColumnPropNameInTable="PK_TradingGateWaysIDColumn" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Server_IP" msprop:Generator_UserColumnName="Server_IP" msprop:Generator_ColumnVarNameInTable="columnServer_IP" msprop:Generator_ColumnPropNameInRow="Server_IP" msprop:Generator_ColumnPropNameInTable="Server_IPColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Port" msprop:Generator_UserColumnName="Port" msprop:Generator_ColumnVarNameInTable="columnPort" msprop:Generator_ColumnPropNameInRow="Port" msprop:Generator_ColumnPropNameInTable="PortColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DataType" msprop:Generator_UserColumnName="DataType" msprop:Generator_ColumnVarNameInTable="columnDataType" msprop:Generator_ColumnPropNameInRow="DataType" msprop:Generator_ColumnPropNameInTable="DataTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Login" msprop:Generator_UserColumnName="Login" msprop:Generator_ColumnVarNameInTable="columnLogin" msprop:Generator_ColumnPropNameInRow="Login" msprop:Generator_ColumnPropNameInTable="LoginColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Password" msprop:Generator_UserColumnName="Password" msprop:Generator_ColumnVarNameInTable="columnPassword" msprop:Generator_ColumnPropNameInRow="Password" msprop:Generator_ColumnPropNameInTable="PasswordColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IdleTimeOut" msprop:Generator_UserColumnName="IdleTimeOut" msprop:Generator_ColumnVarNameInTable="columnIdleTimeOut" msprop:Generator_ColumnPropNameInRow="IdleTimeOut" msprop:Generator_ColumnPropNameInTable="IdleTimeOutColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ReconnectAfter" msprop:Generator_UserColumnName="ReconnectAfter" msprop:Generator_ColumnVarNameInTable="columnReconnectAfter" msprop:Generator_ColumnPropNameInRow="ReconnectAfter" msprop:Generator_ColumnPropNameInTable="ReconnectAfterColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SleepFor" msprop:Generator_UserColumnName="SleepFor" msprop:Generator_ColumnVarNameInTable="columnSleepFor" msprop:Generator_ColumnPropNameInRow="SleepFor" msprop:Generator_ColumnPropNameInTable="SleepForColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Attempts" msprop:Generator_UserColumnName="Attempts" msprop:Generator_ColumnVarNameInTable="columnAttempts" msprop:Generator_ColumnPropNameInRow="Attempts" msprop:Generator_ColumnPropNameInTable="AttemptsColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="IsEnable" msprop:Generator_UserColumnName="IsEnable" msprop:Generator_ColumnVarNameInTable="columnIsEnable" msprop:Generator_ColumnPropNameInRow="IsEnable" msprop:Generator_ColumnPropNameInTable="IsEnableColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtSymbol" msprop:Generator_UserTableName="dtSymbol" msprop:Generator_RowDeletedName="dtSymbolRowDeleted" msprop:Generator_RowChangedName="dtSymbolRowChanged" msprop:Generator_RowClassName="dtSymbolRow" msprop:Generator_RowChangingName="dtSymbolRowChanging" msprop:Generator_RowEvArgName="dtSymbolRowChangeEvent" msprop:Generator_RowEvHandlerName="dtSymbolRowChangeEventHandler" msprop:Generator_TableClassName="dtSymbolDataTable" msprop:Generator_TableVarName="tabledtSymbol" msprop:Generator_RowDeletingName="dtSymbolRowDeleting" msprop:Generator_TablePropName="dtSymbol">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FK_TradingGatewayID" msprop:Generator_UserColumnName="FK_TradingGatewayID" msprop:Generator_ColumnPropNameInRow="FK_TradingGatewayID" msprop:Generator_ColumnVarNameInTable="columnFK_TradingGatewayID" msprop:Generator_ColumnPropNameInTable="FK_TradingGatewayIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Select" msprop:Generator_UserColumnName="Select" msprop:Generator_ColumnVarNameInTable="columnSelect" msprop:Generator_ColumnPropNameInRow="Select" msprop:Generator_ColumnPropNameInTable="SelectColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Symbol" msprop:Generator_UserColumnName="Symbol" msprop:Generator_ColumnVarNameInTable="columnSymbol" msprop:Generator_ColumnPropNameInRow="Symbol" msprop:Generator_ColumnPropNameInTable="SymbolColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SymbolAlias" msprop:Generator_UserColumnName="SymbolAlias" msprop:Generator_ColumnVarNameInTable="columnSymbolAlias" msprop:Generator_ColumnPropNameInRow="SymbolAlias" msprop:Generator_ColumnPropNameInTable="SymbolAliasColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtTradingGateway" />
+      <xs:field xpath="mstns:PK_TradingGateWaysID" />
+    </xs:unique>
+    <xs:keyref name="FK_dtTradingGateway_dtSymbol" refer="Constraint1" msdata:ConstraintOnly="true">
+      <xs:selector xpath=".//mstns:dtSymbol" />
+      <xs:field xpath="mstns:FK_TradingGatewayID" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

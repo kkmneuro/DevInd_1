@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BOExchange_NG" Class="dbMan_BO_SelectSymbolChargesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=127.0.0.1;Initial Catalog=BOExchange_NG;User ID=sa" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="BOExchange_NGConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_SelectBrokersChargesInfo" Method="BO_SelectBrokersChargesInfo">
+    <Parameter Name="BrokersGroupID" Parameter="brokersGroupID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="BO_SelectBrokersChargesInfoResult">
+      <Column Name="PK_SymbolsChargesID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FK_AccountGroupId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FK_InstruementID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Symbol" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="FeeName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FeeValue" Type="System.Decimal" DbType="Decimal(18,5)" CanBeNull="true" />
+      <Column Name="TaxName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="TaxPercent" Type="System.Decimal" DbType="Decimal(18,2)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

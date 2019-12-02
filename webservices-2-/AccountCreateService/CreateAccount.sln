@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AccountCreateService20121912", ".", "{32534A25-D00B-4E25-A685-BD538766CAAE}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{5632D4A9-C71D-4137-B61C-A38A060FA60B}|GeneralUtilty.dll;{0B4D275D-DCB5-488D-8D31-E916FE9F2546}|Logging.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/RamService"
+		Debug.AspNetCompiler.PhysicalPath = "..\AccountCreateService20121912\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\RamService\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/RamService"
+		Release.AspNetCompiler.PhysicalPath = "..\AccountCreateService20121912\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\RamService\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1895"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneralUtilty", "GeneralUtilty\GeneralUtilty.csproj", "{5632D4A9-C71D-4137-B61C-A38A060FA60B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logging", "Logging\Logging.csproj", "{0B4D275D-DCB5-488D-8D31-E916FE9F2546}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32534A25-D00B-4E25-A685-BD538766CAAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32534A25-D00B-4E25-A685-BD538766CAAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32534A25-D00B-4E25-A685-BD538766CAAE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{32534A25-D00B-4E25-A685-BD538766CAAE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{32534A25-D00B-4E25-A685-BD538766CAAE}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{32534A25-D00B-4E25-A685-BD538766CAAE}.Release|x86.ActiveCfg = Debug|Any CPU
+		{5632D4A9-C71D-4137-B61C-A38A060FA60B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5632D4A9-C71D-4137-B61C-A38A060FA60B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5632D4A9-C71D-4137-B61C-A38A060FA60B}.Debug|x86.ActiveCfg = Debug|x86
+		{5632D4A9-C71D-4137-B61C-A38A060FA60B}.Debug|x86.Build.0 = Debug|x86
+		{5632D4A9-C71D-4137-B61C-A38A060FA60B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5632D4A9-C71D-4137-B61C-A38A060FA60B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5632D4A9-C71D-4137-B61C-A38A060FA60B}.Release|x86.ActiveCfg = Release|x86
+		{5632D4A9-C71D-4137-B61C-A38A060FA60B}.Release|x86.Build.0 = Release|x86
+		{0B4D275D-DCB5-488D-8D31-E916FE9F2546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B4D275D-DCB5-488D-8D31-E916FE9F2546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B4D275D-DCB5-488D-8D31-E916FE9F2546}.Debug|x86.ActiveCfg = Debug|x86
+		{0B4D275D-DCB5-488D-8D31-E916FE9F2546}.Debug|x86.Build.0 = Debug|x86
+		{0B4D275D-DCB5-488D-8D31-E916FE9F2546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B4D275D-DCB5-488D-8D31-E916FE9F2546}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B4D275D-DCB5-488D-8D31-E916FE9F2546}.Release|x86.ActiveCfg = Release|x86
+		{0B4D275D-DCB5-488D-8D31-E916FE9F2546}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

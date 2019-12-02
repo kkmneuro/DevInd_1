@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS4DayClosingReport" targetNamespace="http://tempuri.org/DS4DayClosingReport.xsd" xmlns:mstns="http://tempuri.org/DS4DayClosingReport.xsd" xmlns="http://tempuri.org/DS4DayClosingReport.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS4DayClosingReport" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS4DayClosingReport" msprop:Generator_DataSetName="DS4DayClosingReport" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtDayClosingReport" msprop:Generator_UserTableName="dtDayClosingReport" msprop:Generator_RowDeletedName="dtDayClosingReportRowDeleted" msprop:Generator_RowChangedName="dtDayClosingReportRowChanged" msprop:Generator_RowClassName="dtDayClosingReportRow" msprop:Generator_RowChangingName="dtDayClosingReportRowChanging" msprop:Generator_RowEvArgName="dtDayClosingReportRowChangeEvent" msprop:Generator_RowEvHandlerName="dtDayClosingReportRowChangeEventHandler" msprop:Generator_TableClassName="dtDayClosingReportDataTable" msprop:Generator_TableVarName="tabledtDayClosingReport" msprop:Generator_RowDeletingName="dtDayClosingReportRowDeleting" msprop:Generator_TablePropName="dtDayClosingReport">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SNo" msprop:Generator_UserColumnName="SNo" msprop:nullValue="0" msprop:Generator_ColumnPropNameInRow="SNo" msprop:Generator_ColumnPropNameInTable="SNoColumn" msprop:Generator_ColumnVarNameInTable="columnSNo" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="SymbolFutureDate" msprop:Generator_UserColumnName="SymbolFutureDate" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="SymbolFutureDate" msprop:Generator_ColumnPropNameInTable="SymbolFutureDateColumn" msprop:Generator_ColumnVarNameInTable="columnSymbolFutureDate" type="xs:string" default="NULL" />
+              <xs:element name="TradeDate" msprop:Generator_UserColumnName="TradeDate" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="TradeDate" msprop:Generator_ColumnPropNameInTable="TradeDateColumn" msprop:Generator_ColumnVarNameInTable="columnTradeDate" type="xs:string" default="NULL" minOccurs="0" />
+              <xs:element name="TradedBuyUnit" msprop:Generator_UserColumnName="TradedBuyUnit" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnTradedBuyUnit" msprop:Generator_ColumnPropNameInTable="TradedBuyUnitColumn" msprop:Generator_ColumnPropNameInRow="TradedBuyUnit" type="xs:long" default="0" minOccurs="0" />
+              <xs:element name="TradedSellUnit" msprop:Generator_UserColumnName="TradedSellUnit" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnTradedSellUnit" msprop:Generator_ColumnPropNameInTable="TradedSellUnitColumn" msprop:Generator_ColumnPropNameInRow="TradedSellUnit" type="xs:long" default="0" minOccurs="0" />
+              <xs:element name="TradedBuyValue" msprop:Generator_UserColumnName="TradedBuyValue" msprop:nullValue="0" msprop:Generator_ColumnPropNameInRow="TradedBuyValue" msprop:Generator_ColumnPropNameInTable="TradedBuyValueColumn" msprop:Generator_ColumnVarNameInTable="columnTradedBuyValue" type="xs:long" default="0" minOccurs="0" />
+              <xs:element name="TradedSellValue" msprop:Generator_UserColumnName="TradedSellValue" msprop:nullValue="0" msprop:Generator_ColumnPropNameInRow="TradedSellValue" msprop:Generator_ColumnPropNameInTable="TradedSellValueColumn" msprop:Generator_ColumnVarNameInTable="columnTradedSellValue" type="xs:long" default="0" minOccurs="0" />
+              <xs:element name="OpenBuyQuantity" msprop:Generator_UserColumnName="OpenBuyQuantity" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnOpenBuyQuantity" msprop:Generator_ColumnPropNameInTable="OpenBuyQuantityColumn" msprop:Generator_ColumnPropNameInRow="OpenBuyQuantity" type="xs:long" default="0" minOccurs="0" />
+              <xs:element name="OpenSellQuantity" msprop:Generator_UserColumnName="OpenSellQuantity" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnOpenSellQuantity" msprop:Generator_ColumnPropNameInTable="OpenSellQuantityColumn" msprop:Generator_ColumnPropNameInRow="OpenSellQuantity" type="xs:long" default="0" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtDayClosingReport" />
+      <xs:field xpath="mstns:SymbolFutureDate" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

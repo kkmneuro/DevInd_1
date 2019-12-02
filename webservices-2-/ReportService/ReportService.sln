@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportServiceClasses", "ReportServiceClasses\ReportServiceClasses.csproj", "{A7012076-4DA5-47B9-98DA-52E57640540E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAcessLogic", "DataAcessLogic\DataAcessLogic.csproj", "{29523AFF-CBC4-4905-9C3F-DC567EE4B582}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ReportService", "ReportService\", "{5B82E82E-9239-4EB7-AB17-8C6F0C209988}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		ProjectReferences = "{A7012076-4DA5-47B9-98DA-52E57640540E}|ReportServiceClasses.dll;{29523AFF-CBC4-4905-9C3F-DC567EE4B582}|DataAcessLogic.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/ReportService"
+		Debug.AspNetCompiler.PhysicalPath = "ReportService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ReportService\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ReportService"
+		Release.AspNetCompiler.PhysicalPath = "ReportService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ReportService\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51267"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7012076-4DA5-47B9-98DA-52E57640540E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7012076-4DA5-47B9-98DA-52E57640540E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7012076-4DA5-47B9-98DA-52E57640540E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7012076-4DA5-47B9-98DA-52E57640540E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29523AFF-CBC4-4905-9C3F-DC567EE4B582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29523AFF-CBC4-4905-9C3F-DC567EE4B582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29523AFF-CBC4-4905-9C3F-DC567EE4B582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29523AFF-CBC4-4905-9C3F-DC567EE4B582}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B82E82E-9239-4EB7-AB17-8C6F0C209988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B82E82E-9239-4EB7-AB17-8C6F0C209988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B82E82E-9239-4EB7-AB17-8C6F0C209988}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B82E82E-9239-4EB7-AB17-8C6F0C209988}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

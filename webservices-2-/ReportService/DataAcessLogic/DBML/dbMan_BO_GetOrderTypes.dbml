@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="BOExchange" Class="dbMan_BO_GetOrderTypesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.1.101;Initial Catalog=BOExchange;User ID=sa" SettingsObjectName="DataAcessLogic.Properties.Settings" SettingsPropertyName="BOExchangeConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_GetOMSOrderTypes" Method="BO_GetOMSOrderTypes">
+    <ElementType Name="BO_GetOMSOrderTypesResult">
+      <Column Name="PK_OrderTypeID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BOExchange_NG" Class="dbMan_BO_FeesMasterUpdateDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=127.0.0.1;Initial Catalog=BOExchange_NG;User ID=sa" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="BOExchange_NGConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_FeeMasterUpdate" Method="BO_FeeMasterUpdate">
+    <Parameter Name="ID" Parameter="iD" Type="System.Int32" DbType="Int" />
+    <Parameter Name="FeeNAme" Parameter="feeNAme" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="MinimumFeeValue" Parameter="minimumFeeValue" Type="System.Decimal" DbType="Decimal(18,5)" />
+    <Parameter Name="MaximunFeeValue" Parameter="maximunFeeValue" Type="System.Decimal" DbType="Decimal(18,5)" />
+    <Parameter Name="Interval" Parameter="interval" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="IsTaxable" Parameter="isTaxable" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="descp" Type="System.String" DbType="VarChar(256)" />
+    <Parameter Name="FeesMode" Parameter="feesMode" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="LevyOn" Parameter="levyOn" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="Days" Parameter="days" Type="System.String" DbType="VarChar(15)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

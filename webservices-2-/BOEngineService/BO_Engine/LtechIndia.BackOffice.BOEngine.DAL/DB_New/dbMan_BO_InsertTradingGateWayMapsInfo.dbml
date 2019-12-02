@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BOExchange_NG" Class="dbMan_BO_InsertTradingGateWayMapsInfoDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=127.0.0.1;Initial Catalog=BOExchange_NG;User ID=sa" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="BOExchange_NGConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_InsertTradingGateWayMapsInfo" Method="BO_InsertTradingGateWayMapsInfo">
+    <Parameter Name="TradingGateWayID" Parameter="tradingGateWayID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Instrument" Parameter="instrument" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="SymbolAlias" Parameter="symbolAlias" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="SymbolConversionFormula" Parameter="symbolConversionFormula" Type="System.Decimal" DbType="Decimal(18,2)" />
+    <Parameter Name="PoductName" Parameter="poductName" Type="System.String" DbType="VarChar(20)" Direction="InOut" />
+    <Parameter Name="PoductAlias" Parameter="poductAlias" Type="System.String" DbType="VarChar(20)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

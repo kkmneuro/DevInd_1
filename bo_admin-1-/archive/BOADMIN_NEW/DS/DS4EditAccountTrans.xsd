@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS4EditAccountTrans" targetNamespace="http://tempuri.org/DS4EditAccountTrans.xsd" xmlns:mstns="http://tempuri.org/DS4EditAccountTrans.xsd" xmlns="http://tempuri.org/DS4EditAccountTrans.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS4EditAccountTrans" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS4EditAccountTrans" msprop:Generator_DataSetName="DS4EditAccountTrans" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtAccountTrans" msprop:Generator_UserTableName="dtAccountTrans" msprop:Generator_RowDeletedName="dtAccountTransRowDeleted" msprop:Generator_RowChangedName="dtAccountTransRowChanged" msprop:Generator_RowClassName="dtAccountTransRow" msprop:Generator_RowChangingName="dtAccountTransRowChanging" msprop:Generator_RowEvArgName="dtAccountTransRowChangeEvent" msprop:Generator_RowEvHandlerName="dtAccountTransRowChangeEventHandler" msprop:Generator_TableClassName="dtAccountTransDataTable" msprop:Generator_TableVarName="tabledtAccountTrans" msprop:Generator_RowDeletingName="dtAccountTransRowDeleting" msprop:Generator_TablePropName="dtAccountTrans">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_UserColumnName="ID" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_ColumnPropNameInRow="ID" type="xs:int" default="0" />
+              <xs:element name="AccountID" msprop:Generator_UserColumnName="AccountID" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnAccountID" msprop:Generator_ColumnPropNameInTable="AccountIDColumn" msprop:Generator_ColumnPropNameInRow="AccountID" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="Amount" msprop:Generator_UserColumnName="Amount" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnAmount" msprop:Generator_ColumnPropNameInTable="AmountColumn" msprop:Generator_ColumnPropNameInRow="Amount" type="xs:decimal" default="0" minOccurs="0" />
+              <xs:element name="PaymentType" msprop:Generator_UserColumnName="PaymentType" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnPaymentType" msprop:Generator_ColumnPropNameInTable="PaymentTypeColumn" msprop:Generator_ColumnPropNameInRow="PaymentType" type="xs:string" default="NULL" minOccurs="0" />
+              <xs:element name="PaymentMode" msprop:Generator_UserColumnName="PaymentMode" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnPaymentMode" msprop:Generator_ColumnPropNameInTable="PaymentModeColumn" msprop:Generator_ColumnPropNameInRow="PaymentMode" type="xs:string" default="NULL" minOccurs="0" />
+              <xs:element name="PaymentDate" msprop:Generator_UserColumnName="PaymentDate" msprop:Generator_ColumnVarNameInTable="columnPaymentDate" msprop:Generator_ColumnPropNameInRow="PaymentDate" msprop:Generator_ColumnPropNameInTable="PaymentDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ChequeNo" msprop:Generator_UserColumnName="ChequeNo" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnChequeNo" msprop:Generator_ColumnPropNameInTable="ChequeNoColumn" msprop:Generator_ColumnPropNameInRow="ChequeNo" type="xs:string" default="NULL" minOccurs="0" />
+              <xs:element name="Remark" msprop:Generator_UserColumnName="Remark" msprop:Generator_ColumnPropNameInRow="Remark" msprop:Generator_ColumnVarNameInTable="columnRemark" msprop:Generator_ColumnPropNameInTable="RemarkColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtAccountTrans" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

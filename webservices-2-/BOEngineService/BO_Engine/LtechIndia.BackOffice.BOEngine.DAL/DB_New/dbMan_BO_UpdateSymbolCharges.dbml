@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BOExchange_NG" Class="dbMan_BO_UpdateSymbolChargesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=127.0.0.1;Initial Catalog=BOExchange_NG;User ID=sa" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="BOExchange_NGConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_UpdateSymbolCharges" Method="BO_UpdateSymbolCharges">
+    <Parameter Name="ChargesID" Parameter="chargesID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="BrokerGroupID" Parameter="brokerGroupID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="InstrumentID" Parameter="instrumentID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="FeeType" Parameter="feeType" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="FeeValue" Parameter="feeValue" Type="System.Decimal" DbType="Decimal(18,5)" />
+    <Parameter Name="TaxType" Parameter="taxType" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="TaxValue" Parameter="taxValue" Type="System.Decimal" DbType="Decimal(18,2)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

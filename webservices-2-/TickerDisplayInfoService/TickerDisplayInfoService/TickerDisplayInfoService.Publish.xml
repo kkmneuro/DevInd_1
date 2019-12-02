@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\TickerDisplayInfoService" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/TickerDisplayInfoService.pdb" publishTime="11/24/2012 18:30:30" />
+    <file relUrl="bin/TickerDisplayInfoService.dll" publishTime="11/24/2012 18:30:30" />
+    <file relUrl="TickerDisplayInfoService.svc" publishTime="11/24/2012 17:00:36" />
+    <file relUrl="Web.config" publishTime="11/24/2012 18:30:36" />
+  </publishProfile>
+</publishData>

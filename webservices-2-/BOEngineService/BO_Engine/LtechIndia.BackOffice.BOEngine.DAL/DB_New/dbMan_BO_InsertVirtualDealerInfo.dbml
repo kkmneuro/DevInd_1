@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BOExchange_NG" Class="dbMan_BO_InsertVirtualDealerInfoDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=127.0.0.1;Initial Catalog=BOExchange_NG;User ID=sa" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="BOExchange_NGConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_InsertVirtualDealerInfo" Method="BO_InsertVirtualDealerInfo">
+    <Parameter Name="VirtualDealerID" Parameter="virtualDealerID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Delay" Parameter="delay" Type="System.Int32" DbType="Int" />
+    <Parameter Name="VirtualManagerAccount" Parameter="virtualManagerAccount" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="Groups" Parameter="groups" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="Symbols" Parameter="symbols" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="MaxVolume" Parameter="maxVolume" Type="System.Decimal" DbType="Decimal(18,0)" />
+    <Parameter Name="MaxLosingSlippage" Parameter="maxLosingSlippage" Type="System.Int32" DbType="Int" />
+    <Parameter Name="MaxProfitSlippage" Parameter="maxProfitSlippage" Type="System.Int32" DbType="Int" />
+    <Parameter Name="MaxProfitSlippageVolume" Parameter="maxProfitSlippageVolume" Type="System.Int32" DbType="Int" />
+    <Parameter Name="GapLevel" Parameter="gapLevel" Type="System.Int32" DbType="Int" />
+    <Parameter Name="GapSafeLevel" Parameter="gapSafeLevel" Type="System.Int32" DbType="Int" />
+    <Parameter Name="GapTickCounter" Parameter="gapTickCounter" Type="System.Int32" DbType="Int" />
+    <Parameter Name="GapPendingsCancel" Parameter="gapPendingsCancel" Type="System.Int32" DbType="Int" />
+    <Parameter Name="GapTakeProfitSlide" Parameter="gapTakeProfitSlide" Type="System.Int32" DbType="Int" />
+    <Parameter Name="GapStopLossSlide" Parameter="gapStopLossSlide" Type="System.Int32" DbType="Int" />
+    <Parameter Name="NewsStopsFreezes" Parameter="newsStopsFreezes" Type="System.Int32" DbType="Int" />
+    <Parameter Name="AllowPendingsOnNews" Parameter="allowPendingsOnNews" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

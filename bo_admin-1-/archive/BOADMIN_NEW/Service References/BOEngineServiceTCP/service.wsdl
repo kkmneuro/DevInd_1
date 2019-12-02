@@ -1,0 +1,2944 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:tns="http://tempuri.org/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" name="BOEngineService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="net.TCP_LoginEndPoint_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsrm:RMAssertion xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm/policy">
+          <wsrm:InactivityTimeout Milliseconds="43200000">
+          </wsrm:InactivityTimeout>
+          <wsrm:AcknowledgementInterval Milliseconds="200">
+          </wsrm:AcknowledgementInterval>
+        </wsrm:RMAssertion>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1">
+        </msb:BinaryEncoding>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:SslTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                </msf:SslTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256>
+                </sp:Basic256>
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict>
+                </sp:Strict>
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing>
+        </wsaw:UsingAddressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="wsHttp_LoginEndPoint_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsrm:RMAssertion xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm/policy">
+          <wsrm:InactivityTimeout Milliseconds="600000">
+          </wsrm:InactivityTimeout>
+          <wsrm:AcknowledgementInterval Milliseconds="200">
+          </wsrm:AcknowledgementInterval>
+        </wsrm:RMAssertion>
+        <sp:SymmetricBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:ProtectionToken>
+              <wsp:Policy>
+                <sp:SecureConversationToken sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
+                  <wsp:Policy>
+                    <sp:RequireDerivedKeys>
+                    </sp:RequireDerivedKeys>
+                    <sp:BootstrapPolicy>
+                      <wsp:Policy>
+                        <sp:SignedParts>
+                          <sp:Body>
+                          </sp:Body>
+                          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing">
+                          </sp:Header>
+                          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing">
+                          </sp:Header>
+                          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing">
+                          </sp:Header>
+                          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing">
+                          </sp:Header>
+                          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing">
+                          </sp:Header>
+                          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing">
+                          </sp:Header>
+                          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing">
+                          </sp:Header>
+                        </sp:SignedParts>
+                        <sp:EncryptedParts>
+                          <sp:Body>
+                          </sp:Body>
+                        </sp:EncryptedParts>
+                        <sp:SymmetricBinding>
+                          <wsp:Policy>
+                            <sp:ProtectionToken>
+                              <wsp:Policy>
+                                <mssp:SslContextToken sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient" xmlns:mssp="http://schemas.microsoft.com/ws/2005/07/securitypolicy">
+                                  <wsp:Policy>
+                                    <sp:RequireDerivedKeys>
+                                    </sp:RequireDerivedKeys>
+                                  </wsp:Policy>
+                                </mssp:SslContextToken>
+                              </wsp:Policy>
+                            </sp:ProtectionToken>
+                            <sp:AlgorithmSuite>
+                              <wsp:Policy>
+                                <sp:Basic256>
+                                </sp:Basic256>
+                              </wsp:Policy>
+                            </sp:AlgorithmSuite>
+                            <sp:Layout>
+                              <wsp:Policy>
+                                <sp:Strict>
+                                </sp:Strict>
+                              </wsp:Policy>
+                            </sp:Layout>
+                            <sp:IncludeTimestamp>
+                            </sp:IncludeTimestamp>
+                            <sp:EncryptSignature>
+                            </sp:EncryptSignature>
+                            <sp:OnlySignEntireHeadersAndBody>
+                            </sp:OnlySignEntireHeadersAndBody>
+                          </wsp:Policy>
+                        </sp:SymmetricBinding>
+                        <sp:SignedSupportingTokens>
+                          <wsp:Policy>
+                            <sp:UsernameToken sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
+                              <wsp:Policy>
+                                <sp:WssUsernameToken10>
+                                </sp:WssUsernameToken10>
+                              </wsp:Policy>
+                            </sp:UsernameToken>
+                          </wsp:Policy>
+                        </sp:SignedSupportingTokens>
+                        <sp:Wss11>
+                          <wsp:Policy>
+                            <sp:MustSupportRefKeyIdentifier>
+                            </sp:MustSupportRefKeyIdentifier>
+                            <sp:MustSupportRefIssuerSerial>
+                            </sp:MustSupportRefIssuerSerial>
+                            <sp:MustSupportRefThumbprint>
+                            </sp:MustSupportRefThumbprint>
+                            <sp:MustSupportRefEncryptedKey>
+                            </sp:MustSupportRefEncryptedKey>
+                          </wsp:Policy>
+                        </sp:Wss11>
+                        <sp:Trust10>
+                          <wsp:Policy>
+                            <sp:MustSupportIssuedTokens>
+                            </sp:MustSupportIssuedTokens>
+                            <sp:RequireClientEntropy>
+                            </sp:RequireClientEntropy>
+                            <sp:RequireServerEntropy>
+                            </sp:RequireServerEntropy>
+                          </wsp:Policy>
+                        </sp:Trust10>
+                      </wsp:Policy>
+                    </sp:BootstrapPolicy>
+                  </wsp:Policy>
+                </sp:SecureConversationToken>
+              </wsp:Policy>
+            </sp:ProtectionToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256>
+                </sp:Basic256>
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict>
+                </sp:Strict>
+              </wsp:Policy>
+            </sp:Layout>
+            <sp:IncludeTimestamp>
+            </sp:IncludeTimestamp>
+            <sp:EncryptSignature>
+            </sp:EncryptSignature>
+            <sp:OnlySignEntireHeadersAndBody>
+            </sp:OnlySignEntireHeadersAndBody>
+          </wsp:Policy>
+        </sp:SymmetricBinding>
+        <sp:Wss11 xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:MustSupportRefKeyIdentifier>
+            </sp:MustSupportRefKeyIdentifier>
+            <sp:MustSupportRefIssuerSerial>
+            </sp:MustSupportRefIssuerSerial>
+            <sp:MustSupportRefThumbprint>
+            </sp:MustSupportRefThumbprint>
+            <sp:MustSupportRefEncryptedKey>
+            </sp:MustSupportRefEncryptedKey>
+          </wsp:Policy>
+        </sp:Wss11>
+        <sp:Trust10 xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:MustSupportIssuedTokens>
+            </sp:MustSupportIssuedTokens>
+            <sp:RequireClientEntropy>
+            </sp:RequireClientEntropy>
+            <sp:RequireServerEntropy>
+            </sp:RequireServerEntropy>
+          </wsp:Policy>
+        </sp:Trust10>
+        <wsaw:UsingAddressing>
+        </wsaw:UsingAddressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="wsHttp_LoginEndPoint_AuthenticateLogin_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body>
+          </sp:Body>
+          <sp:Header Name="Sequence" Namespace="http://schemas.xmlsoap.org/ws/2005/02/rm">
+          </sp:Header>
+          <sp:Header Name="SequenceAcknowledgement" Namespace="http://schemas.xmlsoap.org/ws/2005/02/rm">
+          </sp:Header>
+          <sp:Header Name="AckRequested" Namespace="http://schemas.xmlsoap.org/ws/2005/02/rm">
+          </sp:Header>
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body>
+          </sp:Body>
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="wsHttp_LoginEndPoint_AuthenticateLogin_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body>
+          </sp:Body>
+          <sp:Header Name="Sequence" Namespace="http://schemas.xmlsoap.org/ws/2005/02/rm">
+          </sp:Header>
+          <sp:Header Name="SequenceAcknowledgement" Namespace="http://schemas.xmlsoap.org/ws/2005/02/rm">
+          </sp:Header>
+          <sp:Header Name="AckRequested" Namespace="http://schemas.xmlsoap.org/ws/2005/02/rm">
+          </sp:Header>
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body>
+          </sp:Body>
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="wsHttp_LoginEndPoint_LogOut_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body>
+          </sp:Body>
+          <sp:Header Name="Sequence" Namespace="http://schemas.xmlsoap.org/ws/2005/02/rm">
+          </sp:Header>
+          <sp:Header Name="SequenceAcknowledgement" Namespace="http://schemas.xmlsoap.org/ws/2005/02/rm">
+          </sp:Header>
+          <sp:Header Name="AckRequested" Namespace="http://schemas.xmlsoap.org/ws/2005/02/rm">
+          </sp:Header>
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body>
+          </sp:Body>
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="wsHttp_LoginEndPoint_LogOut_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body>
+          </sp:Body>
+          <sp:Header Name="Sequence" Namespace="http://schemas.xmlsoap.org/ws/2005/02/rm">
+          </sp:Header>
+          <sp:Header Name="SequenceAcknowledgement" Namespace="http://schemas.xmlsoap.org/ws/2005/02/rm">
+          </sp:Header>
+          <sp:Header Name="AckRequested" Namespace="http://schemas.xmlsoap.org/ws/2005/02/rm">
+          </sp:Header>
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body>
+          </sp:Body>
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="wsHttp_LoginEndPoint_HandleBrokerOperationsLog_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body>
+          </sp:Body>
+          <sp:Header Name="Sequence" Namespace="http://schemas.xmlsoap.org/ws/2005/02/rm">
+          </sp:Header>
+          <sp:Header Name="SequenceAcknowledgement" Namespace="http://schemas.xmlsoap.org/ws/2005/02/rm">
+          </sp:Header>
+          <sp:Header Name="AckRequested" Namespace="http://schemas.xmlsoap.org/ws/2005/02/rm">
+          </sp:Header>
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+        </sp:SignedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="wsHttp_LoginEndPoint_HandleBrokerOperationsLog_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body>
+          </sp:Body>
+          <sp:Header Name="Sequence" Namespace="http://schemas.xmlsoap.org/ws/2005/02/rm">
+          </sp:Header>
+          <sp:Header Name="SequenceAcknowledgement" Namespace="http://schemas.xmlsoap.org/ws/2005/02/rm">
+          </sp:Header>
+          <sp:Header Name="AckRequested" Namespace="http://schemas.xmlsoap.org/ws/2005/02/rm">
+          </sp:Header>
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+        </sp:SignedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="wsHttp_LoginEndPoint_GetHistoricalData_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body>
+          </sp:Body>
+          <sp:Header Name="Sequence" Namespace="http://schemas.xmlsoap.org/ws/2005/02/rm">
+          </sp:Header>
+          <sp:Header Name="SequenceAcknowledgement" Namespace="http://schemas.xmlsoap.org/ws/2005/02/rm">
+          </sp:Header>
+          <sp:Header Name="AckRequested" Namespace="http://schemas.xmlsoap.org/ws/2005/02/rm">
+          </sp:Header>
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+        </sp:SignedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="wsHttp_LoginEndPoint_GetHistoricalData_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body>
+          </sp:Body>
+          <sp:Header Name="Sequence" Namespace="http://schemas.xmlsoap.org/ws/2005/02/rm">
+          </sp:Header>
+          <sp:Header Name="SequenceAcknowledgement" Namespace="http://schemas.xmlsoap.org/ws/2005/02/rm">
+          </sp:Header>
+          <sp:Header Name="AckRequested" Namespace="http://schemas.xmlsoap.org/ws/2005/02/rm">
+          </sp:Header>
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing">
+          </sp:Header>
+        </sp:SignedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="wsHttp_IPAccessListEndPoint_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsrm:RMAssertion xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm/policy">
+          <wsrm:InactivityTimeout Milliseconds="43200000">
+          </wsrm:InactivityTimeout>
+          <wsrm:AcknowledgementInterval Milliseconds="200">
+          </wsrm:AcknowledgementInterval>
+        </wsrm:RMAssertion>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1">
+        </msb:BinaryEncoding>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:SslTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                </msf:SslTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256>
+                </sp:Basic256>
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict>
+                </sp:Strict>
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing>
+        </wsaw:UsingAddressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="wsHttp_FeeMaster_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsrm:RMAssertion xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm/policy">
+          <wsrm:InactivityTimeout Milliseconds="43200000">
+          </wsrm:InactivityTimeout>
+          <wsrm:AcknowledgementInterval Milliseconds="200">
+          </wsrm:AcknowledgementInterval>
+        </wsrm:RMAssertion>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1">
+        </msb:BinaryEncoding>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:SslTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                </msf:SslTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256>
+                </sp:Basic256>
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict>
+                </sp:Strict>
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing>
+        </wsaw:UsingAddressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="wsHttp_TaxMaster_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsrm:RMAssertion xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm/policy">
+          <wsrm:InactivityTimeout Milliseconds="43200000">
+          </wsrm:InactivityTimeout>
+          <wsrm:AcknowledgementInterval Milliseconds="200">
+          </wsrm:AcknowledgementInterval>
+        </wsrm:RMAssertion>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1">
+        </msb:BinaryEncoding>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:SslTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                </msf:SslTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256>
+                </sp:Basic256>
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict>
+                </sp:Strict>
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing>
+        </wsaw:UsingAddressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="wsHttp_Holiday_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsrm:RMAssertion xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm/policy">
+          <wsrm:InactivityTimeout Milliseconds="43200000">
+          </wsrm:InactivityTimeout>
+          <wsrm:AcknowledgementInterval Milliseconds="200">
+          </wsrm:AcknowledgementInterval>
+        </wsrm:RMAssertion>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1">
+        </msb:BinaryEncoding>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:SslTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                </msf:SslTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256>
+                </sp:Basic256>
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict>
+                </sp:Strict>
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing>
+        </wsaw:UsingAddressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="wsHttp_ContractSpecification_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsrm:RMAssertion xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm/policy">
+          <wsrm:InactivityTimeout Milliseconds="43200000">
+          </wsrm:InactivityTimeout>
+          <wsrm:AcknowledgementInterval Milliseconds="200">
+          </wsrm:AcknowledgementInterval>
+        </wsrm:RMAssertion>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1">
+        </msb:BinaryEncoding>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:SslTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                </msf:SslTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256>
+                </sp:Basic256>
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict>
+                </sp:Strict>
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing>
+        </wsaw:UsingAddressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="wsHttp_MasterInfo_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsrm:RMAssertion xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm/policy">
+          <wsrm:InactivityTimeout Milliseconds="43200000">
+          </wsrm:InactivityTimeout>
+          <wsrm:AcknowledgementInterval Milliseconds="200">
+          </wsrm:AcknowledgementInterval>
+        </wsrm:RMAssertion>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1">
+        </msb:BinaryEncoding>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:SslTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                </msf:SslTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256>
+                </sp:Basic256>
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict>
+                </sp:Strict>
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing>
+        </wsaw:UsingAddressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="wsHttp_TimeSettings_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsrm:RMAssertion xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm/policy">
+          <wsrm:InactivityTimeout Milliseconds="43200000">
+          </wsrm:InactivityTimeout>
+          <wsrm:AcknowledgementInterval Milliseconds="200">
+          </wsrm:AcknowledgementInterval>
+        </wsrm:RMAssertion>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1">
+        </msb:BinaryEncoding>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:SslTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                </msf:SslTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256>
+                </sp:Basic256>
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict>
+                </sp:Strict>
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing>
+        </wsaw:UsingAddressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="wsHttp_TradingGateway_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsrm:RMAssertion xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm/policy">
+          <wsrm:InactivityTimeout Milliseconds="43200000">
+          </wsrm:InactivityTimeout>
+          <wsrm:AcknowledgementInterval Milliseconds="200">
+          </wsrm:AcknowledgementInterval>
+        </wsrm:RMAssertion>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1">
+        </msb:BinaryEncoding>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:SslTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                </msf:SslTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256>
+                </sp:Basic256>
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict>
+                </sp:Strict>
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing>
+        </wsaw:UsingAddressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="netTcp_Brokers_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsrm:RMAssertion xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm/policy">
+          <wsrm:InactivityTimeout Milliseconds="43200000">
+          </wsrm:InactivityTimeout>
+          <wsrm:AcknowledgementInterval Milliseconds="200">
+          </wsrm:AcknowledgementInterval>
+        </wsrm:RMAssertion>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1">
+        </msb:BinaryEncoding>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:SslTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                </msf:SslTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256>
+                </sp:Basic256>
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict>
+                </sp:Strict>
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing>
+        </wsaw:UsingAddressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="netTcp_CollateralTypes_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsrm:RMAssertion xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm/policy">
+          <wsrm:InactivityTimeout Milliseconds="43200000">
+          </wsrm:InactivityTimeout>
+          <wsrm:AcknowledgementInterval Milliseconds="200">
+          </wsrm:AcknowledgementInterval>
+        </wsrm:RMAssertion>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1">
+        </msb:BinaryEncoding>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:SslTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                </msf:SslTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256>
+                </sp:Basic256>
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict>
+                </sp:Strict>
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing>
+        </wsaw:UsingAddressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="netTcp_ClientInfo_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsrm:RMAssertion xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm/policy">
+          <wsrm:InactivityTimeout Milliseconds="43200000">
+          </wsrm:InactivityTimeout>
+          <wsrm:AcknowledgementInterval Milliseconds="200">
+          </wsrm:AcknowledgementInterval>
+        </wsrm:RMAssertion>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1">
+        </msb:BinaryEncoding>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:SslTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                </msf:SslTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256>
+                </sp:Basic256>
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict>
+                </sp:Strict>
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing>
+        </wsaw:UsingAddressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="netTcp_CollateralInfo_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsrm:RMAssertion xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm/policy">
+          <wsrm:InactivityTimeout Milliseconds="43200000">
+          </wsrm:InactivityTimeout>
+          <wsrm:AcknowledgementInterval Milliseconds="200">
+          </wsrm:AcknowledgementInterval>
+        </wsrm:RMAssertion>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1">
+        </msb:BinaryEncoding>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:SslTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                </msf:SslTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256>
+                </sp:Basic256>
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict>
+                </sp:Strict>
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing>
+        </wsaw:UsingAddressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="netTcp_CollateralTransInfo_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsrm:RMAssertion xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm/policy">
+          <wsrm:InactivityTimeout Milliseconds="43200000">
+          </wsrm:InactivityTimeout>
+          <wsrm:AcknowledgementInterval Milliseconds="200">
+          </wsrm:AcknowledgementInterval>
+        </wsrm:RMAssertion>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1">
+        </msb:BinaryEncoding>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:SslTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                </msf:SslTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256>
+                </sp:Basic256>
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict>
+                </sp:Strict>
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing>
+        </wsaw:UsingAddressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="netTcp_TradesOrders_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsrm:RMAssertion xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm/policy">
+          <wsrm:InactivityTimeout Milliseconds="43200000">
+          </wsrm:InactivityTimeout>
+          <wsrm:AcknowledgementInterval Milliseconds="200">
+          </wsrm:AcknowledgementInterval>
+        </wsrm:RMAssertion>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1">
+        </msb:BinaryEncoding>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:SslTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                </msf:SslTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256>
+                </sp:Basic256>
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict>
+                </sp:Strict>
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing>
+        </wsaw:UsingAddressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="netTcp_MapOrders_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsrm:RMAssertion xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm/policy">
+          <wsrm:InactivityTimeout Milliseconds="43200000">
+          </wsrm:InactivityTimeout>
+          <wsrm:AcknowledgementInterval Milliseconds="200">
+          </wsrm:AcknowledgementInterval>
+        </wsrm:RMAssertion>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1">
+        </msb:BinaryEncoding>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:SslTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                </msf:SslTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256>
+                </sp:Basic256>
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict>
+                </sp:Strict>
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing>
+        </wsaw:UsingAddressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="netTcp_TGAcSettings_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsrm:RMAssertion xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm/policy">
+          <wsrm:InactivityTimeout Milliseconds="43200000">
+          </wsrm:InactivityTimeout>
+          <wsrm:AcknowledgementInterval Milliseconds="200">
+          </wsrm:AcknowledgementInterval>
+        </wsrm:RMAssertion>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1">
+        </msb:BinaryEncoding>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:SslTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                </msf:SslTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256>
+                </sp:Basic256>
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict>
+                </sp:Strict>
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing>
+        </wsaw:UsingAddressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="netTcp_VirtualDealer_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsrm:RMAssertion xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm/policy">
+          <wsrm:InactivityTimeout Milliseconds="43200000">
+          </wsrm:InactivityTimeout>
+          <wsrm:AcknowledgementInterval Milliseconds="200">
+          </wsrm:AcknowledgementInterval>
+        </wsrm:RMAssertion>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1">
+        </msb:BinaryEncoding>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:SslTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                </msf:SslTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256>
+                </sp:Basic256>
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict>
+                </sp:Strict>
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing>
+        </wsaw:UsingAddressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="netTcp_CommonSettings_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsrm:RMAssertion xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm/policy">
+          <wsrm:InactivityTimeout Milliseconds="43200000">
+          </wsrm:InactivityTimeout>
+          <wsrm:AcknowledgementInterval Milliseconds="200">
+          </wsrm:AcknowledgementInterval>
+        </wsrm:RMAssertion>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1">
+        </msb:BinaryEncoding>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:SslTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                </msf:SslTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256>
+                </sp:Basic256>
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict>
+                </sp:Strict>
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing>
+        </wsaw:UsingAddressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="netTcp_InstClosingPrice_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <wsrm:RMAssertion xmlns:wsrm="http://schemas.xmlsoap.org/ws/2005/02/rm/policy">
+          <wsrm:InactivityTimeout Milliseconds="43200000">
+          </wsrm:InactivityTimeout>
+          <wsrm:AcknowledgementInterval Milliseconds="200">
+          </wsrm:AcknowledgementInterval>
+        </wsrm:RMAssertion>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1">
+        </msb:BinaryEncoding>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:SslTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                </msf:SslTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256>
+                </sp:Basic256>
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict>
+                </sp:Strict>
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing>
+        </wsaw:UsingAddressing>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/BOEngineServiceClasses" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/ProtocolStructs" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/ProtocolStructs.NewPS" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ILogin_AuthenticateLogin_InputMessage">
+    <wsdl:part name="parameters" element="tns:AuthenticateLogin" />
+  </wsdl:message>
+  <wsdl:message name="ILogin_AuthenticateLogin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AuthenticateLoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILogin_LogOut_InputMessage">
+    <wsdl:part name="parameters" element="tns:LogOut" />
+  </wsdl:message>
+  <wsdl:message name="ILogin_LogOut_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LogOutResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILogin_HandleBrokerOperationsLog_InputMessage">
+    <wsdl:part name="parameters" element="tns:HandleBrokerOperationsLog" />
+  </wsdl:message>
+  <wsdl:message name="ILogin_HandleBrokerOperationsLog_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HandleBrokerOperationsLogResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILogin_GetHistoricalData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetHistoricalData" />
+  </wsdl:message>
+  <wsdl:message name="ILogin_GetHistoricalData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetHistoricalDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPAccessList_GetIPAccessList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetIPAccessList" />
+  </wsdl:message>
+  <wsdl:message name="IIPAccessList_GetIPAccessList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetIPAccessListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPAccessList_InsertIntoIpAccessList_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntoIpAccessList" />
+  </wsdl:message>
+  <wsdl:message name="IIPAccessList_InsertIntoIpAccessList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntoIpAccessListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPAccessList_DeleteIpAccessList_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteIpAccessList" />
+  </wsdl:message>
+  <wsdl:message name="IIPAccessList_DeleteIpAccessList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteIpAccessListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IIPAccessList_UpdateIpAccessList_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateIpAccessList" />
+  </wsdl:message>
+  <wsdl:message name="IIPAccessList_UpdateIpAccessList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateIpAccessListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFeeMaster_GetFeeMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFeeMaster" />
+  </wsdl:message>
+  <wsdl:message name="IFeeMaster_GetFeeMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFeeMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFeeMaster_InsertIntoFeeMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntoFeeMaster" />
+  </wsdl:message>
+  <wsdl:message name="IFeeMaster_InsertIntoFeeMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntoFeeMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFeeMaster_DeleteFeeMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteFeeMaster" />
+  </wsdl:message>
+  <wsdl:message name="IFeeMaster_DeleteFeeMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteFeeMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFeeMaster_UpdateFeeMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateFeeMaster" />
+  </wsdl:message>
+  <wsdl:message name="IFeeMaster_UpdateFeeMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateFeeMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITaxMaster_GetTaxMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTaxMaster" />
+  </wsdl:message>
+  <wsdl:message name="ITaxMaster_GetTaxMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTaxMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITaxMaster_InsertIntoTaxMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntoTaxMaster" />
+  </wsdl:message>
+  <wsdl:message name="ITaxMaster_InsertIntoTaxMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntoTaxMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITaxMaster_DeleteTaxMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteTaxMaster" />
+  </wsdl:message>
+  <wsdl:message name="ITaxMaster_DeleteTaxMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteTaxMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITaxMaster_UpdateTaxMaster_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateTaxMaster" />
+  </wsdl:message>
+  <wsdl:message name="ITaxMaster_UpdateTaxMaster_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateTaxMasterResponse" />
+  </wsdl:message>
+  <wsdl:message name="IHoliday_GetHoliday_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetHoliday" />
+  </wsdl:message>
+  <wsdl:message name="IHoliday_GetHoliday_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetHolidayResponse" />
+  </wsdl:message>
+  <wsdl:message name="IHoliday_InsertIntoHoliday_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntoHoliday" />
+  </wsdl:message>
+  <wsdl:message name="IHoliday_InsertIntoHoliday_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntoHolidayResponse" />
+  </wsdl:message>
+  <wsdl:message name="IHoliday_DeleteHoliday_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteHoliday" />
+  </wsdl:message>
+  <wsdl:message name="IHoliday_DeleteHoliday_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteHolidayResponse" />
+  </wsdl:message>
+  <wsdl:message name="IHoliday_UpdateHoliday_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateHoliday" />
+  </wsdl:message>
+  <wsdl:message name="IHoliday_UpdateHoliday_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateHolidayResponse" />
+  </wsdl:message>
+  <wsdl:message name="IContractSpecification_GetContractSpecfication_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetContractSpecfication" />
+  </wsdl:message>
+  <wsdl:message name="IContractSpecification_GetContractSpecfication_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetContractSpecficationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IContractSpecification_InsertIntoContractSpecification_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntoContractSpecification" />
+  </wsdl:message>
+  <wsdl:message name="IContractSpecification_InsertIntoContractSpecification_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntoContractSpecificationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IContractSpecification_DeleteContractSpecification_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteContractSpecification" />
+  </wsdl:message>
+  <wsdl:message name="IContractSpecification_DeleteContractSpecification_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteContractSpecificationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IContractSpecification_UpdateContractSpecification_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateContractSpecification" />
+  </wsdl:message>
+  <wsdl:message name="IContractSpecification_UpdateContractSpecification_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateContractSpecificationResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMasterInfo_GetMasterInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMasterInfo" />
+  </wsdl:message>
+  <wsdl:message name="IMasterInfo_GetMasterInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMasterInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMasterInfo_GetLeverageList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLeverageList" />
+  </wsdl:message>
+  <wsdl:message name="IMasterInfo_GetLeverageList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLeverageListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMasterInfo_GetModules_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetModules" />
+  </wsdl:message>
+  <wsdl:message name="IMasterInfo_GetModules_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetModulesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMasterInfo_GetParticipaintList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetParticipaintList" />
+  </wsdl:message>
+  <wsdl:message name="IMasterInfo_GetParticipaintList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetParticipaintListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMasterInfo_GetSecurityType_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSecurityType" />
+  </wsdl:message>
+  <wsdl:message name="IMasterInfo_GetSecurityType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSecurityTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMasterInfo_GetCurrencyList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCurrencyList" />
+  </wsdl:message>
+  <wsdl:message name="IMasterInfo_GetCurrencyList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCurrencyListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMasterInfo_GetBrokerList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBrokerList" />
+  </wsdl:message>
+  <wsdl:message name="IMasterInfo_GetBrokerList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBrokerListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMasterInfo_GetCountryDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCountryDetails" />
+  </wsdl:message>
+  <wsdl:message name="IMasterInfo_GetCountryDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCountryDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMasterInfo_GetAccountGroup_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccountGroup" />
+  </wsdl:message>
+  <wsdl:message name="IMasterInfo_GetAccountGroup_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccountGroupResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITimeSettings_GetTimeSettings_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTimeSettings" />
+  </wsdl:message>
+  <wsdl:message name="ITimeSettings_GetTimeSettings_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTimeSettingsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITimeSettings_UpdateTimeSettings_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateTimeSettings" />
+  </wsdl:message>
+  <wsdl:message name="ITimeSettings_UpdateTimeSettings_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateTimeSettingsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITradingGateway_GetTradingGateway_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTradingGateway" />
+  </wsdl:message>
+  <wsdl:message name="ITradingGateway_GetTradingGateway_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTradingGatewayResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITradingGateway_InsertIntoTradingGateway_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntoTradingGateway" />
+  </wsdl:message>
+  <wsdl:message name="ITradingGateway_InsertIntoTradingGateway_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntoTradingGatewayResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITradingGateway_UpdateTradingGateway_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateTradingGateway" />
+  </wsdl:message>
+  <wsdl:message name="ITradingGateway_UpdateTradingGateway_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateTradingGatewayResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBroker_GetBrokers_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBrokers" />
+  </wsdl:message>
+  <wsdl:message name="IBroker_GetBrokers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBrokersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBroker_InsertIntoBroker_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntoBroker" />
+  </wsdl:message>
+  <wsdl:message name="IBroker_InsertIntoBroker_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntoBrokerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IBroker_UpdateBroker_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateBroker" />
+  </wsdl:message>
+  <wsdl:message name="IBroker_UpdateBroker_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateBrokerResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICollateralTypes_GetCollateralTypes_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCollateralTypes" />
+  </wsdl:message>
+  <wsdl:message name="ICollateralTypes_GetCollateralTypes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCollateralTypesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClientInfo_GetClientInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetClientInfo" />
+  </wsdl:message>
+  <wsdl:message name="IClientInfo_GetClientInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetClientInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClientInfo_InsertIntoClientInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntoClientInfo" />
+  </wsdl:message>
+  <wsdl:message name="IClientInfo_InsertIntoClientInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntoClientInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClientInfo_UpdateClientInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateClientInfo" />
+  </wsdl:message>
+  <wsdl:message name="IClientInfo_UpdateClientInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateClientInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClientInfo_AuthenticateClientID_InputMessage">
+    <wsdl:part name="parameters" element="tns:AuthenticateClientID" />
+  </wsdl:message>
+  <wsdl:message name="IClientInfo_AuthenticateClientID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AuthenticateClientIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClientInfo_GetBankInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetBankInfo" />
+  </wsdl:message>
+  <wsdl:message name="IClientInfo_GetBankInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetBankInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClientInfo_InsertIntoBankInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntoBankInfo" />
+  </wsdl:message>
+  <wsdl:message name="IClientInfo_InsertIntoBankInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntoBankInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClientInfo_UpdateBankInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateBankInfo" />
+  </wsdl:message>
+  <wsdl:message name="IClientInfo_UpdateBankInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateBankInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClientInfo_GetAccounts_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccounts" />
+  </wsdl:message>
+  <wsdl:message name="IClientInfo_GetAccounts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccountsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClientInfo_InsertIntoAccount_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntoAccount" />
+  </wsdl:message>
+  <wsdl:message name="IClientInfo_InsertIntoAccount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntoAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClientInfo_UpdateAccount_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAccount" />
+  </wsdl:message>
+  <wsdl:message name="IClientInfo_UpdateAccount_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICollateralInfo_GetCollateralInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCollateralInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICollateralInfo_GetCollateralInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCollateralInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICollateralTransInfo_GetCollateralTransInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCollateralTransInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICollateralTransInfo_GetCollateralTransInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCollateralTransInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICollateralTransInfo_GetCollateralTransactionHistory_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCollateralTransactionHistory" />
+  </wsdl:message>
+  <wsdl:message name="ICollateralTransInfo_GetCollateralTransactionHistory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCollateralTransactionHistoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICollateralTransInfo_InsertCollateralTransInfo_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertCollateralTransInfo" />
+  </wsdl:message>
+  <wsdl:message name="ICollateralTransInfo_InsertCollateralTransInfo_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertCollateralTransInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITrades_GetTradeOrdersDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTradeOrdersDetails" />
+  </wsdl:message>
+  <wsdl:message name="ITrades_GetTradeOrdersDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTradeOrdersDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITrades_GetTradeDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTradeDetails" />
+  </wsdl:message>
+  <wsdl:message name="ITrades_GetTradeDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTradeDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITrades_ModifyTrade_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModifyTrade" />
+  </wsdl:message>
+  <wsdl:message name="ITrades_ModifyTrade_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModifyTradeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITrades_SettleTrade_InputMessage">
+    <wsdl:part name="parameters" element="tns:SettleTrade" />
+  </wsdl:message>
+  <wsdl:message name="ITrades_SettleTrade_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SettleTradeResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMapOrders_GetMapOrders_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMapOrders" />
+  </wsdl:message>
+  <wsdl:message name="IMapOrders_GetMapOrders_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMapOrdersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IMapOrders_GetAccountIDsByAccountType_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccountIDsByAccountType" />
+  </wsdl:message>
+  <wsdl:message name="IMapOrders_GetAccountIDsByAccountType_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAccountIDsByAccountTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITGAccountConnectionSettings_GetTGAccountConnetionSettings_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTGAccountConnetionSettings" />
+  </wsdl:message>
+  <wsdl:message name="ITGAccountConnectionSettings_GetTGAccountConnetionSettings_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTGAccountConnetionSettingsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITGAccountConnectionSettings_InsertTGAccountConnetionSettings_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertTGAccountConnetionSettings" />
+  </wsdl:message>
+  <wsdl:message name="ITGAccountConnectionSettings_InsertTGAccountConnetionSettings_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertTGAccountConnetionSettingsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITGAccountConnectionSettings_UpdateTGAccountConnetionSettings_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateTGAccountConnetionSettings" />
+  </wsdl:message>
+  <wsdl:message name="ITGAccountConnectionSettings_UpdateTGAccountConnetionSettings_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateTGAccountConnetionSettingsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IVirtualDealer_GetVirtualDealer_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetVirtualDealer" />
+  </wsdl:message>
+  <wsdl:message name="IVirtualDealer_GetVirtualDealer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetVirtualDealerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IVirtualDealer_InsertIntoVirtualDealer_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntoVirtualDealer" />
+  </wsdl:message>
+  <wsdl:message name="IVirtualDealer_InsertIntoVirtualDealer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertIntoVirtualDealerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IVirtualDealer_DeleteVirtualDealer_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteVirtualDealer" />
+  </wsdl:message>
+  <wsdl:message name="IVirtualDealer_DeleteVirtualDealer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteVirtualDealerResponse" />
+  </wsdl:message>
+  <wsdl:message name="IVirtualDealer_UpdateVirtualDealer_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateVirtualDealer" />
+  </wsdl:message>
+  <wsdl:message name="IVirtualDealer_UpdateVirtualDealer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateVirtualDealerResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommonSettings_GetCommonSettings_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCommonSettings" />
+  </wsdl:message>
+  <wsdl:message name="ICommonSettings_GetCommonSettings_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCommonSettingsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommonSettings_UpdateCommonSettings_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCommonSettings" />
+  </wsdl:message>
+  <wsdl:message name="ICommonSettings_UpdateCommonSettings_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateCommonSettingsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IInstrumentClosingPrice_HandleInstClosingPrice_InputMessage">
+    <wsdl:part name="parameters" element="tns:HandleInstClosingPrice" />
+  </wsdl:message>
+  <wsdl:message name="IInstrumentClosingPrice_HandleInstClosingPrice_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HandleInstClosingPriceResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ILogin">
+    <wsdl:operation name="AuthenticateLogin">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILogin/AuthenticateLogin" message="tns:ILogin_AuthenticateLogin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILogin/AuthenticateLoginResponse" message="tns:ILogin_AuthenticateLogin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LogOut">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILogin/LogOut" message="tns:ILogin_LogOut_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILogin/LogOutResponse" message="tns:ILogin_LogOut_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="HandleBrokerOperationsLog">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILogin/HandleBrokerOperationsLog" message="tns:ILogin_HandleBrokerOperationsLog_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILogin/HandleBrokerOperationsLogResponse" message="tns:ILogin_HandleBrokerOperationsLog_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHistoricalData">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILogin/GetHistoricalData" message="tns:ILogin_GetHistoricalData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILogin/GetHistoricalDataResponse" message="tns:ILogin_GetHistoricalData_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IIPAccessList">
+    <wsdl:operation name="GetIPAccessList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPAccessList/GetIPAccessList" message="tns:IIPAccessList_GetIPAccessList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPAccessList/GetIPAccessListResponse" message="tns:IIPAccessList_GetIPAccessList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntoIpAccessList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPAccessList/InsertIntoIpAccessList" message="tns:IIPAccessList_InsertIntoIpAccessList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPAccessList/InsertIntoIpAccessListResponse" message="tns:IIPAccessList_InsertIntoIpAccessList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteIpAccessList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPAccessList/DeleteIpAccessList" message="tns:IIPAccessList_DeleteIpAccessList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPAccessList/DeleteIpAccessListResponse" message="tns:IIPAccessList_DeleteIpAccessList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateIpAccessList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IIPAccessList/UpdateIpAccessList" message="tns:IIPAccessList_UpdateIpAccessList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IIPAccessList/UpdateIpAccessListResponse" message="tns:IIPAccessList_UpdateIpAccessList_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IFeeMaster">
+    <wsdl:operation name="GetFeeMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFeeMaster/GetFeeMaster" message="tns:IFeeMaster_GetFeeMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFeeMaster/GetFeeMasterResponse" message="tns:IFeeMaster_GetFeeMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntoFeeMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFeeMaster/InsertIntoFeeMaster" message="tns:IFeeMaster_InsertIntoFeeMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFeeMaster/InsertIntoFeeMasterResponse" message="tns:IFeeMaster_InsertIntoFeeMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFeeMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFeeMaster/DeleteFeeMaster" message="tns:IFeeMaster_DeleteFeeMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFeeMaster/DeleteFeeMasterResponse" message="tns:IFeeMaster_DeleteFeeMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFeeMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFeeMaster/UpdateFeeMaster" message="tns:IFeeMaster_UpdateFeeMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFeeMaster/UpdateFeeMasterResponse" message="tns:IFeeMaster_UpdateFeeMaster_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ITaxMaster">
+    <wsdl:operation name="GetTaxMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITaxMaster/GetTaxMaster" message="tns:ITaxMaster_GetTaxMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITaxMaster/GetTaxMasterResponse" message="tns:ITaxMaster_GetTaxMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntoTaxMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITaxMaster/InsertIntoTaxMaster" message="tns:ITaxMaster_InsertIntoTaxMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITaxMaster/InsertIntoTaxMasterResponse" message="tns:ITaxMaster_InsertIntoTaxMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteTaxMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITaxMaster/DeleteTaxMaster" message="tns:ITaxMaster_DeleteTaxMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITaxMaster/DeleteTaxMasterResponse" message="tns:ITaxMaster_DeleteTaxMaster_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTaxMaster">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITaxMaster/UpdateTaxMaster" message="tns:ITaxMaster_UpdateTaxMaster_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITaxMaster/UpdateTaxMasterResponse" message="tns:ITaxMaster_UpdateTaxMaster_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IHoliday">
+    <wsdl:operation name="GetHoliday">
+      <wsdl:input wsaw:Action="http://tempuri.org/IHoliday/GetHoliday" message="tns:IHoliday_GetHoliday_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IHoliday/GetHolidayResponse" message="tns:IHoliday_GetHoliday_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntoHoliday">
+      <wsdl:input wsaw:Action="http://tempuri.org/IHoliday/InsertIntoHoliday" message="tns:IHoliday_InsertIntoHoliday_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IHoliday/InsertIntoHolidayResponse" message="tns:IHoliday_InsertIntoHoliday_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteHoliday">
+      <wsdl:input wsaw:Action="http://tempuri.org/IHoliday/DeleteHoliday" message="tns:IHoliday_DeleteHoliday_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IHoliday/DeleteHolidayResponse" message="tns:IHoliday_DeleteHoliday_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateHoliday">
+      <wsdl:input wsaw:Action="http://tempuri.org/IHoliday/UpdateHoliday" message="tns:IHoliday_UpdateHoliday_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IHoliday/UpdateHolidayResponse" message="tns:IHoliday_UpdateHoliday_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IContractSpecification">
+    <wsdl:operation name="GetContractSpecfication">
+      <wsdl:input wsaw:Action="http://tempuri.org/IContractSpecification/GetContractSpecfication" message="tns:IContractSpecification_GetContractSpecfication_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IContractSpecification/GetContractSpecficationResponse" message="tns:IContractSpecification_GetContractSpecfication_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntoContractSpecification">
+      <wsdl:input wsaw:Action="http://tempuri.org/IContractSpecification/InsertIntoContractSpecification" message="tns:IContractSpecification_InsertIntoContractSpecification_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IContractSpecification/InsertIntoContractSpecificationResponse" message="tns:IContractSpecification_InsertIntoContractSpecification_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteContractSpecification">
+      <wsdl:input wsaw:Action="http://tempuri.org/IContractSpecification/DeleteContractSpecification" message="tns:IContractSpecification_DeleteContractSpecification_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IContractSpecification/DeleteContractSpecificationResponse" message="tns:IContractSpecification_DeleteContractSpecification_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateContractSpecification">
+      <wsdl:input wsaw:Action="http://tempuri.org/IContractSpecification/UpdateContractSpecification" message="tns:IContractSpecification_UpdateContractSpecification_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IContractSpecification/UpdateContractSpecificationResponse" message="tns:IContractSpecification_UpdateContractSpecification_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IMasterInfo">
+    <wsdl:operation name="GetMasterInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasterInfo/GetMasterInfo" message="tns:IMasterInfo_GetMasterInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasterInfo/GetMasterInfoResponse" message="tns:IMasterInfo_GetMasterInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLeverageList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasterInfo/GetLeverageList" message="tns:IMasterInfo_GetLeverageList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasterInfo/GetLeverageListResponse" message="tns:IMasterInfo_GetLeverageList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetModules">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasterInfo/GetModules" message="tns:IMasterInfo_GetModules_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasterInfo/GetModulesResponse" message="tns:IMasterInfo_GetModules_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetParticipaintList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasterInfo/GetParticipaintList" message="tns:IMasterInfo_GetParticipaintList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasterInfo/GetParticipaintListResponse" message="tns:IMasterInfo_GetParticipaintList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSecurityType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasterInfo/GetSecurityType" message="tns:IMasterInfo_GetSecurityType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasterInfo/GetSecurityTypeResponse" message="tns:IMasterInfo_GetSecurityType_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencyList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasterInfo/GetCurrencyList" message="tns:IMasterInfo_GetCurrencyList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasterInfo/GetCurrencyListResponse" message="tns:IMasterInfo_GetCurrencyList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBrokerList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasterInfo/GetBrokerList" message="tns:IMasterInfo_GetBrokerList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasterInfo/GetBrokerListResponse" message="tns:IMasterInfo_GetBrokerList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCountryDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasterInfo/GetCountryDetails" message="tns:IMasterInfo_GetCountryDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasterInfo/GetCountryDetailsResponse" message="tns:IMasterInfo_GetCountryDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountGroup">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMasterInfo/GetAccountGroup" message="tns:IMasterInfo_GetAccountGroup_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMasterInfo/GetAccountGroupResponse" message="tns:IMasterInfo_GetAccountGroup_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ITimeSettings">
+    <wsdl:operation name="GetTimeSettings">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITimeSettings/GetTimeSettings" message="tns:ITimeSettings_GetTimeSettings_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITimeSettings/GetTimeSettingsResponse" message="tns:ITimeSettings_GetTimeSettings_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTimeSettings">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITimeSettings/UpdateTimeSettings" message="tns:ITimeSettings_UpdateTimeSettings_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITimeSettings/UpdateTimeSettingsResponse" message="tns:ITimeSettings_UpdateTimeSettings_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ITradingGateway">
+    <wsdl:operation name="GetTradingGateway">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITradingGateway/GetTradingGateway" message="tns:ITradingGateway_GetTradingGateway_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITradingGateway/GetTradingGatewayResponse" message="tns:ITradingGateway_GetTradingGateway_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntoTradingGateway">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITradingGateway/InsertIntoTradingGateway" message="tns:ITradingGateway_InsertIntoTradingGateway_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITradingGateway/InsertIntoTradingGatewayResponse" message="tns:ITradingGateway_InsertIntoTradingGateway_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTradingGateway">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITradingGateway/UpdateTradingGateway" message="tns:ITradingGateway_UpdateTradingGateway_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITradingGateway/UpdateTradingGatewayResponse" message="tns:ITradingGateway_UpdateTradingGateway_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IBroker">
+    <wsdl:operation name="GetBrokers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBroker/GetBrokers" message="tns:IBroker_GetBrokers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBroker/GetBrokersResponse" message="tns:IBroker_GetBrokers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntoBroker">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBroker/InsertIntoBroker" message="tns:IBroker_InsertIntoBroker_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBroker/InsertIntoBrokerResponse" message="tns:IBroker_InsertIntoBroker_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBroker">
+      <wsdl:input wsaw:Action="http://tempuri.org/IBroker/UpdateBroker" message="tns:IBroker_UpdateBroker_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IBroker/UpdateBrokerResponse" message="tns:IBroker_UpdateBroker_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ICollateralTypes">
+    <wsdl:operation name="GetCollateralTypes">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICollateralTypes/GetCollateralTypes" message="tns:ICollateralTypes_GetCollateralTypes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICollateralTypes/GetCollateralTypesResponse" message="tns:ICollateralTypes_GetCollateralTypes_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IClientInfo">
+    <wsdl:operation name="GetClientInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientInfo/GetClientInfo" message="tns:IClientInfo_GetClientInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientInfo/GetClientInfoResponse" message="tns:IClientInfo_GetClientInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntoClientInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientInfo/InsertIntoClientInfo" message="tns:IClientInfo_InsertIntoClientInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientInfo/InsertIntoClientInfoResponse" message="tns:IClientInfo_InsertIntoClientInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateClientInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientInfo/UpdateClientInfo" message="tns:IClientInfo_UpdateClientInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientInfo/UpdateClientInfoResponse" message="tns:IClientInfo_UpdateClientInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AuthenticateClientID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientInfo/AuthenticateClientID" message="tns:IClientInfo_AuthenticateClientID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientInfo/AuthenticateClientIDResponse" message="tns:IClientInfo_AuthenticateClientID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBankInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientInfo/GetBankInfo" message="tns:IClientInfo_GetBankInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientInfo/GetBankInfoResponse" message="tns:IClientInfo_GetBankInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntoBankInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientInfo/InsertIntoBankInfo" message="tns:IClientInfo_InsertIntoBankInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientInfo/InsertIntoBankInfoResponse" message="tns:IClientInfo_InsertIntoBankInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBankInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientInfo/UpdateBankInfo" message="tns:IClientInfo_UpdateBankInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientInfo/UpdateBankInfoResponse" message="tns:IClientInfo_UpdateBankInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAccounts">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientInfo/GetAccounts" message="tns:IClientInfo_GetAccounts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientInfo/GetAccountsResponse" message="tns:IClientInfo_GetAccounts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntoAccount">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientInfo/InsertIntoAccount" message="tns:IClientInfo_InsertIntoAccount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientInfo/InsertIntoAccountResponse" message="tns:IClientInfo_InsertIntoAccount_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAccount">
+      <wsdl:input wsaw:Action="http://tempuri.org/IClientInfo/UpdateAccount" message="tns:IClientInfo_UpdateAccount_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IClientInfo/UpdateAccountResponse" message="tns:IClientInfo_UpdateAccount_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ICollateralInfo">
+    <wsdl:operation name="GetCollateralInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICollateralInfo/GetCollateralInfo" message="tns:ICollateralInfo_GetCollateralInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICollateralInfo/GetCollateralInfoResponse" message="tns:ICollateralInfo_GetCollateralInfo_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ICollateralTransInfo">
+    <wsdl:operation name="GetCollateralTransInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICollateralTransInfo/GetCollateralTransInfo" message="tns:ICollateralTransInfo_GetCollateralTransInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICollateralTransInfo/GetCollateralTransInfoResponse" message="tns:ICollateralTransInfo_GetCollateralTransInfo_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCollateralTransactionHistory">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICollateralTransInfo/GetCollateralTransactionHistory" message="tns:ICollateralTransInfo_GetCollateralTransactionHistory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICollateralTransInfo/GetCollateralTransactionHistoryResponse" message="tns:ICollateralTransInfo_GetCollateralTransactionHistory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertCollateralTransInfo">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICollateralTransInfo/InsertCollateralTransInfo" message="tns:ICollateralTransInfo_InsertCollateralTransInfo_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICollateralTransInfo/InsertCollateralTransInfoResponse" message="tns:ICollateralTransInfo_InsertCollateralTransInfo_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ITrades">
+    <wsdl:operation name="GetTradeOrdersDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITrades/GetTradeOrdersDetails" message="tns:ITrades_GetTradeOrdersDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITrades/GetTradeOrdersDetailsResponse" message="tns:ITrades_GetTradeOrdersDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTradeDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITrades/GetTradeDetails" message="tns:ITrades_GetTradeDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITrades/GetTradeDetailsResponse" message="tns:ITrades_GetTradeDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModifyTrade">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITrades/ModifyTrade" message="tns:ITrades_ModifyTrade_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITrades/ModifyTradeResponse" message="tns:ITrades_ModifyTrade_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SettleTrade">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITrades/SettleTrade" message="tns:ITrades_SettleTrade_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITrades/SettleTradeResponse" message="tns:ITrades_SettleTrade_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IMapOrders">
+    <wsdl:operation name="GetMapOrders">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMapOrders/GetMapOrders" message="tns:IMapOrders_GetMapOrders_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMapOrders/GetMapOrdersResponse" message="tns:IMapOrders_GetMapOrders_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountIDsByAccountType">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMapOrders/GetAccountIDsByAccountType" message="tns:IMapOrders_GetAccountIDsByAccountType_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IMapOrders/GetAccountIDsByAccountTypeResponse" message="tns:IMapOrders_GetAccountIDsByAccountType_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ITGAccountConnectionSettings">
+    <wsdl:operation name="GetTGAccountConnetionSettings">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITGAccountConnectionSettings/GetTGAccountConnetionSettings" message="tns:ITGAccountConnectionSettings_GetTGAccountConnetionSettings_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITGAccountConnectionSettings/GetTGAccountConnetionSettingsResponse" message="tns:ITGAccountConnectionSettings_GetTGAccountConnetionSettings_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertTGAccountConnetionSettings">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITGAccountConnectionSettings/InsertTGAccountConnetionSettings" message="tns:ITGAccountConnectionSettings_InsertTGAccountConnetionSettings_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITGAccountConnectionSettings/InsertTGAccountConnetionSettingsResponse" message="tns:ITGAccountConnectionSettings_InsertTGAccountConnetionSettings_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTGAccountConnetionSettings">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITGAccountConnectionSettings/UpdateTGAccountConnetionSettings" message="tns:ITGAccountConnectionSettings_UpdateTGAccountConnetionSettings_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITGAccountConnectionSettings/UpdateTGAccountConnetionSettingsResponse" message="tns:ITGAccountConnectionSettings_UpdateTGAccountConnetionSettings_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IVirtualDealer">
+    <wsdl:operation name="GetVirtualDealer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IVirtualDealer/GetVirtualDealer" message="tns:IVirtualDealer_GetVirtualDealer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IVirtualDealer/GetVirtualDealerResponse" message="tns:IVirtualDealer_GetVirtualDealer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntoVirtualDealer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IVirtualDealer/InsertIntoVirtualDealer" message="tns:IVirtualDealer_InsertIntoVirtualDealer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IVirtualDealer/InsertIntoVirtualDealerResponse" message="tns:IVirtualDealer_InsertIntoVirtualDealer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteVirtualDealer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IVirtualDealer/DeleteVirtualDealer" message="tns:IVirtualDealer_DeleteVirtualDealer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IVirtualDealer/DeleteVirtualDealerResponse" message="tns:IVirtualDealer_DeleteVirtualDealer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateVirtualDealer">
+      <wsdl:input wsaw:Action="http://tempuri.org/IVirtualDealer/UpdateVirtualDealer" message="tns:IVirtualDealer_UpdateVirtualDealer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IVirtualDealer/UpdateVirtualDealerResponse" message="tns:IVirtualDealer_UpdateVirtualDealer_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ICommonSettings">
+    <wsdl:operation name="GetCommonSettings">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommonSettings/GetCommonSettings" message="tns:ICommonSettings_GetCommonSettings_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommonSettings/GetCommonSettingsResponse" message="tns:ICommonSettings_GetCommonSettings_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCommonSettings">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommonSettings/UpdateCommonSettings" message="tns:ICommonSettings_UpdateCommonSettings_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommonSettings/UpdateCommonSettingsResponse" message="tns:ICommonSettings_UpdateCommonSettings_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IInstrumentClosingPrice">
+    <wsdl:operation name="HandleInstClosingPrice">
+      <wsdl:input wsaw:Action="http://tempuri.org/IInstrumentClosingPrice/HandleInstClosingPrice" message="tns:IInstrumentClosingPrice_HandleInstClosingPrice_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IInstrumentClosingPrice/HandleInstClosingPriceResponse" message="tns:IInstrumentClosingPrice_HandleInstClosingPrice_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="net.TCP_LoginEndPoint" type="tns:ILogin">
+    <wsp:PolicyReference URI="#net.TCP_LoginEndPoint_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="AuthenticateLogin">
+      <soap12:operation soapAction="http://tempuri.org/ILogin/AuthenticateLogin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LogOut">
+      <soap12:operation soapAction="http://tempuri.org/ILogin/LogOut" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HandleBrokerOperationsLog">
+      <soap12:operation soapAction="http://tempuri.org/ILogin/HandleBrokerOperationsLog" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHistoricalData">
+      <soap12:operation soapAction="http://tempuri.org/ILogin/GetHistoricalData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wsHttp_LoginEndPoint" type="tns:ILogin">
+    <wsp:PolicyReference URI="#wsHttp_LoginEndPoint_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AuthenticateLogin">
+      <soap12:operation soapAction="http://tempuri.org/ILogin/AuthenticateLogin" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#wsHttp_LoginEndPoint_AuthenticateLogin_Input_policy">
+        </wsp:PolicyReference>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#wsHttp_LoginEndPoint_AuthenticateLogin_output_policy">
+        </wsp:PolicyReference>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LogOut">
+      <soap12:operation soapAction="http://tempuri.org/ILogin/LogOut" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#wsHttp_LoginEndPoint_LogOut_Input_policy">
+        </wsp:PolicyReference>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#wsHttp_LoginEndPoint_LogOut_output_policy">
+        </wsp:PolicyReference>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HandleBrokerOperationsLog">
+      <soap12:operation soapAction="http://tempuri.org/ILogin/HandleBrokerOperationsLog" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#wsHttp_LoginEndPoint_HandleBrokerOperationsLog_Input_policy">
+        </wsp:PolicyReference>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#wsHttp_LoginEndPoint_HandleBrokerOperationsLog_output_policy">
+        </wsp:PolicyReference>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHistoricalData">
+      <soap12:operation soapAction="http://tempuri.org/ILogin/GetHistoricalData" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#wsHttp_LoginEndPoint_GetHistoricalData_Input_policy">
+        </wsp:PolicyReference>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#wsHttp_LoginEndPoint_GetHistoricalData_output_policy">
+        </wsp:PolicyReference>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wsHttp_IPAccessListEndPoint" type="tns:IIPAccessList">
+    <wsp:PolicyReference URI="#wsHttp_IPAccessListEndPoint_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="GetIPAccessList">
+      <soap12:operation soapAction="http://tempuri.org/IIPAccessList/GetIPAccessList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntoIpAccessList">
+      <soap12:operation soapAction="http://tempuri.org/IIPAccessList/InsertIntoIpAccessList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteIpAccessList">
+      <soap12:operation soapAction="http://tempuri.org/IIPAccessList/DeleteIpAccessList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateIpAccessList">
+      <soap12:operation soapAction="http://tempuri.org/IIPAccessList/UpdateIpAccessList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wsHttp_FeeMaster" type="tns:IFeeMaster">
+    <wsp:PolicyReference URI="#wsHttp_FeeMaster_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="GetFeeMaster">
+      <soap12:operation soapAction="http://tempuri.org/IFeeMaster/GetFeeMaster" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntoFeeMaster">
+      <soap12:operation soapAction="http://tempuri.org/IFeeMaster/InsertIntoFeeMaster" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFeeMaster">
+      <soap12:operation soapAction="http://tempuri.org/IFeeMaster/DeleteFeeMaster" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateFeeMaster">
+      <soap12:operation soapAction="http://tempuri.org/IFeeMaster/UpdateFeeMaster" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wsHttp_TaxMaster" type="tns:ITaxMaster">
+    <wsp:PolicyReference URI="#wsHttp_TaxMaster_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="GetTaxMaster">
+      <soap12:operation soapAction="http://tempuri.org/ITaxMaster/GetTaxMaster" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntoTaxMaster">
+      <soap12:operation soapAction="http://tempuri.org/ITaxMaster/InsertIntoTaxMaster" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteTaxMaster">
+      <soap12:operation soapAction="http://tempuri.org/ITaxMaster/DeleteTaxMaster" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTaxMaster">
+      <soap12:operation soapAction="http://tempuri.org/ITaxMaster/UpdateTaxMaster" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wsHttp_Holiday" type="tns:IHoliday">
+    <wsp:PolicyReference URI="#wsHttp_Holiday_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="GetHoliday">
+      <soap12:operation soapAction="http://tempuri.org/IHoliday/GetHoliday" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntoHoliday">
+      <soap12:operation soapAction="http://tempuri.org/IHoliday/InsertIntoHoliday" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteHoliday">
+      <soap12:operation soapAction="http://tempuri.org/IHoliday/DeleteHoliday" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateHoliday">
+      <soap12:operation soapAction="http://tempuri.org/IHoliday/UpdateHoliday" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wsHttp_ContractSpecification" type="tns:IContractSpecification">
+    <wsp:PolicyReference URI="#wsHttp_ContractSpecification_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="GetContractSpecfication">
+      <soap12:operation soapAction="http://tempuri.org/IContractSpecification/GetContractSpecfication" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntoContractSpecification">
+      <soap12:operation soapAction="http://tempuri.org/IContractSpecification/InsertIntoContractSpecification" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteContractSpecification">
+      <soap12:operation soapAction="http://tempuri.org/IContractSpecification/DeleteContractSpecification" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateContractSpecification">
+      <soap12:operation soapAction="http://tempuri.org/IContractSpecification/UpdateContractSpecification" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wsHttp_MasterInfo" type="tns:IMasterInfo">
+    <wsp:PolicyReference URI="#wsHttp_MasterInfo_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="GetMasterInfo">
+      <soap12:operation soapAction="http://tempuri.org/IMasterInfo/GetMasterInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLeverageList">
+      <soap12:operation soapAction="http://tempuri.org/IMasterInfo/GetLeverageList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetModules">
+      <soap12:operation soapAction="http://tempuri.org/IMasterInfo/GetModules" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetParticipaintList">
+      <soap12:operation soapAction="http://tempuri.org/IMasterInfo/GetParticipaintList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSecurityType">
+      <soap12:operation soapAction="http://tempuri.org/IMasterInfo/GetSecurityType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCurrencyList">
+      <soap12:operation soapAction="http://tempuri.org/IMasterInfo/GetCurrencyList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBrokerList">
+      <soap12:operation soapAction="http://tempuri.org/IMasterInfo/GetBrokerList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCountryDetails">
+      <soap12:operation soapAction="http://tempuri.org/IMasterInfo/GetCountryDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountGroup">
+      <soap12:operation soapAction="http://tempuri.org/IMasterInfo/GetAccountGroup" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wsHttp_TimeSettings" type="tns:ITimeSettings">
+    <wsp:PolicyReference URI="#wsHttp_TimeSettings_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="GetTimeSettings">
+      <soap12:operation soapAction="http://tempuri.org/ITimeSettings/GetTimeSettings" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTimeSettings">
+      <soap12:operation soapAction="http://tempuri.org/ITimeSettings/UpdateTimeSettings" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="wsHttp_TradingGateway" type="tns:ITradingGateway">
+    <wsp:PolicyReference URI="#wsHttp_TradingGateway_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="GetTradingGateway">
+      <soap12:operation soapAction="http://tempuri.org/ITradingGateway/GetTradingGateway" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntoTradingGateway">
+      <soap12:operation soapAction="http://tempuri.org/ITradingGateway/InsertIntoTradingGateway" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTradingGateway">
+      <soap12:operation soapAction="http://tempuri.org/ITradingGateway/UpdateTradingGateway" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="netTcp_Brokers" type="tns:IBroker">
+    <wsp:PolicyReference URI="#netTcp_Brokers_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="GetBrokers">
+      <soap12:operation soapAction="http://tempuri.org/IBroker/GetBrokers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntoBroker">
+      <soap12:operation soapAction="http://tempuri.org/IBroker/InsertIntoBroker" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBroker">
+      <soap12:operation soapAction="http://tempuri.org/IBroker/UpdateBroker" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="netTcp_CollateralTypes" type="tns:ICollateralTypes">
+    <wsp:PolicyReference URI="#netTcp_CollateralTypes_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="GetCollateralTypes">
+      <soap12:operation soapAction="http://tempuri.org/ICollateralTypes/GetCollateralTypes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="netTcp_ClientInfo" type="tns:IClientInfo">
+    <wsp:PolicyReference URI="#netTcp_ClientInfo_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="GetClientInfo">
+      <soap12:operation soapAction="http://tempuri.org/IClientInfo/GetClientInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntoClientInfo">
+      <soap12:operation soapAction="http://tempuri.org/IClientInfo/InsertIntoClientInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateClientInfo">
+      <soap12:operation soapAction="http://tempuri.org/IClientInfo/UpdateClientInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AuthenticateClientID">
+      <soap12:operation soapAction="http://tempuri.org/IClientInfo/AuthenticateClientID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBankInfo">
+      <soap12:operation soapAction="http://tempuri.org/IClientInfo/GetBankInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntoBankInfo">
+      <soap12:operation soapAction="http://tempuri.org/IClientInfo/InsertIntoBankInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBankInfo">
+      <soap12:operation soapAction="http://tempuri.org/IClientInfo/UpdateBankInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccounts">
+      <soap12:operation soapAction="http://tempuri.org/IClientInfo/GetAccounts" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntoAccount">
+      <soap12:operation soapAction="http://tempuri.org/IClientInfo/InsertIntoAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAccount">
+      <soap12:operation soapAction="http://tempuri.org/IClientInfo/UpdateAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="netTcp_CollateralInfo" type="tns:ICollateralInfo">
+    <wsp:PolicyReference URI="#netTcp_CollateralInfo_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="GetCollateralInfo">
+      <soap12:operation soapAction="http://tempuri.org/ICollateralInfo/GetCollateralInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="netTcp_CollateralTransInfo" type="tns:ICollateralTransInfo">
+    <wsp:PolicyReference URI="#netTcp_CollateralTransInfo_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="GetCollateralTransInfo">
+      <soap12:operation soapAction="http://tempuri.org/ICollateralTransInfo/GetCollateralTransInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCollateralTransactionHistory">
+      <soap12:operation soapAction="http://tempuri.org/ICollateralTransInfo/GetCollateralTransactionHistory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertCollateralTransInfo">
+      <soap12:operation soapAction="http://tempuri.org/ICollateralTransInfo/InsertCollateralTransInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="netTcp_TradesOrders" type="tns:ITrades">
+    <wsp:PolicyReference URI="#netTcp_TradesOrders_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="GetTradeOrdersDetails">
+      <soap12:operation soapAction="http://tempuri.org/ITrades/GetTradeOrdersDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTradeDetails">
+      <soap12:operation soapAction="http://tempuri.org/ITrades/GetTradeDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModifyTrade">
+      <soap12:operation soapAction="http://tempuri.org/ITrades/ModifyTrade" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SettleTrade">
+      <soap12:operation soapAction="http://tempuri.org/ITrades/SettleTrade" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="netTcp_MapOrders" type="tns:IMapOrders">
+    <wsp:PolicyReference URI="#netTcp_MapOrders_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="GetMapOrders">
+      <soap12:operation soapAction="http://tempuri.org/IMapOrders/GetMapOrders" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAccountIDsByAccountType">
+      <soap12:operation soapAction="http://tempuri.org/IMapOrders/GetAccountIDsByAccountType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="netTcp_TGAcSettings" type="tns:ITGAccountConnectionSettings">
+    <wsp:PolicyReference URI="#netTcp_TGAcSettings_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="GetTGAccountConnetionSettings">
+      <soap12:operation soapAction="http://tempuri.org/ITGAccountConnectionSettings/GetTGAccountConnetionSettings" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertTGAccountConnetionSettings">
+      <soap12:operation soapAction="http://tempuri.org/ITGAccountConnectionSettings/InsertTGAccountConnetionSettings" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTGAccountConnetionSettings">
+      <soap12:operation soapAction="http://tempuri.org/ITGAccountConnectionSettings/UpdateTGAccountConnetionSettings" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="netTcp_VirtualDealer" type="tns:IVirtualDealer">
+    <wsp:PolicyReference URI="#netTcp_VirtualDealer_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="GetVirtualDealer">
+      <soap12:operation soapAction="http://tempuri.org/IVirtualDealer/GetVirtualDealer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertIntoVirtualDealer">
+      <soap12:operation soapAction="http://tempuri.org/IVirtualDealer/InsertIntoVirtualDealer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteVirtualDealer">
+      <soap12:operation soapAction="http://tempuri.org/IVirtualDealer/DeleteVirtualDealer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateVirtualDealer">
+      <soap12:operation soapAction="http://tempuri.org/IVirtualDealer/UpdateVirtualDealer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="netTcp_CommonSettings" type="tns:ICommonSettings">
+    <wsp:PolicyReference URI="#netTcp_CommonSettings_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="GetCommonSettings">
+      <soap12:operation soapAction="http://tempuri.org/ICommonSettings/GetCommonSettings" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateCommonSettings">
+      <soap12:operation soapAction="http://tempuri.org/ICommonSettings/UpdateCommonSettings" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="netTcp_InstClosingPrice" type="tns:IInstrumentClosingPrice">
+    <wsp:PolicyReference URI="#netTcp_InstClosingPrice_policy">
+    </wsp:PolicyReference>
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="HandleInstClosingPrice">
+      <soap12:operation soapAction="http://tempuri.org/IInstrumentClosingPrice/HandleInstClosingPrice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="BOEngineService">
+    <wsdl:port name="net.TCP_LoginEndPoint" binding="tns:net.TCP_LoginEndPoint">
+      <soap12:address location="net.tcp://217.160.11.198:8532/BOEngineService.svc" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://217.160.11.198:8532/BOEngineService.svc</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Dns>ServerSide</Dns>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="wsHttp_LoginEndPoint" binding="tns:wsHttp_LoginEndPoint">
+      <soap12:address location="http://win-gbgb5vahmnj:8533/BOEngineService.svc" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>http://win-gbgb5vahmnj:8533/BOEngineService.svc</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Dns>ServerSide</Dns>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="wsHttp_IPAccessListEndPoint" binding="tns:wsHttp_IPAccessListEndPoint">
+      <soap12:address location="net.tcp://217.160.11.198:8532/BOEngineService.svc" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://217.160.11.198:8532/BOEngineService.svc</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Dns>ServerSide</Dns>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="wsHttp_FeeMaster" binding="tns:wsHttp_FeeMaster">
+      <soap12:address location="net.tcp://217.160.11.198:8532/BOEngineService.svc" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://217.160.11.198:8532/BOEngineService.svc</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Dns>ServerSide</Dns>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="wsHttp_TaxMaster" binding="tns:wsHttp_TaxMaster">
+      <soap12:address location="net.tcp://217.160.11.198:8532/BOEngineService.svc" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://217.160.11.198:8532/BOEngineService.svc</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Dns>ServerSide</Dns>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="wsHttp_Holiday" binding="tns:wsHttp_Holiday">
+      <soap12:address location="net.tcp://217.160.11.198:8532/BOEngineService.svc" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://217.160.11.198:8532/BOEngineService.svc</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Dns>ServerSide</Dns>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="wsHttp_ContractSpecification" binding="tns:wsHttp_ContractSpecification">
+      <soap12:address location="net.tcp://217.160.11.198:8532/BOEngineService.svc" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://217.160.11.198:8532/BOEngineService.svc</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Dns>ServerSide</Dns>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="wsHttp_MasterInfo" binding="tns:wsHttp_MasterInfo">
+      <soap12:address location="net.tcp://217.160.11.198:8532/BOEngineService.svc" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://217.160.11.198:8532/BOEngineService.svc</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Dns>ServerSide</Dns>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="wsHttp_TimeSettings" binding="tns:wsHttp_TimeSettings">
+      <soap12:address location="net.tcp://217.160.11.198:8532/BOEngineService.svc" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://217.160.11.198:8532/BOEngineService.svc</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Dns>ServerSide</Dns>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="wsHttp_TradingGateway" binding="tns:wsHttp_TradingGateway">
+      <soap12:address location="net.tcp://217.160.11.198:8532/BOEngineService.svc" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://217.160.11.198:8532/BOEngineService.svc</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Dns>ServerSide</Dns>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="netTcp_Brokers" binding="tns:netTcp_Brokers">
+      <soap12:address location="net.tcp://217.160.11.198:8532/BOEngineService.svc" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://217.160.11.198:8532/BOEngineService.svc</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Dns>ServerSide</Dns>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="netTcp_CollateralTypes" binding="tns:netTcp_CollateralTypes">
+      <soap12:address location="net.tcp://217.160.11.198:8532/BOEngineService.svc" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://217.160.11.198:8532/BOEngineService.svc</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Dns>ServerSide</Dns>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="netTcp_ClientInfo" binding="tns:netTcp_ClientInfo">
+      <soap12:address location="net.tcp://217.160.11.198:8532/BOEngineService.svc" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://217.160.11.198:8532/BOEngineService.svc</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Dns>ServerSide</Dns>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="netTcp_CollateralInfo" binding="tns:netTcp_CollateralInfo">
+      <soap12:address location="net.tcp://217.160.11.198:8532/BOEngineService.svc" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://217.160.11.198:8532/BOEngineService.svc</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Dns>ServerSide</Dns>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="netTcp_CollateralTransInfo" binding="tns:netTcp_CollateralTransInfo">
+      <soap12:address location="net.tcp://217.160.11.198:8532/BOEngineService.svc" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://217.160.11.198:8532/BOEngineService.svc</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Dns>ServerSide</Dns>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="netTcp_TradesOrders" binding="tns:netTcp_TradesOrders">
+      <soap12:address location="net.tcp://217.160.11.198:8532/BOEngineService.svc" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://217.160.11.198:8532/BOEngineService.svc</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Dns>ServerSide</Dns>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="netTcp_MapOrders" binding="tns:netTcp_MapOrders">
+      <soap12:address location="net.tcp://217.160.11.198:8532/BOEngineService.svc" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://217.160.11.198:8532/BOEngineService.svc</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Dns>ServerSide</Dns>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="netTcp_TGAcSettings" binding="tns:netTcp_TGAcSettings">
+      <soap12:address location="net.tcp://217.160.11.198:8532/BOEngineService.svc" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://217.160.11.198:8532/BOEngineService.svc</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Dns>ServerSide</Dns>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="netTcp_VirtualDealer" binding="tns:netTcp_VirtualDealer">
+      <soap12:address location="net.tcp://217.160.11.198:8532/BOEngineService.svc" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://217.160.11.198:8532/BOEngineService.svc</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Dns>ServerSide</Dns>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="netTcp_CommonSettings" binding="tns:netTcp_CommonSettings">
+      <soap12:address location="net.tcp://217.160.11.198:8532/BOEngineService.svc" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://217.160.11.198:8532/BOEngineService.svc</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Dns>ServerSide</Dns>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+    <wsdl:port name="netTcp_InstClosingPrice" binding="tns:netTcp_InstClosingPrice">
+      <soap12:address location="net.tcp://217.160.11.198:8532/BOEngineService.svc" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://217.160.11.198:8532/BOEngineService.svc</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Dns>ServerSide</Dns>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

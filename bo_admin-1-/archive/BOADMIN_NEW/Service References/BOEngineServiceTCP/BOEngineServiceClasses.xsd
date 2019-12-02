@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/BOEngineServiceClasses" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/BOEngineServiceClasses" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/ProtocolStructs.NewPS" />
+  <xs:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:complexType name="ArrayOfclsFeeMaster">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsFeeMaster" nillable="true" type="tns:clsFeeMaster" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsFeeMaster" nillable="true" type="tns:ArrayOfclsFeeMaster" />
+  <xs:complexType name="clsFeeMaster">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FeeId" type="xs:int" />
+      <xs:element minOccurs="0" name="FeeName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Interval" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsTaxable" type="xs:boolean" />
+      <xs:element minOccurs="0" name="MaximumFeevalue" type="xs:int" />
+      <xs:element minOccurs="0" name="MinimumFeeValue" type="xs:int" />
+      <xs:element minOccurs="0" name="ServerResponseID" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsFeeMaster" nillable="true" type="tns:clsFeeMaster" />
+  <xs:complexType name="ArrayOfclsBroker">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsBroker" nillable="true" type="tns:clsBroker" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsBroker" nillable="true" type="tns:ArrayOfclsBroker" />
+  <xs:complexType name="clsBroker">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BrokerID" type="xs:int" />
+      <xs:element minOccurs="0" name="BrokerParent" type="xs:int" />
+      <xs:element minOccurs="0" name="BrokerType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="City" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EMail" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Fax" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsEnable" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Leverage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LoginID" nillable="true" type="xs:string" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/ProtocolStructs.NewPS" minOccurs="0" name="LstCharges" nillable="true" type="q1:ArrayOfcharges" />
+      <xs:element xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="LstFeeType" nillable="true" type="q2:ArrayOfstring" />
+      <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/ProtocolStructs.NewPS" minOccurs="0" name="LstSymbol" nillable="true" type="q3:ArrayOfBrokerSymbol" />
+      <xs:element xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="LstTaxType" nillable="true" type="q4:ArrayOfstring" />
+      <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/ProtocolStructs.NewPS" minOccurs="0" name="LstTotalSymbols" nillable="true" type="q5:ArrayOfBrokerSymbol" />
+      <xs:element minOccurs="0" name="MarginCallLevel1" type="xs:int" />
+      <xs:element minOccurs="0" name="MarginCallLevel2" type="xs:int" />
+      <xs:element minOccurs="0" name="MarginCallLevel3" type="xs:int" />
+      <xs:element minOccurs="0" name="MaximumOrders" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Maximumsymbols" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="News" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Owner" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Phone1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Phone2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RoleId" type="xs:int" />
+      <xs:element minOccurs="0" name="RoleName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Roles" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ServerResponseID" type="xs:int" />
+      <xs:element minOccurs="0" name="State" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsBroker" nillable="true" type="tns:clsBroker" />
+  <xs:complexType name="ArrayOfclsAccount">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsAccount" nillable="true" type="tns:clsAccount" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsAccount" nillable="true" type="tns:ArrayOfclsAccount" />
+  <xs:complexType name="clsAccount">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccountGroupId" type="xs:int" />
+      <xs:element minOccurs="0" name="AccountId" type="xs:int" />
+      <xs:element minOccurs="0" name="Balence" type="xs:decimal" />
+      <xs:element minOccurs="0" name="BuySideTurnOver" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ClientId" type="xs:int" />
+      <xs:element minOccurs="0" name="CurrencyId" type="xs:int" />
+      <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Equity" type="xs:decimal" />
+      <xs:element minOccurs="0" name="IsHedgingAllowed" type="xs:boolean" />
+      <xs:element minOccurs="0" name="IsTradeEnable" type="xs:boolean" />
+      <xs:element minOccurs="0" name="LPAccountID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LPName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LeverageId" type="xs:int" />
+      <xs:element minOccurs="0" name="PaymentAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PaymentDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="PaymentMode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PaymentType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RelatedBankId" type="xs:int" />
+      <xs:element minOccurs="0" name="SellSideTurnOver" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ServerResponseID" type="xs:int" />
+      <xs:element minOccurs="0" name="UsedMargin" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsAccount" nillable="true" type="tns:clsAccount" />
+  <xs:complexType name="ArrayOfclsBank">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsBank" nillable="true" type="tns:clsBank" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsBank" nillable="true" type="tns:ArrayOfclsBank" />
+  <xs:complexType name="clsBank">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccountHolderName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankAccountID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankAccountType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankAddress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankAddress2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankCountryID" type="xs:int" />
+      <xs:element minOccurs="0" name="BankFax" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankID" type="xs:int" />
+      <xs:element minOccurs="0" name="BankIFSCCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankPhone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankSwiftCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BankZipCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ClientID" type="xs:int" />
+      <xs:element minOccurs="0" name="ServerResponseID" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsBank" nillable="true" type="tns:clsBank" />
+  <xs:complexType name="ArrayOfclsClientInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsClientInfo" nillable="true" type="tns:clsClientInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsClientInfo" nillable="true" type="tns:ArrayOfclsClientInfo" />
+  <xs:complexType name="clsClientInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccountGroupID" type="xs:int" />
+      <xs:element minOccurs="0" name="AccountType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Address1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Address2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Age" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Balance" type="xs:decimal" />
+      <xs:element minOccurs="0" name="City" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ClientId" type="xs:int" />
+      <xs:element minOccurs="0" name="Country" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DOB" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Equity" type="xs:decimal" />
+      <xs:element minOccurs="0" name="FKAccountTypeID" type="xs:int" />
+      <xs:element minOccurs="0" name="FKCountryID" type="xs:int" />
+      <xs:element minOccurs="0" name="FKNationalityID" type="xs:int" />
+      <xs:element minOccurs="0" name="FKParticipantType" type="xs:int" />
+      <xs:element minOccurs="0" name="FaxNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Gender" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GroupName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsExists" type="xs:boolean" />
+      <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="LoginID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MarkupValue" type="xs:decimal" />
+      <xs:element minOccurs="0" name="MasterPassword" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MidleName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Mobile" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PAN" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PassportId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrimaryEmailAddress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PrimaryPhone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="RegistrationDate" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="SSN" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SecondaryEmailAddress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SecondaryPhone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ServerResponseID" type="xs:int" />
+      <xs:element minOccurs="0" name="State" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Status" type="xs:boolean" />
+      <xs:element minOccurs="0" name="TradingPassword" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Zip" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsClientInfo" nillable="true" type="tns:clsClientInfo" />
+  <xs:complexType name="ArrayOfclsAccountGroup">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsAccountGroup" nillable="true" type="tns:clsAccountGroup" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsAccountGroup" nillable="true" type="tns:ArrayOfclsAccountGroup" />
+  <xs:complexType name="clsAccountGroup">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccountGroupID" type="xs:int" />
+      <xs:element minOccurs="0" name="AccountGroupName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BrokerAddress" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BrokerCity" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BrokerEmail" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BrokerFax" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BrokerPhone1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BrokerPhone2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BrokerState" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BrokerTypeID" type="xs:int" />
+      <xs:element minOccurs="0" name="Charges" type="xs:decimal" />
+      <xs:element minOccurs="0" name="IsEnable" type="xs:boolean" />
+      <xs:element minOccurs="0" name="LeverageId" type="xs:int" />
+      <xs:element minOccurs="0" name="Owner" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ServerResponseID" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsAccountGroup" nillable="true" type="tns:clsAccountGroup" />
+  <xs:complexType name="ArrayOfclsCollateralInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsCollateralInfo" nillable="true" type="tns:clsCollateralInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsCollateralInfo" nillable="true" type="tns:ArrayOfclsCollateralInfo" />
+  <xs:complexType name="clsCollateralInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccountGroupID" type="xs:int" />
+      <xs:element minOccurs="0" name="AccountGroupName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BrokerType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BrokerTypeID" type="xs:int" />
+      <xs:element minOccurs="0" name="CollateralforTrading" type="xs:decimal" />
+      <xs:element minOccurs="0" name="IsEnable" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Leverage" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Owner" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ParentAccountGroupID" type="xs:int" />
+      <xs:element minOccurs="0" name="ParentOwner" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PayInShortage" type="xs:decimal" />
+      <xs:element minOccurs="0" name="PayOutShortage" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ServerResponseID" type="xs:int" />
+      <xs:element minOccurs="0" name="TotalCollateral" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Unallocated" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Utilized" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsCollateralInfo" nillable="true" type="tns:clsCollateralInfo" />
+  <xs:complexType name="ArrayOfclsCollateralTransInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="clsCollateralTransInfo" nillable="true" type="tns:clsCollateralTransInfo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfclsCollateralTransInfo" nillable="true" type="tns:ArrayOfclsCollateralTransInfo" />
+  <xs:complexType name="clsCollateralTransInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AccountGroupId" type="xs:int" />
+      <xs:element minOccurs="0" name="Amount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CollateralType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="CollateralTypeId" type="xs:int" />
+      <xs:element minOccurs="0" name="IsNewCollateralTrans" type="xs:boolean" />
+      <xs:element minOccurs="0" name="ServerResponseID" type="xs:int" />
+      <xs:element minOccurs="0" name="TotalAmount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="TransactionDate" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TransactionType" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="clsCollateralTransInfo" nillable="true" type="tns:clsCollateralTransInfo" />
+</xs:schema>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema id="DS4BuyDom" targetNamespace="http://tempuri.org/DS4BuyDom.xsd"
+           xmlns:mstns="http://tempuri.org/DS4BuyDom.xsd" xmlns="http://tempuri.org/DS4BuyDom.xsd"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata"
+           xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter"
+                  Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema"
+                  xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS4BuyDom" msdata:IsDataSet="true" msdata:UseCurrentLocale="true"
+              msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DS4BuyDom"
+              msprop:Generator_UserDSName="DS4BuyDom">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtBuyDom" msprop:Generator_TableClassName="dtBuyDomDataTable"
+                    msprop:Generator_TableVarName="tabledtBuyDom" msprop:Generator_TablePropName="dtBuyDom"
+                    msprop:Generator_RowDeletingName="dtBuyDomRowDeleting" msprop:Generator_UserTableName="dtBuyDom"
+                    msprop:Generator_RowChangingName="dtBuyDomRowChanging"
+                    msprop:Generator_RowEvHandlerName="dtBuyDomRowChangeEventHandler" msprop:Generator_RowDeletedName="dtBuyDomRowDeleted"
+                    msprop:Generator_RowEvArgName="dtBuyDomRowChangeEvent" msprop:Generator_RowChangedName="dtBuyDomRowChanged"
+                    msprop:Generator_RowClassName="dtBuyDomRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Key" msprop:Generator_ColumnVarNameInTable="columnKey"
+                          msprop:Generator_ColumnPropNameInRow="Key" msprop:Generator_ColumnPropNameInTable="KeyColumn"
+                          msprop:Generator_UserColumnName="Key" type="xs:string" minOccurs="0" />
+              <xs:element name="NoOfOrder" msprop:Generator_ColumnVarNameInTable="columnNoOfOrder"
+                          msprop:Generator_ColumnPropNameInRow="NoOfOrder" msprop:Generator_ColumnPropNameInTable="NoOfOrderColumn"
+                          msprop:Generator_UserColumnName="NoOfOrder" type="xs:string" minOccurs="0" />
+              <xs:element name="BuyQty" msprop:Generator_ColumnVarNameInTable="columnBuyQty"
+                          msprop:Generator_ColumnPropNameInRow="BuyQty" msprop:Generator_ColumnPropNameInTable="BuyQtyColumn"
+                          msprop:Generator_UserColumnName="BuyQty" type="xs:long" minOccurs="0" />
+              <xs:element name="BuyPrice" msprop:Generator_ColumnVarNameInTable="columnBuyPrice"
+                          msprop:Generator_ColumnPropNameInRow="BuyPrice" msprop:Generator_ColumnPropNameInTable="BuyPriceColumn"
+                          msprop:Generator_UserColumnName="BuyPrice" type="xs:double" minOccurs="0" />
+              <xs:element name="ExpiryDate" msprop:Generator_ColumnVarNameInTable="columnExpiryDate"
+                          msprop:Generator_ColumnPropNameInRow="ExpiryDate" msprop:Generator_ColumnPropNameInTable="ExpiryDateColumn"
+                          msprop:Generator_UserColumnName="ExpiryDate" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="BOExchange" Class="dbMan_BO_TaxMasterupdateDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.1.87;Initial Catalog=BOExchange;User ID=sa" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="BOExchangeConnectionString2" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_TaxMasterUpdate" Method="BO_TaxMasterUpdate">
+    <Parameter Name="Key" Parameter="key" Type="System.Int32" DbType="Int" />
+    <Parameter Name="TaxName" Parameter="taxName" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="TaxPercent" Parameter="taxPercent" Type="System.Decimal" DbType="Decimal" />
+    <Parameter Name="Amount" Parameter="amount" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Description" Parameter="description" Type="System.String" DbType="VarChar(256)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

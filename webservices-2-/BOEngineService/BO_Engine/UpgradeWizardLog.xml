@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="_UpgradeWizard_Files\UpgradeWizardLog.xslt"?>
+<log>
+  <event action="Analyze" type="Success" name="Binary References" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngineService\Bin\" />
+  <event action="Analyze" type="Success" name="Service Host Directives" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngineService\BOEngineService.svc" />
+  <event action="Analyze" type="Success" name="BOEngineService.svc" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngineService\BOEngineService.svc" />
+  <event action="Analyze" type="Success" name="Assembly References" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngineService\Web.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngineService\Web.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngineService\Web.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngineService\Web.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngineService\Web.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngineService\Web.config" />
+  <event action="Analyze" type="Success" name="Web.config" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngineService\Web.config" />
+  <event action="Analyze" type="Success" name="F:\...\BOEngineService\" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngineService" />
+  <event action="Analyze" type="Success" name="Assembly References" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngineServiceClasses\BOEngineServiceClasses.csproj" />
+  <event action="Analyze" type="Success" name="BOEngineServiceClasses" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngineServiceClasses\BOEngineServiceClasses.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\LtechIndia.BackOffice.BOEngine.DAL\LtechIndia.BackOffice.BOEngine.DAL.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\LtechIndia.BackOffice.BOEngine.DAL\app.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\LtechIndia.BackOffice.BOEngine.DAL\app.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\LtechIndia.BackOffice.BOEngine.DAL\app.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\LtechIndia.BackOffice.BOEngine.DAL\app.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\LtechIndia.BackOffice.BOEngine.DAL\app.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\LtechIndia.BackOffice.BOEngine.DAL\app.config" />
+  <event action="Analyze" type="Success" name="app.config" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\LtechIndia.BackOffice.BOEngine.DAL\app.config" />
+  <event action="Analyze" type="Success" name="LtechIndia.BackOffice.BOEngine.DAL" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\LtechIndia.BackOffice.BOEngine.DAL\LtechIndia.BackOffice.BOEngine.DAL.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\clsEnum\clsInterface4OME.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\clsEnum\app.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\clsEnum\app.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\clsEnum\app.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\clsEnum\app.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\clsEnum\app.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\clsEnum\app.config" />
+  <event action="Analyze" type="Success" name="app.config" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\clsEnum\app.config" />
+  <event action="Analyze" type="Success" name="frmConfirmationBox.resx" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\clsEnum\frmConfirmationBox.resx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\clsEnum\Log4net.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\clsEnum\Log4net.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\clsEnum\Log4net.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\clsEnum\Log4net.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\clsEnum\Log4net.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\clsEnum\Log4net.config" />
+  <event action="Analyze" type="Success" name="Log4net.config" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\clsEnum\Log4net.config" />
+  <event action="Analyze" type="Success" name="clsInterface4OME" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\clsEnum\clsInterface4OME.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\BOEngine.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\ApplicationInsights.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\ApplicationInsights.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\ApplicationInsights.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\ApplicationInsights.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\ApplicationInsights.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\ApplicationInsights.config" />
+  <event action="Analyze" type="Success" name="ApplicationInsights.config" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\ApplicationInsights.config" />
+  <event action="Analyze" type="Success" name="Service Host Directives" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\BOEngineService.svc" />
+  <event action="Analyze" type="Success" name="BOEngineService.svc" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\BOEngineService.svc" />
+  <event action="Analyze" type="Success" name="Assembly References" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\packages.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\Web.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\Web.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\Web.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\Web.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\Web.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\Web.config" />
+  <event action="Analyze" type="Success" name="Web.config" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\Web.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Web.Debug.config" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\Web.Debug.config" />
+  <event action="Analyze" type="Success" name="Assembly References" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\Web.Release.config" />
+  <event action="Analyze" type="Success" name="Web.Release.config" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\Web.Release.config" />
+  <event action="Analyze" type="Success" name="BOEngine" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEngine\BOEngine.csproj" />
+  <event action="Analyze" type="Success" name="BOEgine" path="F:\Projects\ExchangeSolution\BOEngineService\BO_Engine\BOEgine.sln" />
+</log>

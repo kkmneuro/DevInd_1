@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="AlertScriptService.AlertScriptService" CodeBehind="AlertScriptService.svc.cs" %>

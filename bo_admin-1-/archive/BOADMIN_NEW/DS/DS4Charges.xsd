@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS4Charges" targetNamespace="http://tempuri.org/DS4Charges.xsd" xmlns:mstns="http://tempuri.org/DS4Charges.xsd" xmlns="http://tempuri.org/DS4Charges.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS4Charges" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS4Charges" msprop:Generator_DataSetName="DS4Charges" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtCharges" msprop:Generator_UserTableName="dtCharges" msprop:Generator_RowDeletedName="dtChargesRowDeleted" msprop:Generator_RowChangedName="dtChargesRowChanged" msprop:Generator_RowClassName="dtChargesRow" msprop:Generator_RowChangingName="dtChargesRowChanging" msprop:Generator_RowEvArgName="dtChargesRowChangeEvent" msprop:Generator_RowEvHandlerName="dtChargesRowChangeEventHandler" msprop:Generator_TableClassName="dtChargesDataTable" msprop:Generator_TableVarName="tabledtCharges" msprop:Generator_RowDeletingName="dtChargesRowDeleting" msprop:Generator_TablePropName="dtCharges">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SymbolChargesID" msprop:Generator_UserColumnName="SymbolChargesID" msprop:Generator_ColumnPropNameInRow="SymbolChargesID" msprop:Generator_ColumnVarNameInTable="columnSymbolChargesID" msprop:Generator_ColumnPropNameInTable="SymbolChargesIDColumn" type="xs:int" />
+              <xs:element name="BrokersGroupID" msprop:Generator_UserColumnName="BrokersGroupID" msprop:Generator_ColumnPropNameInRow="BrokersGroupID" msprop:Generator_ColumnVarNameInTable="columnBrokersGroupID" msprop:Generator_ColumnPropNameInTable="BrokersGroupIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Symbol_ID" msprop:Generator_UserColumnName="Symbol_ID" msprop:Generator_ColumnPropNameInRow="Symbol_ID" msprop:Generator_ColumnVarNameInTable="columnSymbol_ID" msprop:Generator_ColumnPropNameInTable="Symbol_IDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Symbol" msprop:Generator_UserColumnName="Symbol" msprop:Generator_ColumnPropNameInRow="Symbol" msprop:Generator_ColumnVarNameInTable="columnSymbol" msprop:Generator_ColumnPropNameInTable="SymbolColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FeeType" msprop:Generator_UserColumnName="FeeType" msprop:Generator_ColumnPropNameInRow="FeeType" msprop:Generator_ColumnVarNameInTable="columnFeeType" msprop:Generator_ColumnPropNameInTable="FeeTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FeeValue" msprop:Generator_UserColumnName="FeeValue" msprop:Generator_ColumnPropNameInRow="FeeValue" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnFeeValue" msprop:Generator_ColumnPropNameInTable="FeeValueColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TaxType" msprop:Generator_UserColumnName="TaxType" msprop:Generator_ColumnPropNameInRow="TaxType" msprop:Generator_ColumnVarNameInTable="columnTaxType" msprop:Generator_ColumnPropNameInTable="TaxTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TaxValue" msprop:Generator_UserColumnName="TaxValue" msprop:Generator_ColumnPropNameInRow="TaxValue" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnTaxValue" msprop:Generator_ColumnPropNameInTable="TaxValueColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtCharges" />
+      <xs:field xpath="mstns:SymbolChargesID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

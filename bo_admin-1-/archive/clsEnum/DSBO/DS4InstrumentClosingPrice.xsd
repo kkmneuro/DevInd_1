@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS4InstrumentClosingPrice" targetNamespace="http://tempuri.org/DS4InstrumentClosingPrice.xsd" xmlns:mstns="http://tempuri.org/DS4InstrumentClosingPrice.xsd" xmlns="http://tempuri.org/DS4InstrumentClosingPrice.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS4InstrumentClosingPrice" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS4InstrumentClosingPrice" msprop:Generator_DataSetName="DS4InstrumentClosingPrice" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtInstrumentClosingPrice" msprop:Generator_UserTableName="dtInstrumentClosingPrice" msprop:Generator_RowDeletedName="dtInstrumentClosingPriceRowDeleted" msprop:Generator_RowChangedName="dtInstrumentClosingPriceRowChanged" msprop:Generator_RowClassName="dtInstrumentClosingPriceRow" msprop:Generator_RowChangingName="dtInstrumentClosingPriceRowChanging" msprop:Generator_RowEvArgName="dtInstrumentClosingPriceRowChangeEvent" msprop:Generator_RowEvHandlerName="dtInstrumentClosingPriceRowChangeEventHandler" msprop:Generator_TableClassName="dtInstrumentClosingPriceDataTable" msprop:Generator_TableVarName="tabledtInstrumentClosingPrice" msprop:Generator_RowDeletingName="dtInstrumentClosingPriceRowDeleting" msprop:Generator_TablePropName="dtInstrumentClosingPrice">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="InstrumentClosingPrice" msprop:Generator_UserColumnName="InstrumentClosingPrice" msprop:Generator_ColumnPropNameInRow="InstrumentClosingPrice" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnInstrumentClosingPrice" msprop:Generator_ColumnPropNameInTable="InstrumentClosingPriceColumn" type="xs:long" default="0" minOccurs="0" />
+              <xs:element name="InstrumentID" msprop:Generator_UserColumnName="InstrumentID" msprop:Generator_ColumnPropNameInRow="InstrumentID" msprop:Generator_ColumnVarNameInTable="columnInstrumentID" msprop:Generator_ColumnPropNameInTable="InstrumentIDColumn" type="xs:string" />
+              <xs:element name="ClosingPrice" msprop:Generator_UserColumnName="ClosingPrice" msprop:Generator_ColumnPropNameInRow="ClosingPrice" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnClosingPrice" msprop:Generator_ColumnPropNameInTable="ClosingPriceColumn" type="xs:decimal" default="0" minOccurs="0" />
+              <xs:element name="ClosingDate" msprop:Generator_UserColumnName="ClosingDate" msprop:Generator_ColumnPropNameInRow="ClosingDate" msprop:Generator_ColumnVarNameInTable="columnClosingDate" msprop:Generator_ColumnPropNameInTable="ClosingDateColumn" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtInstrumentClosingPrice" />
+      <xs:field xpath="mstns:InstrumentID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

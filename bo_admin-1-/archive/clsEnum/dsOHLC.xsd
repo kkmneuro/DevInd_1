@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsOHLC" targetNamespace="http://tempuri.org/dsOHLC.xsd" xmlns:mstns="http://tempuri.org/dsOHLC.xsd" xmlns="http://tempuri.org/dsOHLC.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsOHLC" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsOHLC" msprop:Generator_UserDSName="dsOHLC" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tbOHLC" msprop:Generator_UserTableName="tbOHLC" msprop:Generator_RowDeletedName="tbOHLCRowDeleted" msprop:Generator_TableClassName="tbOHLCDataTable" msprop:Generator_RowChangedName="tbOHLCRowChanged" msprop:Generator_RowClassName="tbOHLCRow" msprop:Generator_RowChangingName="tbOHLCRowChanging" msprop:Generator_RowEvArgName="tbOHLCRowChangeEvent" msprop:Generator_RowEvHandlerName="tbOHLCRowChangeEventHandler" msprop:Generator_TablePropName="tbOHLC" msprop:Generator_TableVarName="tabletbOHLC" msprop:Generator_RowDeletingName="tbOHLCRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ArrivalTime" msprop:Generator_UserColumnName="ArrivalTime" msprop:Generator_ColumnPropNameInRow="ArrivalTime" msprop:Generator_ColumnVarNameInTable="columnArrivalTime" msprop:Generator_ColumnPropNameInTable="ArrivalTimeColumn" type="xs:dateTime" />
+              <xs:element name="OpenVal" msprop:Generator_UserColumnName="OpenVal" msprop:Generator_ColumnPropNameInRow="OpenVal" msprop:Generator_ColumnVarNameInTable="columnOpenVal" msprop:Generator_ColumnPropNameInTable="OpenValColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="HighVal" msprop:Generator_UserColumnName="HighVal" msprop:Generator_ColumnPropNameInRow="HighVal" msprop:Generator_ColumnVarNameInTable="columnHighVal" msprop:Generator_ColumnPropNameInTable="HighValColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LowVal" msprop:Generator_UserColumnName="LowVal" msprop:Generator_ColumnPropNameInRow="LowVal" msprop:Generator_ColumnVarNameInTable="columnLowVal" msprop:Generator_ColumnPropNameInTable="LowValColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CloseVal" msprop:Generator_UserColumnName="CloseVal" msprop:Generator_ColumnPropNameInRow="CloseVal" msprop:Generator_ColumnVarNameInTable="columnCloseVal" msprop:Generator_ColumnPropNameInTable="CloseValColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="VolumeVal" msprop:Generator_UserColumnName="VolumeVal" msprop:Generator_ColumnPropNameInRow="VolumeVal" msprop:Generator_ColumnVarNameInTable="columnVolumeVal" msprop:Generator_ColumnPropNameInTable="VolumeValColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="tbOHLCKeyPK" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tbOHLC" />
+      <xs:field xpath="mstns:ArrivalTime" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

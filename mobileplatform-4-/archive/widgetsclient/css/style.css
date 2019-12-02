@@ -1,0 +1,228 @@
+body{    font-family: Arial, Helvetica, 'Ubuntu', sans-serif;
+    line-height: normal !important;
+}
+
+.sym{
+	background-color:#0c203a;
+	color:#FFFFFF;
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 3px;
+	font-size:13px;
+	width:121px;
+	border-bottom:#506278 1px solid;
+}
+
+.bd{
+	background-color:#19304e;
+	color:#FFFFFF;
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 3px;
+	font-size:13px;
+	width:95px;
+	border-bottom:#506278 1px solid;
+}
+.as{
+	background-color:#0c203a;
+	color:#FFFFFF;
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 3px;
+	font-size:13px;
+	width:95px;
+	border-bottom:#506278 1px solid;
+}
+
+.sp{
+	background-color:#19304e;
+	color:#FFFFFF;
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 3px;
+	font-size:13px;
+	width:104px;
+	border-bottom:#506278 1px solid;
+}
+
+.av{
+	background-color:#FFFFFF;
+	color:#000000;
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 3px;
+	font-size:13px;
+	width:98px;
+	border-bottom:#dae0e8 1px solid;
+}
+
+.sy{
+	background-color:#FFFFFF;
+	color:#000000;
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 3px;
+	font-size:13px;
+	width:98px;
+	border-bottom:#dae0e8 1px solid;
+}
+.ny{
+	background-color:#FFFFFF;
+	color:#000;
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 3px;
+	font-size:13px;
+	width:98px;
+	border-bottom:#dae0e8 1px solid;
+	border-right: #dae0e8 1px solid;
+}
+.tok{
+	background-color:#f5f6f7;
+	color:#000000;
+	text-align: center;
+	padding-bottom: 3px;
+	font-size:13px;
+	width:98px;
+	border-bottom:#dae0e8 1px solid;
+}
+.lon{
+	background-color:#f5f6f7;
+	color:#000000;
+	text-align: center;
+	padding-bottom: 3px;
+	font-size:13px;
+	width:98px;
+	border-bottom:#dae0e8 1px solid;
+}
+
+.headSym{
+    background: #0c203a;
+	color:#FFFFFF;
+	width:133px;
+	font-weight: bold;
+	border-bottom:#506278 1px solid;
+	}
+.headAsk{
+    background: #0c203a;
+	color:#FFFFFF;
+	width:105px;
+	font-weight: bold;
+	border-bottom:#506278 1px solid;
+	}
+.headBd{
+    background: #19304e;
+	color:#FFFFFF;
+	font-weight: bold;
+	width:114px;
+	border-bottom:#506278 1px solid;
+	}
+
+
+.head2{
+    background:#ffffff;
+	color:#000;
+	font-weight: bold;
+	width:108px;
+	}
+.headNY{
+    background:#ffffff;
+	color:#000;
+	font-weight: bold;
+	width:105px;
+	}	
+.trcssstyle{
+	height: 31px;
+    border-bottom: #65A1CC 1px solid;
+	padding-top:10px;
+	}
+
+#widgetQoutes {
+    background-color: #0c203a;
+    width: 906px;
+    color: #ffffff;
+    border: #dae0e8 1px solid;
+    text-align: center;
+	border-spacing: 0;
+	margin-top: -250px;
+	border-collapse: collapse;
+	font-size: 15px;
+}
+
+.buttonAll{
+background: transparent;
+border: none;
+font-size:17px; 
+margin-top:10px;
+cursor:pointer;
+}
+
+<!-- Timer clack -->
+#traidingClock {
+    width: 132px;
+    color: #A6AAB3;
+    float: left;
+    text-align: center;
+    border: #dae0e8 5px solid !important;
+	/*width: 200px; background-color:#FFFFFF;height: 250px; float: right; border: #dae0e8 1px solid; margin-right: -56px;color:#A6AAB3;*/
+}
+
+.difTime {
+    position: relative;
+    display: block;
+    clear: both;
+    width: 100%;
+    height: 52px;
+    border-bottom: #dae0e8 1px solid;
+    font-size: 12px;
+	}
+.difTimeLeft {
+    width: 50%;
+    float: left;
+    border-right: #dae0e8 1px solid;
+    height: 52px;
+}
+.diftitle {
+    width: 100%;
+    height: 27px;
+    line-height: 30px;
+}
+#brokerClock, #localClock {
+    color: #515f72;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+}
+.difTimeRight {
+    width: 49%;
+    float: right;
+    height: 52px;
+}
+.diftitle {
+    width: 100%;
+    height: 27px;
+    line-height: 30px;
+}
+#brokerClock, #localClock {
+    color: #515f72;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+}
+#openClose {
+    padding: 0 0 1px 0;
+    margin: 0;
+    list-style: none;
+	}
+#openClose li {
+    height: 39px;
+    font-size: 12px;
+    padding-top: 8px;
+    border-bottom: #dae0e8 1px solid;
+}
+		
+td3{
+border-bottom:#506278 1px solid;
+
+}
+	

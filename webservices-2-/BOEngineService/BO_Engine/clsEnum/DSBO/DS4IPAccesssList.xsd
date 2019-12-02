@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS4IPAccesssList" targetNamespace="http://tempuri.org/DS4IPAccesssList.xsd" xmlns:mstns="http://tempuri.org/DS4IPAccesssList.xsd" xmlns="http://tempuri.org/DS4IPAccesssList.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS4IPAccesssList" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS4IPAccesssList" msprop:Generator_DataSetName="DS4IPAccesssList" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtIPAccessList" msprop:Generator_UserTableName="dtIPAccessList" msprop:Generator_RowDeletedName="dtIPAccessListRowDeleted" msprop:Generator_TableClassName="dtIPAccessListDataTable" msprop:Generator_RowChangedName="dtIPAccessListRowChanged" msprop:Generator_RowClassName="dtIPAccessListRow" msprop:Generator_RowChangingName="dtIPAccessListRowChanging" msprop:Generator_RowEvArgName="dtIPAccessListRowChangeEvent" msprop:Generator_RowEvHandlerName="dtIPAccessListRowChangeEventHandler" msprop:Generator_TablePropName="dtIPAccessList" msprop:Generator_TableVarName="tabledtIPAccessList" msprop:Generator_RowDeletingName="dtIPAccessListRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IPAccessID" msprop:Generator_UserColumnName="IPAccessID" msprop:Generator_ColumnPropNameInRow="IPAccessID" msprop:Generator_ColumnVarNameInTable="columnIPAccessID" msprop:Generator_ColumnPropNameInTable="IPAccessIDColumn" type="xs:int" />
+              <xs:element name="Action" msprop:Generator_UserColumnName="Action" msprop:Generator_ColumnPropNameInRow="Action" msprop:Generator_ColumnVarNameInTable="columnAction" msprop:Generator_ColumnPropNameInTable="ActionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IPAddressFrom" msprop:Generator_UserColumnName="IPAddressFrom" msprop:Generator_ColumnPropNameInRow="IPAddressFrom" msprop:Generator_ColumnVarNameInTable="columnIPAddressFrom" msprop:Generator_ColumnPropNameInTable="IPAddressFromColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IPAddressTo" msprop:Generator_UserColumnName="IPAddressTo" msprop:Generator_ColumnPropNameInRow="IPAddressTo" msprop:Generator_ColumnVarNameInTable="columnIPAddressTo" msprop:Generator_ColumnPropNameInTable="IPAddressToColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Comment" msprop:Generator_UserColumnName="Comment" msprop:Generator_ColumnPropNameInRow="Comment" msprop:Generator_ColumnVarNameInTable="columnComment" msprop:Generator_ColumnPropNameInTable="CommentColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="dtIPAccessListKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtIPAccessList" />
+      <xs:field xpath="mstns:IPAccessID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

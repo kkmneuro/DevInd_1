@@ -1,0 +1,894 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{609FECC6-14BF-417D-8F37-926792933D58}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>clsInterface4OME</RootNamespace>
+    <AssemblyName>clsInterface4OME</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DebugAurum</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE;ReleaseAurum</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DebugAurum</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;ReleaseAurum</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DebugAurum</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;ReleaseAurum</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DebugAkram|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\DebugAkram\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DebugAurum</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DebugAkram|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\DebugAkram\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DebugAurum</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DebugAkram|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\DebugAkram\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DebugAurum</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'ReleaseAkram|AnyCPU' ">
+    <OutputPath>bin\ReleaseAkram\</OutputPath>
+    <DefineConstants>TRACE;ReleaseAurum</DefineConstants>
+    <Optimize>true</Optimize>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'ReleaseAkram|x64' ">
+    <OutputPath>bin\x64\ReleaseAkram\</OutputPath>
+    <DefineConstants>TRACE;ReleaseAurum</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'ReleaseAkram|x86' ">
+    <OutputPath>bin\x86\ReleaseAkram\</OutputPath>
+    <DefineConstants>TRACE;ReleaseAurum</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DebugDemo|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\DebugDemo\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DebugAurum</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DebugDemo|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\DebugDemo\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DebugAurum</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'DebugDemo|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\DebugDemo\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;DebugAurum</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'ReleaseDemo|AnyCPU' ">
+    <OutputPath>bin\ReleaseDemo\</OutputPath>
+    <DefineConstants>TRACE;ReleaseAurum</DefineConstants>
+    <Optimize>true</Optimize>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'ReleaseDemo|x64' ">
+    <OutputPath>bin\x64\ReleaseDemo\</OutputPath>
+    <DefineConstants>TRACE;ReleaseAurum</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'ReleaseDemo|x86' ">
+    <OutputPath>bin\x86\ReleaseDemo\</OutputPath>
+    <DefineConstants>TRACE;ReleaseAurum</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountSummary.cs" />
+    <Compile Include="clsUtil4ProtoVali.cs" />
+    <Compile Include="DSBO\DS4Account.cs">
+      <DependentUpon>DS4Account.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4Account.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4Account.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4AccountGroup.cs">
+      <DependentUpon>DS4AccountGroup.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4AccountGroup.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4AccountGroup.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4Backup.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4Backup.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4BankAccount.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4BankAccount.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4BrokerCollateralInfo.cs">
+      <DependentUpon>DS4BrokerCollateralInfo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4BrokerCollateralInfo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4BrokerCollateralInfo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4Brokers.cs">
+      <DependentUpon>DS4Brokers.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4Brokers.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4Brokers.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4BrokerTypes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4BrokerTypes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4Common.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4Common.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4CommonSettingNew.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4CommonSettingNew.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4Currency.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4Currency.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4DataFeeds.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4DataFeeds.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4DataServers.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4DataServers.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4FeeMaster.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4FeeMaster.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4Groups.cs">
+      <DependentUpon>DS4Groups.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4HistoricalData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4HistoricalData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4Holidays.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4Holidays.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4InstrumentClosingPrice.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4InstrumentClosingPrice.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4IPAccesssList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4IPAccesssList.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4Leverage.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4Leverage.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4LiveUpdate.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4LiveUpdate.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4Managers.cs">
+      <DependentUpon>DS4Managers.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4Managers.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4Managers.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4MapOrders.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4MapOrders.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4OperationsLog.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4OperationsLog.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4OrderNew.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4OrderNew.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4Orders.cs">
+      <DependentUpon>DS4Orders.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4Orders.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4Orders.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4ParticipantTypes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4ParticipantTypes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4Securities.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4Securities.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4Symbol.cs">
+      <DependentUpon>DS4Symbol.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4Symbol.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4Symbol.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4Synchronization.cs">
+      <DependentUpon>DS4Synchronization.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4Synchronization.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4Synchronization.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4Groups.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4Groups.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4TaxMaster.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4TaxMaster.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4Time.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4Time.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4Trade.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4Trade.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4TradingGateway.cs">
+      <DependentUpon>DS4TradingGateway.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4TradingGateway.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4TradingGateway.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSBO\DS4VirtualDealer.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4VirtualDealer.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EncriptionAndDecription.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="ClassVar.cs" />
+    <Compile Include="clsEnum.cs" />
+    <Compile Include="clsExecDetail.cs" />
+    <Compile Include="clsUtility.cs" />
+    <Compile Include="DS4Orders.cs">
+      <DependentUpon>DS4Orders.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS4Orders.Designer.cs">
+      <DependentUpon>DS4Orders.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="dsOHLC.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsOHLC.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="EquityOrder.cs" />
+    <Compile Include="FileHandling.cs" />
+    <Compile Include="frmConfirmationBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfirmationBox.Designer.cs">
+      <DependentUpon>frmConfirmationBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MarketData.cs" />
+    <Compile Include="CustomDic.cs" />
+    <Compile Include="Order.cs" />
+    <Compile Include="OrderStatusReport.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Quote.cs" />
+    <Compile Include="TradeReport.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="DS4Orders.xsc">
+      <DependentUpon>DS4Orders.xsd</DependentUpon>
+    </None>
+    <None Include="DS4Orders.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4Orders.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS4Orders.xss">
+      <DependentUpon>DS4Orders.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4Account.xsc">
+      <DependentUpon>DS4Account.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4Account.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4Account.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4Account.xss">
+      <DependentUpon>DS4Account.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4AccountGroup.xsc">
+      <DependentUpon>DS4AccountGroup.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4AccountGroup.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4AccountGroup.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4AccountGroup.xss">
+      <DependentUpon>DS4AccountGroup.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4Backup.xsc">
+      <DependentUpon>DS4Backup.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4Backup.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4Backup.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4Backup.xss">
+      <DependentUpon>DS4Backup.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4BankAccount.xsc">
+      <DependentUpon>DS4BankAccount.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4BankAccount.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4BankAccount.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4BankAccount.xss">
+      <DependentUpon>DS4BankAccount.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4BrokerCollateralInfo.xsc">
+      <DependentUpon>DS4BrokerCollateralInfo.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4BrokerCollateralInfo.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4BrokerCollateralInfo.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4BrokerCollateralInfo.xss">
+      <DependentUpon>DS4BrokerCollateralInfo.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4Brokers.xsc">
+      <DependentUpon>DS4Brokers.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4Brokers.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4Brokers.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4Brokers.xss">
+      <DependentUpon>DS4Brokers.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4BrokerTypes.xsc">
+      <DependentUpon>DS4BrokerTypes.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4BrokerTypes.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4BrokerTypes.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4BrokerTypes.xss">
+      <DependentUpon>DS4BrokerTypes.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4Common.xsc">
+      <DependentUpon>DS4Common.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4Common.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4Common.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4Common.xss">
+      <DependentUpon>DS4Common.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4CommonSettingNew.xsc">
+      <DependentUpon>DS4CommonSettingNew.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4CommonSettingNew.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4CommonSettingNew.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4CommonSettingNew.xss">
+      <DependentUpon>DS4CommonSettingNew.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4Currency.xsc">
+      <DependentUpon>DS4Currency.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4Currency.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4Currency.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4Currency.xss">
+      <DependentUpon>DS4Currency.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4DataFeeds.xsc">
+      <DependentUpon>DS4DataFeeds.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4DataFeeds.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4DataFeeds.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4DataFeeds.xss">
+      <DependentUpon>DS4DataFeeds.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4DataServers.xsc">
+      <DependentUpon>DS4DataServers.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4DataServers.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4DataServers.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4DataServers.xss">
+      <DependentUpon>DS4DataServers.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4FeeMaster.xsc">
+      <DependentUpon>DS4FeeMaster.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4FeeMaster.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4FeeMaster.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4FeeMaster.xss">
+      <DependentUpon>DS4FeeMaster.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4HistoricalData.xsc">
+      <DependentUpon>DS4HistoricalData.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4HistoricalData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4HistoricalData.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4HistoricalData.xss">
+      <DependentUpon>DS4HistoricalData.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4Holidays.xsc">
+      <DependentUpon>DS4Holidays.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4Holidays.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4Holidays.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4Holidays.xss">
+      <DependentUpon>DS4Holidays.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4InstrumentClosingPrice.xsc">
+      <DependentUpon>DS4InstrumentClosingPrice.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4InstrumentClosingPrice.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4InstrumentClosingPrice.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4InstrumentClosingPrice.xss">
+      <DependentUpon>DS4InstrumentClosingPrice.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4IPAccesssList.xsc">
+      <DependentUpon>DS4IPAccesssList.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4IPAccesssList.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4IPAccesssList.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4IPAccesssList.xss">
+      <DependentUpon>DS4IPAccesssList.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4Leverage.xsc">
+      <DependentUpon>DS4Leverage.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4Leverage.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4Leverage.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4Leverage.xss">
+      <DependentUpon>DS4Leverage.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4LiveUpdate.xsc">
+      <DependentUpon>DS4LiveUpdate.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4LiveUpdate.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4LiveUpdate.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4LiveUpdate.xss">
+      <DependentUpon>DS4LiveUpdate.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4Managers.xsc">
+      <DependentUpon>DS4Managers.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4Managers.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4Managers.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4Managers.xss">
+      <DependentUpon>DS4Managers.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4MapOrders.xsc">
+      <DependentUpon>DS4MapOrders.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4MapOrders.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4MapOrders.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4MapOrders.xss">
+      <DependentUpon>DS4MapOrders.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4OperationsLog.xsc">
+      <DependentUpon>DS4OperationsLog.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4OperationsLog.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4OperationsLog.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4OperationsLog.xss">
+      <DependentUpon>DS4OperationsLog.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4OrderNew.xsc">
+      <DependentUpon>DS4OrderNew.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4OrderNew.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4OrderNew.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4OrderNew.xss">
+      <DependentUpon>DS4OrderNew.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4Orders.xsc">
+      <DependentUpon>DS4Orders.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4Orders.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4Orders.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DSBO\DS4Orders.xss">
+      <DependentUpon>DS4Orders.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4ParticipantTypes.xsc">
+      <DependentUpon>DS4ParticipantTypes.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4ParticipantTypes.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4ParticipantTypes.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4ParticipantTypes.xss">
+      <DependentUpon>DS4ParticipantTypes.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4Securities.xsc">
+      <DependentUpon>DS4Securities.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4Securities.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4Securities.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4Securities.xss">
+      <DependentUpon>DS4Securities.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4Symbol.xsc">
+      <DependentUpon>DS4Symbol.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4Symbol.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4Symbol.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4Symbol.xss">
+      <DependentUpon>DS4Symbol.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4Synchronization.xsc">
+      <DependentUpon>DS4Synchronization.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4Synchronization.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4Synchronization.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4Synchronization.xss">
+      <DependentUpon>DS4Synchronization.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4Groups.xsc">
+      <DependentUpon>DS4Groups.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4Groups.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4Groups.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4Groups.xss">
+      <DependentUpon>DS4Groups.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4TaxMaster.xsc">
+      <DependentUpon>DS4TaxMaster.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4TaxMaster.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4TaxMaster.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4TaxMaster.xss">
+      <DependentUpon>DS4TaxMaster.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4Time.xsc">
+      <DependentUpon>DS4Time.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4Time.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4Time.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4Time.xss">
+      <DependentUpon>DS4Time.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4Trade.xsc">
+      <DependentUpon>DS4Trade.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4Trade.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4Trade.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4Trade.xss">
+      <DependentUpon>DS4Trade.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4TradingGateway.xsc">
+      <DependentUpon>DS4TradingGateway.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4TradingGateway.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4TradingGateway.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4TradingGateway.xss">
+      <DependentUpon>DS4TradingGateway.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4VirtualDealer.xsc">
+      <DependentUpon>DS4VirtualDealer.xsd</DependentUpon>
+    </None>
+    <None Include="DSBO\DS4VirtualDealer.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4VirtualDealer.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSBO\DS4VirtualDealer.xss">
+      <DependentUpon>DS4VirtualDealer.xsd</DependentUpon>
+    </None>
+    <None Include="dsOHLC.xsc">
+      <DependentUpon>dsOHLC.xsd</DependentUpon>
+    </None>
+    <None Include="dsOHLC.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsOHLC.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsOHLC.xss">
+      <DependentUpon>dsOHLC.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="Log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmConfirmationBox.resx">
+      <DependentUpon>frmConfirmationBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dll\log4net.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

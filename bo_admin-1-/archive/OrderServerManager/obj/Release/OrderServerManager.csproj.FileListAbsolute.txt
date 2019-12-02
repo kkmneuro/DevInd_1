@@ -1,0 +1,7 @@
+D:\DevIndia\bo_admin-1-\archive\OrderServerManager\bin\Release\OrderServerManager.dll
+D:\DevIndia\bo_admin-1-\archive\OrderServerManager\bin\Release\OrderServerManager.pdb
+D:\DevIndia\bo_admin-1-\archive\OrderServerManager\bin\Release\WebSocket4Net.dll
+D:\DevIndia\bo_admin-1-\archive\OrderServerManager\obj\Release\OrderServerManager.csprojAssemblyReference.cache
+D:\DevIndia\bo_admin-1-\archive\OrderServerManager\obj\Release\OrderServerManager.csproj.CopyComplete
+D:\DevIndia\bo_admin-1-\archive\OrderServerManager\obj\Release\OrderServerManager.dll
+D:\DevIndia\bo_admin-1-\archive\OrderServerManager\obj\Release\OrderServerManager.pdb

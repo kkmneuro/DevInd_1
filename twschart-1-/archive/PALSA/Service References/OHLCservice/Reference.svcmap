@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="68c85276-f2e1-4d7b-a66a-742705972a2f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://192.168.2.77:84/OHLCservice.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="OHLCservice.xsd" MetadataType="Schema" ID="e8805c95-6ff0-4f2c-9264-bb237a5e2b69" SourceId="1" SourceUrl="http://192.168.2.77:84/OHLCservice.svc?xsd=xsd0" />
+    <MetadataFile FileName="OHLCservice1.xsd" MetadataType="Schema" ID="ee937776-554d-423a-8741-a48d833dfbd1" SourceId="1" SourceUrl="http://192.168.2.77:84/OHLCservice.svc?xsd=xsd1" />
+    <MetadataFile FileName="OHLCservice2.xsd" MetadataType="Schema" ID="d7f6ca1f-aa6e-415b-a467-2958bd50bbe3" SourceId="1" SourceUrl="http://192.168.2.77:84/OHLCservice.svc?xsd=xsd2" />
+    <MetadataFile FileName="OHLCservice.wsdl" MetadataType="Wsdl" ID="41ca61a7-13c2-45c8-b520-1b8800185110" SourceId="1" SourceUrl="http://192.168.2.77:84/OHLCservice.svc?wsdl" />
+    <MetadataFile FileName="OHLCservice.disco" MetadataType="Disco" ID="285a800e-3fdc-462c-afa6-5581b0570bce" SourceId="1" SourceUrl="http://192.168.2.77:84/OHLCservice.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

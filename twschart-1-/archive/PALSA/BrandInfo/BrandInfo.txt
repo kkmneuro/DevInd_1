@@ -1,0 +1,3 @@
+PRODUCT_NAME~FutureX
+ADDRESS~Futurex Trading;Email : info@futurexnepal.com;Web: http://www.futurexnepal.com
+COPYRIGHT~Copyright © FutureX

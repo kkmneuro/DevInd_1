@@ -1,0 +1,4 @@
+F:\CodeBase\ExchangeSolution\ReportService\ReportServiceClasses\bin\Debug\ReportServiceClasses.dll
+F:\CodeBase\ExchangeSolution\ReportService\ReportServiceClasses\bin\Debug\ReportServiceClasses.pdb
+F:\CodeBase\ExchangeSolution\ReportService\ReportServiceClasses\obj\Debug\ReportServiceClasses.dll
+F:\CodeBase\ExchangeSolution\ReportService\ReportServiceClasses\obj\Debug\ReportServiceClasses.pdb

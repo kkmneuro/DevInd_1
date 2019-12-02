@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="OMSExchange_NG" Class="dbMan_BO_GetTradeReportDataDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=OMSExchange_NG;Persist Security Info=True;User ID=sa" SettingsObjectName="DataAcessLogic.Properties.Settings" SettingsPropertyName="OMSExchange_NGConnectionString1" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.OMS_GetTradeReportData" Method="OMS_GetTradeReportData">
+    <Parameter Name="Date" Parameter="date" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="Side" Parameter="side" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="AccountNumber" Parameter="accountNumber" Type="System.Int32" DbType="Int" />
+    <Parameter Name="OrderType" Parameter="orderType" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="ToDate" Parameter="toDate" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="BrokerID" Parameter="brokerID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Symbol" Parameter="symbol" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="ParentBrokerID" Parameter="parentBrokerID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="OMS_GetTradeReportDataResult">
+      <Column Name="FK_AccountID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PK_OrderID" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="OrderDateTimeRequested" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Side" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="PositionSize" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="ContractName" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Price" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="TradePrice" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="BrokerID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TradeTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="TradeNumber" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="BrokerType" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="Brokershierarchy" Type="System.String" DbType="NVarChar(30)" CanBeNull="true" />
+      <Column Name="ProfitValue" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="Commission" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

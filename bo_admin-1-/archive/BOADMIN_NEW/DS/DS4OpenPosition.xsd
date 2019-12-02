@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS4OpenPosition" targetNamespace="http://tempuri.org/DS4OpenPosition.xsd" xmlns:mstns="http://tempuri.org/DS4OpenPosition.xsd" xmlns="http://tempuri.org/DS4OpenPosition.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS4OpenPosition" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DS4OpenPosition" msprop:Generator_UserDSName="DS4OpenPosition" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtOpenPosition" msprop:Generator_UserTableName="dtOpenPosition" msprop:Generator_RowDeletedName="dtOpenPositionRowDeleted" msprop:Generator_TableClassName="dtOpenPositionDataTable" msprop:Generator_RowChangedName="dtOpenPositionRowChanged" msprop:Generator_RowClassName="dtOpenPositionRow" msprop:Generator_RowChangingName="dtOpenPositionRowChanging" msprop:Generator_RowEvArgName="dtOpenPositionRowChangeEvent" msprop:Generator_RowEvHandlerName="dtOpenPositionRowChangeEventHandler" msprop:Generator_TablePropName="dtOpenPosition" msprop:Generator_TableVarName="tabledtOpenPosition" msprop:Generator_RowDeletingName="dtOpenPositionRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BrokerID" msprop:Generator_UserColumnName="BrokerID" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnBrokerID" msprop:Generator_ColumnPropNameInTable="BrokerIDColumn" msprop:Generator_ColumnPropNameInRow="BrokerID" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="ITCM" msprop:Generator_UserColumnName="ITCM" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnITCM" msprop:Generator_ColumnPropNameInTable="ITCMColumn" msprop:Generator_ColumnPropNameInRow="ITCM" type="xs:string" default="NULL" minOccurs="0" />
+              <xs:element name="TCM" msprop:Generator_UserColumnName="TCM" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnTCM" msprop:Generator_ColumnPropNameInTable="TCMColumn" msprop:Generator_ColumnPropNameInRow="TCM" type="xs:string" default="NULL" minOccurs="0" />
+              <xs:element name="TM" msprop:Generator_UserColumnName="TM" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnTM" msprop:Generator_ColumnPropNameInTable="TMColumn" msprop:Generator_ColumnPropNameInRow="TM" type="xs:string" default="NULL" minOccurs="0" />
+              <xs:element name="STM" msprop:Generator_UserColumnName="STM" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnSTM" msprop:Generator_ColumnPropNameInTable="STMColumn" msprop:Generator_ColumnPropNameInRow="STM" type="xs:string" default="NULL" minOccurs="0" />
+              <xs:element name="AccountID" msprop:Generator_UserColumnName="AccountID" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnAccountID" msprop:Generator_ColumnPropNameInTable="AccountIDColumn" msprop:Generator_ColumnPropNameInRow="AccountID" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="OrderNumber" msprop:Generator_UserColumnName="OrderNumber" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnOrderNumber" msprop:Generator_ColumnPropNameInTable="OrderNumberColumn" msprop:Generator_ColumnPropNameInRow="OrderNumber" type="xs:long" default="0" minOccurs="0" />
+              <xs:element name="OrderDateTime" msprop:Generator_UserColumnName="OrderDateTime" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnOrderDateTime" msprop:Generator_ColumnPropNameInTable="OrderDateTimeColumn" msprop:Generator_ColumnPropNameInRow="OrderDateTime" type="xs:string" default="NULL" minOccurs="0" />
+              <xs:element name="OrderType" msprop:Generator_UserColumnName="OrderType" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnOrderType" msprop:Generator_ColumnPropNameInTable="OrderTypeColumn" msprop:Generator_ColumnPropNameInRow="OrderType" type="xs:string" default="NULL" minOccurs="0" />
+              <xs:element name="Side" msprop:Generator_UserColumnName="Side" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnSide" msprop:Generator_ColumnPropNameInTable="SideColumn" msprop:Generator_ColumnPropNameInRow="Side" type="xs:string" default="NULL" minOccurs="0" />
+              <xs:element name="Lot" msprop:Generator_UserColumnName="Lot" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnLot" msprop:Generator_ColumnPropNameInTable="LotColumn" msprop:Generator_ColumnPropNameInRow="Lot" type="xs:long" default="0" minOccurs="0" />
+              <xs:element name="Symbol" msprop:Generator_UserColumnName="Symbol" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnSymbol" msprop:Generator_ColumnPropNameInTable="SymbolColumn" msprop:Generator_ColumnPropNameInRow="Symbol" type="xs:string" default="NULL" minOccurs="0" />
+              <xs:element name="Price" msprop:Generator_UserColumnName="Price" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnPrice" msprop:Generator_ColumnPropNameInTable="PriceColumn" msprop:Generator_ColumnPropNameInRow="Price" type="xs:long" default="0" minOccurs="0" />
+              <xs:element name="TradeTime" msprop:Generator_UserColumnName="TradeTime" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnTradeTime" msprop:Generator_ColumnPropNameInTable="TradeTimeColumn" msprop:Generator_ColumnPropNameInRow="TradeTime" type="xs:string" default="NULL" minOccurs="0" />
+              <xs:element name="TradePrice" msprop:Generator_UserColumnName="TradePrice" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnTradePrice" msprop:Generator_ColumnPropNameInTable="TradePriceColumn" msprop:Generator_ColumnPropNameInRow="TradePrice" type="xs:decimal" default="0" minOccurs="0" />
+              <xs:element name="TradeNumber" msprop:Generator_UserColumnName="TradeNumber" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnTradeNumber" msprop:Generator_ColumnPropNameInTable="TradeNumberColumn" msprop:Generator_ColumnPropNameInRow="TradeNumber" type="xs:long" default="0" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

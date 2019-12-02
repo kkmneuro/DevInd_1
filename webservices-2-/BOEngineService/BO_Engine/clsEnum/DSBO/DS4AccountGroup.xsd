@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS4AccountGroup" targetNamespace="http://tempuri.org/DS4AccountGroup.xsd" xmlns:mstns="http://tempuri.org/DS4AccountGroup.xsd" xmlns="http://tempuri.org/DS4AccountGroup.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="BOExchangeConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="BOExchangeConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.clsInterface4OME.Properties.Settings.GlobalReference.Default.BOExchangeConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS4AccountGroup" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DS4AccountGroup" msprop:Generator_UserDSName="DS4AccountGroup" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtAccountGroups" msprop:Generator_UserTableName="dtAccountGroups" msprop:Generator_RowDeletedName="dtAccountGroupsRowDeleted" msprop:Generator_TableClassName="dtAccountGroupsDataTable" msprop:Generator_RowChangedName="dtAccountGroupsRowChanged" msprop:Generator_RowClassName="dtAccountGroupsRow" msprop:Generator_RowChangingName="dtAccountGroupsRowChanging" msprop:Generator_RowEvArgName="dtAccountGroupsRowChangeEvent" msprop:Generator_RowEvHandlerName="dtAccountGroupsRowChangeEventHandler" msprop:Generator_TablePropName="dtAccountGroups" msprop:Generator_TableVarName="tabledtAccountGroups" msprop:Generator_RowDeletingName="dtAccountGroupsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AccountGroupID" msdata:Caption="PK_AccountGroupID" msprop:Generator_UserColumnName="AccountGroupID" msprop:Generator_ColumnPropNameInRow="AccountGroupID" msprop:Generator_ColumnVarNameInTable="columnAccountGroupID" msprop:Generator_ColumnPropNameInTable="AccountGroupIDColumn" type="xs:int" />
+              <xs:element name="AccountGroupName" msprop:Generator_UserColumnName="AccountGroupName" msprop:Generator_ColumnPropNameInRow="AccountGroupName" msprop:Generator_ColumnVarNameInTable="columnAccountGroupName" msprop:Generator_ColumnPropNameInTable="AccountGroupNameColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Owner" msprop:Generator_UserColumnName="Owner" msprop:Generator_ColumnPropNameInRow="Owner" msprop:Generator_ColumnVarNameInTable="columnOwner" msprop:Generator_ColumnPropNameInTable="OwnerColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LeverageId" msdata:Caption="Leverage" msprop:Generator_UserColumnName="LeverageId" msprop:Generator_ColumnPropNameInRow="LeverageId" msprop:Generator_ColumnVarNameInTable="columnLeverageId" msprop:Generator_ColumnPropNameInTable="LeverageIdColumn" type="xs:int" />
+              <xs:element name="Charges" msprop:Generator_UserColumnName="Charges" msprop:Generator_ColumnPropNameInRow="Charges" msprop:Generator_ColumnVarNameInTable="columnCharges" msprop:Generator_ColumnPropNameInTable="ChargesColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="IsEnable" msprop:Generator_UserColumnName="IsEnable" msprop:Generator_ColumnPropNameInRow="IsEnable" msprop:Generator_ColumnVarNameInTable="columnIsEnable" msprop:Generator_ColumnPropNameInTable="IsEnableColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="BrokerTypeID" msdata:Caption="FK_BrokerTypeID" msprop:Generator_UserColumnName="BrokerTypeID" msprop:Generator_ColumnPropNameInRow="BrokerTypeID" msprop:Generator_ColumnVarNameInTable="columnBrokerTypeID" msprop:Generator_ColumnPropNameInTable="BrokerTypeIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="BrokerAddress" msprop:Generator_UserColumnName="BrokerAddress" msprop:Generator_ColumnPropNameInRow="BrokerAddress" msprop:Generator_ColumnVarNameInTable="columnBrokerAddress" msprop:Generator_ColumnPropNameInTable="BrokerAddressColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="256" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BrokerCity" msprop:Generator_UserColumnName="BrokerCity" msprop:Generator_ColumnPropNameInRow="BrokerCity" msprop:Generator_ColumnVarNameInTable="columnBrokerCity" msprop:Generator_ColumnPropNameInTable="BrokerCityColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BrokerState" msprop:Generator_UserColumnName="BrokerState" msprop:Generator_ColumnPropNameInRow="BrokerState" msprop:Generator_ColumnVarNameInTable="columnBrokerState" msprop:Generator_ColumnPropNameInTable="BrokerStateColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BrokerPhone1" msprop:Generator_UserColumnName="BrokerPhone1" msprop:Generator_ColumnPropNameInRow="BrokerPhone1" msprop:Generator_ColumnVarNameInTable="columnBrokerPhone1" msprop:Generator_ColumnPropNameInTable="BrokerPhone1Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BrokerPhone2" msprop:Generator_UserColumnName="BrokerPhone2" msprop:Generator_ColumnPropNameInRow="BrokerPhone2" msprop:Generator_ColumnVarNameInTable="columnBrokerPhone2" msprop:Generator_ColumnPropNameInTable="BrokerPhone2Column" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BrokerFax" msprop:Generator_UserColumnName="BrokerFax" msprop:Generator_ColumnPropNameInRow="BrokerFax" msprop:Generator_ColumnVarNameInTable="columnBrokerFax" msprop:Generator_ColumnPropNameInTable="BrokerFaxColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BrokerEmail" msprop:Generator_UserColumnName="BrokerEmail" msprop:Generator_ColumnPropNameInRow="BrokerEmail" msprop:Generator_ColumnVarNameInTable="columnBrokerEmail" msprop:Generator_ColumnPropNameInTable="BrokerEmailColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtAccountGroups" />
+      <xs:field xpath="mstns:AccountGroupID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

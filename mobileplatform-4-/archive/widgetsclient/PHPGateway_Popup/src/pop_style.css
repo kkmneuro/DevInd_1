@@ -1,0 +1,38 @@
+.login-form {
+    //margin: 11% auto 4%;
+	    margin-top: 75px;
+		
+    width: 100%;
+	background-color: #FFF5E6;
+	border: 1 solid;
+	box-shadow: 1px 2px 20px rgba(0, 0, 0, .5);
+	border-radius: 15px;
+	height:400px;
+}
+
+.head img {
+	//width: 40%;
+	margin-top: -54px;
+	}
+.head {
+	top: -15%;
+	left: 34%;
+	text-align: center;
+	}
+	
+.NewBTn {
+	background: #5997D3 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #666464 inset;
+    color: #FFF;
+    cursor: pointer;
+    font-family: "Open Sans",sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 8%;
+    outline: medium none;
+    padding: 1%;
+    transition: all 0.5s ease 0s;
+    width: 50%;	
+}	

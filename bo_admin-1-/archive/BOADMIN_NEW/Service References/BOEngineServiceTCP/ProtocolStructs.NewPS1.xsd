@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/ProtocolStructs.NewPS" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ProtocolStructs.NewPS" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfcharges">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="charges" nillable="true" type="tns:charges" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfcharges" nillable="true" type="tns:ArrayOfcharges" />
+  <xs:complexType name="charges">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BrokersGroupID" type="xs:int" />
+      <xs:element minOccurs="0" name="ChargesID" type="xs:int" />
+      <xs:element minOccurs="0" name="Fee" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FeeValue" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Symbol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SymbolID" type="xs:int" />
+      <xs:element minOccurs="0" name="Tax" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TaxValue" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="charges" nillable="true" type="tns:charges" />
+  <xs:complexType name="ArrayOfBrokerSymbol">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="BrokerSymbol" nillable="true" type="tns:BrokerSymbol" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfBrokerSymbol" nillable="true" type="tns:ArrayOfBrokerSymbol" />
+  <xs:complexType name="BrokerSymbol">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AskSpread" type="xs:int" />
+      <xs:element minOccurs="0" name="BidSpread" type="xs:int" />
+      <xs:element minOccurs="0" name="IsVariable" type="xs:boolean" />
+      <xs:element minOccurs="0" name="RelativeAskChange" type="xs:int" />
+      <xs:element minOccurs="0" name="RelativeBidChange" type="xs:int" />
+      <xs:element minOccurs="0" name="Spread" type="xs:int" />
+      <xs:element minOccurs="0" name="SymbolID" type="xs:int" />
+      <xs:element minOccurs="0" name="SymbolName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BrokerSymbol" nillable="true" type="tns:BrokerSymbol" />
+</xs:schema>

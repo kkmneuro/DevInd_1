@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS4Leverage" targetNamespace="http://tempuri.org/DS4Leverage.xsd" xmlns:mstns="http://tempuri.org/DS4Leverage.xsd" xmlns="http://tempuri.org/DS4Leverage.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="BOExchangeConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="BOExchangeConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.clsInterface4OME.Properties.Settings.GlobalReference.Default.BOExchangeConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS4Leverage" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DS4Leverage" msprop:Generator_UserDSName="DS4Leverage" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtLeverage" msprop:Generator_UserTableName="dtLeverage" msprop:Generator_RowDeletedName="dtLeverageRowDeleted" msprop:Generator_TableClassName="dtLeverageDataTable" msprop:Generator_RowChangedName="dtLeverageRowChanged" msprop:Generator_RowClassName="dtLeverageRow" msprop:Generator_RowChangingName="dtLeverageRowChanging" msprop:Generator_RowEvArgName="dtLeverageRowChangeEvent" msprop:Generator_RowEvHandlerName="dtLeverageRowChangeEventHandler" msprop:Generator_TablePropName="dtLeverage" msprop:Generator_TableVarName="tabledtLeverage" msprop:Generator_RowDeletingName="dtLeverageRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PK_LeverageId" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_UserColumnName="PK_LeverageId" msprop:Generator_ColumnPropNameInRow="PK_LeverageId" msprop:Generator_ColumnVarNameInTable="columnPK_LeverageId" msprop:Generator_ColumnPropNameInTable="PK_LeverageIdColumn" type="xs:int" />
+              <xs:element name="Leverage" msprop:Generator_UserColumnName="Leverage" msprop:Generator_ColumnPropNameInRow="Leverage" msprop:Generator_ColumnVarNameInTable="columnLeverage" msprop:Generator_ColumnPropNameInTable="LeverageColumn">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtLeverage" />
+      <xs:field xpath="mstns:PK_LeverageId" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

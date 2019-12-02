@@ -1,0 +1,7 @@
+INSTRUMENT,http://108.175.9.76:8041/ExchangeInstrumentService.svc
+OHLC,http://108.175.9.76:8043/OHLCFundExchangeService.svc
+TRADEACCOUNT,http://108.175.9.76:8071/AccountCreateService.svc
+MAILBOX,http://108.175.9.76:8090/MailBoxService.svc
+Ticker,http://108.175.9.76:8055/TickerDisplayInfoService.svc
+
+

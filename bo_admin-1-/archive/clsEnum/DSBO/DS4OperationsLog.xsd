@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS4OperationsLog" targetNamespace="http://tempuri.org/DS4OperationsLog.xsd" xmlns:mstns="http://tempuri.org/DS4OperationsLog.xsd" xmlns="http://tempuri.org/DS4OperationsLog.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS4OperationsLog" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS4OperationsLog" msprop:Generator_DataSetName="DS4OperationsLog" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtOperationsLog" msprop:Generator_UserTableName="dtOperationsLog" msprop:Generator_RowDeletedName="dtOperationsLogRowDeleted" msprop:Generator_RowChangedName="dtOperationsLogRowChanged" msprop:Generator_RowClassName="dtOperationsLogRow" msprop:Generator_RowChangingName="dtOperationsLogRowChanging" msprop:Generator_RowEvArgName="dtOperationsLogRowChangeEvent" msprop:Generator_RowEvHandlerName="dtOperationsLogRowChangeEventHandler" msprop:Generator_TableClassName="dtOperationsLogDataTable" msprop:Generator_TableVarName="tabledtOperationsLog" msprop:Generator_RowDeletingName="dtOperationsLogRowDeleting" msprop:Generator_TablePropName="dtOperationsLog">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SNo" msprop:Generator_UserColumnName="SNo" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnSNo" msprop:Generator_ColumnPropNameInTable="SNoColumn" msprop:Generator_ColumnPropNameInRow="SNo" type="xs:int" default="0" />
+              <xs:element name="BrokerName" msprop:Generator_UserColumnName="BrokerName" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnBrokerName" msprop:Generator_ColumnPropNameInTable="BrokerNameColumn" msprop:Generator_ColumnPropNameInRow="BrokerName" type="xs:string" default="NULL" minOccurs="0" />
+              <xs:element name="BrokerID" msprop:Generator_UserColumnName="BrokerID" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnBrokerID" msprop:Generator_ColumnPropNameInTable="BrokerIDColumn" msprop:Generator_ColumnPropNameInRow="BrokerID" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="OperationName" msprop:Generator_UserColumnName="OperationName" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnOperationName" msprop:Generator_ColumnPropNameInTable="OperationNameColumn" msprop:Generator_ColumnPropNameInRow="OperationName" type="xs:string" default="NULL" minOccurs="0" />
+              <xs:element name="DateTime" msprop:Generator_UserColumnName="DateTime" msprop:Generator_ColumnPropNameInRow="DateTime" msprop:Generator_ColumnVarNameInTable="columnDateTime" msprop:Generator_ColumnPropNameInTable="DateTimeColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="IPAddress" msprop:Generator_UserColumnName="IPAddress" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnIPAddress" msprop:Generator_ColumnPropNameInTable="IPAddressColumn" msprop:Generator_ColumnPropNameInRow="IPAddress" type="xs:string" default="NULL" minOccurs="0" />
+              <xs:element name="Message" msprop:Generator_UserColumnName="Message" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnMessage" msprop:Generator_ColumnPropNameInTable="MessageColumn" msprop:Generator_ColumnPropNameInRow="Message" type="xs:string" default="NULL" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtOperationsLog" />
+      <xs:field xpath="mstns:SNo" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

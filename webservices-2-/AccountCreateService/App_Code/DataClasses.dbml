@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BOExchange" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.;Initial Catalog=BOExchange;Persist Security Info=True;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="BOExchangeConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_GetClientBankInformation" Method="BO_GetClientBankInformation">
+    <Parameter Name="ClientId" Parameter="clientId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="BO_GetClientBankInformationResult">
+      <Column Name="PK_BankID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AccountHolderName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BankAccountID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BankName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FK_BankCountryID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BankCity" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BankZipCode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BankAddress1" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BankAddress2" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BankPhone" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BankFax" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BankSwiftCode" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FK_ParticipantID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BankAccountType" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BankIFSCCode" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

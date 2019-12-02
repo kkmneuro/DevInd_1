@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS4MapOrders" targetNamespace="http://tempuri.org/DS4MapOrders.xsd" xmlns:mstns="http://tempuri.org/DS4MapOrders.xsd" xmlns="http://tempuri.org/DS4MapOrders.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS4MapOrders" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS4MapOrders" msprop:Generator_DataSetName="DS4MapOrders" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtMapOrders" msprop:Generator_UserTableName="dtMapOrders" msprop:Generator_RowDeletedName="dtMapOrdersRowDeleted" msprop:Generator_TableClassName="dtMapOrdersDataTable" msprop:Generator_RowChangedName="dtMapOrdersRowChanged" msprop:Generator_RowClassName="dtMapOrdersRow" msprop:Generator_RowChangingName="dtMapOrdersRowChanging" msprop:Generator_RowEvArgName="dtMapOrdersRowChangeEvent" msprop:Generator_RowEvHandlerName="dtMapOrdersRowChangeEventHandler" msprop:Generator_TablePropName="dtMapOrders" msprop:Generator_TableVarName="tabledtMapOrders" msprop:Generator_RowDeletingName="dtMapOrdersRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MapOrderID" msprop:Generator_UserColumnName="MapOrderID" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnMapOrderID" msprop:Generator_ColumnPropNameInTable="MapOrderIDColumn" msprop:Generator_ColumnPropNameInRow="MapOrderID" type="xs:int" />
+              <xs:element name="Symbol" msprop:Generator_UserColumnName="Symbol" msprop:Generator_ColumnPropNameInRow="Symbol" msprop:Generator_ColumnVarNameInTable="columnSymbol" msprop:Generator_ColumnPropNameInTable="SymbolColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BuyAccountID" msprop:Generator_UserColumnName="BuyAccountID" msprop:Generator_ColumnPropNameInRow="BuyAccountID" msprop:Generator_ColumnVarNameInTable="columnBuyAccountID" msprop:Generator_ColumnPropNameInTable="BuyAccountIDColumn" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="BuyOrderID" msprop:Generator_UserColumnName="BuyOrderID" msprop:Generator_ColumnPropNameInRow="BuyOrderID" msprop:Generator_ColumnVarNameInTable="columnBuyOrderID" msprop:Generator_ColumnPropNameInTable="BuyOrderIDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="SellAccountID" msprop:Generator_UserColumnName="SellAccountID" msprop:Generator_ColumnPropNameInRow="SellAccountID" msprop:Generator_ColumnVarNameInTable="columnSellAccountID" msprop:Generator_ColumnPropNameInTable="SellAccountIDColumn" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="SellOrderID" msprop:Generator_UserColumnName="SellOrderID" msprop:Generator_ColumnPropNameInRow="SellOrderID" msprop:Generator_ColumnVarNameInTable="columnSellOrderID" msprop:Generator_ColumnPropNameInTable="SellOrderIDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="BuyFillID" msprop:Generator_UserColumnName="BuyFillID" msprop:Generator_ColumnPropNameInRow="BuyFillID" msprop:Generator_ColumnVarNameInTable="columnBuyFillID" msprop:Generator_ColumnPropNameInTable="BuyFillIDColumn" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="SellFillID" msprop:Generator_UserColumnName="SellFillID" msprop:Generator_ColumnPropNameInRow="SellFillID" msprop:Generator_ColumnVarNameInTable="columnSellFillID" msprop:Generator_ColumnPropNameInTable="SellFillIDColumn" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="FilledQty" msprop:Generator_UserColumnName="FilledQty" msprop:Generator_ColumnPropNameInRow="FilledQty" msprop:Generator_ColumnVarNameInTable="columnFilledQty" msprop:Generator_ColumnPropNameInTable="FilledQtyColumn" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="Price" msprop:Generator_UserColumnName="Price" msprop:Generator_ColumnPropNameInRow="Price" msprop:Generator_ColumnVarNameInTable="columnPrice" msprop:Generator_ColumnPropNameInTable="PriceColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LastUpdatedTime" msprop:Generator_UserColumnName="LastUpdatedTime" msprop:Generator_ColumnPropNameInRow="LastUpdatedTime" msprop:Generator_ColumnVarNameInTable="columnLastUpdatedTime" msprop:Generator_ColumnPropNameInTable="LastUpdatedTimeColumn" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtMapOrders" />
+      <xs:field xpath="mstns:MapOrderID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

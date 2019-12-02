@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\PortfolioService" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="PortfolioService.svc" publishTime="10/01/2012 17:42:49" />
+    <file relUrl="bin/PortfolioService.dll" publishTime="10/19/2012 13:31:08" />
+    <file relUrl="Web.config" publishTime="10/19/2012 13:31:17" />
+    <file relUrl="bin/PortfolioService.pdb" publishTime="10/19/2012 13:31:08" />
+  </publishProfile>
+</publishData>

@@ -1,0 +1,12 @@
+D:\DevIndia\bo_admin-1-\archive\clsEnum\obj\x64\Release\clsInterface4OME.csprojAssemblyReference.cache
+D:\DevIndia\bo_admin-1-\archive\clsEnum\bin\x64\Release\Log4net.config
+D:\DevIndia\bo_admin-1-\archive\clsEnum\bin\x64\Release\dll\log4net.dll
+D:\DevIndia\bo_admin-1-\archive\clsEnum\bin\x64\Release\clsInterface4OME.dll.config
+D:\DevIndia\bo_admin-1-\archive\clsEnum\bin\x64\Release\clsInterface4OME.dll
+D:\DevIndia\bo_admin-1-\archive\clsEnum\bin\x64\Release\clsInterface4OME.pdb
+D:\DevIndia\bo_admin-1-\archive\clsEnum\bin\x64\Release\System.dll
+D:\DevIndia\bo_admin-1-\archive\clsEnum\obj\x64\Release\clsInterface4OME.frmConfirmationBox.resources
+D:\DevIndia\bo_admin-1-\archive\clsEnum\obj\x64\Release\clsInterface4OME.csproj.GenerateResource.cache
+D:\DevIndia\bo_admin-1-\archive\clsEnum\obj\x64\Release\clsInterface4OME.csproj.CopyComplete
+D:\DevIndia\bo_admin-1-\archive\clsEnum\obj\x64\Release\clsInterface4OME.dll
+D:\DevIndia\bo_admin-1-\archive\clsEnum\obj\x64\Release\clsInterface4OME.pdb

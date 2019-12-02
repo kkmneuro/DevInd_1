@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS4GroupSymbol" targetNamespace="http://tempuri.org/DS4GroupSymbol.xsd" xmlns:mstns="http://tempuri.org/DS4GroupSymbol.xsd" xmlns="http://tempuri.org/DS4GroupSymbol.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS4GroupSymbol" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DS4GroupSymbol" msprop:Generator_UserDSName="DS4GroupSymbol" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtSymbol" msprop:Generator_UserTableName="dtSymbol" msprop:Generator_RowDeletedName="dtSymbolRowDeleted" msprop:Generator_TableClassName="dtSymbolDataTable" msprop:Generator_RowChangedName="dtSymbolRowChanged" msprop:Generator_RowClassName="dtSymbolRow" msprop:Generator_RowChangingName="dtSymbolRowChanging" msprop:Generator_RowEvArgName="dtSymbolRowChangeEvent" msprop:Generator_RowEvHandlerName="dtSymbolRowChangeEventHandler" msprop:Generator_TablePropName="dtSymbol" msprop:Generator_TableVarName="tabledtSymbol" msprop:Generator_RowDeletingName="dtSymbolRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Symbol" msprop:Generator_UserColumnName="Symbol" msprop:Generator_ColumnPropNameInRow="Symbol" msprop:Generator_ColumnVarNameInTable="columnSymbol" msprop:Generator_ColumnPropNameInTable="SymbolColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LongPositioningSwap" msprop:Generator_UserColumnName="LongPositioningSwap" msprop:Generator_ColumnPropNameInRow="LongPositioningSwap" msprop:Generator_ColumnVarNameInTable="columnLongPositioningSwap" msprop:Generator_ColumnPropNameInTable="LongPositioningSwapColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ShortPositiioningSwap" msprop:Generator_UserColumnName="ShortPositiioningSwap" msprop:Generator_ColumnPropNameInRow="ShortPositiioningSwap" msprop:Generator_ColumnVarNameInTable="columnShortPositiioningSwap" msprop:Generator_ColumnPropNameInTable="ShortPositiioningSwapColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MarginPercentage" msprop:Generator_UserColumnName="MarginPercentage" msprop:Generator_ColumnPropNameInRow="MarginPercentage" msprop:Generator_ColumnVarNameInTable="columnMarginPercentage" msprop:Generator_ColumnPropNameInTable="MarginPercentageColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SymbolId" msprop:Generator_UserColumnName="SymbolId" msprop:Generator_ColumnPropNameInRow="SymbolId" msprop:Generator_ColumnVarNameInTable="columnSymbolId" msprop:Generator_ColumnPropNameInTable="SymbolIdColumn" type="xs:string" />
+              <xs:element name="SymbolRowId" msprop:Generator_UserColumnName="SymbolRowId" msprop:Generator_ColumnPropNameInRow="SymbolRowId" msprop:Generator_ColumnVarNameInTable="columnSymbolRowId" msprop:Generator_ColumnPropNameInTable="SymbolRowIdColumn" type="xs:long" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="dtSymbolKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtSymbol" />
+      <xs:field xpath="mstns:SymbolRowId" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="42a67a58-ae54-4c02-bc5d-e12cf1ea876b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>false</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://217.160.11.198:8533/BOEngineService.svc/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service1.wsdl" MetadataType="Wsdl" ID="017ee1b3-473d-4959-8f55-da8e25c25ba3" SourceId="1" SourceUrl="http://217.160.11.198:8533/BOEngineService.svc/mex" />
+    <MetadataFile FileName="service3.xsd" MetadataType="Schema" ID="69030963-3df9-49d6-8cd0-f45cd2bd8b58" SourceId="1" SourceUrl="http://217.160.11.198:8533/BOEngineService.svc/mex" />
+    <MetadataFile FileName="service4.xsd" MetadataType="Schema" ID="0b812948-c117-40e4-9705-4cd9fd5e8746" SourceId="1" SourceUrl="http://217.160.11.198:8533/BOEngineService.svc/mex" />
+    <MetadataFile FileName="BOEngine1.xsd" MetadataType="Schema" ID="e817705a-4f4c-4800-ac3a-b7010f298597" SourceId="1" SourceUrl="http://217.160.11.198:8533/BOEngineService.svc/mex" />
+    <MetadataFile FileName="BOEngineServiceClasses1.xsd" MetadataType="Schema" ID="f0b3a2a3-02e5-4782-a134-083fa671bf00" SourceId="1" SourceUrl="http://217.160.11.198:8533/BOEngineService.svc/mex" />
+    <MetadataFile FileName="service5.xsd" MetadataType="Schema" ID="f8c102b1-a28b-4e06-a280-99d584a16cb7" SourceId="1" SourceUrl="http://217.160.11.198:8533/BOEngineService.svc/mex" />
+    <MetadataFile FileName="Arrays1.xsd" MetadataType="Schema" ID="f3c33af1-cb0b-4a6c-9135-39332386e3bd" SourceId="1" SourceUrl="http://217.160.11.198:8533/BOEngineService.svc/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

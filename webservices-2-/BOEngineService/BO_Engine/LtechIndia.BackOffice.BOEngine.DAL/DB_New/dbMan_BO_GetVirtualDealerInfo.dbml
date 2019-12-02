@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BOExchange_NG" Class="dbMan_BO_GetVirtualDealerInfoDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=127.0.0.1;Initial Catalog=BOExchange_NG;User ID=sa" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="BOExchange_NGConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_GetVirtualDealers" Method="BO_GetVirtualDealers">
+    <ElementType Name="BO_GetVirtualDealersResult">
+      <Column Name="PK_VirtualDealerID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Delay" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Virtual_Manager_Account" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Groups" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Symbols" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Max_Volume" Type="System.Decimal" DbType="Decimal(18,0)" CanBeNull="true" />
+      <Column Name="Max_Losing_Slippage" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Max_Profit_Slippage" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Max_Profit_Slippage_Volume" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Gap_Level" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Gap_Safe_Level" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Gap_Tick_Counter" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Gap_Pendings_Cancel" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Gap_Take_Profit_Slide" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Gap_Stop_Loss_Slide" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="News_Stops_Freezes" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Allow_Pendings_On_News" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

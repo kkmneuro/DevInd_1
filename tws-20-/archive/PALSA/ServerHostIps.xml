@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ConnectionIPs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  
+  <!--<OrderIP ServerIP="108.175.9.76" HostIP="108.175.9.76" PortNo="9030" WebSocketHostUrl="ws://108.175.9.76:9022/test"/>
+  <QuotesIP ServerIP="108.175.9.76" HostIP="108.175.9.76" PortNo="9033" WebSocketHostUrl="ws://108.175.9.76:9034/test"/>-->
+  
+  <OrderIP ServerIP="217.160.11.198" HostIP="217.160.11.198" PortNo="9030" WebSocketHostUrl="ws://217.160.11.198:9022/test"/>
+  <QuotesIP ServerIP="217.160.11.198" HostIP="217.160.11.198" PortNo="9033" WebSocketHostUrl="ws://217.160.11.198:9034/test"/>
+
+  <!--<OrderIP ServerIP="192.168.2.14" HostIP="192.168.2.14" PortNo="9030" WebSocketHostUrl="ws://192.168.2.9:9022/test"/>
+  <QuotesIP ServerIP="192.168.2.14" HostIP="192.168.2.14" PortNo="9033" WebSocketHostUrl="ws://192.168.2.9:9033/test"/>-->
+  
+  <RefreshServer ServerIP="10.11.188.70" User="ftpuser" Pwd="f+pu$er123@"  Root="/" PortNo="21" />
+
+</ConnectionIPs>

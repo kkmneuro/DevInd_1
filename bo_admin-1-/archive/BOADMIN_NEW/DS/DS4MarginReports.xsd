@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS4MarginReports" targetNamespace="http://tempuri.org/DS4MarginReports.xsd" xmlns:mstns="http://tempuri.org/DS4MarginReports.xsd" xmlns="http://tempuri.org/DS4MarginReports.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS4MarginReports" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS4MarginReports" msprop:Generator_DataSetName="DS4MarginReports" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtMarginReports" msprop:Generator_UserTableName="dtMarginReports" msprop:Generator_RowDeletedName="dtMarginReportsRowDeleted" msprop:Generator_RowChangedName="dtMarginReportsRowChanged" msprop:Generator_RowClassName="dtMarginReportsRow" msprop:Generator_RowChangingName="dtMarginReportsRowChanging" msprop:Generator_RowEvArgName="dtMarginReportsRowChangeEvent" msprop:Generator_RowEvHandlerName="dtMarginReportsRowChangeEventHandler" msprop:Generator_TableClassName="dtMarginReportsDataTable" msprop:Generator_TableVarName="tabledtMarginReports" msprop:Generator_RowDeletingName="dtMarginReportsRowDeleting" msprop:Generator_TablePropName="dtMarginReports">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SNo" msprop:Generator_UserColumnName="SNo" msprop:Generator_ColumnPropNameInRow="SNo" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnSNo" msprop:Generator_ColumnPropNameInTable="SNoColumn" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="CACode" msprop:Generator_UserColumnName="CACode" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnCACode" msprop:Generator_ColumnPropNameInTable="CACodeColumn" msprop:Generator_ColumnPropNameInRow="CACode" type="xs:string" default="NULL" minOccurs="0" />
+              <xs:element name="TCM" msprop:Generator_UserColumnName="TCM" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnTCM" msprop:Generator_ColumnPropNameInTable="TCMColumn" msprop:Generator_ColumnPropNameInRow="TCM" type="xs:string" default="NULL" minOccurs="0" />
+              <xs:element name="TM" msprop:Generator_UserColumnName="TM" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnTM" msprop:Generator_ColumnPropNameInTable="TMColumn" msprop:Generator_ColumnPropNameInRow="TM" type="xs:string" default="NULL" minOccurs="0" />
+              <xs:element name="STM" msprop:Generator_UserColumnName="STM" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnSTM" msprop:Generator_ColumnPropNameInTable="STMColumn" msprop:Generator_ColumnPropNameInRow="STM" type="xs:string" default="NULL" minOccurs="0" />
+              <xs:element name="ClientCode" msprop:Generator_UserColumnName="ClientCode" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnClientCode" msprop:Generator_ColumnPropNameInTable="ClientCodeColumn" msprop:Generator_ColumnPropNameInRow="ClientCode" type="xs:string" default="NULL" minOccurs="0" />
+              <xs:element name="OpeningBalance" msprop:Generator_UserColumnName="OpeningBalance" msprop:Generator_ColumnPropNameInRow="OpeningBalance" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnOpeningBalance" msprop:Generator_ColumnPropNameInTable="OpeningBalanceColumn" type="xs:long" default="0" minOccurs="0" />
+              <xs:element name="UsedMargin" msprop:Generator_UserColumnName="UsedMargin" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnUsedMargin" msprop:Generator_ColumnPropNameInTable="UsedMarginColumn" msprop:Generator_ColumnPropNameInRow="UsedMargin" type="xs:decimal" default="0" minOccurs="0" />
+              <xs:element name="FreeMargin" msprop:Generator_UserColumnName="FreeMargin" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnFreeMargin" msprop:Generator_ColumnPropNameInTable="FreeMarginColumn" msprop:Generator_ColumnPropNameInRow="FreeMargin" type="xs:decimal" default="0" minOccurs="0" />
+              <xs:element name="SettledProfitLoss" msprop:Generator_UserColumnName="SettledProfitLoss" msprop:Generator_ColumnPropNameInRow="SettledProfitLoss" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnSettledProfitLoss" msprop:Generator_ColumnPropNameInTable="SettledProfitLossColumn" type="xs:double" default="0" minOccurs="0" />
+              <xs:element name="FloatingProfitLoss" msprop:Generator_UserColumnName="FloatingProfitLoss" msprop:Generator_ColumnPropNameInRow="FloatingProfitLoss" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnFloatingProfitLoss" msprop:Generator_ColumnPropNameInTable="FloatingProfitLossColumn" type="xs:double" default="0" minOccurs="0" />
+              <xs:element name="CommissionVatTotal" msprop:Generator_UserColumnName="CommissionVatTotal" msprop:Generator_ColumnPropNameInRow="CommissionVatTotal" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnCommissionVatTotal" msprop:Generator_ColumnPropNameInTable="CommissionVatTotalColumn" type="xs:double" default="0" minOccurs="0" />
+              <xs:element name="NetMtm" msprop:Generator_UserColumnName="NetMtm" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnNetMtm" msprop:Generator_ColumnPropNameInTable="NetMtmColumn" msprop:Generator_ColumnPropNameInRow="NetMtm" type="xs:decimal" default="0" minOccurs="0" />
+              <xs:element name="Equity" msprop:Generator_UserColumnName="Equity" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnEquity" msprop:Generator_ColumnPropNameInTable="EquityColumn" msprop:Generator_ColumnPropNameInRow="Equity" type="xs:long" default="0" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="OMSExchange" Class="dbMan_BO_ModifyTradeDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.1.101;Initial Catalog=OMSExchange;Persist Security Info=True;User ID=sa" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="OMSExchangeConnectionString3" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_ModifyTrade" Method="BO_ModifyTrade">
+    <Parameter Name="OrderID" Parameter="orderID" Type="System.Int64" DbType="BigInt" />
+    <Parameter Name="AccountID" Parameter="accountID" Type="System.Int64" DbType="BigInt" />
+    <Parameter Name="LastPrice" Parameter="lastPrice" Type="System.Decimal" DbType="Decimal" />
+    <ElementType Name="BO_ModifyTradeResult">
+      <Column Name="Column1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Column2" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

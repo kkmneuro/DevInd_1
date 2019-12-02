@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS4DataFeeds" targetNamespace="http://tempuri.org/DS4DataFeeds.xsd" xmlns:mstns="http://tempuri.org/DS4DataFeeds.xsd" xmlns="http://tempuri.org/DS4DataFeeds.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS4DataFeeds" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS4DataFeeds" msprop:Generator_DataSetName="DS4DataFeeds" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtDataFeeds" msprop:Generator_UserTableName="dtDataFeeds" msprop:Generator_RowDeletedName="dtDataFeedsRowDeleted" msprop:Generator_RowChangedName="dtDataFeedsRowChanged" msprop:Generator_RowClassName="dtDataFeedsRow" msprop:Generator_RowChangingName="dtDataFeedsRowChanging" msprop:Generator_RowEvArgName="dtDataFeedsRowChangeEvent" msprop:Generator_RowEvHandlerName="dtDataFeedsRowChangeEventHandler" msprop:Generator_TableClassName="dtDataFeedsDataTable" msprop:Generator_TableVarName="tabledtDataFeeds" msprop:Generator_RowDeletingName="dtDataFeedsRowDeleting" msprop:Generator_TablePropName="dtDataFeeds">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DataFeedID" msprop:Generator_UserColumnName="DataFeedID" msprop:Generator_ColumnVarNameInTable="columnDataFeedID" msprop:Generator_ColumnPropNameInRow="DataFeedID" msprop:Generator_ColumnPropNameInTable="DataFeedIDColumn" type="xs:int" />
+              <xs:element name="Enable" msprop:Generator_UserColumnName="Enable" msprop:Generator_ColumnVarNameInTable="columnEnable" msprop:Generator_ColumnPropNameInRow="Enable" msprop:Generator_ColumnPropNameInTable="EnableColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Source" msprop:Generator_UserColumnName="Source" msprop:Generator_ColumnVarNameInTable="columnSource" msprop:Generator_ColumnPropNameInRow="Source" msprop:Generator_ColumnPropNameInTable="SourceColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="File" msprop:Generator_UserColumnName="File" msprop:Generator_ColumnVarNameInTable="columnFile" msprop:Generator_ColumnPropNameInRow="File" msprop:Generator_ColumnPropNameInTable="FileColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Server" msprop:Generator_UserColumnName="Server" msprop:Generator_ColumnVarNameInTable="columnServer" msprop:Generator_ColumnPropNameInRow="Server" msprop:Generator_ColumnPropNameInTable="ServerColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Login" msprop:Generator_UserColumnName="Login" msprop:Generator_ColumnVarNameInTable="columnLogin" msprop:Generator_ColumnPropNameInRow="Login" msprop:Generator_ColumnPropNameInTable="LoginColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="Password" msprop:Generator_UserColumnName="Password" msprop:Generator_ColumnVarNameInTable="columnPassword" msprop:Generator_ColumnPropNameInRow="Password" msprop:Generator_ColumnPropNameInTable="PasswordColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Keywords" msprop:Generator_UserColumnName="Keywords" msprop:Generator_ColumnVarNameInTable="columnKeywords" msprop:Generator_ColumnPropNameInRow="Keywords" msprop:Generator_ColumnPropNameInTable="KeywordsColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IdleTimeOut" msprop:Generator_UserColumnName="IdleTimeOut" msprop:Generator_ColumnVarNameInTable="columnIdleTimeOut" msprop:Generator_ColumnPropNameInRow="IdleTimeOut" msprop:Generator_ColumnPropNameInTable="IdleTimeOutColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SleepFor" msprop:Generator_UserColumnName="SleepFor" msprop:Generator_ColumnVarNameInTable="columnSleepFor" msprop:Generator_ColumnPropNameInRow="SleepFor" msprop:Generator_ColumnPropNameInTable="SleepForColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Attempts" msprop:Generator_UserColumnName="Attempts" msprop:Generator_ColumnVarNameInTable="columnAttempts" msprop:Generator_ColumnPropNameInRow="Attempts" msprop:Generator_ColumnPropNameInTable="AttemptsColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ReconnectAfter" msprop:Generator_UserColumnName="ReconnectAfter" msprop:Generator_ColumnVarNameInTable="columnReconnectAfter" msprop:Generator_ColumnPropNameInRow="ReconnectAfter" msprop:Generator_ColumnPropNameInTable="ReconnectAfterColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="dtDataFeedsKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtDataFeeds" />
+      <xs:field xpath="mstns:DataFeedID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

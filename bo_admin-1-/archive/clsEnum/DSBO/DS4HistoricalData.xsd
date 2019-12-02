@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS4HistoricalData" targetNamespace="http://tempuri.org/DS4HistoricalData.xsd" xmlns:mstns="http://tempuri.org/DS4HistoricalData.xsd" xmlns="http://tempuri.org/DS4HistoricalData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS4HistoricalData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS4HistoricalData" msprop:Generator_DataSetName="DS4HistoricalData" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtHistoricalData" msprop:Generator_UserTableName="dtHistoricalData" msprop:Generator_RowDeletedName="dtHistoricalDataRowDeleted" msprop:Generator_RowChangedName="dtHistoricalDataRowChanged" msprop:Generator_RowClassName="dtHistoricalDataRow" msprop:Generator_RowChangingName="dtHistoricalDataRowChanging" msprop:Generator_RowEvArgName="dtHistoricalDataRowChangeEvent" msprop:Generator_RowEvHandlerName="dtHistoricalDataRowChangeEventHandler" msprop:Generator_TableClassName="dtHistoricalDataDataTable" msprop:Generator_TableVarName="tabledtHistoricalData" msprop:Generator_RowDeletingName="dtHistoricalDataRowDeleting" msprop:Generator_TablePropName="dtHistoricalData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_UserColumnName="ID" msprop:nullValue="0" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_ColumnVarNameInTable="columnID" type="xs:int" default="0" />
+              <xs:element name="SymbolName" msprop:Generator_UserColumnName="SymbolName" msprop:nullValue="_empty" msprop:Generator_ColumnPropNameInRow="SymbolName" msprop:Generator_ColumnPropNameInTable="SymbolNameColumn" msprop:Generator_ColumnVarNameInTable="columnSymbolName" type="xs:string" default="NULL" minOccurs="0" />
+              <xs:element name="Date" msprop:Generator_UserColumnName="Date" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInTable="DateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Open" msprop:Generator_UserColumnName="Open" msprop:nullValue="0" msprop:Generator_ColumnPropNameInRow="Open" msprop:Generator_ColumnPropNameInTable="OpenColumn" msprop:Generator_ColumnVarNameInTable="columnOpen" type="xs:double" default="0" minOccurs="0" />
+              <xs:element name="High" msprop:Generator_UserColumnName="High" msprop:nullValue="0" msprop:Generator_ColumnPropNameInRow="High" msprop:Generator_ColumnPropNameInTable="HighColumn" msprop:Generator_ColumnVarNameInTable="columnHigh" type="xs:double" default="0" minOccurs="0" />
+              <xs:element name="Low" msprop:Generator_UserColumnName="Low" msprop:nullValue="0" msprop:Generator_ColumnPropNameInRow="Low" msprop:Generator_ColumnPropNameInTable="LowColumn" msprop:Generator_ColumnVarNameInTable="columnLow" type="xs:double" default="0" minOccurs="0" />
+              <xs:element name="Close" msprop:Generator_UserColumnName="Close" msprop:nullValue="0" msprop:Generator_ColumnPropNameInRow="Close" msprop:Generator_ColumnPropNameInTable="CloseColumn" msprop:Generator_ColumnVarNameInTable="columnClose" type="xs:double" default="0" minOccurs="0" />
+              <xs:element name="Volume" msprop:Generator_UserColumnName="Volume" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnVolume" msprop:Generator_ColumnPropNameInTable="VolumeColumn" msprop:Generator_ColumnPropNameInRow="Volume" type="xs:long" default="0" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtHistoricalData" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

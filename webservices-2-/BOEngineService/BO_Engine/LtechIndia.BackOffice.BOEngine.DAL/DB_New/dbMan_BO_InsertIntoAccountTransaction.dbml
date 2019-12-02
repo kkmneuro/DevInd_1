@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BOExchange_NG" Class="dbMan_BO_InsertIntoAccountTransactionDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=127.0.0.1;Initial Catalog=BOExchange_NG;User ID=sa" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="BOExchange_NGConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_InsertIntoAccountTransaction" Method="BO_InsertIntoAccountTransaction">
+    <Parameter Name="AccountID" Parameter="accountID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Amount" Parameter="amount" Type="System.Decimal" DbType="Decimal(18,2)" />
+    <Parameter Name="PaymentType" Parameter="paymentType" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="PaymentMode" Parameter="paymentMode" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="DepositDate" Parameter="depositDate" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="ChequeFdNo" Parameter="chequeFdNo" Type="System.String" DbType="VarChar(17)" />
+    <Parameter Name="Remark" Parameter="remark" Type="System.String" DbType="VarChar(256)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

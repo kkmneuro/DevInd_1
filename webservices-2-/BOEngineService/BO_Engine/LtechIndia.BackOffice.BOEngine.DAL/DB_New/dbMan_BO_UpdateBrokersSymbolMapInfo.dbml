@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BOExchange_NG" Class="dbMan_BO_UpdateBrokersSymbolMapInfoDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=127.0.0.1;Initial Catalog=BOExchange_NG;User ID=sa" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="BOExchange_NGConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_UpdateBrokersSymbolMapInfo" Method="BO_UpdateBrokersSymbolMapInfo">
+    <Parameter Name="BrokersGroupID" Parameter="brokersGroupID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Instrument" Parameter="instrument" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="BrokerType" Parameter="brokerType" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="BidSpread" Parameter="bidSpread" Type="System.Int32" DbType="Int" />
+    <Parameter Name="AskSpread" Parameter="askSpread" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Spread" Parameter="spread" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IsVariable" Parameter="isVariable" Type="System.Boolean" DbType="Bit" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

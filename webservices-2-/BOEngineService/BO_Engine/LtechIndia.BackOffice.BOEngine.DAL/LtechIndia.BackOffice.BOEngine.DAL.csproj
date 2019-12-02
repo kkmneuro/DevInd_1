@@ -1,0 +1,2069 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2D8DDE00-255A-4881-BF8E-FA72C723B976}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LtechIndia.BackOffice.BOEngine.DAL</RootNamespace>
+    <AssemblyName>LtechIndia.BackOffice.BOEngine.DAL</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="clsInterface4OME, Version=1.0.0.14, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\clsEnum\bin\clsInterface4OME.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Presentation">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BLBO.cs" />
+    <Compile Include="clsLog.cs" />
+    <Compile Include="BLBOPartial.cs" />
+    <Compile Include="DataStructs.cs" />
+    <Compile Include="dbMan_BO_UpdateBrokersSymbolMapInfo.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_UpdateBrokersSymbolMapInfo.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_AddNewSymbol.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_AddNewSymbol.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_AddSymbolQuotesSession.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_AddSymbolQuotesSession.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_AddSymbolSession.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_AddSymbolSession.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_AddSymbolTradeSession.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_AddSymbolTradeSession.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_AuthenticateLogin.cs">
+      <DependentUpon>dbMan_BO_AuthenticateLogin.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_AuthenticateLogin.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_AuthenticateLogin.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_ChangePassword.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_ChangePassword.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_ClientLoginAuth.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_ClientLoginAuth.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_DeleteBrokersSymbol.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_DeleteBrokersSymbol.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_DeleteIPAccessList.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_DeleteIPAccessList.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_DeleteSymbol.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_DeleteSymbol.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_DeleteSymbolAlias.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_DeleteSymbolAlias.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_DeleteSymbolCharges.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_DeleteSymbolCharges.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_DeleteSymbolSession.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_DeleteSymbolSession.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_DeleteSymbolSessionNew.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_DeleteSymbolSessionNew.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_DeleteVirtualDealer.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_DeleteVirtualDealer.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_FeeMasterInsert.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_FeeMasterInsert.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_FeesMasterDelete.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_FeesMasterDelete.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_FeesMasterSelect.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_FeesMasterSelect.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_FeesMasterUpdate.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_FeesMasterUpdate.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetAccountIDsByAccountTypeID.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetAccountIDsByAccountTypeID.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetAccountTransaction.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetAccountTransaction.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetAllAccountGroupInfo.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetAllAccountGroupInfo.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetAllCollateralCommodity.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetAllCollateralCommodity.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetAllCollateralTypes.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetAllCollateralTypes.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetAllFeeType.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetAllFeeType.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetAllModules.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetAllModules.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetAllSymbols.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetAllSymbols.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetAllSymbolsNew.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetAllSymbolsNew.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetAllTaxType.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetAllTaxType.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetBrokersCollateralInfo.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetBrokersCollateralInfo.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetBrokersInfo.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetBrokersInfo.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetBrokersList.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetBrokersList.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetBrokersLog.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetBrokersLog.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetBrokersSymbolMapInfo.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetBrokersSymbolMapInfo.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetBrokerSymbolSetting.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetBrokerSymbolSetting.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetBrokerTypesList.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetBrokerTypesList.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetClientAccountInformation.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetClientAccountInformation.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetClientAccountTypes.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetClientAccountTypes.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetClientsBankInfo.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetClientsBankInfo.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetCollateralTransactionHistory.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetCollateralTransactionHistory.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetCommonSettingsNew.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetCommonSettingsNew.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetContractSize.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetContractSize.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetCountryMasterInfo.designer.cs">
+      <DependentUpon>dbMan_BO_GetCountryMasterInfo.dbml</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetCurrencyList.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetCurrencyList.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetDeliveryUnit.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetDeliveryUnit.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetErrorList.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetErrorList.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetHedgeTypes.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetHedgeTypes.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetHistoricalData.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetHistoricalData.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetInstClosingPrice.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetInstClosingPrice.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetInstrumentSwaps.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetInstrumentSwaps.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetIPAccessList.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetIPAccessList.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetLastCollateralTransInfoForAccGrp.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetLastCollateralTransInfoForAccGrp.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetLeverageList.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetLeverageList.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetListTIF.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetListTIF.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetLPNameList.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetLPNameList.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetManagerRightList.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetManagerRightList.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetOrderInfo.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetOrderInfo.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetOrderTypes.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetOrderTypes.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetParticipantAccountInfo.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetParticipantAccountInfo.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetParticipantTypeList.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetParticipantTypeList.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetPredefinedRoles.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetPredefinedRoles.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetProductNames.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetProductNames.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetSecurityTypeList.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetSecurityTypeList.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetSymbolQuoteSession.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetSymbolQuoteSession.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetSymbolTradeSession.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetSymbolTradeSession.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetTGAccountConnectionSettings.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetTGAccountConnectionSettings.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetTGList.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetTGList.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetTGSymbolsInfo.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetTGSymbolsInfo.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetTimeSettings.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetTimeSettings.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetTradeInfo.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetTradeInfo.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetTradingGateWayInfo.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetTradingGateWayInfo.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetTradingGatewayMapsInfo.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetTradingGatewayMapsInfo.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetUnexpiredSymbols.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetUnexpiredSymbols.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetUnitList.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetUnitList.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetVirtualDealerInfo.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetVirtualDealerInfo.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_GetWeekDaysList.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetWeekDaysList.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_HolidayDelete.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_HolidayDelete.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_HolidayInsert.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_HolidayInsert.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_HolidaySelect.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_HolidaySelect.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_HolidayUpdate.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_HolidayUpdate.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_InsertBrokersLog.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_InsertBrokersLog.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_InsertBrokersSymbolMapInfo.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_InsertBrokersSymbolMapInfo.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_InsertCollateralTransaction.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_InsertCollateralTransaction.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_InsertInstClosingPrice.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_InsertInstClosingPrice.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_InsertInstrumentSwaps.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_InsertInstrumentSwaps.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_InsertIntoAccountTransaction.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_InsertIntoAccountTransaction.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_InsertIntoBrokers.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_InsertIntoBrokers.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_InsertAccountDetail.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_InsertAccountDetail.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_InsertBankDetails.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_InsertBankDetails.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_InsertIntoSymbolCharges.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_InsertIntoSymbolCharges.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_InsertIPAccessList.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_InsertIPAccessList.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_InsertParticipantDetails.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_InsertParticipantDetails.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_InsertTGAccountConnectionSettings.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_InsertTGAccountConnectionSettings.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_InsertTradingGateWayInfo.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_InsertTradingGateWayInfo.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_InsertTradingGateWayMapsInfo.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_InsertTradingGateWayMapsInfo.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_InsertVirtualDealerInfo.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_InsertVirtualDealerInfo.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_ModifyTrade.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_ModifyTrade.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_OMEGetMapOrder.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_OMEGetMapOrder.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_OME_InsertNewOrder.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_OME_InsertNewOrder.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_OMSExchange_InsertNewOrder.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_OMSExchange_InsertNewOrder.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_SelectSymbolCharges.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_SelectSymbolCharges.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_SelectSymbolDefaultSetting.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_SelectSymbolDefaultSetting.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_SelectSymbolSession.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_SelectSymbolSession.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_SettleTrade.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_SettleTrade.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_UpdateAccountDetails.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_UpdateAccountDetails.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_UpdateAccountTransaction.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_UpdateAccountTransaction.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_UpdateBankDetails.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_UpdateBankDetails.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_TaxMasterDelete.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_TaxMasterDelete.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_TaxMasterInsert.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_TaxMasterInsert.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_TaxMasterSelect.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_TaxMasterSelect.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_TaxMasterupdate.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_TaxMasterupdate.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_UpdateBrokersInfo.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_UpdateBrokersInfo.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_UpdateBrokersRelativeSymbolMap.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_UpdateBrokersRelativeSymbolMap.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_UpdateBrokersSymbolMapInfo.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_UpdateBrokersSymbolMapInfo.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_UpdateCommonSetting.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_UpdateCommonSetting.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_UpdateHistoricalData.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_UpdateHistoricalData.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_UpdateInstClosingPrice.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_UpdateInstClosingPrice.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_UpdateInstrumentSwap.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_UpdateInstrumentSwap.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_UpdateIPAccessList.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_UpdateIPAccessList.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_UpdateParticipantDetails.cs">
+      <DependentUpon>dbMan_BO_UpdateParticipantDetails.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_UpdateParticipantDetails.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_UpdateParticipantDetails.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_UpdateSymbol.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_UpdateSymbol.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_UpdateSymbolCharges.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_UpdateSymbolCharges.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_UpdateTGAccountConnectionSettings.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_UpdateTGAccountConnectionSettings.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_UpdateTimeSettings.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_UpdateTimeSettings.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_UpdateTradingGateWayInfo.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_UpdateTradingGateWayInfo.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_UpdateTradingGateWayMaps.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_UpdateTradingGateWayMaps.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_BO_UpdateVirtualDealerInfo.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_UpdateVirtualDealerInfo.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_OMS_OrderDelete.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_OMS_OrderDelete.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DB_New\dbMan_OMS_OrderUpdate.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_OMS_OrderUpdate.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="DB_New\dbMan_BO_OME_InsertNewOrder.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_OME_InsertNewOrder.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_OMSExchange_InsertNewOrder.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_OMSExchange_InsertNewOrder.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateHistoricalData.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_UpdateHistoricalData.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BOEngineServiceClasses\BOEngineServiceClasses.csproj">
+      <Project>{7843A920-FA70-46F8-A00C-B83ECAC4662F}</Project>
+      <Name>BOEngineServiceClasses</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetCurrencyList.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetCurrencyList.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetErrorList.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetErrorList.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetListTIF.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetListTIF.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetManagerRightList.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetManagerRightList.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetParticipantTypeList.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetParticipantTypeList.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetSecurityTypeList.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetSecurityTypeList.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetUnitList.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetUnitList.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetWeekDaysList.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetWeekDaysList.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetCurrencyList.dbml.layout">
+      <DependentUpon>dbMan_BO_GetCurrencyList.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetErrorList.dbml.layout">
+      <DependentUpon>dbMan_BO_GetErrorList.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetListTIF.dbml.layout">
+      <DependentUpon>dbMan_BO_GetListTIF.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetManagerRightList.dbml.layout">
+      <DependentUpon>dbMan_BO_GetManagerRightList.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetParticipantTypeList.dbml.layout">
+      <DependentUpon>dbMan_BO_GetParticipantTypeList.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetSecurityTypeList.dbml.layout">
+      <DependentUpon>dbMan_BO_GetSecurityTypeList.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetUnitList.dbml.layout">
+      <DependentUpon>dbMan_BO_GetUnitList.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetWeekDaysList.dbml.layout">
+      <DependentUpon>dbMan_BO_GetWeekDaysList.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_SelectSymbolDefaultSetting.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_SelectSymbolDefaultSetting.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_SelectSymbolDefaultSetting.dbml.layout">
+      <DependentUpon>dbMan_BO_SelectSymbolDefaultSetting.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_SelectSymbolSession.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_SelectSymbolSession.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_DeleteSymbol.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_DeleteSymbol.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_SelectSymbolSession.dbml.layout">
+      <DependentUpon>dbMan_BO_SelectSymbolSession.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_AddNewSymbol.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_AddNewSymbol.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_DeleteSymbol.dbml.layout">
+      <DependentUpon>dbMan_BO_DeleteSymbol.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_AddNewSymbol.dbml.layout">
+      <DependentUpon>dbMan_BO_AddNewSymbol.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetClientsBankInfo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetClientsBankInfo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_AddSymbolSession.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_AddSymbolSession.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetClientsBankInfo.dbml.layout">
+      <DependentUpon>dbMan_BO_GetClientsBankInfo.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_AddSymbolSession.dbml.layout">
+      <DependentUpon>dbMan_BO_AddSymbolSession.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetParticipantAccountInfo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetParticipantAccountInfo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetCountryMasterInfo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetCountryMasterInfo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetParticipantAccountInfo.dbml.layout">
+      <DependentUpon>dbMan_BO_GetParticipantAccountInfo.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetClientAccountInformation.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetClientAccountInformation.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetCountryMasterInfo.dbml.layout">
+      <DependentUpon>dbMan_BO_GetCountryMasterInfo.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetClientAccountInformation.dbml.layout">
+      <DependentUpon>dbMan_BO_GetClientAccountInformation.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetTradingGateWayInfo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetTradingGateWayInfo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetTradingGateWayInfo.dbml.layout">
+      <DependentUpon>dbMan_BO_GetTradingGateWayInfo.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetTradingGatewayMapsInfo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetTradingGatewayMapsInfo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetTradingGatewayMapsInfo.dbml.layout">
+      <DependentUpon>dbMan_BO_GetTradingGatewayMapsInfo.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_InsertTradingGateWayInfo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_InsertTradingGateWayInfo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_InsertTradingGateWayInfo.dbml.layout">
+      <DependentUpon>dbMan_BO_InsertTradingGateWayInfo.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_InsertTradingGateWayMapsInfo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_InsertTradingGateWayMapsInfo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_InsertTradingGateWayMapsInfo.dbml.layout">
+      <DependentUpon>dbMan_BO_InsertTradingGateWayMapsInfo.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateTradingGateWayInfo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_UpdateTradingGateWayInfo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_UpdateTradingGateWayInfo.dbml.layout">
+      <DependentUpon>dbMan_BO_UpdateTradingGateWayInfo.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_UpdateTradingGateWayMaps.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_UpdateTradingGateWayMaps.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetTimeSettings.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetTimeSettings.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateTradingGateWayMaps.dbml.layout">
+      <DependentUpon>dbMan_BO_UpdateTradingGateWayMaps.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetBrokerTypesList.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetBrokerTypesList.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetTimeSettings.dbml.layout">
+      <DependentUpon>dbMan_BO_GetTimeSettings.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateTimeSettings.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_UpdateTimeSettings.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetAllAccountGroupInfo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetAllAccountGroupInfo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetBrokerTypesList.dbml.layout">
+      <DependentUpon>dbMan_BO_GetBrokerTypesList.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetAllAccountGroupInfo.dbml.layout">
+      <DependentUpon>dbMan_BO_GetAllAccountGroupInfo.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetLeverageList.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetLeverageList.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetLeverageList.dbml.layout">
+      <DependentUpon>dbMan_BO_GetLeverageList.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetIPAccessList.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetIPAccessList.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateTimeSettings.dbml.layout">
+      <DependentUpon>dbMan_BO_UpdateTimeSettings.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetIPAccessList.dbml.layout">
+      <DependentUpon>dbMan_BO_GetIPAccessList.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_InsertIPAccessList.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_InsertIPAccessList.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_InsertIPAccessList.dbml.layout">
+      <DependentUpon>dbMan_BO_InsertIPAccessList.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateIPAccessList.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_UpdateIPAccessList.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_DeleteIPAccessList.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_DeleteIPAccessList.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateIPAccessList.dbml.layout">
+      <DependentUpon>dbMan_BO_UpdateIPAccessList.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_DeleteIPAccessList.dbml.layout">
+      <DependentUpon>dbMan_BO_DeleteIPAccessList.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_HolidayInsert.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_HolidayInsert.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_HolidayInsert.dbml.layout">
+      <DependentUpon>dbMan_BO_HolidayInsert.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_HolidaySelect.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_HolidaySelect.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_HolidaySelect.dbml.layout">
+      <DependentUpon>dbMan_BO_HolidaySelect.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_HolidayUpdate.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_HolidayUpdate.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_HolidayDelete.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_HolidayDelete.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_HolidayUpdate.dbml.layout">
+      <DependentUpon>dbMan_BO_HolidayUpdate.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_FeesMasterSelect.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_FeesMasterSelect.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_HolidayDelete.dbml.layout">
+      <DependentUpon>dbMan_BO_HolidayDelete.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_FeeMasterInsert.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_FeeMasterInsert.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_FeesMasterSelect.dbml.layout">
+      <DependentUpon>dbMan_BO_FeesMasterSelect.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetBrokersInfo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetBrokersInfo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_FeeMasterInsert.dbml.layout">
+      <DependentUpon>dbMan_BO_FeeMasterInsert.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_FeesMasterUpdate.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_FeesMasterUpdate.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_FeesMasterDelete.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_FeesMasterDelete.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_FeesMasterUpdate.dbml.layout">
+      <DependentUpon>dbMan_BO_FeesMasterUpdate.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_FeesMasterDelete.dbml.layout">
+      <DependentUpon>dbMan_BO_FeesMasterDelete.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetBrokersInfo.dbml.layout">
+      <DependentUpon>dbMan_BO_GetBrokersInfo.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetBrokersSymbolMapInfo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetBrokersSymbolMapInfo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetBrokersSymbolMapInfo.dbml.layout">
+      <DependentUpon>dbMan_BO_GetBrokersSymbolMapInfo.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_InsertIntoBrokers.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_InsertIntoBrokers.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_InsertAccountDetail.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_InsertAccountDetail.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_TaxMasterSelect.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_TaxMasterSelect.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_InsertIntoBrokers.dbml.layout">
+      <DependentUpon>dbMan_BO_InsertIntoBrokers.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_InsertAccountDetail.dbml.layout">
+      <DependentUpon>dbMan_BO_InsertAccountDetail.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateAccountDetails.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_UpdateAccountDetails.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_InsertBankDetails.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_InsertBankDetails.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateAccountDetails.dbml.layout">
+      <DependentUpon>dbMan_BO_UpdateAccountDetails.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_InsertBankDetails.dbml.layout">
+      <DependentUpon>dbMan_BO_InsertBankDetails.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateBankDetails.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_UpdateBankDetails.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_InsertParticipantDetails.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_InsertParticipantDetails.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateBankDetails.dbml.layout">
+      <DependentUpon>dbMan_BO_UpdateBankDetails.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_InsertParticipantDetails.dbml.layout">
+      <DependentUpon>dbMan_BO_InsertParticipantDetails.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_UpdateParticipantDetails.dbml.layout">
+      <DependentUpon>dbMan_BO_UpdateParticipantDetails.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_TaxMasterDelete.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_TaxMasterDelete.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_TaxMasterSelect.dbml.layout">
+      <DependentUpon>dbMan_BO_TaxMasterSelect.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_TaxMasterDelete.dbml.layout">
+      <DependentUpon>dbMan_BO_TaxMasterDelete.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_TaxMasterInsert.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_TaxMasterInsert.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_TaxMasterInsert.dbml.layout">
+      <DependentUpon>dbMan_BO_TaxMasterInsert.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_TaxMasterupdate.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_TaxMasterupdate.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_InsertBrokersSymbolMapInfo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_InsertBrokersSymbolMapInfo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_TaxMasterupdate.dbml.layout">
+      <DependentUpon>dbMan_BO_TaxMasterupdate.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateParticipantDetails.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_UpdateParticipantDetails.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dbMan_BO_UpdateBrokersSymbolMapInfo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_UpdateBrokersSymbolMapInfo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_InsertBrokersSymbolMapInfo.dbml.layout">
+      <DependentUpon>dbMan_BO_InsertBrokersSymbolMapInfo.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dbMan_BO_UpdateBrokersSymbolMapInfo.dbml.layout">
+      <DependentUpon>dbMan_BO_UpdateBrokersSymbolMapInfo.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateBrokersInfo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_UpdateBrokersInfo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_UpdateBrokersInfo.dbml.layout">
+      <DependentUpon>dbMan_BO_UpdateBrokersInfo.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateBrokersSymbolMapInfo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_UpdateBrokersSymbolMapInfo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetAllSymbols.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetAllSymbols.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateBrokersSymbolMapInfo.dbml.layout">
+      <DependentUpon>dbMan_BO_UpdateBrokersSymbolMapInfo.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetAllFeeType.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetAllFeeType.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetAllSymbols.dbml.layout">
+      <DependentUpon>dbMan_BO_GetAllSymbols.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetAllFeeType.dbml.layout">
+      <DependentUpon>dbMan_BO_GetAllFeeType.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetAllTaxType.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetAllTaxType.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetAllTaxType.dbml.layout">
+      <DependentUpon>dbMan_BO_GetAllTaxType.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetBrokerSymbolSetting.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetBrokerSymbolSetting.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_DeleteBrokersSymbol.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_DeleteBrokersSymbol.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetBrokerSymbolSetting.dbml.layout">
+      <DependentUpon>dbMan_BO_GetBrokerSymbolSetting.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_DeleteBrokersSymbol.dbml.layout">
+      <DependentUpon>dbMan_BO_DeleteBrokersSymbol.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_InsertIntoSymbolCharges.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_InsertIntoSymbolCharges.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_InsertIntoSymbolCharges.dbml.layout">
+      <DependentUpon>dbMan_BO_InsertIntoSymbolCharges.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateSymbolCharges.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_UpdateSymbolCharges.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_SelectSymbolCharges.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_SelectSymbolCharges.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateSymbolCharges.dbml.layout">
+      <DependentUpon>dbMan_BO_UpdateSymbolCharges.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_DeleteSymbolCharges.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_DeleteSymbolCharges.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_SelectSymbolCharges.dbml.layout">
+      <DependentUpon>dbMan_BO_SelectSymbolCharges.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_DeleteSymbolCharges.dbml.layout">
+      <DependentUpon>dbMan_BO_DeleteSymbolCharges.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetDeliveryUnit.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetDeliveryUnit.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_OMS_OrderDelete.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_OMS_OrderDelete.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_OMS_OrderDelete.dbml.layout">
+      <DependentUpon>dbMan_OMS_OrderDelete.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_OMS_OrderUpdate.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_OMS_OrderUpdate.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_OMS_OrderUpdate.dbml.layout">
+      <DependentUpon>dbMan_OMS_OrderUpdate.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetDeliveryUnit.dbml.layout">
+      <DependentUpon>dbMan_BO_GetDeliveryUnit.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetOrderTypes.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetOrderTypes.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetOrderTypes.dbml.layout">
+      <DependentUpon>dbMan_BO_GetOrderTypes.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetProductNames.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetProductNames.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetAllCollateralCommodity.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetAllCollateralCommodity.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetProductNames.dbml.layout">
+      <DependentUpon>dbMan_BO_GetProductNames.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetAllCollateralCommodity.dbml.layout">
+      <DependentUpon>dbMan_BO_GetAllCollateralCommodity.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetAllCollateralTypes.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetAllCollateralTypes.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetAllCollateralTypes.dbml.layout">
+      <DependentUpon>dbMan_BO_GetAllCollateralTypes.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateSymbol.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_UpdateSymbol.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetBrokersCollateralInfo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetBrokersCollateralInfo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateSymbol.dbml.layout">
+      <DependentUpon>dbMan_BO_UpdateSymbol.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetBrokersCollateralInfo.dbml.layout">
+      <DependentUpon>dbMan_BO_GetBrokersCollateralInfo.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetLastCollateralTransInfoForAccGrp.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetLastCollateralTransInfoForAccGrp.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetLastCollateralTransInfoForAccGrp.dbml.layout">
+      <DependentUpon>dbMan_BO_GetLastCollateralTransInfoForAccGrp.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_InsertCollateralTransaction.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_InsertCollateralTransaction.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetAllModules.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetAllModules.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_InsertCollateralTransaction.dbml.layout">
+      <DependentUpon>dbMan_BO_InsertCollateralTransaction.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_AuthenticateLogin.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_AuthenticateLogin.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetAllModules.dbml.layout">
+      <DependentUpon>dbMan_BO_GetAllModules.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_AuthenticateLogin.dbml.layout">
+      <DependentUpon>dbMan_BO_AuthenticateLogin.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_DeleteSymbolSession.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_DeleteSymbolSession.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_DeleteSymbolSession.dbml.layout">
+      <DependentUpon>dbMan_BO_DeleteSymbolSession.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetOrderInfo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetOrderInfo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetOrderInfo.dbml.layout">
+      <DependentUpon>dbMan_BO_GetOrderInfo.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetPredefinedRoles.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetPredefinedRoles.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetPredefinedRoles.dbml.layout">
+      <DependentUpon>dbMan_BO_GetPredefinedRoles.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_InsertIntoAccountTransaction.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_InsertIntoAccountTransaction.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_InsertIntoAccountTransaction.dbml.layout">
+      <DependentUpon>dbMan_BO_InsertIntoAccountTransaction.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_OMEGetMapOrder.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_OMEGetMapOrder.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_DeleteSymbolAlias.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_DeleteSymbolAlias.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_OMEGetMapOrder.dbml.layout">
+      <DependentUpon>dbMan_BO_OMEGetMapOrder.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_DeleteSymbolAlias.dbml.layout">
+      <DependentUpon>dbMan_BO_DeleteSymbolAlias.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetLPNameList.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetLPNameList.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetClientAccountTypes.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetClientAccountTypes.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetLPNameList.dbml.layout">
+      <DependentUpon>dbMan_BO_GetLPNameList.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_ClientLoginAuth.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_ClientLoginAuth.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetClientAccountTypes.dbml.layout">
+      <DependentUpon>dbMan_BO_GetClientAccountTypes.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_ClientLoginAuth.dbml.layout">
+      <DependentUpon>dbMan_BO_ClientLoginAuth.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetTGAccountConnectionSettings.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetTGAccountConnectionSettings.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetTGAccountConnectionSettings.dbml.layout">
+      <DependentUpon>dbMan_BO_GetTGAccountConnectionSettings.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_InsertTGAccountConnectionSettings.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_InsertTGAccountConnectionSettings.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_InsertTGAccountConnectionSettings.dbml.layout">
+      <DependentUpon>dbMan_BO_InsertTGAccountConnectionSettings.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateTGAccountConnectionSettings.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_UpdateTGAccountConnectionSettings.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetVirtualDealerInfo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetVirtualDealerInfo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateTGAccountConnectionSettings.dbml.layout">
+      <DependentUpon>dbMan_BO_UpdateTGAccountConnectionSettings.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetVirtualDealerInfo.dbml.layout">
+      <DependentUpon>dbMan_BO_GetVirtualDealerInfo.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_InsertVirtualDealerInfo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_InsertVirtualDealerInfo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_InsertVirtualDealerInfo.dbml.layout">
+      <DependentUpon>dbMan_BO_InsertVirtualDealerInfo.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateVirtualDealerInfo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_UpdateVirtualDealerInfo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_DeleteVirtualDealer.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_DeleteVirtualDealer.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateVirtualDealerInfo.dbml.layout">
+      <DependentUpon>dbMan_BO_UpdateVirtualDealerInfo.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_DeleteVirtualDealer.dbml.layout">
+      <DependentUpon>dbMan_BO_DeleteVirtualDealer.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetCommonSettingsNew.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetCommonSettingsNew.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetCommonSettingsNew.dbml.layout">
+      <DependentUpon>dbMan_BO_GetCommonSettingsNew.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateCommonSetting.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_UpdateCommonSetting.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetCollateralTransactionHistory.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetCollateralTransactionHistory.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateCommonSetting.dbml.layout">
+      <DependentUpon>dbMan_BO_UpdateCommonSetting.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetAccountIDsByAccountTypeID.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetAccountIDsByAccountTypeID.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetCollateralTransactionHistory.dbml.layout">
+      <DependentUpon>dbMan_BO_GetCollateralTransactionHistory.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_ChangePassword.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_ChangePassword.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetAccountIDsByAccountTypeID.dbml.layout">
+      <DependentUpon>dbMan_BO_GetAccountIDsByAccountTypeID.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_ChangePassword.dbml.layout">
+      <DependentUpon>dbMan_BO_ChangePassword.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetInstClosingPrice.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetInstClosingPrice.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetInstClosingPrice.dbml.layout">
+      <DependentUpon>dbMan_BO_GetInstClosingPrice.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_InsertInstClosingPrice.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_InsertInstClosingPrice.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_InsertInstClosingPrice.dbml.layout">
+      <DependentUpon>dbMan_BO_InsertInstClosingPrice.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateInstClosingPrice.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_UpdateInstClosingPrice.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetUnexpiredSymbols.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetUnexpiredSymbols.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateInstClosingPrice.dbml.layout">
+      <DependentUpon>dbMan_BO_UpdateInstClosingPrice.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetHedgeTypes.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetHedgeTypes.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetUnexpiredSymbols.dbml.layout">
+      <DependentUpon>dbMan_BO_GetUnexpiredSymbols.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetHedgeTypes.dbml.layout">
+      <DependentUpon>dbMan_BO_GetHedgeTypes.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_ModifyTrade.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_ModifyTrade.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetTGList.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetTGList.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_ModifyTrade.dbml.layout">
+      <DependentUpon>dbMan_BO_ModifyTrade.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_SettleTrade.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_SettleTrade.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_SettleTrade.dbml.layout">
+      <DependentUpon>dbMan_BO_SettleTrade.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetTGList.dbml.layout">
+      <DependentUpon>dbMan_BO_GetTGList.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetTGSymbolsInfo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetTGSymbolsInfo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetHistoricalData.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetHistoricalData.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetTGSymbolsInfo.dbml.layout">
+      <DependentUpon>dbMan_BO_GetTGSymbolsInfo.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetHistoricalData.dbml.layout">
+      <DependentUpon>dbMan_BO_GetHistoricalData.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetTradeInfo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetTradeInfo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetTradeInfo.dbml.layout">
+      <DependentUpon>dbMan_BO_GetTradeInfo.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_InsertBrokersLog.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_InsertBrokersLog.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetBrokersLog.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetBrokersLog.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_InsertBrokersLog.dbml.layout">
+      <DependentUpon>dbMan_BO_InsertBrokersLog.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetBrokersLog.dbml.layout">
+      <DependentUpon>dbMan_BO_GetBrokersLog.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetInstrumentSwaps.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetInstrumentSwaps.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetInstrumentSwaps.dbml.layout">
+      <DependentUpon>dbMan_BO_GetInstrumentSwaps.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_InsertInstrumentSwaps.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_InsertInstrumentSwaps.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_InsertInstrumentSwaps.dbml.layout">
+      <DependentUpon>dbMan_BO_InsertInstrumentSwaps.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateInstrumentSwap.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_UpdateInstrumentSwap.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetAccountTransaction.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetAccountTransaction.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateInstrumentSwap.dbml.layout">
+      <DependentUpon>dbMan_BO_UpdateInstrumentSwap.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetAccountTransaction.dbml.layout">
+      <DependentUpon>dbMan_BO_GetAccountTransaction.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateAccountTransaction.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_UpdateAccountTransaction.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_AddSymbolQuotesSession.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_AddSymbolQuotesSession.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateAccountTransaction.dbml.layout">
+      <DependentUpon>dbMan_BO_UpdateAccountTransaction.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_AddSymbolQuotesSession.dbml.layout">
+      <DependentUpon>dbMan_BO_AddSymbolQuotesSession.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_AddSymbolTradeSession.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_AddSymbolTradeSession.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_AddSymbolTradeSession.dbml.layout">
+      <DependentUpon>dbMan_BO_AddSymbolTradeSession.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetSymbolQuoteSession.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetSymbolQuoteSession.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetSymbolQuoteSession.dbml.layout">
+      <DependentUpon>dbMan_BO_GetSymbolQuoteSession.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetSymbolTradeSession.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetSymbolTradeSession.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetContractSize.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetContractSize.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetSymbolTradeSession.dbml.layout">
+      <DependentUpon>dbMan_BO_GetSymbolTradeSession.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetBrokersList.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetBrokersList.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetContractSize.dbml.layout">
+      <DependentUpon>dbMan_BO_GetContractSize.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetBrokersList.dbml.layout">
+      <DependentUpon>dbMan_BO_GetBrokersList.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateBrokersRelativeSymbolMap.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_UpdateBrokersRelativeSymbolMap.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_DeleteSymbolSessionNew.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_DeleteSymbolSessionNew.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DB_New\dbMan_BO_UpdateBrokersRelativeSymbolMap.dbml.layout">
+      <DependentUpon>dbMan_BO_UpdateBrokersRelativeSymbolMap.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_DeleteSymbolSessionNew.dbml.layout">
+      <DependentUpon>dbMan_BO_DeleteSymbolSessionNew.dbml</DependentUpon>
+    </None>
+    <None Include="DB_New\dbMan_BO_GetAllSymbolsNew.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetAllSymbolsNew.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_GetAllSymbolsNew.dbml.layout">
+      <DependentUpon>dbMan_BO_GetAllSymbolsNew.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_UpdateHistoricalData.dbml.layout">
+      <DependentUpon>dbMan_BO_UpdateHistoricalData.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_OMSExchange_InsertNewOrder.dbml.layout">
+      <DependentUpon>dbMan_BO_OMSExchange_InsertNewOrder.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DB_New\dbMan_BO_OME_InsertNewOrder.dbml.layout">
+      <DependentUpon>dbMan_BO_OME_InsertNewOrder.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

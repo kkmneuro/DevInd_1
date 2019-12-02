@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="BOExchange" Class="dbMan_BO_GetContractSizeDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=BOExchange;User ID=sa" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="BOExchangeConnectionString4" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_GetContractSize" Method="BO_GetContractSize">
+    <ElementType Name="BO_GetContractSizeResult">
+      <Column Name="SymbolName" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="ContractSize" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

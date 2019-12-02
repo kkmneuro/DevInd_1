@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="BOExchange" Class="dbMan_BO_GetBrokerSymbolSettingDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.1.87;Initial Catalog=BOExchange;Persist Security Info=True;User ID=sa" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="BOExchangeConnectionString1" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.GetBrokerSymbolSetting" Method="GetBrokerSymbolSetting">
+    <Parameter Name="BrokersGroupID" Parameter="brokersGroupID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Instrument" Parameter="instrument" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="BrokerType" Parameter="brokerType" Type="System.String" DbType="VarChar(20)" />
+    <ElementType Name="GetBrokerSymbolSettingResult">
+      <Column Name="FK_AccountGroupId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FK_SecurityTypeID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FK_InstruementID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="LongPositionSwap" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="ShortPositionSwap" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="MarginPercentage" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+</Database>

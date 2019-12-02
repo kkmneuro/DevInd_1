@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BOExchange_NG" Class="dbMan_BO_GetTradingGateWayInfoDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=127.0.0.1;Initial Catalog=BOExchange_NG;User ID=sa" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="BOExchange_NGConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_GetTradingGateWays" Method="BO_GetTradingGateWays">
+    <ElementType Name="BO_GetTradingGateWaysResult">
+      <Column Name="PK_TradingGateWaysID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="VarChar(256)" CanBeNull="true" />
+      <Column Name="Server_IP" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Port" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DataTypes" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Login" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Password" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="IdleTimeOut" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ReconnectAfter" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SleepFor" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Attempts" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsEnable" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Enable_RMS" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="Order_Port" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Order_IP" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

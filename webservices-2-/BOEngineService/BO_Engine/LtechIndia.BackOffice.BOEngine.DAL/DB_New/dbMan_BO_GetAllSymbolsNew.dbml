@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="BOExchange_NG" Class="dbMan_BO_GetAllSymbolsNewDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=BOExchange_NG;Integrated Security=True" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="BOExchange_NGConnectionString1" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_GetAllSymbolsNew" Method="BO_GetAllSymbolsNew">
+    <Parameter Name="BrokerId" Parameter="brokerId" Type="System.Int32" DbType="Int" />
+    <ElementType Name="BO_GetAllSymbolsNewResult">
+      <Column Name="PK_InstruementID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Symbol" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+</Database>

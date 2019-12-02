@@ -1,0 +1,9 @@
+D:\DevIndia\webservices-2-\AccountCreateService\Logging\bin\Debug\LogSetting.xml
+D:\DevIndia\webservices-2-\AccountCreateService\Logging\bin\Debug\Logging.dll
+D:\DevIndia\webservices-2-\AccountCreateService\Logging\bin\Debug\Logging.pdb
+D:\DevIndia\webservices-2-\AccountCreateService\Logging\bin\Debug\GeneralUtilty.dll
+D:\DevIndia\webservices-2-\AccountCreateService\Logging\bin\Debug\GeneralUtilty.pdb
+D:\DevIndia\webservices-2-\AccountCreateService\Logging\obj\Debug\Logging.csprojAssemblyReference.cache
+D:\DevIndia\webservices-2-\AccountCreateService\Logging\obj\Debug\Logging.csproj.CopyComplete
+D:\DevIndia\webservices-2-\AccountCreateService\Logging\obj\Debug\Logging.dll
+D:\DevIndia\webservices-2-\AccountCreateService\Logging\obj\Debug\Logging.pdb

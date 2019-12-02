@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BOExchange_NG" Class="dbMan_BO_InsertTradingGateWayInfoDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=127.0.0.1;Initial Catalog=BOExchange_NG;User ID=sa" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="BOExchange_NGConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_InsertTradingGateWayInfo" Method="BO_InsertTradingGateWayInfo">
+    <Parameter Name="Name" Parameter="name" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Description" Parameter="description" Type="System.String" DbType="VarChar(256)" />
+    <Parameter Name="serverIP" Type="System.String" DbType="VarChar(200)" />
+    <Parameter Name="Port" Parameter="port" Type="System.Int32" DbType="Int" />
+    <Parameter Name="DataType" Parameter="dataType" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Login" Parameter="login" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Password" Parameter="password" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="IdleTimeOut" Parameter="idleTimeOut" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ReconnectAfter" Parameter="reconnectAfter" Type="System.Int32" DbType="Int" />
+    <Parameter Name="SleepFor" Parameter="sleepFor" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Attempts" Parameter="attempts" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IsEnable" Parameter="isEnable" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Enable_RMS" Parameter="enable_RMS" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Order_Port" Parameter="order_Port" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Order_IP" Parameter="order_IP" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

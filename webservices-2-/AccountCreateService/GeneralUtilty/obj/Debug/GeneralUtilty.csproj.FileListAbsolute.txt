@@ -1,0 +1,5 @@
+D:\DevIndia\webservices-2-\AccountCreateService\GeneralUtilty\bin\Debug\GeneralUtilty.dll
+D:\DevIndia\webservices-2-\AccountCreateService\GeneralUtilty\bin\Debug\GeneralUtilty.pdb
+D:\DevIndia\webservices-2-\AccountCreateService\GeneralUtilty\obj\Debug\GeneralUtilty.csprojAssemblyReference.cache
+D:\DevIndia\webservices-2-\AccountCreateService\GeneralUtilty\obj\Debug\GeneralUtilty.dll
+D:\DevIndia\webservices-2-\AccountCreateService\GeneralUtilty\obj\Debug\GeneralUtilty.pdb

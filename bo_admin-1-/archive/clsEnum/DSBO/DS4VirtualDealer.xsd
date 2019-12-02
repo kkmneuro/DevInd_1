@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS4VirtualDealer" targetNamespace="http://tempuri.org/DS4VirtualDealer.xsd" xmlns:mstns="http://tempuri.org/DS4VirtualDealer.xsd" xmlns="http://tempuri.org/DS4VirtualDealer.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS4VirtualDealer" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DS4VirtualDealer" msprop:Generator_UserDSName="DS4VirtualDealer" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtVirtualDealer" msprop:Generator_UserTableName="dtVirtualDealer" msprop:Generator_RowDeletedName="dtVirtualDealerRowDeleted" msprop:Generator_TableClassName="dtVirtualDealerDataTable" msprop:Generator_RowChangedName="dtVirtualDealerRowChanged" msprop:Generator_RowClassName="dtVirtualDealerRow" msprop:Generator_RowChangingName="dtVirtualDealerRowChanging" msprop:Generator_RowEvArgName="dtVirtualDealerRowChangeEvent" msprop:Generator_RowEvHandlerName="dtVirtualDealerRowChangeEventHandler" msprop:Generator_TablePropName="dtVirtualDealer" msprop:Generator_TableVarName="tabledtVirtualDealer" msprop:Generator_RowDeletingName="dtVirtualDealerRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VirtualDealerID" msprop:Generator_UserColumnName="VirtualDealerID" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnVirtualDealerID" msprop:Generator_ColumnPropNameInTable="VirtualDealerIDColumn" msprop:Generator_ColumnPropNameInRow="VirtualDealerID" type="xs:int" default="0" />
+              <xs:element name="Delay" msprop:Generator_UserColumnName="Delay" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnDelay" msprop:Generator_ColumnPropNameInTable="DelayColumn" msprop:Generator_ColumnPropNameInRow="Delay" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="VirtualManagerAccount" msprop:Generator_UserColumnName="VirtualManagerAccount" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnVirtualManagerAccount" msprop:Generator_ColumnPropNameInTable="VirtualManagerAccountColumn" msprop:Generator_ColumnPropNameInRow="VirtualManagerAccount" type="xs:string" default="" minOccurs="0" />
+              <xs:element name="Groups" msprop:Generator_UserColumnName="Groups" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnGroups" msprop:Generator_ColumnPropNameInTable="GroupsColumn" msprop:Generator_ColumnPropNameInRow="Groups" type="xs:string" default="" minOccurs="0" />
+              <xs:element name="Symbols" msprop:Generator_UserColumnName="Symbols" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnSymbols" msprop:Generator_ColumnPropNameInTable="SymbolsColumn" msprop:Generator_ColumnPropNameInRow="Symbols" type="xs:string" default="" minOccurs="0" />
+              <xs:element name="MaxVolume" msprop:Generator_UserColumnName="MaxVolume" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnMaxVolume" msprop:Generator_ColumnPropNameInTable="MaxVolumeColumn" msprop:Generator_ColumnPropNameInRow="MaxVolume" type="xs:decimal" default="0" minOccurs="0" />
+              <xs:element name="MaxLosingSlippage" msprop:Generator_UserColumnName="MaxLosingSlippage" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnMaxLosingSlippage" msprop:Generator_ColumnPropNameInTable="MaxLosingSlippageColumn" msprop:Generator_ColumnPropNameInRow="MaxLosingSlippage" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="MaxProfitSlippage" msprop:Generator_UserColumnName="MaxProfitSlippage" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnMaxProfitSlippage" msprop:Generator_ColumnPropNameInTable="MaxProfitSlippageColumn" msprop:Generator_ColumnPropNameInRow="MaxProfitSlippage" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="MaxProfitSlippageVolume" msprop:Generator_UserColumnName="MaxProfitSlippageVolume" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnMaxProfitSlippageVolume" msprop:Generator_ColumnPropNameInTable="MaxProfitSlippageVolumeColumn" msprop:Generator_ColumnPropNameInRow="MaxProfitSlippageVolume" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="GapLevel" msprop:Generator_UserColumnName="GapLevel" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnGapLevel" msprop:Generator_ColumnPropNameInTable="GapLevelColumn" msprop:Generator_ColumnPropNameInRow="GapLevel" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="GapSafeLevel" msprop:Generator_UserColumnName="GapSafeLevel" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnGapSafeLevel" msprop:Generator_ColumnPropNameInTable="GapSafeLevelColumn" msprop:Generator_ColumnPropNameInRow="GapSafeLevel" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="GapTickCounter" msprop:Generator_UserColumnName="GapTickCounter" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnGapTickCounter" msprop:Generator_ColumnPropNameInTable="GapTickCounterColumn" msprop:Generator_ColumnPropNameInRow="GapTickCounter" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="GapPendingsCancel" msprop:Generator_UserColumnName="GapPendingsCancel" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnGapPendingsCancel" msprop:Generator_ColumnPropNameInTable="GapPendingsCancelColumn" msprop:Generator_ColumnPropNameInRow="GapPendingsCancel" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="GapTakeProfitSlide" msprop:Generator_UserColumnName="GapTakeProfitSlide" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnGapTakeProfitSlide" msprop:Generator_ColumnPropNameInTable="GapTakeProfitSlideColumn" msprop:Generator_ColumnPropNameInRow="GapTakeProfitSlide" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="GapStopLossSlide" msprop:Generator_UserColumnName="GapStopLossSlide" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnGapStopLossSlide" msprop:Generator_ColumnPropNameInTable="GapStopLossSlideColumn" msprop:Generator_ColumnPropNameInRow="GapStopLossSlide" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="NewsStopFreezes" msprop:Generator_UserColumnName="NewsStopFreezes" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnNewsStopFreezes" msprop:Generator_ColumnPropNameInTable="NewsStopFreezesColumn" msprop:Generator_ColumnPropNameInRow="NewsStopFreezes" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="AllowPedningsOnNews" msprop:Generator_UserColumnName="AllowPedningsOnNews" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnAllowPedningsOnNews" msprop:Generator_ColumnPropNameInTable="AllowPedningsOnNewsColumn" msprop:Generator_ColumnPropNameInRow="AllowPedningsOnNews" type="xs:int" default="0" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtVirtualDealer" />
+      <xs:field xpath="mstns:VirtualDealerID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

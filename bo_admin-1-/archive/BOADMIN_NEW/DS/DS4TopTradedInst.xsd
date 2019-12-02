@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS4TopTradedInst" targetNamespace="http://tempuri.org/DS4TopTradedInst.xsd" xmlns:mstns="http://tempuri.org/DS4TopTradedInst.xsd" xmlns="http://tempuri.org/DS4TopTradedInst.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS4TopTradedInst" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DS4TopTradedInst" msprop:Generator_UserDSName="DS4TopTradedInst" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtTopTradedInst" msprop:Generator_UserTableName="dtTopTradedInst" msprop:Generator_RowDeletedName="dtTopTradedInstRowDeleted" msprop:Generator_TableClassName="dtTopTradedInstDataTable" msprop:Generator_RowChangedName="dtTopTradedInstRowChanged" msprop:Generator_RowClassName="dtTopTradedInstRow" msprop:Generator_RowChangingName="dtTopTradedInstRowChanging" msprop:Generator_RowEvArgName="dtTopTradedInstRowChangeEvent" msprop:Generator_RowEvHandlerName="dtTopTradedInstRowChangeEventHandler" msprop:Generator_TablePropName="dtTopTradedInst" msprop:Generator_TableVarName="tabledtTopTradedInst" msprop:Generator_RowDeletingName="dtTopTradedInstRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Symbol" msprop:Generator_UserColumnName="Symbol" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnSymbol" msprop:Generator_ColumnPropNameInTable="SymbolColumn" msprop:Generator_ColumnPropNameInRow="Symbol" type="xs:string" default="NULL" minOccurs="0" />
+              <xs:element name="CMP" msprop:Generator_UserColumnName="CMP" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnCMP" msprop:Generator_ColumnPropNameInTable="CMPColumn" msprop:Generator_ColumnPropNameInRow="CMP" type="xs:long" default="0" minOccurs="0" />
+              <xs:element name="Change" msprop:Generator_UserColumnName="Change" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnChange" msprop:Generator_ColumnPropNameInTable="ChangeColumn" msprop:Generator_ColumnPropNameInRow="Change" type="xs:long" default="0" minOccurs="0" />
+              <xs:element name="PercentageChange" msprop:Generator_UserColumnName="PercentageChange" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnPercentageChange" msprop:Generator_ColumnPropNameInTable="PercentageChangeColumn" msprop:Generator_ColumnPropNameInRow="PercentageChange" type="xs:long" default="0" minOccurs="0" />
+              <xs:element name="Volume" msprop:Generator_UserColumnName="Volume" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnVolume" msprop:Generator_ColumnPropNameInTable="VolumeColumn" msprop:Generator_ColumnPropNameInRow="Volume" type="xs:long" default="0" minOccurs="0" />
+              <xs:element name="Value" msprop:Generator_UserColumnName="Value" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnValue" msprop:Generator_ColumnPropNameInTable="ValueColumn" msprop:Generator_ColumnPropNameInRow="Value" type="xs:double" default="0" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="BOExchange_NG" Class="dbMan_BO_AddSymbolTradeSessionDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=BOExchange_NG;Integrated Security=True" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="BOExchange_NGConnectionString1" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_AddSymbolTradeSession" Method="BO_AddSymbolTradeSession">
+    <Parameter Name="Instruementid" Parameter="instruementid" Type="System.Int32" DbType="Int" />
+    <Parameter Name="day" Type="System.Int32" DbType="Int" />
+    <Parameter Name="TradeStart" Parameter="tradeStart" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="TradeEnd" Parameter="tradeEnd" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="EODSession" Parameter="eODSession" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="MarketMaker" Parameter="marketMaker" Type="System.Boolean" DbType="Bit" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

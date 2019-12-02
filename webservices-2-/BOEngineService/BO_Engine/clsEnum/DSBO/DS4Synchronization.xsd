@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS4Synchronization" targetNamespace="http://tempuri.org/DS4Synchronization.xsd" xmlns:mstns="http://tempuri.org/DS4Synchronization.xsd" xmlns="http://tempuri.org/DS4Synchronization.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS4Synchronization" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS4Synchronization" msprop:Generator_DataSetName="DS4Synchronization" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtSynchronization" msprop:Generator_UserTableName="dtSynchronization" msprop:Generator_RowDeletedName="dtSynchronizationRowDeleted" msprop:Generator_RowChangedName="dtSynchronizationRowChanged" msprop:Generator_RowClassName="dtSynchronizationRow" msprop:Generator_RowChangingName="dtSynchronizationRowChanging" msprop:Generator_RowEvArgName="dtSynchronizationRowChangeEvent" msprop:Generator_RowEvHandlerName="dtSynchronizationRowChangeEventHandler" msprop:Generator_TableClassName="dtSynchronizationDataTable" msprop:Generator_TableVarName="tabledtSynchronization" msprop:Generator_RowDeletingName="dtSynchronizationRowDeleting" msprop:Generator_TablePropName="dtSynchronization">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SynchronizationId" msprop:Generator_UserColumnName="SynchronizationId" msprop:Generator_ColumnPropNameInRow="SynchronizationId" msprop:Generator_ColumnVarNameInTable="columnSynchronizationId" msprop:Generator_ColumnPropNameInTable="SynchronizationIdColumn" type="xs:int" />
+              <xs:element name="Enable" msprop:Generator_UserColumnName="Enable" msprop:Generator_ColumnPropNameInRow="Enable" msprop:Generator_ColumnVarNameInTable="columnEnable" msprop:Generator_ColumnPropNameInTable="EnableColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Server" msprop:Generator_UserColumnName="Server" msprop:Generator_ColumnPropNameInRow="Server" msprop:Generator_ColumnVarNameInTable="columnServer" msprop:Generator_ColumnPropNameInTable="ServerColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Symbols" msprop:Generator_UserColumnName="Symbols" msprop:Generator_ColumnPropNameInRow="Symbols" msprop:Generator_ColumnVarNameInTable="columnSymbols" msprop:Generator_ColumnPropNameInTable="SymbolsColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Limits" msprop:Generator_UserColumnName="Limits" msprop:Generator_ColumnPropNameInRow="Limits" msprop:Generator_ColumnVarNameInTable="columnLimits" msprop:Generator_ColumnPropNameInTable="LimitsColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="StartDate" msprop:Generator_UserColumnName="StartDate" msprop:Generator_ColumnPropNameInRow="StartDate" msprop:Generator_ColumnVarNameInTable="columnStartDate" msprop:Generator_ColumnPropNameInTable="StartDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="EndDate" msprop:Generator_UserColumnName="EndDate" msprop:Generator_ColumnPropNameInRow="EndDate" msprop:Generator_ColumnVarNameInTable="columnEndDate" msprop:Generator_ColumnPropNameInTable="EndDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Mode" msprop:Generator_UserColumnName="Mode" msprop:Generator_ColumnPropNameInRow="Mode" msprop:Generator_ColumnVarNameInTable="columnMode" msprop:Generator_ColumnPropNameInTable="ModeColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtSynchronization" />
+      <xs:field xpath="mstns:SynchronizationId" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

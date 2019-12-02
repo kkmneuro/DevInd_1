@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="BOExchange_NG" Class="dbMan_BO_SelectSymbolDefaultSettingDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=PCUSER1-PC;Initial Catalog=BOExchange_NG;Integrated Security=True" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="BOExchange_NGConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_SelectSymbolDefaultSetting" Method="BO_SelectSymbolDefaultSetting">
+    <ElementType Name="BO_SelectSymbolDefaultSettingResult">
+      <Column Name="PK_InstruementID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Symbol" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Descriptions" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Source" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Digits" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ULAssest" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="TradingCurrency" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SettlingCurrency" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MarginCurrency" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Orders" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Spread" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Maximum_Lots" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Maximum_Order_Value" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Buy_Side_Turnover" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="Sell_Side_Turnover" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="Maximum_Allowable_Position" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Quotation_Base_Value" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Delivery_Type" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DeliveryUnit" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Delivery_Quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Market_Lot" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Expiry_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Start_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="End_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Tender_start_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Tender_End_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Delivery_Start_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Delivery_End_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="DPR_Initial_Percentage" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DPR_Range_Higher" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DPR_Interval" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LimitandStopLevel" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SpreadBalance" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FreezeLevel" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SecurityType" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="IsActive" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="OffQuoteTimeLimitInSec" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ContractSize" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Initial_Buy_Margin" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Initial_Sell_Margin" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Maintenance_Buy_Margin" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Maintenance_Sell_Margin" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Hedged" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TickPrice" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TickSize" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FK_MarketLotsUnit" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FK_MaximumLostUnit" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FK_QuotationBaseValueUnit" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+</Database>

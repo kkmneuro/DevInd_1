@@ -1,0 +1,7 @@
+D:\DevIndia\bo_admin-1-\archive\ProtocolStructs\obj\x64\Release\ProtocolStructs.csprojAssemblyReference.cache
+D:\DevIndia\bo_admin-1-\archive\ProtocolStructs\obj\x64\Release\ProtocolStructs.dll.licenses
+D:\DevIndia\bo_admin-1-\archive\ProtocolStructs\bin\x64\Release\ProtocolStructs.dll
+D:\DevIndia\bo_admin-1-\archive\ProtocolStructs\bin\x64\Release\ProtocolStructs.pdb
+D:\DevIndia\bo_admin-1-\archive\ProtocolStructs\obj\x64\Release\ProtocolStructs.csproj.CopyComplete
+D:\DevIndia\bo_admin-1-\archive\ProtocolStructs\obj\x64\Release\ProtocolStructs.dll
+D:\DevIndia\bo_admin-1-\archive\ProtocolStructs\obj\x64\Release\ProtocolStructs.pdb

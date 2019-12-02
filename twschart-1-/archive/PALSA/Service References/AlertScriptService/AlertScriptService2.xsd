@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/AlertScriptService" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AlertScriptService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://103.233.58.96:8091/AlertScriptService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="ArrayOfAlertScripts">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="AlertScripts" nillable="true" type="tns:AlertScripts" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAlertScripts" nillable="true" type="tns:ArrayOfAlertScripts" />
+  <xs:complexType name="AlertScripts">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Abbreviation" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AlertName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Bars" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="BuyScript" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DayHours" type="xs:boolean" />
+      <xs:element minOccurs="0" name="DefaultScript" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Enabled" type="xs:boolean" />
+      <xs:element minOccurs="0" name="EndOfDay" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Exchange" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ExitLongScript" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ExitShortScript" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GTC" type="xs:boolean" />
+      <xs:element minOccurs="0" name="GTCHours" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Interval" type="xs:int" />
+      <xs:element minOccurs="0" name="IsUserDefined" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Limit" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Market" type="xs:boolean" />
+      <xs:element minOccurs="0" name="NumberOfLines" type="xs:short" />
+      <xs:element minOccurs="0" name="Period" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Portfolio" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Quantity" type="xs:int" />
+      <xs:element minOccurs="0" name="SellScript" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StopLimit" type="xs:boolean" />
+      <xs:element minOccurs="0" name="StopLimitValue" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="StopMarket" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Symbol" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TradeSignalScript" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UniqueIdField" type="ser:guid" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AlertScripts" nillable="true" type="tns:AlertScripts" />
+</xs:schema>

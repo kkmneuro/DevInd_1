@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="BOExchange" Class="dbMan_Report_OrderReportsDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.1.101;Initial Catalog=BOExchange;User ID=sa" SettingsObjectName="DataAcessLogic.Properties.Settings" SettingsPropertyName="BOExchangeConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.Report_OrderReports1" Method="Report_OrderReports1">
+    <Parameter Name="orderid" Type="System.Int64" DbType="BigInt" />
+    <Parameter Name="AccountID" Parameter="accountID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="fromdate" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="todate" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="OrderType" Parameter="orderType" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="OrderSide" Parameter="orderSide" Type="System.String" DbType="Char(10)" />
+    <Parameter Name="BrokerID" Parameter="brokerID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Symbol" Parameter="symbol" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="ParentBrokerID" Parameter="parentBrokerID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="TIF_ID" Parameter="tIF_ID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="Report_OrderReports1Result">
+      <Column Name="AccountID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="BrokerName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="BrokerID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OrderID" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="SymbolID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Symbol" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="FK_OrderType" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OrderType" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="[Buy/Sell]" Member="Buy_Sell" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="OrdQty" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="ExecuQty" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Price" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="[OrdDate/TimeRequested]" Member="OrdDate_TimeRequested" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="OrderStatusID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OrderStatus" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="AvgFillPrice" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="Commission" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="Tax" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="Validity" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS4Managers" targetNamespace="http://tempuri.org/DS4Managers.xsd" xmlns:mstns="http://tempuri.org/DS4Managers.xsd" xmlns="http://tempuri.org/DS4Managers.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS4Managers" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS4Managers" msprop:Generator_DataSetName="DS4Managers" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtManager" msprop:Generator_UserTableName="dtManager" msprop:Generator_RowDeletedName="dtManagerRowDeleted" msprop:Generator_RowChangedName="dtManagerRowChanged" msprop:Generator_RowClassName="dtManagerRow" msprop:Generator_RowChangingName="dtManagerRowChanging" msprop:Generator_RowEvArgName="dtManagerRowChangeEvent" msprop:Generator_RowEvHandlerName="dtManagerRowChangeEventHandler" msprop:Generator_TableClassName="dtManagerDataTable" msprop:Generator_TableVarName="tabledtManager" msprop:Generator_RowDeletingName="dtManagerRowDeleting" msprop:Generator_TablePropName="dtManager">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Login" msprop:Generator_UserColumnName="Login" msprop:Generator_ColumnVarNameInTable="columnLogin" msprop:Generator_ColumnPropNameInRow="Login" msprop:Generator_ColumnPropNameInTable="LoginColumn" type="xs:long" />
+              <xs:element name="DataAvailableForDays" msprop:Generator_UserColumnName="DataAvailableForDays" msprop:Generator_ColumnVarNameInTable="columnDataAvailableForDays" msprop:Generator_ColumnPropNameInRow="DataAvailableForDays" msprop:Generator_ColumnPropNameInTable="DataAvailableForDaysColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Groups" msprop:Generator_UserColumnName="Groups" msprop:Generator_ColumnVarNameInTable="columnGroups" msprop:Generator_ColumnPropNameInRow="Groups" msprop:Generator_ColumnPropNameInTable="GroupsColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MailBoxName" msprop:Generator_UserColumnName="MailBoxName" msprop:Generator_ColumnVarNameInTable="columnMailBoxName" msprop:Generator_ColumnPropNameInRow="MailBoxName" msprop:Generator_ColumnPropNameInTable="MailBoxNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IsIPFilter" msprop:Generator_UserColumnName="IsIPFilter" msprop:Generator_ColumnVarNameInTable="columnIsIPFilter" msprop:Generator_ColumnPropNameInRow="IsIPFilter" msprop:Generator_ColumnPropNameInTable="IsIPFilterColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="FilterIPAddressFrom" msprop:Generator_UserColumnName="FilterIPAddressFrom" msprop:Generator_ColumnVarNameInTable="columnFilterIPAddressFrom" msprop:Generator_ColumnPropNameInRow="FilterIPAddressFrom" msprop:Generator_ColumnPropNameInTable="FilterIPAddressFromColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FilterIPAddressTo" msprop:Generator_UserColumnName="FilterIPAddressTo" msprop:Generator_ColumnVarNameInTable="columnFilterIPAddressTo" msprop:Generator_ColumnPropNameInRow="FilterIPAddressTo" msprop:Generator_ColumnPropNameInTable="FilterIPAddressToColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RoleId" msprop:Generator_UserColumnName="RoleId" msprop:Generator_ColumnVarNameInTable="columnRoleId" msprop:Generator_ColumnPropNameInRow="RoleId" msprop:Generator_ColumnPropNameInTable="RoleIdColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Id" msprop:Generator_UserColumnName="Id" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="Right" msprop:Generator_UserColumnName="Right" msprop:Generator_ColumnPropNameInRow="Right" msprop:Generator_ColumnVarNameInTable="columnRight" msprop:Generator_ColumnPropNameInTable="RightColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtRoutingSecurities" msprop:Generator_UserTableName="dtRoutingSecurities" msprop:Generator_RowDeletedName="dtRoutingSecuritiesRowDeleted" msprop:Generator_RowChangedName="dtRoutingSecuritiesRowChanged" msprop:Generator_RowClassName="dtRoutingSecuritiesRow" msprop:Generator_RowChangingName="dtRoutingSecuritiesRowChanging" msprop:Generator_RowEvArgName="dtRoutingSecuritiesRowChangeEvent" msprop:Generator_RowEvHandlerName="dtRoutingSecuritiesRowChangeEventHandler" msprop:Generator_TableClassName="dtRoutingSecuritiesDataTable" msprop:Generator_TableVarName="tabledtRoutingSecurities" msprop:Generator_RowDeletingName="dtRoutingSecuritiesRowDeleting" msprop:Generator_TablePropName="dtRoutingSecurities">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Type" msprop:Generator_UserColumnName="Type" msprop:Generator_ColumnVarNameInTable="columnType" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_ColumnPropNameInTable="TypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Use" msprop:Generator_UserColumnName="Use" msprop:Generator_ColumnVarNameInTable="columnUse" msprop:Generator_ColumnPropNameInRow="Use" msprop:Generator_ColumnPropNameInTable="UseColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="MinimumLots" msprop:Generator_UserColumnName="MinimumLots" msprop:Generator_ColumnVarNameInTable="columnMinimumLots" msprop:Generator_ColumnPropNameInRow="MinimumLots" msprop:Generator_ColumnPropNameInTable="MinimumLotsColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MaximumLots" msprop:Generator_UserColumnName="MaximumLots" msprop:Generator_ColumnVarNameInTable="columnMaximumLots" msprop:Generator_ColumnPropNameInRow="MaximumLots" msprop:Generator_ColumnPropNameInTable="MaximumLotsColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Login" msprop:Generator_UserColumnName="Login" msprop:Generator_ColumnVarNameInTable="columnLogin" msprop:Generator_ColumnPropNameInRow="Login" msprop:Generator_ColumnPropNameInTable="LoginColumn" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtManagerRole" msprop:Generator_UserTableName="dtManagerRole" msprop:Generator_RowDeletedName="dtManagerRoleRowDeleted" msprop:Generator_RowChangedName="dtManagerRoleRowChanged" msprop:Generator_RowClassName="dtManagerRoleRow" msprop:Generator_RowChangingName="dtManagerRoleRowChanging" msprop:Generator_RowEvArgName="dtManagerRoleRowChangeEvent" msprop:Generator_RowEvHandlerName="dtManagerRoleRowChangeEventHandler" msprop:Generator_TableClassName="dtManagerRoleDataTable" msprop:Generator_TableVarName="tabledtManagerRole" msprop:Generator_RowDeletingName="dtManagerRoleRowDeleting" msprop:Generator_TablePropName="dtManagerRole">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="RoleID" msprop:Generator_UserColumnName="RoleID" msprop:Generator_ColumnPropNameInRow="RoleID" msprop:Generator_ColumnVarNameInTable="columnRoleID" msprop:Generator_ColumnPropNameInTable="RoleIDColumn" type="xs:int" />
+              <xs:element name="RoleName" msprop:Generator_UserColumnName="RoleName" msprop:Generator_ColumnPropNameInRow="RoleName" msprop:Generator_ColumnVarNameInTable="columnRoleName" msprop:Generator_ColumnPropNameInTable="RoleNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AccessRightId" msprop:Generator_UserColumnName="AccessRightId" msprop:Generator_ColumnPropNameInRow="AccessRightId" msprop:Generator_ColumnVarNameInTable="columnAccessRightId" msprop:Generator_ColumnPropNameInTable="AccessRightIdColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="dtManagerKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtManager" />
+      <xs:field xpath="mstns:Login" />
+    </xs:unique>
+    <xs:unique name="dtManagerRoleKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtManagerRole" />
+      <xs:field xpath="mstns:RoleID" />
+    </xs:unique>
+    <xs:keyref name="FK_dtManager_dtRoutingSecurities" refer="dtManagerKey1" msdata:ConstraintOnly="true" msdata:AcceptRejectRule="Cascade">
+      <xs:selector xpath=".//mstns:dtRoutingSecurities" />
+      <xs:field xpath="mstns:Login" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

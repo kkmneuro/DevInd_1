@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="BOExchange" Class="dbMan_BO_InsertRoutingDealerMapInfoDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.1.101;Initial Catalog=BOExchange;User ID=sa" SettingsObjectName="DataAcessLogic.Properties.Settings" SettingsPropertyName="BOExchangeConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_InsertRoutingDealerMapInfo" Method="BO_InsertRoutingDealerMapInfo">
+    <Parameter Name="RoutingRuleID" Parameter="routingRuleID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="DealerID" Parameter="dealerID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="DealerName" Parameter="dealerName" Type="System.String" DbType="VarChar(255)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

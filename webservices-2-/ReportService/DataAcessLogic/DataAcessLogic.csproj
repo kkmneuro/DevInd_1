@@ -1,0 +1,691 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{29523AFF-CBC4-4905-9C3F-DC567EE4B582}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataAcessLogic</RootNamespace>
+    <AssemblyName>DataAcessLogic</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BOExchange_NGDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BOExchange_NGDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_DeleteRoutingDealerMapInfo.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_DeleteRoutingDealerMapInfo.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_DeleteRoutingRuleAdditionParameters.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_DeleteRoutingRuleAdditionParameters.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_GetDealerList.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetDealerList.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_GetOpenPositionReportData.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetOpenPositionReportData.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_GetOrderTypes.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetOrderTypes.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_GetRoutingAdditionalConditionType.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetRoutingAdditionalConditionType.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_GetRoutingDealerMapInfo.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetRoutingDealerMapInfo.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_GetRoutingOrderType.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetRoutingOrderType.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_GetRoutingPerformAction.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetRoutingPerformAction.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_GetRoutingRequestType.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetRoutingRequestType.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_GetRoutingRuleAdditionParameters.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetRoutingRuleAdditionParameters.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_GetRoutingRulesInfo.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetRoutingRulesInfo.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_GetSideTypes.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetSideTypes.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_GetTIFTypes.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetTIFTypes.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_GetTradeReportData.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetTradeReportData.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_GetTradeReportDataByAccountNumber.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetTradeReportDataByAccountNumber.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_GetTradeReportDataByAll.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetTradeReportDataByAll.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_GetTradeReportDataByDate.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetTradeReportDataByDate.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_GetTradeReportDataByDateAndAccountNumber.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetTradeReportDataByDateAndAccountNumber.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_GetTradeReportDataByDateAndOrderType.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetTradeReportDataByDateAndOrderType.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_GetTradeReportDataByDateAndSide.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetTradeReportDataByDateAndSide.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_GetTradeReportDataByDSA.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetTradeReportDataByDSA.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_GetTradeReportDataByDSOT.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetTradeReportDataByDSOT.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_GetTradeReportDataByOrderNumberdbml.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetTradeReportDataByOrderNumberdbml.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_GetTradeReportDataByOrderType.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetTradeReportDataByOrderType.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_GetTradeReportDataBySide.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetTradeReportDataBySide.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_GetTradeReportDataByTradeNumber.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_GetTradeReportDataByTradeNumber.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_InsertRoutingDealerMapInfo.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_InsertRoutingDealerMapInfo.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_InsertRoutingRuleAdditionParameters.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_InsertRoutingRuleAdditionParameters.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_InsertRoutingRules.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_InsertRoutingRules.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_UpdateRoutingDealerMapInfo.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_UpdateRoutingDealerMapInfo.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_UpdateRoutingRuleAdditionParameters.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_UpdateRoutingRuleAdditionParameters.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_BO_UpdateRoutingRules.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_BO_UpdateRoutingRules.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_Report_AccountTransReport.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_Report_AccountTransReport.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_Report_ClientCommissionReport_MTM.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_Report_ClientCommissionReport_MTM.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_Report_ClientHoldingStockl.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_Report_ClientHoldingStockl.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_Report_DayClosingReport.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_Report_DayClosingReport.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_Report_OrderReports.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_Report_OrderReports.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="DBML\dbMan_Report_StockLevel.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbMan_Report_StockLevel.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="OMSDataAccess.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_GetTradeReportDataByAccountNumber.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetTradeReportDataByAccountNumber.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="DBML\dbMan_BO_GetTradeReportDataByAccountNumber.dbml.layout">
+      <DependentUpon>dbMan_BO_GetTradeReportDataByAccountNumber.dbml</DependentUpon>
+    </None>
+    <None Include="DBML\dbMan_BO_GetTradeReportDataByDate.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetTradeReportDataByDate.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_GetTradeReportDataByDate.dbml.layout">
+      <DependentUpon>dbMan_BO_GetTradeReportDataByDate.dbml</DependentUpon>
+    </None>
+    <None Include="DBML\dbMan_BO_GetTradeReportDataByOrderNumberdbml.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetTradeReportDataByOrderNumberdbml.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_GetTradeReportDataByOrderNumberdbml.dbml.layout">
+      <DependentUpon>dbMan_BO_GetTradeReportDataByOrderNumberdbml.dbml</DependentUpon>
+    </None>
+    <None Include="DBML\dbMan_BO_GetTradeReportDataByOrderType.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetTradeReportDataByOrderType.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_GetTradeReportDataByOrderType.dbml.layout">
+      <DependentUpon>dbMan_BO_GetTradeReportDataByOrderType.dbml</DependentUpon>
+    </None>
+    <None Include="DBML\dbMan_BO_GetTradeReportDataBySide.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetTradeReportDataBySide.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_GetTradeReportDataBySide.dbml.layout">
+      <DependentUpon>dbMan_BO_GetTradeReportDataBySide.dbml</DependentUpon>
+    </None>
+    <None Include="DBML\dbMan_BO_GetTradeReportDataByTradeNumber.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetTradeReportDataByTradeNumber.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_GetTradeReportDataByDateAndSide.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetTradeReportDataByDateAndSide.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBML\dbMan_BO_GetTradeReportDataByTradeNumber.dbml.layout">
+      <DependentUpon>dbMan_BO_GetTradeReportDataByTradeNumber.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_GetTradeReportDataByDateAndAccountNumber.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetTradeReportDataByDateAndAccountNumber.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBML\dbMan_BO_GetTradeReportDataByDateAndSide.dbml.layout">
+      <DependentUpon>dbMan_BO_GetTradeReportDataByDateAndSide.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_GetTradeReportDataByDateAndAccountNumber.dbml.layout">
+      <DependentUpon>dbMan_BO_GetTradeReportDataByDateAndAccountNumber.dbml</DependentUpon>
+    </None>
+    <None Include="DBML\dbMan_BO_GetTradeReportDataByDateAndOrderType.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetTradeReportDataByDateAndOrderType.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_GetTradeReportDataByAll.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetTradeReportDataByAll.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBML\dbMan_BO_GetTradeReportDataByDateAndOrderType.dbml.layout">
+      <DependentUpon>dbMan_BO_GetTradeReportDataByDateAndOrderType.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_GetTradeReportDataByAll.dbml.layout">
+      <DependentUpon>dbMan_BO_GetTradeReportDataByAll.dbml</DependentUpon>
+    </None>
+    <None Include="DBML\dbMan_BO_GetTradeReportDataByDSA.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetTradeReportDataByDSA.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_GetTradeReportDataByDSA.dbml.layout">
+      <DependentUpon>dbMan_BO_GetTradeReportDataByDSA.dbml</DependentUpon>
+    </None>
+    <None Include="DBML\dbMan_BO_GetTradeReportDataByDSOT.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetTradeReportDataByDSOT.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_GetTradeReportDataByDSOT.dbml.layout">
+      <DependentUpon>dbMan_BO_GetTradeReportDataByDSOT.dbml</DependentUpon>
+    </None>
+    <None Include="DBML\dbMan_Report_OrderReports.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_Report_OrderReports.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_Report_ClientCommissionReport_MTM.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_Report_ClientCommissionReport_MTM.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBML\dbMan_Report_OrderReports.dbml.layout">
+      <DependentUpon>dbMan_Report_OrderReports.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_Report_ClientCommissionReport_MTM.dbml.layout">
+      <DependentUpon>dbMan_Report_ClientCommissionReport_MTM.dbml</DependentUpon>
+    </None>
+    <None Include="DBML\dbMan_Report_StockLevel.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_Report_StockLevel.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_Report_ClientHoldingStockl.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_Report_ClientHoldingStockl.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBML\dbMan_Report_StockLevel.dbml.layout">
+      <DependentUpon>dbMan_Report_StockLevel.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_GetOrderTypes.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetOrderTypes.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBML\dbMan_Report_ClientHoldingStockl.dbml.layout">
+      <DependentUpon>dbMan_Report_ClientHoldingStockl.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_GetOrderTypes.dbml.layout">
+      <DependentUpon>dbMan_BO_GetOrderTypes.dbml</DependentUpon>
+    </None>
+    <None Include="DBML\dbMan_BO_GetSideTypes.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetSideTypes.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_GetSideTypes.dbml.layout">
+      <DependentUpon>dbMan_BO_GetSideTypes.dbml</DependentUpon>
+    </None>
+    <None Include="DBML\dbMan_Report_AccountTransReport.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_Report_AccountTransReport.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_GetTradeReportData.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetTradeReportData.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBML\dbMan_Report_AccountTransReport.dbml.layout">
+      <DependentUpon>dbMan_Report_AccountTransReport.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_GetTIFTypes.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetTIFTypes.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBML\dbMan_BO_GetTradeReportData.dbml.layout">
+      <DependentUpon>dbMan_BO_GetTradeReportData.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_GetTIFTypes.dbml.layout">
+      <DependentUpon>dbMan_BO_GetTIFTypes.dbml</DependentUpon>
+    </None>
+    <None Include="DBML\dbMan_Report_DayClosingReport.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_Report_DayClosingReport.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_GetRoutingAdditionalConditionType.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetRoutingAdditionalConditionType.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBML\dbMan_Report_DayClosingReport.dbml.layout">
+      <DependentUpon>dbMan_Report_DayClosingReport.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_GetRoutingAdditionalConditionType.dbml.layout">
+      <DependentUpon>dbMan_BO_GetRoutingAdditionalConditionType.dbml</DependentUpon>
+    </None>
+    <None Include="DBML\dbMan_BO_GetRoutingOrderType.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetRoutingOrderType.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_GetRoutingOrderType.dbml.layout">
+      <DependentUpon>dbMan_BO_GetRoutingOrderType.dbml</DependentUpon>
+    </None>
+    <None Include="DBML\dbMan_BO_GetRoutingPerformAction.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetRoutingPerformAction.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_GetRoutingPerformAction.dbml.layout">
+      <DependentUpon>dbMan_BO_GetRoutingPerformAction.dbml</DependentUpon>
+    </None>
+    <None Include="DBML\dbMan_BO_GetRoutingRequestType.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetRoutingRequestType.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_GetDealerList.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetDealerList.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBML\dbMan_BO_GetRoutingRequestType.dbml.layout">
+      <DependentUpon>dbMan_BO_GetRoutingRequestType.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_GetRoutingDealerMapInfo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetRoutingDealerMapInfo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_GetRoutingDealerMapInfo.dbml.layout">
+      <DependentUpon>dbMan_BO_GetRoutingDealerMapInfo.dbml</DependentUpon>
+    </None>
+    <None Include="DBML\dbMan_BO_GetRoutingRuleAdditionParameters.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetRoutingRuleAdditionParameters.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_GetRoutingRuleAdditionParameters.dbml.layout">
+      <DependentUpon>dbMan_BO_GetRoutingRuleAdditionParameters.dbml</DependentUpon>
+    </None>
+    <None Include="DBML\dbMan_BO_GetRoutingRulesInfo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetRoutingRulesInfo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_GetRoutingRulesInfo.dbml.layout">
+      <DependentUpon>dbMan_BO_GetRoutingRulesInfo.dbml</DependentUpon>
+    </None>
+    <None Include="DBML\dbMan_BO_InsertRoutingDealerMapInfo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_InsertRoutingDealerMapInfo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_InsertRoutingDealerMapInfo.dbml.layout">
+      <DependentUpon>dbMan_BO_InsertRoutingDealerMapInfo.dbml</DependentUpon>
+    </None>
+    <None Include="DBML\dbMan_BO_InsertRoutingRuleAdditionParameters.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_InsertRoutingRuleAdditionParameters.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_InsertRoutingRuleAdditionParameters.dbml.layout">
+      <DependentUpon>dbMan_BO_InsertRoutingRuleAdditionParameters.dbml</DependentUpon>
+    </None>
+    <None Include="DBML\dbMan_BO_InsertRoutingRules.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_InsertRoutingRules.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_InsertRoutingRules.dbml.layout">
+      <DependentUpon>dbMan_BO_InsertRoutingRules.dbml</DependentUpon>
+    </None>
+    <None Include="DBML\dbMan_BO_UpdateRoutingDealerMapInfo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_UpdateRoutingDealerMapInfo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_UpdateRoutingDealerMapInfo.dbml.layout">
+      <DependentUpon>dbMan_BO_UpdateRoutingDealerMapInfo.dbml</DependentUpon>
+    </None>
+    <None Include="DBML\dbMan_BO_UpdateRoutingRuleAdditionParameters.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_UpdateRoutingRuleAdditionParameters.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_UpdateRoutingRuleAdditionParameters.dbml.layout">
+      <DependentUpon>dbMan_BO_UpdateRoutingRuleAdditionParameters.dbml</DependentUpon>
+    </None>
+    <None Include="DBML\dbMan_BO_UpdateRoutingRules.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_UpdateRoutingRules.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_UpdateRoutingRules.dbml.layout">
+      <DependentUpon>dbMan_BO_UpdateRoutingRules.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_DeleteRoutingDealerMapInfo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_DeleteRoutingDealerMapInfo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DBML\dbMan_BO_GetDealerList.dbml.layout">
+      <DependentUpon>dbMan_BO_GetDealerList.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ReportServiceClasses\ReportServiceClasses.csproj">
+      <Project>{A7012076-4DA5-47B9-98DA-52E57640540E}</Project>
+      <Name>ReportServiceClasses</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_DeleteRoutingDealerMapInfo.dbml.layout">
+      <DependentUpon>dbMan_BO_DeleteRoutingDealerMapInfo.dbml</DependentUpon>
+    </None>
+    <None Include="DBML\dbMan_BO_DeleteRoutingRuleAdditionParameters.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_DeleteRoutingRuleAdditionParameters.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DBML\dbMan_BO_DeleteRoutingRuleAdditionParameters.dbml.layout">
+      <DependentUpon>dbMan_BO_DeleteRoutingRuleAdditionParameters.dbml</DependentUpon>
+    </None>
+    <None Include="DBML\dbMan_BO_GetOpenPositionReportData.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>dbMan_BO_GetOpenPositionReportData.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BOExchange_NGDataSet.xsc">
+      <DependentUpon>BOExchange_NGDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BOExchange_NGDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BOExchange_NGDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BOExchange_NGDataSet.xss">
+      <DependentUpon>BOExchange_NGDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DBML\dbMan_BO_GetOpenPositionReportData.dbml.layout">
+      <DependentUpon>dbMan_BO_GetOpenPositionReportData.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

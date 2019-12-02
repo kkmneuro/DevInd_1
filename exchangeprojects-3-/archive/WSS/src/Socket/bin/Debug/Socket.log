@@ -1,0 +1,469 @@
+﻿  stdafx.cpp
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  dllmain.cpp
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  MyIOCP.cpp
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\socket.h(13,2): warning C4091: 'typedef ': ignored on left of 'SocketError' when no variable is declared
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\socket.h(36,34): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\socket.h(36,40): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\socket.h(36,40): error C2143: syntax error: missing ',' before '&'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(27,50): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(27,57): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(28,48): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(28,55): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(29,72): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(29,79): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(61,26): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(61,33): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(62,36): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(62,43): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(64,31): error C2535: 'BOOL CIOCPBuffer::CreatePackage(BYTE)': member function already defined or declared
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(62): message : see declaration of 'CIOCPBuffer::CreatePackage'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(65,70): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(65,77): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(74,27): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(74,34): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(76,39): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(76,46): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(93,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(93,20): error C3646: 'm_Data': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(93,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(137,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(137,25): error C3646: 'm_sReceived': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(137,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(311,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(311,30): error C3646: 'm_sServerVersion': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(311,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(376,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(376,28): error C3646: 'GetHostAddress': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(376,28): error C2059: syntax error: '('
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(376,43): error C2238: unexpected token(s) preceding ';'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(382,26): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(382,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(382,32): error C2143: syntax error: missing ',' before '&'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(384,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(384,23): error C3646: 'GetHostIP': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(384,23): error C2059: syntax error: '('
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(384,25): error C2238: unexpected token(s) preceding ';'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(426,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(426,28): error C3646: 'GetHostKeyName': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(426,28): error C2059: syntax error: '('
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(426,43): error C2238: unexpected token(s) preceding ';'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(444,30): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(444,37): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(455,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(455,28): error C3646: 'ErrorCode2Text': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(455,28): error C2059: syntax error: '('
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(455,38): error C2238: unexpected token(s) preceding ';'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\myIOCP.h(26,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\myIOCP.h(26,25): error C3646: 'm_sSendText': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\myIOCP.h(26,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\myIOCP.h(42,30): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\myIOCP.h(42,37): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\myIOCP.h(54,56): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\myIOCP.h(54,63): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\myIOCP.h(55,45): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\myIOCP.h(55,52): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\myIOCP.h(56,37): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\myIOCP.h(56,44): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\myIOCP.h(60,60): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\myIOCP.h(60,67): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\myIOCP.h(61,49): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\myIOCP.h(61,56): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\myIOCP.h(68,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\myIOCP.h(68,30): error C3646: 'm_sAutoReconnect': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\myIOCP.h(68,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(23,2): error C2065: 'm_sSendText': undeclared identifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(26,2): error C2065: 'm_sAutoReconnect': undeclared identifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(94,1): error C2511: 'void ITIOCP::AppendLog(std::string)': overloaded member function not found in 'ITIOCP'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\myIOCP.h(19): message : see declaration of 'ITIOCP'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(106,58): error C3861: 'GetHostAddress': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(106,103): error C2660: 'ISocketEvents::OnConnect': function does not take 3 arguments
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\socket.h(19,15): message : see declaration of 'ISocketEvents::OnConnect'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(111,59): error C3861: 'GetHostAddress': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(111,103): error C2660: 'ISocketEvents::OnConnect': function does not take 3 arguments
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\socket.h(19,15): message : see declaration of 'ISocketEvents::OnConnect'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(118,11): error C2065: 'm_sAutoReconnect': undeclared identifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(147,24): error C2039: 'm_sReceived': is not a member of 'ClientContext'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(103): message : see declaration of 'ClientContext'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(245,1): error C2511: 'BOOL ITIOCP::BuildPackageAndSend(int,std::string)': overloaded member function not found in 'ITIOCP'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\myIOCP.h(19): message : see declaration of 'ITIOCP'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(247,40): error C2597: illegal reference to non-static member 'IOCPS::m_ContextMapLock'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(247,40): error C2664: 'void EnterCriticalSection(LPCRITICAL_SECTION)': cannot convert argument 1 from 'CRITICAL_SECTION IOCPS::* ' to 'LPCRITICAL_SECTION'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(247,23): message : There is no context in which this conversion is possible
+D:\Windows Kits\10\Include\10.0.18362.0\um\synchapi.h(133,1): message : see declaration of 'EnterCriticalSection'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(248,28): error C2352: 'IOCPS::FindClient': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(413): message : see declaration of 'IOCPS::FindClient'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(252,41): error C2661: 'ITIOCP::BuildPackageAndSend': no overloaded function takes 2 arguments
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(253,40): error C2597: illegal reference to non-static member 'IOCPS::m_ContextMapLock'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(253,40): error C2664: 'void LeaveCriticalSection(LPCRITICAL_SECTION)': cannot convert argument 1 from 'CRITICAL_SECTION IOCPS::* ' to 'LPCRITICAL_SECTION'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(253,23): message : There is no context in which this conversion is possible
+D:\Windows Kits\10\Include\10.0.18362.0\um\synchapi.h(141,1): message : see declaration of 'LeaveCriticalSection'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(260,1): error C2511: 'BOOL ITIOCP::BuildPackageAndSend(ClientContext *,std::string)': overloaded member function not found in 'ITIOCP'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\myIOCP.h(19): message : see declaration of 'ITIOCP'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(261,29): error C2352: 'IOCPS::AllocateBuffer': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(452): message : see declaration of 'IOCPS::AllocateBuffer'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(264,6): error C2664: 'BOOL CIOCPBuffer::CreatePackage(BYTE,BYTE,BYTE,BYTE)': cannot convert argument 2 from 'std::string' to 'BYTE'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(264,55): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(28,7): message : see declaration of 'CIOCPBuffer::CreatePackage'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(265,11): error C2352: 'IOCPS::ASend': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(446): message : see declaration of 'IOCPS::ASend'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(268,69): error C2660: 'ITIOCP::AppendLog': function does not take 1 arguments
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\myIOCP.h(42,15): message : see declaration of 'ITIOCP::AppendLog'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(269,5): error C2352: 'IOCPS::ReleaseBuffer': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(449): message : see declaration of 'IOCPS::ReleaseBuffer'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(278,4): error C2352: 'IOCPS::DisconnectClient': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(380): message : see declaration of 'IOCPS::DisconnectClient'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(285,1): error C2511: 'BOOL ITIOCP::BuildFilePackageAndSend(int,std::string)': overloaded member function not found in 'ITIOCP'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\myIOCP.h(19): message : see declaration of 'ITIOCP'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(287,40): error C2597: illegal reference to non-static member 'IOCPS::m_ContextMapLock'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(287,40): error C2664: 'void EnterCriticalSection(LPCRITICAL_SECTION)': cannot convert argument 1 from 'CRITICAL_SECTION IOCPS::* ' to 'LPCRITICAL_SECTION'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(287,23): message : There is no context in which this conversion is possible
+D:\Windows Kits\10\Include\10.0.18362.0\um\synchapi.h(133,1): message : see declaration of 'EnterCriticalSection'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(288,28): error C2352: 'IOCPS::FindClient': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(413): message : see declaration of 'IOCPS::FindClient'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(291,45): error C2661: 'ITIOCP::BuildFilePackageAndSend': no overloaded function takes 2 arguments
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(292,40): error C2597: illegal reference to non-static member 'IOCPS::m_ContextMapLock'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(292,40): error C2664: 'void LeaveCriticalSection(LPCRITICAL_SECTION)': cannot convert argument 1 from 'CRITICAL_SECTION IOCPS::* ' to 'LPCRITICAL_SECTION'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(292,23): message : There is no context in which this conversion is possible
+D:\Windows Kits\10\Include\10.0.18362.0\um\synchapi.h(141,1): message : see declaration of 'LeaveCriticalSection'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(297,1): error C2511: 'BOOL ITIOCP::BuildPackageAndSendToAll(std::string)': overloaded member function not found in 'ITIOCP'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\myIOCP.h(19): message : see declaration of 'ITIOCP'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(298,32): error C2352: 'IOCPS::AllocateBuffer': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(452): message : see declaration of 'IOCPS::AllocateBuffer'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(301,6): error C2664: 'BOOL CIOCPBuffer::CreatePackage(BYTE,BYTE,BYTE,BYTE)': cannot convert argument 2 from 'std::string' to 'BYTE'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(301,37): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(28,7): message : see declaration of 'CIOCPBuffer::CreatePackage'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(302,11): error C2352: 'IOCPS::ASendToAll': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(378): message : see declaration of 'IOCPS::ASendToAll'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(305,74): error C2660: 'ITIOCP::AppendLog': function does not take 1 arguments
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\myIOCP.h(42,15): message : see declaration of 'ITIOCP::AppendLog'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(306,5): error C2352: 'IOCPS::ReleaseBuffer': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(449): message : see declaration of 'IOCPS::ReleaseBuffer'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\MyIOCP.cpp(325,1): error C2511: 'BOOL ITIOCP::BuildFilePackageAndSend(ClientContext *,std::string)': overloaded member function not found in 'ITIOCP'
+  IOCPS.cpp
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\myIOCP.h(19): message : see declaration of 'ITIOCP'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(27,50): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(27,57): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(28,48): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(28,55): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(29,72): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(29,79): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(61,26): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(61,33): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(62,36): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(62,43): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(64,31): error C2535: 'BOOL CIOCPBuffer::CreatePackage(BYTE)': member function already defined or declared
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(62): message : see declaration of 'CIOCPBuffer::CreatePackage'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(65,70): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(65,77): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(74,27): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(74,34): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(76,39): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(76,46): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\socket.h(13,2): warning C4091: 'typedef ': ignored on left of 'SocketError' when no variable is declared
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\socket.h(36,34): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\socket.h(36,40): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\socket.h(36,40): error C2143: syntax error: missing ',' before '&'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(93,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(93,20): error C3646: 'm_Data': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(93,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(137,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(137,25): error C3646: 'm_sReceived': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(137,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(311,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(311,30): error C3646: 'm_sServerVersion': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(311,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(376,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(376,28): error C3646: 'GetHostAddress': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(376,28): error C2059: syntax error: '('
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(376,43): error C2238: unexpected token(s) preceding ';'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(382,26): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(382,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(382,32): error C2143: syntax error: missing ',' before '&'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(384,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(384,23): error C3646: 'GetHostIP': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(384,23): error C2059: syntax error: '('
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(384,25): error C2238: unexpected token(s) preceding ';'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(426,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(426,28): error C3646: 'GetHostKeyName': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(426,28): error C2059: syntax error: '('
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(426,43): error C2238: unexpected token(s) preceding ';'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(444,30): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(444,37): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(455,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(455,28): error C3646: 'ErrorCode2Text': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(455,28): error C2059: syntax error: '('
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(455,38): error C2238: unexpected token(s) preceding ';'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(38,2): error C2065: 'm_sServerVersion': undeclared identifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(314,151): error C2039: 'ErrorCode2Text': is not a member of 'IOCPS'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(145): message : see declaration of 'IOCPS'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(505,144): error C3861: 'ErrorCode2Text': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(514,133): error C3861: 'ErrorCode2Text': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(554,164): error C3861: 'ErrorCode2Text': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(559,188): error C3861: 'ErrorCode2Text': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(667,122): error C3861: 'GetHostKeyName': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(794,140): error C3861: 'ErrorCode2Text': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(826,144): error C3861: 'ErrorCode2Text': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(863,181): error C3861: 'ErrorCode2Text': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(1160,119): error C3861: 'ErrorCode2Text': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(1338,146): error C3861: 'ErrorCode2Text': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(1343,138): error C3861: 'ErrorCode2Text': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(1382,20): error C2039: 'GetHostKeyName': is not a member of 'IOCPS'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(145): message : see declaration of 'IOCPS'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(1406,20): error C2039: 'GetHostAddress': is not a member of 'IOCPS'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(145): message : see declaration of 'IOCPS'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(1417,1): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+D:\Windows Kits\10\Include\10.0.18362.0\um\winsock2.h(1849): message : see declaration of 'inet_ntoa'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(1630,29): warning C4018: '<': signed/unsigned mismatch
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(1747,156): error C3861: 'ErrorCode2Text': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(1772,155): error C3861: 'ErrorCode2Text': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(1869,153): error C3861: 'ErrorCode2Text': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(1886,20): error C2039: 'ErrorCode2Text': is not a member of 'IOCPS'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(145): message : see declaration of 'IOCPS'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(2206,72): warning C4302: 'type cast': truncation from 'HANDLE' to 'WORD'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(2547,57): warning C4018: '<': signed/unsigned mismatch
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(2624,31): warning C4018: '<': signed/unsigned mismatch
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(2765,1): warning C4996: 'WSASocketA': Use WSASocketW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+D:\Windows Kits\10\Include\10.0.18362.0\um\winsock2.h(3416): message : see declaration of 'WSASocketA'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(2912,20): error C2039: 'GetHostIP': is not a member of 'IOCPS'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(145): message : see declaration of 'IOCPS'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(2917,1): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+D:\Windows Kits\10\Include\10.0.18362.0\um\winsock2.h(2219): message : see declaration of 'gethostbyname'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(2918,1): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+D:\Windows Kits\10\Include\10.0.18362.0\um\winsock2.h(1849): message : see declaration of 'inet_ntoa'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(2942,1): error C2511: 'BOOL IOCPS::Connect(const std::string &,int)': overloaded member function not found in 'IOCPS'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(145): message : see declaration of 'IOCPS'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(2943,17): error C2597: illegal reference to non-static member 'IOCPS::m_bShutDown'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(2948,2): error C2352: 'IOCPS::Start': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(70): message : see declaration of 'IOCPS::Start'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(3002,10): error C2352: 'IOCPS::AssociateIncomingClientWithContext': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(443): message : see declaration of 'IOCPS::AssociateIncomingClientWithContext'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(2965,1): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+D:\Windows Kits\10\Include\10.0.18362.0\um\winsock2.h(1831): message : see declaration of 'inet_addr'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.cpp(3558,1): error C2511: 'void IOCPS::AppendLog(std::string)': overloaded member function not found in 'IOCPS'
+  IOCPBuffer.cpp
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(145): message : see declaration of 'IOCPS'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\socket.h(13,2): warning C4091: 'typedef ': ignored on left of 'SocketError' when no variable is declared
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\socket.h(36,34): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\socket.h(36,40): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\socket.h(36,40): error C2143: syntax error: missing ',' before '&'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(93,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(93,20): error C3646: 'm_Data': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(93,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(137,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(137,25): error C3646: 'm_sReceived': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(137,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(311,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(311,30): error C3646: 'm_sServerVersion': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(311,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(376,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(376,28): error C3646: 'GetHostAddress': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(376,28): error C2059: syntax error: '('
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(376,43): error C2238: unexpected token(s) preceding ';'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(382,26): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(382,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(382,32): error C2143: syntax error: missing ',' before '&'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(384,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(384,23): error C3646: 'GetHostIP': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(384,23): error C2059: syntax error: '('
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(384,25): error C2238: unexpected token(s) preceding ';'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(426,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(426,28): error C3646: 'GetHostKeyName': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(426,28): error C2059: syntax error: '('
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(426,43): error C2238: unexpected token(s) preceding ';'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(444,30): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(444,37): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(455,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(455,28): error C3646: 'ErrorCode2Text': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(455,28): error C2059: syntax error: '('
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPS.h(455,38): error C2238: unexpected token(s) preceding ';'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(27,50): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(27,57): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(28,48): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(28,55): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(29,72): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(29,79): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(61,26): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(61,33): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(62,36): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(62,43): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(64,31): error C2535: 'BOOL CIOCPBuffer::CreatePackage(BYTE)': member function already defined or declared
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(62): message : see declaration of 'CIOCPBuffer::CreatePackage'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(65,70): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(65,77): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(74,27): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(74,34): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(76,39): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(76,46): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(228,1): error C2511: 'BOOL CIOCPBuffer::CreatePackage(std::string)': overloaded member function not found in 'CIOCPBuffer'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(21): message : see declaration of 'CIOCPBuffer'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(234,3): error C2352: 'CIOCPBuffer::EmptyUsed': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(124): message : see declaration of 'CIOCPBuffer::EmptyUsed'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(238,3): error C2352: 'CIOCPBuffer::AddData': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(66): message : see declaration of 'CIOCPBuffer::AddData'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(241,3): error C2352: 'CIOCPBuffer::AddData': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(92): message : see declaration of 'CIOCPBuffer::AddData'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(246,3): error C2352: 'CIOCPBuffer::AddData': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(61): message : see declaration of 'CIOCPBuffer::AddData'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(260,1): error C2511: 'BOOL CIOCPBuffer::CreatePackage(BYTE,std::string)': overloaded member function not found in 'CIOCPBuffer'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(21): message : see declaration of 'CIOCPBuffer'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(266,3): error C2352: 'CIOCPBuffer::EmptyUsed': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(124): message : see declaration of 'CIOCPBuffer::EmptyUsed'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(275,3): error C2352: 'CIOCPBuffer::AddData': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(66): message : see declaration of 'CIOCPBuffer::AddData'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(278,3): error C2352: 'CIOCPBuffer::AddData': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(61): message : see declaration of 'CIOCPBuffer::AddData'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(282,3): error C2352: 'CIOCPBuffer::AddData': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(92): message : see declaration of 'CIOCPBuffer::AddData'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(287,3): error C2352: 'CIOCPBuffer::AddData': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(61): message : see declaration of 'CIOCPBuffer::AddData'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(370,1): error C2511: 'BOOL CIOCPBuffer::CreatePackage(BYTE,BYTE,std::string)': overloaded member function not found in 'CIOCPBuffer'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(21): message : see declaration of 'CIOCPBuffer'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(376,3): error C2352: 'CIOCPBuffer::EmptyUsed': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(124): message : see declaration of 'CIOCPBuffer::EmptyUsed'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(388,3): error C2352: 'CIOCPBuffer::AddData': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(66): message : see declaration of 'CIOCPBuffer::AddData'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(391,3): error C2352: 'CIOCPBuffer::AddData': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(61): message : see declaration of 'CIOCPBuffer::AddData'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(394,3): error C2352: 'CIOCPBuffer::AddData': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(61): message : see declaration of 'CIOCPBuffer::AddData'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(400,4): error C2352: 'CIOCPBuffer::AddData': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(92): message : see declaration of 'CIOCPBuffer::AddData'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(404,3): error C2352: 'CIOCPBuffer::AddData': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(61): message : see declaration of 'CIOCPBuffer::AddData'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(418,1): error C2511: 'BOOL CIOCPBuffer::CreatePackage(BYTE,BYTE,BYTE,BYTE,std::string)': overloaded member function not found in 'CIOCPBuffer'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(21): message : see declaration of 'CIOCPBuffer'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(424,3): error C2352: 'CIOCPBuffer::EmptyUsed': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(124): message : see declaration of 'CIOCPBuffer::EmptyUsed'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(437,3): error C2352: 'CIOCPBuffer::AddData': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(66): message : see declaration of 'CIOCPBuffer::AddData'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(440,3): error C2352: 'CIOCPBuffer::AddData': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(61): message : see declaration of 'CIOCPBuffer::AddData'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(443,3): error C2352: 'CIOCPBuffer::AddData': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(61): message : see declaration of 'CIOCPBuffer::AddData'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(444,3): error C2352: 'CIOCPBuffer::AddData': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(61): message : see declaration of 'CIOCPBuffer::AddData'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(445,3): error C2352: 'CIOCPBuffer::AddData': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(61): message : see declaration of 'CIOCPBuffer::AddData'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(450,4): error C2352: 'CIOCPBuffer::AddData': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(92): message : see declaration of 'CIOCPBuffer::AddData'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(454,3): error C2352: 'CIOCPBuffer::AddData': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(61): message : see declaration of 'CIOCPBuffer::AddData'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(532,1): error C2511: 'BOOL CIOCPBuffer::GetPackageInfo(std::string &)': overloaded member function not found in 'CIOCPBuffer'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(21): message : see declaration of 'CIOCPBuffer'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(533,12): error C2352: 'CIOCPBuffer::GetPackageSize': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(506): message : see declaration of 'CIOCPBuffer::GetPackageSize'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(536,15): error C2352: 'CIOCPBuffer::GetBuffer': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(46): message : see declaration of 'CIOCPBuffer::GetBuffer'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(546,1): error C2511: 'BOOL CIOCPBuffer::GetPackageInfo(BYTE &,std::string &)': overloaded member function not found in 'CIOCPBuffer'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(21): message : see declaration of 'CIOCPBuffer'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(547,12): error C2352: 'CIOCPBuffer::GetPackageSize': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(506): message : see declaration of 'CIOCPBuffer::GetPackageSize'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(550,17): error C2352: 'CIOCPBuffer::GetBuffer': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(46): message : see declaration of 'CIOCPBuffer::GetBuffer'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(550,49): error C2660: 'memmove': function does not take 2 arguments
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\vcruntime_string.h(47,24): message : see declaration of 'memmove'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(552,15): error C2352: 'CIOCPBuffer::GetBuffer': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(46): message : see declaration of 'CIOCPBuffer::GetBuffer'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(586,1): error C2511: 'BOOL CIOCPBuffer::GetPackageInfo(BYTE &,BYTE &,BYTE &,BYTE &,std::string &)': overloaded member function not found in 'CIOCPBuffer'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(21): message : see declaration of 'CIOCPBuffer'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(587,12): error C2352: 'CIOCPBuffer::GetPackageSize': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(506): message : see declaration of 'CIOCPBuffer::GetPackageSize'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(591,17): error C2352: 'CIOCPBuffer::GetBuffer': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(46): message : see declaration of 'CIOCPBuffer::GetBuffer'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(591,49): error C2660: 'memmove': function does not take 2 arguments
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\vcruntime_string.h(47,24): message : see declaration of 'memmove'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(593,17): error C2352: 'CIOCPBuffer::GetBuffer': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(46): message : see declaration of 'CIOCPBuffer::GetBuffer'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(593,51): error C2660: 'memmove': function does not take 2 arguments
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\vcruntime_string.h(47,24): message : see declaration of 'memmove'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(594,17): error C2352: 'CIOCPBuffer::GetBuffer': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(46): message : see declaration of 'CIOCPBuffer::GetBuffer'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(594,51): error C2660: 'memmove': function does not take 2 arguments
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\vcruntime_string.h(47,24): message : see declaration of 'memmove'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(595,17): error C2352: 'CIOCPBuffer::GetBuffer': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(46): message : see declaration of 'CIOCPBuffer::GetBuffer'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(595,51): error C2660: 'memmove': function does not take 2 arguments
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\vcruntime_string.h(47,24): message : see declaration of 'memmove'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(597,15): error C2352: 'CIOCPBuffer::GetBuffer': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(46): message : see declaration of 'CIOCPBuffer::GetBuffer'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(607,1): error C2511: 'BOOL CIOCPBuffer::GetPackageInfo(BYTE &,BYTE &,std::string &)': overloaded member function not found in 'CIOCPBuffer'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.h(21): message : see declaration of 'CIOCPBuffer'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(608,12): error C2352: 'CIOCPBuffer::GetPackageSize': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(506): message : see declaration of 'CIOCPBuffer::GetPackageSize'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(612,17): error C2352: 'CIOCPBuffer::GetBuffer': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(46): message : see declaration of 'CIOCPBuffer::GetBuffer'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(612,49): error C2660: 'memmove': function does not take 2 arguments
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\vcruntime_string.h(47,24): message : see declaration of 'memmove'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(614,16): error C2352: 'CIOCPBuffer::GetBuffer': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(46): message : see declaration of 'CIOCPBuffer::GetBuffer'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(614,50): error C2660: 'memmove': function does not take 2 arguments
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\vcruntime_string.h(47,24): message : see declaration of 'memmove'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(616,15): error C2352: 'CIOCPBuffer::GetBuffer': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(46): message : see declaration of 'CIOCPBuffer::GetBuffer'
+  Generating Code...
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\Socket\build\IOCPBuffer.cpp(627,15): warning C4018: '<': signed/unsigned mismatch

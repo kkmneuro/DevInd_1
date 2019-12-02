@@ -1,0 +1,24 @@
+{
+  "name": "BBTrader",
+  "description": "Trading Platform Application",
+  "launch_path": "/BBTrader.php",
+  "icons": {
+    "512": "img/tr1.png",
+    "128": "img/tr2.png"
+  },
+  "developer": {
+    "name": "Ltecinidia",
+    "url": "http://www.ltecindia.com/"
+  },
+  "default_locale": "en",
+	  "activities": {
+	  "share": {
+		"filters": {
+		  "type": [ "image/png", "image/gif" ]
+		},
+		"href": "/BBTrader.php",
+		"disposition": "window",
+		"returnValue": true
+	  }
+	}
+}

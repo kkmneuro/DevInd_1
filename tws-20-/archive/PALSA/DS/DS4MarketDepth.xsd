@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS4MarketDepth" targetNamespace="http://tempuri.org/DS4MarketDepth.xsd" xmlns:mstns="http://tempuri.org/DS4MarketDepth.xsd" xmlns="http://tempuri.org/DS4MarketDepth.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS4MarketDepth" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DS4MarketDepth" msprop:Generator_UserDSName="DS4MarketDepth">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtMarketDepth" msprop:Generator_TableClassName="dtMarketDepthDataTable" msprop:Generator_TableVarName="tabledtMarketDepth" msprop:Generator_TablePropName="dtMarketDepth" msprop:Generator_RowDeletingName="dtMarketDepthRowDeleting" msprop:Generator_RowChangingName="dtMarketDepthRowChanging" msprop:Generator_RowEvHandlerName="dtMarketDepthRowChangeEventHandler" msprop:Generator_RowDeletedName="dtMarketDepthRowDeleted" msprop:Generator_UserTableName="dtMarketDepth" msprop:Generator_RowChangedName="dtMarketDepthRowChanged" msprop:Generator_RowEvArgName="dtMarketDepthRowChangeEvent" msprop:Generator_RowClassName="dtMarketDepthRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ContractName" msprop:Generator_ColumnVarNameInTable="columnContractName" msprop:Generator_ColumnPropNameInRow="ContractName" msprop:Generator_ColumnPropNameInTable="ContractNameColumn" msprop:Generator_UserColumnName="ContractName" type="xs:string" minOccurs="0" />
+              <xs:element name="BuyQty" msprop:Generator_ColumnVarNameInTable="columnBuyQty" msprop:Generator_ColumnPropNameInRow="BuyQty" msprop:Generator_ColumnPropNameInTable="BuyQtyColumn" msprop:Generator_UserColumnName="BuyQty" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="BuyPrice" msprop:Generator_ColumnVarNameInTable="columnBuyPrice" msprop:Generator_ColumnPropNameInRow="BuyPrice" msprop:Generator_ColumnPropNameInTable="BuyPriceColumn" msprop:Generator_UserColumnName="BuyPrice" type="xs:decimal" default="0" minOccurs="0" />
+              <xs:element name="SellPrice" msprop:Generator_ColumnVarNameInTable="columnSellPrice" msprop:Generator_ColumnPropNameInRow="SellPrice" msprop:Generator_ColumnPropNameInTable="SellPriceColumn" msprop:Generator_UserColumnName="SellPrice" type="xs:decimal" default="0" minOccurs="0" />
+              <xs:element name="SellQty" msprop:Generator_ColumnVarNameInTable="columnSellQty" msprop:Generator_ColumnPropNameInRow="SellQty" msprop:Generator_ColumnPropNameInTable="SellQtyColumn" msprop:Generator_UserColumnName="SellQty" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="MarketLevel" msprop:Generator_ColumnVarNameInTable="columnMarketLevel" msprop:Generator_ColumnPropNameInRow="MarketLevel" msprop:Generator_ColumnPropNameInTable="MarketLevelColumn" msprop:Generator_UserColumnName="MarketLevel" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtMarketDepthLeft" msprop:Generator_TableClassName="dtMarketDepthLeftDataTable" msprop:Generator_TableVarName="tabledtMarketDepthLeft" msprop:Generator_TablePropName="dtMarketDepthLeft" msprop:Generator_RowDeletingName="dtMarketDepthLeftRowDeleting" msprop:Generator_RowChangingName="dtMarketDepthLeftRowChanging" msprop:Generator_RowEvHandlerName="dtMarketDepthLeftRowChangeEventHandler" msprop:Generator_RowDeletedName="dtMarketDepthLeftRowDeleted" msprop:Generator_UserTableName="dtMarketDepthLeft" msprop:Generator_RowChangedName="dtMarketDepthLeftRowChanged" msprop:Generator_RowEvArgName="dtMarketDepthLeftRowChangeEvent" msprop:Generator_RowClassName="dtMarketDepthLeftRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ContractName" msprop:Generator_ColumnVarNameInTable="columnContractName" msprop:Generator_ColumnPropNameInRow="ContractName" msprop:Generator_ColumnPropNameInTable="ContractNameColumn" msprop:Generator_UserColumnName="ContractName" type="xs:string" minOccurs="0" />
+              <xs:element name="BuyQty" msprop:Generator_ColumnVarNameInTable="columnBuyQty" msprop:Generator_ColumnPropNameInRow="BuyQty" msprop:Generator_ColumnPropNameInTable="BuyQtyColumn" msprop:Generator_UserColumnName="BuyQty" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="BuyPrice" msprop:Generator_ColumnVarNameInTable="columnBuyPrice" msprop:Generator_ColumnPropNameInRow="BuyPrice" msprop:Generator_ColumnPropNameInTable="BuyPriceColumn" msprop:Generator_UserColumnName="BuyPrice" type="xs:decimal" default="0" minOccurs="0" />
+              <xs:element name="SellPrice" msprop:Generator_ColumnVarNameInTable="columnSellPrice" msprop:Generator_ColumnPropNameInRow="SellPrice" msprop:Generator_ColumnPropNameInTable="SellPriceColumn" msprop:Generator_UserColumnName="SellPrice" type="xs:decimal" default="0" minOccurs="0" />
+              <xs:element name="SellQty" msprop:Generator_ColumnVarNameInTable="columnSellQty" msprop:Generator_ColumnPropNameInRow="SellQty" msprop:Generator_ColumnPropNameInTable="SellQtyColumn" msprop:Generator_UserColumnName="SellQty" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="MarketLevel" msprop:Generator_ColumnVarNameInTable="columnMarketLevel" msprop:Generator_ColumnPropNameInRow="MarketLevel" msprop:Generator_ColumnPropNameInTable="MarketLevelColumn" msprop:Generator_UserColumnName="MarketLevel" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtMarketDepthRight" msprop:Generator_TableClassName="dtMarketDepthRightDataTable" msprop:Generator_TableVarName="tabledtMarketDepthRight" msprop:Generator_TablePropName="dtMarketDepthRight" msprop:Generator_RowDeletingName="dtMarketDepthRightRowDeleting" msprop:Generator_RowChangingName="dtMarketDepthRightRowChanging" msprop:Generator_RowEvHandlerName="dtMarketDepthRightRowChangeEventHandler" msprop:Generator_RowDeletedName="dtMarketDepthRightRowDeleted" msprop:Generator_UserTableName="dtMarketDepthRight" msprop:Generator_RowChangedName="dtMarketDepthRightRowChanged" msprop:Generator_RowEvArgName="dtMarketDepthRightRowChangeEvent" msprop:Generator_RowClassName="dtMarketDepthRightRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ContractName" msprop:Generator_ColumnVarNameInTable="columnContractName" msprop:Generator_ColumnPropNameInRow="ContractName" msprop:Generator_ColumnPropNameInTable="ContractNameColumn" msprop:Generator_UserColumnName="ContractName" type="xs:string" minOccurs="0" />
+              <xs:element name="BuyQty" msprop:Generator_ColumnVarNameInTable="columnBuyQty" msprop:Generator_ColumnPropNameInRow="BuyQty" msprop:Generator_ColumnPropNameInTable="BuyQtyColumn" msprop:Generator_UserColumnName="BuyQty" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="BuyPrice" msprop:Generator_ColumnVarNameInTable="columnBuyPrice" msprop:Generator_ColumnPropNameInRow="BuyPrice" msprop:Generator_ColumnPropNameInTable="BuyPriceColumn" msprop:Generator_UserColumnName="BuyPrice" type="xs:decimal" default="0" minOccurs="0" />
+              <xs:element name="SellPrice" msprop:Generator_ColumnVarNameInTable="columnSellPrice" msprop:Generator_ColumnPropNameInRow="SellPrice" msprop:Generator_ColumnPropNameInTable="SellPriceColumn" msprop:Generator_UserColumnName="SellPrice" type="xs:decimal" default="0" minOccurs="0" />
+              <xs:element name="SellQty" msprop:Generator_ColumnVarNameInTable="columnSellQty" msprop:Generator_ColumnPropNameInRow="SellQty" msprop:Generator_ColumnPropNameInTable="SellQtyColumn" msprop:Generator_UserColumnName="SellQty" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="MarketLevel" msprop:Generator_ColumnVarNameInTable="columnMarketLevel" msprop:Generator_ColumnPropNameInRow="MarketLevel" msprop:Generator_ColumnPropNameInTable="MarketLevelColumn" msprop:Generator_UserColumnName="MarketLevel" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

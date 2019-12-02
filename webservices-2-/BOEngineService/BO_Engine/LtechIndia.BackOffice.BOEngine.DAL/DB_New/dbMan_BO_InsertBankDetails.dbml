@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="BOExchange" Class="dbMan_BO_InsertBankDetailsDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.1.87;Initial Catalog=BOExchange;Persist Security Info=True;User ID=sa" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="BOExchangeConnectionString1" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_InsertBankDetails" Method="BO_InsertBankDetails">
+    <Parameter Name="AccountHolderName" Parameter="accountHolderName" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="BankAccountID" Parameter="bankAccountID" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="BankName" Parameter="bankName" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="FK_BankCountryID" Parameter="fK_BankCountryID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="BankCity" Parameter="bankCity" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="BankZipCode" Parameter="bankZipCode" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="BankAddress1" Parameter="bankAddress1" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="BankAddress2" Parameter="bankAddress2" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="BankPhone" Parameter="bankPhone" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="BankFax" Parameter="bankFax" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="BankSwiftCode" Parameter="bankSwiftCode" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="FK_ParticipantID" Parameter="fK_ParticipantID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="BankAccountType" Parameter="bankAccountType" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="BankIFSCCode" Parameter="bankIFSCCode" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="PK_BankID" Parameter="pK_BankID" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

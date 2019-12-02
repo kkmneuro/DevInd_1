@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="OME" Class="dbMan_BO_OMEGetMapOrderDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.1.7;Initial Catalog=OME;User ID=sa" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="OMEConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.OME_GetMapOrder" Method="OME_GetMapOrder">
+    <ElementType Name="OME_GetMapOrderResult">
+      <Column Name="PK_ID" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="BuySideOrderID" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="SellSideOrderID" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="BuyFillID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SellFillID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Filled_Qty" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LastUpdateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="BuySideAccountID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SellSideAccountID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Price" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="Digit" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Symbol" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

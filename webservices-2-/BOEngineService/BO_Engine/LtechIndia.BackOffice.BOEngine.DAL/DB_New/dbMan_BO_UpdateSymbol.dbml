@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="BOExchange_NG" Class="dbMan_BO_UpdateSymbolDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=BOExchange_NG;Integrated Security=True" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="BOExchange_NGConnectionString1" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_UpdateSymbol" Method="BO_UpdateSymbol">
+    <Parameter Name="Instruementid" Parameter="instruementid" Type="System.Int32" DbType="Int" />
+    <Parameter Name="SymbolName" Parameter="symbolName" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Description" Parameter="description" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Source" Parameter="source" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Digits" Parameter="digits" Type="System.Int32" DbType="Int" />
+    <Parameter Name="TradingCurrency" Parameter="tradingCurrency" Type="System.Int32" DbType="Int" />
+    <Parameter Name="SettlingCurrency" Parameter="settlingCurrency" Type="System.Int32" DbType="Int" />
+    <Parameter Name="MarginCurrency" Parameter="marginCurrency" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Spread" Parameter="spread" Type="System.Int32" DbType="Int" />
+    <Parameter Name="MaximumLots" Parameter="maximumLots" Type="System.Int32" DbType="Int" />
+    <Parameter Name="MaximumOrderValue" Parameter="maximumOrderValue" Type="System.Int32" DbType="Int" />
+    <Parameter Name="BuySideTurnover" Parameter="buySideTurnover" Type="System.Decimal" DbType="Decimal" />
+    <Parameter Name="SellSideTurnover" Parameter="sellSideTurnover" Type="System.Decimal" DbType="Decimal" />
+    <Parameter Name="MaximumAllowablePosition" Parameter="maximumAllowablePosition" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Hedged" Parameter="hedged" Type="System.Int32" DbType="Int" />
+    <Parameter Name="LimitandStopLevel" Parameter="limitandStopLevel" Type="System.Int32" DbType="Int" />
+    <Parameter Name="TickSize" Parameter="tickSize" Type="System.Int32" DbType="Int" />
+    <Parameter Name="TickPrice" Parameter="tickPrice" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ContractSize" Parameter="contractSize" Type="System.Int32" DbType="Int" />
+    <Parameter Name="QuotationBaseValue" Parameter="quotationBaseValue" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Maintenance" Parameter="maintenance" Type="System.Int32" DbType="Int" />
+    <Parameter Name="DeliveryType" Parameter="deliveryType" Type="System.Int32" DbType="Int" />
+    <Parameter Name="DeliveryUnit" Parameter="deliveryUnit" Type="System.Int32" DbType="Int" />
+    <Parameter Name="DeliveryQuantity" Parameter="deliveryQuantity" Type="System.Int32" DbType="Int" />
+    <Parameter Name="MarketLot" Parameter="marketLot" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Expirydatetime" Parameter="expirydatetime" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="Startdatetime" Parameter="startdatetime" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="Enddatetime" Parameter="enddatetime" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="TenderStartdatetime" Parameter="tenderStartdatetime" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="TenderEnddatetime" Parameter="tenderEnddatetime" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="DeliveryStartdatetime" Parameter="deliveryStartdatetime" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="DeliveryEnddatetime" Parameter="deliveryEnddatetime" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="DPRInitialPercentage" Parameter="dPRInitialPercentage" Type="System.Int32" DbType="Int" />
+    <Parameter Name="DPRInterval" Parameter="dPRInterval" Type="System.Int32" DbType="Int" />
+    <Parameter Name="InitialBuyMargin" Parameter="initialBuyMargin" Type="System.Int32" DbType="Int" />
+    <Parameter Name="InitialSellMargin" Parameter="initialSellMargin" Type="System.Int32" DbType="Int" />
+    <Parameter Name="MaintenanceBuyMargin" Parameter="maintenanceBuyMargin" Type="System.Int32" DbType="Int" />
+    <Parameter Name="MaintenanceSellMargin" Parameter="maintenanceSellMargin" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ULAssest" Parameter="uLAssest" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="DPRRangeHigher" Parameter="dPRRangeHigher" Type="System.Int32" DbType="Int" />
+    <Parameter Name="FKSecurityTypeID" Parameter="fKSecurityTypeID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="OffQuoteTimeLimitInSec" Parameter="offQuoteTimeLimitInSec" Type="System.Int32" DbType="Int" />
+    <Parameter Name="MarketLostUnit" Parameter="marketLostUnit" Type="System.Int32" DbType="Int" />
+    <Parameter Name="MaximumLostUnit" Parameter="maximumLostUnit" Type="System.Int32" DbType="Int" />
+    <Parameter Name="QuotationBaseValueUnit" Parameter="quotationBaseValueUnit" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

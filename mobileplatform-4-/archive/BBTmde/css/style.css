@@ -1,0 +1,156 @@
+
+
+#marketcss{
+	background-color:#5C5C5C;
+	background-image: url(../images/bg5.jpg);
+    background-size: 400px 260px;
+    background-repeat: repeat;
+	width:100%;
+	color:#FFFFFF;
+	margin-top:0px;
+}
+.headSym{
+    color:#F5BF7B;
+	word-spacing: 8px;
+	width:133px;
+	font-weight: bold;
+	padding-left:20px;
+	font-size:14px;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	}
+
+.headfeed{
+    color:#FFFFFF;
+	width:133px;
+	font-weight: bold;
+	padding-left:20px;
+	font-size:14px;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;	
+	}
+
+.headBid{
+    color:#FFFFFF;
+	width:133px;
+	font-weight: bold;
+	padding-left:20px;
+	font-size:14px;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	/*background-color: #677175;
+	cursor:pointer;*/
+	
+	}
+
+
+	
+.headAsk{
+    color:#FFFFFF;
+	width:133px;
+	font-weight: bold;
+	padding-left:20px;
+	font-size:14px;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	/*background-color: #848D90;
+	cursor:pointer;*/
+	}
+
+.head2{
+    background:#ffffff;
+	color:#000;
+	font-weight: bold;
+	width:108px;
+	}
+.headNY{
+    background:#ffffff;
+	color:#A8B636;
+	font-weight: bold;
+	width:105px;
+	}	
+.trcssstyle{
+	height: 31px;
+    border-bottom: #65A1CC 1px solid;
+	padding-top:10px;
+	}
+
+#widgetQoutes {
+    background-color: #0c203a;
+    width: 906px;
+    color: #ffffff;
+    border: #dae0e8 1px solid;
+    text-align: center;
+	border-spacing: 0;
+	margin-top: -250px;
+	border-collapse: collapse;
+	font-size: 15px;
+}
+
+.buttonAll{
+background: transparent;
+border: none;
+font-size:17px; 
+margin-top:10px;
+cursor:pointer;
+}
+
+.OpenTradesCSS{
+	/*background-color:#5C5C5C;*/
+	background-image: url(../images/bg5.jpg);
+    background-size: 400px 360px;
+    background-repeat: repeat;
+	width:100%;
+	color:#000;	
+}
+.OpenOrdersCSS{
+	/*background-color:#5C5C5C;*/
+	background-image: url(../images/bg5.jpg);
+    background-size: 400px 1600px;
+    background-repeat: repeat;
+	width:100%;
+	color:#000;	
+}
+
+
+.OpenTradeAccountsCSS{
+	/*background-color:#5C5C5C;*/
+	background-image: url(../images/bg5Account.jpg);
+    background-size: 400px 260px;
+    background-repeat: repeat;
+	width:100%;
+	color:#000;
+	
+}
+
+.Modifypopup{
+	cursor: pointer;
+    color: #FFF;
+}
+.CancelOrder{
+	cursor: pointer;
+    color: #FFF;
+}
+ 
+@media screen and (max-width: 600px) {
+  #title_message {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+
+}
+
+
+.product div {
+  display: inline-block;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+}
+.remove {
+  color: red;
+}
+.add {
+  color: green;
+}
+

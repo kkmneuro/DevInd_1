@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS4BrokerNameFilter" targetNamespace="http://tempuri.org/DS4BrokerNameFilter.xsd" xmlns:mstns="http://tempuri.org/DS4BrokerNameFilter.xsd" xmlns="http://tempuri.org/DS4BrokerNameFilter.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS4BrokerNameFilter" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS4BrokerNameFilter" msprop:Generator_DataSetName="DS4BrokerNameFilter" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtBrokerFilter" msprop:Generator_UserTableName="dtBrokerFilter" msprop:Generator_RowDeletedName="dtBrokerFilterRowDeleted" msprop:Generator_RowChangedName="dtBrokerFilterRowChanged" msprop:Generator_RowClassName="dtBrokerFilterRow" msprop:Generator_RowChangingName="dtBrokerFilterRowChanging" msprop:Generator_RowEvArgName="dtBrokerFilterRowChangeEvent" msprop:Generator_RowEvHandlerName="dtBrokerFilterRowChangeEventHandler" msprop:Generator_TableClassName="dtBrokerFilterDataTable" msprop:Generator_TableVarName="tabledtBrokerFilter" msprop:Generator_RowDeletingName="dtBrokerFilterRowDeleting" msprop:Generator_TablePropName="dtBrokerFilter">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BrokersID" msprop:Generator_UserColumnName="BrokersID" msprop:Generator_ColumnVarNameInTable="columnBrokersID" msprop:Generator_ColumnPropNameInRow="BrokersID" msprop:Generator_ColumnPropNameInTable="BrokersIDColumn" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Owner" msprop:Generator_UserColumnName="Owner" msprop:Generator_ColumnVarNameInTable="columnOwner" msprop:Generator_ColumnPropNameInRow="Owner" msprop:Generator_ColumnPropNameInTable="OwnerColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Leverage" msprop:Generator_UserColumnName="Leverage" msprop:Generator_ColumnVarNameInTable="columnLeverage" msprop:Generator_ColumnPropNameInRow="Leverage" msprop:Generator_ColumnPropNameInTable="LeverageColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Enable" msprop:Generator_UserColumnName="Enable" msprop:Generator_ColumnVarNameInTable="columnEnable" msprop:Generator_ColumnPropNameInRow="Enable" msprop:Generator_ColumnPropNameInTable="EnableColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="BrokerType" msprop:Generator_UserColumnName="BrokerType" msprop:Generator_ColumnVarNameInTable="columnBrokerType" msprop:Generator_ColumnPropNameInRow="BrokerType" msprop:Generator_ColumnPropNameInTable="BrokerTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Address" msprop:Generator_UserColumnName="Address" msprop:Generator_ColumnVarNameInTable="columnAddress" msprop:Generator_ColumnPropNameInRow="Address" msprop:Generator_ColumnPropNameInTable="AddressColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="City" msprop:Generator_UserColumnName="City" msprop:Generator_ColumnVarNameInTable="columnCity" msprop:Generator_ColumnPropNameInRow="City" msprop:Generator_ColumnPropNameInTable="CityColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="State" msprop:Generator_UserColumnName="State" msprop:Generator_ColumnVarNameInTable="columnState" msprop:Generator_ColumnPropNameInRow="State" msprop:Generator_ColumnPropNameInTable="StateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Phone1" msprop:Generator_UserColumnName="Phone1" msprop:Generator_ColumnVarNameInTable="columnPhone1" msprop:Generator_ColumnPropNameInRow="Phone1" msprop:Generator_ColumnPropNameInTable="Phone1Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Phone2" msprop:Generator_UserColumnName="Phone2" msprop:Generator_ColumnVarNameInTable="columnPhone2" msprop:Generator_ColumnPropNameInRow="Phone2" msprop:Generator_ColumnPropNameInTable="Phone2Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Fax" msprop:Generator_UserColumnName="Fax" msprop:Generator_ColumnVarNameInTable="columnFax" msprop:Generator_ColumnPropNameInRow="Fax" msprop:Generator_ColumnPropNameInTable="FaxColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Email" msprop:Generator_UserColumnName="Email" msprop:Generator_ColumnVarNameInTable="columnEmail" msprop:Generator_ColumnPropNameInRow="Email" msprop:Generator_ColumnPropNameInTable="EmailColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Margin_Call_Level1" msprop:Generator_UserColumnName="Margin_Call_Level1" msprop:Generator_ColumnVarNameInTable="columnMargin_Call_Level1" msprop:Generator_ColumnPropNameInRow="Margin_Call_Level1" msprop:Generator_ColumnPropNameInTable="Margin_Call_Level1Column" type="xs:int" minOccurs="0" />
+              <xs:element name="Margin_Call_Level2" msprop:Generator_UserColumnName="Margin_Call_Level2" msprop:Generator_ColumnVarNameInTable="columnMargin_Call_Level2" msprop:Generator_ColumnPropNameInRow="Margin_Call_Level2" msprop:Generator_ColumnPropNameInTable="Margin_Call_Level2Column" type="xs:int" minOccurs="0" />
+              <xs:element name="Margin_Call_Level3" msprop:Generator_UserColumnName="Margin_Call_Level3" msprop:Generator_ColumnVarNameInTable="columnMargin_Call_Level3" msprop:Generator_ColumnPropNameInRow="Margin_Call_Level3" msprop:Generator_ColumnPropNameInTable="Margin_Call_Level3Column" type="xs:int" minOccurs="0" />
+              <xs:element name="News" msprop:Generator_UserColumnName="News" msprop:Generator_ColumnVarNameInTable="columnNews" msprop:Generator_ColumnPropNameInRow="News" msprop:Generator_ColumnPropNameInTable="NewsColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MaximumOrders" msprop:Generator_UserColumnName="MaximumOrders" msprop:Generator_ColumnVarNameInTable="columnMaximumOrders" msprop:Generator_ColumnPropNameInRow="MaximumOrders" msprop:Generator_ColumnPropNameInTable="MaximumOrdersColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MaximumSymbols" msprop:Generator_UserColumnName="MaximumSymbols" msprop:Generator_ColumnVarNameInTable="columnMaximumSymbols" msprop:Generator_ColumnPropNameInRow="MaximumSymbols" msprop:Generator_ColumnPropNameInTable="MaximumSymbolsColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ParentBrokerID" msprop:Generator_UserColumnName="ParentBrokerID" msprop:Generator_ColumnVarNameInTable="columnParentBrokerID" msprop:Generator_ColumnPropNameInRow="ParentBrokerID" msprop:Generator_ColumnPropNameInTable="ParentBrokerIDColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtBrokerFilter" />
+      <xs:field xpath="mstns:BrokersID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BOExchange" Class="InsertMailInfoDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.;Initial Catalog=BOExchange;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="BOExchangeConnectionString1" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.WS_Exchange_InsertMailInfo" Method="WS_Exchange_InsertMailInfo">
+    <Parameter Name="userID" Type="System.String" DbType="Char(8)" />
+    <Parameter Name="Password" Parameter="password" Type="System.String" DbType="Char(15)" />
+    <Parameter Name="ParticipantID" Parameter="participantID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Sender" Parameter="sender" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Recipient" Parameter="recipient" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Subject" Parameter="subject" Type="System.String" DbType="VarChar(100)" />
+    <Parameter Name="Description" Parameter="description" Type="System.String" DbType="VarChar(MAX)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

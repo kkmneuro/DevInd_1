@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS4StockLevel" targetNamespace="http://tempuri.org/DS4StockLevel.xsd" xmlns:mstns="http://tempuri.org/DS4StockLevel.xsd" xmlns="http://tempuri.org/DS4StockLevel.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS4StockLevel" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS4StockLevel" msprop:Generator_DataSetName="DS4StockLevel" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtStockLevel" msprop:Generator_UserTableName="dtStockLevel" msprop:Generator_RowDeletedName="dtStockLevelRowDeleted" msprop:Generator_RowChangedName="dtStockLevelRowChanged" msprop:Generator_RowClassName="dtStockLevelRow" msprop:Generator_RowChangingName="dtStockLevelRowChanging" msprop:Generator_RowEvArgName="dtStockLevelRowChangeEvent" msprop:Generator_RowEvHandlerName="dtStockLevelRowChangeEventHandler" msprop:Generator_TableClassName="dtStockLevelDataTable" msprop:Generator_TableVarName="tabledtStockLevel" msprop:Generator_RowDeletingName="dtStockLevelRowDeleting" msprop:Generator_TablePropName="dtStockLevel">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ProductType" msprop:Generator_UserColumnName="ProductType" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnProductType" msprop:Generator_ColumnPropNameInTable="ProductTypeColumn" msprop:Generator_ColumnPropNameInRow="ProductType" type="xs:string" default="NULL" minOccurs="0" />
+              <xs:element name="Symbol" msprop:Generator_UserColumnName="Symbol" msprop:nullValue="_empty" msprop:Generator_ColumnVarNameInTable="columnSymbol" msprop:Generator_ColumnPropNameInTable="SymbolColumn" msprop:Generator_ColumnPropNameInRow="Symbol" type="xs:string" default="NULL" minOccurs="0" />
+              <xs:element name="BuyUnit" msprop:Generator_UserColumnName="BuyUnit" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnBuyUnit" msprop:Generator_ColumnPropNameInTable="BuyUnitColumn" msprop:Generator_ColumnPropNameInRow="BuyUnit" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="SellUnit" msprop:Generator_UserColumnName="SellUnit" msprop:Generator_ColumnVarNameInTable="columnSellUnit" msprop:nullValue="0" msprop:Generator_ColumnPropNameInRow="SellUnit" msprop:Generator_ColumnPropNameInTable="SellUnitColumn" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="Capital" msprop:Generator_UserColumnName="Capital" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnCapital" msprop:Generator_ColumnPropNameInTable="CapitalColumn" msprop:Generator_ColumnPropNameInRow="Capital" type="xs:decimal" default="0" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

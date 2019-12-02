@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS4BrokerSymbol" targetNamespace="http://tempuri.org/DS4BrokerSymbol.xsd" xmlns:mstns="http://tempuri.org/DS4BrokerSymbol.xsd" xmlns="http://tempuri.org/DS4BrokerSymbol.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS4BrokerSymbol" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS4BrokerSymbol" msprop:Generator_DataSetName="DS4BrokerSymbol" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtFilterSymbol" msprop:Generator_UserTableName="dtFilterSymbol" msprop:Generator_RowDeletedName="dtFilterSymbolRowDeleted" msprop:Generator_RowChangedName="dtFilterSymbolRowChanged" msprop:Generator_RowClassName="dtFilterSymbolRow" msprop:Generator_RowChangingName="dtFilterSymbolRowChanging" msprop:Generator_RowEvArgName="dtFilterSymbolRowChangeEvent" msprop:Generator_RowEvHandlerName="dtFilterSymbolRowChangeEventHandler" msprop:Generator_TableClassName="dtFilterSymbolDataTable" msprop:Generator_TableVarName="tabledtFilterSymbol" msprop:Generator_RowDeletingName="dtFilterSymbolRowDeleting" msprop:Generator_TablePropName="dtFilterSymbol">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SymbolID" msprop:Generator_UserColumnName="SymbolID" msprop:Generator_ColumnPropNameInRow="SymbolID" msprop:Generator_ColumnVarNameInTable="columnSymbolID" msprop:Generator_ColumnPropNameInTable="SymbolIDColumn" type="xs:int" />
+              <xs:element name="SymbolName" msprop:Generator_UserColumnName="SymbolName" msprop:Generator_ColumnPropNameInRow="SymbolName" msprop:Generator_ColumnVarNameInTable="columnSymbolName" msprop:Generator_ColumnPropNameInTable="SymbolNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BidSpread" msprop:Generator_UserColumnName="BidSpread" msprop:nullValue="0" msprop:Generator_ColumnPropNameInRow="BidSpread" msprop:Generator_ColumnPropNameInTable="BidSpreadColumn" msprop:Generator_ColumnVarNameInTable="columnBidSpread" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="AskSpread" msprop:Generator_UserColumnName="AskSpread" msprop:nullValue="0" msprop:Generator_ColumnPropNameInRow="AskSpread" msprop:Generator_ColumnPropNameInTable="AskSpreadColumn" msprop:Generator_ColumnVarNameInTable="columnAskSpread" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="Spread" msprop:Generator_UserColumnName="Spread" msprop:nullValue="0" msprop:Generator_ColumnPropNameInRow="Spread" msprop:Generator_ColumnPropNameInTable="SpreadColumn" msprop:Generator_ColumnVarNameInTable="columnSpread" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="PrevBidPrice" msdata:Caption="BidSpread" msprop:Generator_UserColumnName="PrevBidPrice" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnPrevBidPrice" msprop:Generator_ColumnPropNameInTable="PrevBidPriceColumn" msprop:Generator_ColumnPropNameInRow="PrevBidPrice" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="PrevAskPrice" msdata:Caption="BidSpread" msprop:Generator_UserColumnName="PrevAskPrice" msprop:nullValue="0" msprop:Generator_ColumnVarNameInTable="columnPrevAskPrice" msprop:Generator_ColumnPropNameInTable="PrevAskPriceColumn" msprop:Generator_ColumnPropNameInRow="PrevAskPrice" type="xs:int" default="0" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtFilterSymbol" />
+      <xs:field xpath="mstns:SymbolID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,1693 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{65E22BF8-969A-4FB7-AC56-D6F593AFFC78}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BOADMIN_NEW</RootNamespace>
+    <AssemblyName>BOADMIN_NEW</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>BOADMIN_NEW.Program</StartupObject>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CertificateImportExport, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CertificateExport\bin\CertificateImportExport.dll</HintPath>
+    </Reference>
+    <Reference Include="clsInterface4OME, Version=1.0.0.29, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\clsEnum\bin\clsInterface4OME.dll</HintPath>
+    </Reference>
+    <Reference Include="ColorProgressBar, Version=1.0.4478.26930, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\ColorProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DateParser, Version=1.0.0.27, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DateParser\bin\DateParser.dll</HintPath>
+    </Reference>
+    <Reference Include="DSSocket, Version=1.0.0.22, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Socket\bin\DSSocket.dll</HintPath>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="GeneralUtilty">
+      <HintPath>..\GeneralUtilty\bin\GeneralUtilty.dll</HintPath>
+    </Reference>
+    <Reference Include="Logging">
+      <HintPath>..\Logging\bin\Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Nevron.Presentation, Version=9.11.3.12, Culture=neutral, PublicKeyToken=6656c5d1103e75cc, processorArchitecture=MSIL">
+      <HintPath>..\Nevron DLLS\Nevron.Presentation.dll</HintPath>
+    </Reference>
+    <Reference Include="Nevron.System, Version=9.7.15.12, Culture=neutral, PublicKeyToken=6a987feae5e496fd, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Nevron DLLS\Nevron.System.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Nevron.UI.WinForm.Docking, Version=9.7.15.12, Culture=neutral, PublicKeyToken=446d8963349a628a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Nevron DLLS\Nevron.UI.WinForm.Docking.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Noogen.Validation, Version=1.0.5619.34414, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ValidationProvider\bin\Debug\Noogen.Validation.dll</HintPath>
+    </Reference>
+    <Reference Include="ProtocolStructs, Version=1.0.0.27, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\ProtocolStructs\bin\ProtocolStructs.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClsExcelExport\Alignment.cs" />
+    <Compile Include="ClsExcelExport\BIFF.cs" />
+    <Compile Include="ClsExcelExport\Cell.cs" />
+    <Compile Include="ClsExcelExport\CellInfo.cs" />
+    <Compile Include="ClsExcelExport\ColumnInfo.cs" />
+    <Compile Include="ClsExcelExport\ExcelColor.cs" />
+    <Compile Include="ClsExcelExport\ExcelDocument.cs" />
+    <Compile Include="ClsExcelExport\ExcelWriter.cs" />
+    <Compile Include="ClsExcelExport\FontInfo.cs" />
+    <Compile Include="ClsExcelExport\FormatInfo.cs" />
+    <Compile Include="Cls\clsBrokersManagerHandler.cs" />
+    <Compile Include="Cls\clsCollateralManager.cs" />
+    <Compile Include="Cls\clsCommonSettingsManagerNew.cs" />
+    <Compile Include="Cls\clsCurrencyManager.cs" />
+    <Compile Include="Cls\clsAccountManager.cs" />
+    <Compile Include="Cls\clsBackupManager.cs" />
+    <Compile Include="Cls\clsBO.cs" />
+    <Compile Include="Cls\clsBrokerManager.cs" />
+    <Compile Include="Cls\clsClient.cs" />
+    <Compile Include="Cls\clsCommonManager.cs" />
+    <Compile Include="Cls\clsDataFeedsManager.cs" />
+    <Compile Include="Cls\clsDataManager.cs" />
+    <Compile Include="Cls\clsDataServersManager.cs" />
+    <Compile Include="Cls\clsDialogBox.cs" />
+    <Compile Include="Cls\clsGlobal.cs" />
+    <Compile Include="Cls\clsGroupManager.cs" />
+    <Compile Include="Cls\clsHolidayManager.cs" />
+    <Compile Include="Cls\clsIPAccessListManager.cs" />
+    <Compile Include="Cls\clsLeverageManager.cs" />
+    <Compile Include="Cls\clsLiveUpdateManager.cs" />
+    <Compile Include="Cls\clsLoginManager.cs" />
+    <Compile Include="Cls\clsLogManager.cs" />
+    <Compile Include="Cls\clsManagersManager.cs" />
+    <Compile Include="Cls\clsMapOrderManager.cs" />
+    <Compile Include="Cls\clsMasterInfoManager.cs" />
+    <Compile Include="Cls\clsOdersManager.cs" />
+    <Compile Include="Cls\clsOperationsLogManager.cs" />
+    <Compile Include="Cls\clsParticipantTypeManager.cs" />
+    <Compile Include="Cls\clsProxyClassManager.cs" />
+    <Compile Include="Cls\clsReportsMasterInfoManager.cs" />
+    <Compile Include="Cls\clsSecurityManager.cs" />
+    <Compile Include="Cls\clsSplashScreen.cs" />
+    <Compile Include="Cls\clsSymbolClosingPriceManager.cs" />
+    <Compile Include="Cls\clsSymbolManager.cs" />
+    <Compile Include="Cls\clsSynchronizationManager.cs" />
+    <Compile Include="Cls\clsTimeManager.cs" />
+    <Compile Include="Cls\clsTradeManager.cs" />
+    <Compile Include="Cls\clsTradingGatewayManager.cs" />
+    <Compile Include="Cls\clsFeeMasterManager.cs" />
+    <Compile Include="Cls\clsEnums.cs" />
+    <Compile Include="Cls\clsOrderServerManager.cs" />
+    <Compile Include="Cls\clsVirtualDealerManager.cs" />
+    <Compile Include="Cls\IclsManager.cs" />
+    <Compile Include="Cls\clsTaxMasterManager.cs" />
+    <Compile Include="Cls\ValidateUI.cs" />
+    <Compile Include="DS\DS4AccountTrans.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4AccountTrans.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4BrokerNameFilter.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4BrokerNameFilter.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4BrokerSymbol.cs">
+      <DependentUpon>DS4BrokerSymbol.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4BrokerSymbol.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4BrokerSymbol.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4Charges.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4Charges.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4ClientComm.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4ClientComm.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4ClientHoldingStock.cs">
+      <DependentUpon>DS4ClientHoldingStock.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4ClientHoldingStock.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4ClientHoldingStock.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4DayClosingReport.cs">
+      <DependentUpon>DS4DayClosingReport.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4DayClosingReport.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4DayClosingReport.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4EditAccountTrans.cs">
+      <DependentUpon>DS4EditAccountTrans.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4EditAccountTrans.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4EditAccountTrans.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4GroupSymbol.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4GroupSymbol.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4MarginReports.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4MarginReports.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4NewClientInfo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4NewClientInfo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4OpenPosition.cs">
+      <DependentUpon>DS4OpenPosition.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4OpenPosition.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4OpenPosition.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4Order.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4Order.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4StockLevel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4StockLevel.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4TopTradedInst.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4TopTradedInst.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4Trade.cs">
+      <DependentUpon>DS4Trade.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS\DS4Trade.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS4Trade.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmAccountPersonal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmAccountPersonal.Designer.cs">
+      <DependentUpon>FrmAccountPersonal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAccountTransReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAccountTransReport.Designer.cs">
+      <DependentUpon>frmAccountTransReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmBase.Designer.cs">
+      <DependentUpon>FrmBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmBrokers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmBrokers.Designer.cs">
+      <DependentUpon>frmBrokers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmChangePassword.Designer.cs">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmClientComm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmClientComm.Designer.cs">
+      <DependentUpon>frmClientComm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmClientHoldingStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmClientHoldingStock.Designer.cs">
+      <DependentUpon>frmClientHoldingStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmClient_Accounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmClient_Accounts.Designer.cs">
+      <DependentUpon>FrmClient_Accounts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCollateral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCollateral.Designer.cs">
+      <DependentUpon>frmCollateral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCommonContainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCommonContainer.Designer.cs">
+      <DependentUpon>frmCommonContainer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCommonSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCommonSetting.designer.cs">
+      <DependentUpon>frmCommonSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmContractSpecificationMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmContractSpecificationMain.Designer.cs">
+      <DependentUpon>frmContractSpecificationMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDataLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDataLogin.Designer.cs">
+      <DependentUpon>frmDataLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmDayClosingReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmDayClosingReport.Designer.cs">
+      <DependentUpon>frmDayClosingReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmFeeMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmFeeMaster.Designer.cs">
+      <DependentUpon>frmFeeMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmHloidays.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmHloidays.Designer.cs">
+      <DependentUpon>frmHloidays.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmInstrumentClosingPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmInstrumentClosingPrice.Designer.cs">
+      <DependentUpon>frmInstrumentClosingPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmIPAccessList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmIPAccessList.Designer.cs">
+      <DependentUpon>frmIPAccessList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmLoadInitialDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmLoadInitialDetails.Designer.cs">
+      <DependentUpon>frmLoadInitialDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmMapOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmMapOrders.Designer.cs">
+      <DependentUpon>frmMapOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmOpenPositionReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmOpenPositionReport.Designer.cs">
+      <DependentUpon>frmOpenPositionReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmOrderReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmOrderReport.Designer.cs">
+      <DependentUpon>frmOrderReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmOrders.Designer.cs">
+      <DependentUpon>frmOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmStockLevel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmStockLevel.Designer.cs">
+      <DependentUpon>frmStockLevel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmTaxMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmTaxMaster.Designer.cs">
+      <DependentUpon>frmTaxMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmTimeSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmTimeSettings.Designer.cs">
+      <DependentUpon>frmTimeSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmTradeReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmTradeReport.Designer.cs">
+      <DependentUpon>frmTradeReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmTrades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmTrades.Designer.cs">
+      <DependentUpon>frmTrades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmTradingGateway.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmTradingGateway.Designer.cs">
+      <DependentUpon>frmTradingGateway.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmVirtualDealer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmVirtualDealer.designer.cs">
+      <DependentUpon>frmVirtualDealer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SplashScreenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SplashScreenForm.designer.cs">
+      <DependentUpon>SplashScreenForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\IUserCtrl.cs" />
+    <Compile Include="MyInstallerClass.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyInstallerClass.Designer.cs">
+      <DependentUpon>MyInstallerClass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\FrmAccountPersonal.resx">
+      <DependentUpon>FrmAccountPersonal.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmBase.resx">
+      <DependentUpon>FrmBase.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmBrokers.resx">
+      <DependentUpon>frmBrokers.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmChangePassword.resx">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmClientHoldingStock.resx">
+      <DependentUpon>frmClientHoldingStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmClient_Accounts.resx">
+      <DependentUpon>FrmClient_Accounts.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCollateral.resx">
+      <DependentUpon>frmCollateral.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCommonContainer.resx">
+      <DependentUpon>frmCommonContainer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCommonSetting.resx">
+      <DependentUpon>frmCommonSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmContractSpecificationMain.resx">
+      <DependentUpon>frmContractSpecificationMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmDataLogin.resx">
+      <DependentUpon>frmDataLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmFeeMaster.resx">
+      <DependentUpon>frmFeeMaster.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmHloidays.resx">
+      <DependentUpon>frmHloidays.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmInstrumentClosingPrice.resx">
+      <DependentUpon>frmInstrumentClosingPrice.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmIPAccessList.resx">
+      <DependentUpon>frmIPAccessList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmLoadInitialDetails.resx">
+      <DependentUpon>frmLoadInitialDetails.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmMapOrders.resx">
+      <DependentUpon>frmMapOrders.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOrderReport.resx">
+      <DependentUpon>frmOrderReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmOrders.resx">
+      <DependentUpon>frmOrders.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmTaxMaster.resx">
+      <DependentUpon>frmTaxMaster.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmTimeSettings.resx">
+      <DependentUpon>frmTimeSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmTradeReport.resx">
+      <DependentUpon>frmTradeReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmTrades.resx">
+      <DependentUpon>frmTrades.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmTradingGateway.resx">
+      <DependentUpon>frmTradingGateway.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmVirtualDealer.resx">
+      <DependentUpon>frmVirtualDealer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SplashScreenForm.resx">
+      <DependentUpon>SplashScreenForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\crAccountTransactions.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crAccountTransactions.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\crClientCommission.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crClientCommission.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\crClientHoldingStock.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crClientHoldingStock.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\crDayClosing.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crDayClosing.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\crOpenOrders.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crOpenOrders.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\crOpenPositionReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crOpenPositionReport.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\crStockLevel.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crStockLevel.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\crTrades.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crTrades.cs</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlAccountTransactions.resx">
+      <DependentUpon>uctlAccountTransactions.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlClosingPriceChild.resx">
+      <DependentUpon>uctlClosingPriceChild.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlAccountConnectionSettings.resx">
+      <DependentUpon>uctlAccountConnectionSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlAccountMain.resx">
+      <DependentUpon>uctlAccountMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlAccountPersonal.resx">
+      <DependentUpon>uctlAccountPersonal.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlAccounts.resx">
+      <DependentUpon>uctlAccounts.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlBrokers.resx">
+      <DependentUpon>uctlBrokers.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlBrokersCharges.resx">
+      <DependentUpon>uctlBrokersCharges.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlBrokersChild.resx">
+      <DependentUpon>uctlBrokersChild.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlChangePassword.resx">
+      <DependentUpon>uctlChangePassword.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlCollateralMain.resx">
+      <DependentUpon>uctlCollateralMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlCollateralTransactionHistory.resx">
+      <DependentUpon>uctlCollateralTransactionHistory.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlCommonSetting.resx">
+      <DependentUpon>uctlCommonSetting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlCustomSessionSettings.resx">
+      <DependentUpon>uctlCustomSessionSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlCustomSessionSettingsNew.resx">
+      <DependentUpon>uctlCustomSessionSettingsNew.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlDelete.resx">
+      <DependentUpon>uctlDelete.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlEditAccountDetail.resx">
+      <DependentUpon>uctlEditAccountDetail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlEditAccountTransactions.resx">
+      <DependentUpon>uctlEditAccountTransactions.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlEditAccountTransChild.resx">
+      <DependentUpon>uctlEditAccountTransChild.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlEditBankDetail.resx">
+      <DependentUpon>uctlEditBankDetail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlEditBrokersCollateralInfo.resx">
+      <DependentUpon>uctlEditBrokersCollateralInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlFeesMaster.resx">
+      <DependentUpon>uctlFeesMaster.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlFeesMasterMain.resx">
+      <DependentUpon>uctlFeesMasterMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlFind.resx">
+      <DependentUpon>uctlFind.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlForceLogOut.resx">
+      <DependentUpon>uctlForceLogOut.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlGatewayMain.resx">
+      <DependentUpon>uctlGatewayMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlGateway.resx">
+      <DependentUpon>uctlGateway.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlGeneric.resx">
+      <DependentUpon>uctlGeneric.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlHolidays.resx">
+      <DependentUpon>uctlHolidays.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlHolidaysMain.resx">
+      <DependentUpon>uctlHolidaysMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlInstrumentClosingPrice.resx">
+      <DependentUpon>uctlInstrumentClosingPrice.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlIpAccess.resx">
+      <DependentUpon>uctlIpAccess.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlIPAccessLstMain.resx">
+      <DependentUpon>uctlIPAccessLstMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlMapOrders.resx">
+      <DependentUpon>uctlMapOrders.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlOperationsLog.resx">
+      <DependentUpon>uctlOperationsLog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlOrder.resx">
+      <DependentUpon>uctlOrder.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlOrderMain.resx">
+      <DependentUpon>uctlOrderMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlProductContracts.resx">
+      <DependentUpon>uctlProductContracts.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlContractInformation.resx">
+      <DependentUpon>uctlContractInformation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlSymbolChildSession.resx">
+      <DependentUpon>uctlSymbolChildSession.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlSymbolMain.resx">
+      <DependentUpon>uctlSymbolMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlTaxMaster.resx">
+      <DependentUpon>uctlTaxMaster.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlTaxMasterMain.resx">
+      <DependentUpon>uctlTaxMasterMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlTickChild.resx">
+      <DependentUpon>uctlTickChild.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlTickManagerMain.resx">
+      <DependentUpon>uctlTickManagerMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlTime.resx">
+      <DependentUpon>uctlTime.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlTimeMain.resx">
+      <DependentUpon>uctlTimeMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlTimeNew.resx">
+      <DependentUpon>uctlTimeNew.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlTradeMain.resx">
+      <DependentUpon>uctlTradeMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlTradeModify.resx">
+      <DependentUpon>uctlTradeModify.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlTradeNew.resx">
+      <DependentUpon>uctlTradeNew.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlTrades.resx">
+      <DependentUpon>uctlTrades.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlTradeSettle.resx">
+      <DependentUpon>uctlTradeSettle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlTradesMain.resx">
+      <DependentUpon>uctlTradesMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlVirtualDealer.resx">
+      <DependentUpon>uctlVirtualDealer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uctl\uctlVirtualDealerChild.resx">
+      <DependentUpon>uctlVirtualDealerChild.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="DS\DS4BrokerNameFilter.xsc">
+      <DependentUpon>DS4BrokerNameFilter.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4BrokerNameFilter.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4BrokerNameFilter.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS\DS4BrokerNameFilter.xss">
+      <DependentUpon>DS4BrokerNameFilter.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4BrokerSymbol.xsc">
+      <DependentUpon>DS4BrokerSymbol.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4BrokerSymbol.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4BrokerSymbol.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS\DS4BrokerSymbol.xss">
+      <DependentUpon>DS4BrokerSymbol.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4Charges.xsc">
+      <DependentUpon>DS4Charges.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4Charges.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4Charges.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS\DS4Charges.xss">
+      <DependentUpon>DS4Charges.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4GroupSymbol.xsc">
+      <DependentUpon>DS4GroupSymbol.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4GroupSymbol.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4GroupSymbol.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS\DS4GroupSymbol.xss">
+      <DependentUpon>DS4GroupSymbol.xsd</DependentUpon>
+    </None>
+    <None Include="Log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Cls\clsBankAccountManager.cs" />
+    <Compile Include="Reports\crAccountTransactions.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crAccountTransactions.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\crClientCommission.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crClientCommission.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\crClientHoldingStock.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crClientHoldingStock.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\crDayClosing.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crDayClosing.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\crOpenOrders.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crOpenOrders.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\crOpenPositionReport.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crOpenPositionReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\crStockLevel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crStockLevel.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Reports\crTrades.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crTrades.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Service References\BOEngineServiceTCP\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\ReportService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlAccountTransactions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlAccountTransactions.Designer.cs">
+      <DependentUpon>uctlAccountTransactions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlClosingPriceChild.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlClosingPriceChild.Designer.cs">
+      <DependentUpon>uctlClosingPriceChild.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlAccountConnectionSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlAccountConnectionSettings.designer.cs">
+      <DependentUpon>uctlAccountConnectionSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlAccountMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlAccountMain.Designer.cs">
+      <DependentUpon>uctlAccountMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlAccountPersonal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlAccountPersonal.Designer.cs">
+      <DependentUpon>uctlAccountPersonal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlAccounts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlAccounts.Designer.cs">
+      <DependentUpon>uctlAccounts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlBrokers.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlBrokers.Designer.cs">
+      <DependentUpon>uctlBrokers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlBrokersCharges.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlBrokersCharges.Designer.cs">
+      <DependentUpon>uctlBrokersCharges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlBrokersChild.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlBrokersChild.Designer.cs">
+      <DependentUpon>uctlBrokersChild.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlChangePassword.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlChangePassword.Designer.cs">
+      <DependentUpon>uctlChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlCollateralMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlCollateralMain.Designer.cs">
+      <DependentUpon>uctlCollateralMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlCollateralTransactionHistory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlCollateralTransactionHistory.Designer.cs">
+      <DependentUpon>uctlCollateralTransactionHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlCommonSetting.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlCommonSetting.designer.cs">
+      <DependentUpon>uctlCommonSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlCustomSessionSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlCustomSessionSettings.Designer.cs">
+      <DependentUpon>uctlCustomSessionSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlCustomSessionSettingsNew.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlCustomSessionSettingsNew.designer.cs">
+      <DependentUpon>uctlCustomSessionSettingsNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlDelete.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlDelete.Designer.cs">
+      <DependentUpon>uctlDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlEditAccountDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlEditAccountDetail.Designer.cs">
+      <DependentUpon>uctlEditAccountDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlEditAccountTransactions.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlEditAccountTransactions.designer.cs">
+      <DependentUpon>uctlEditAccountTransactions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlEditAccountTransChild.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlEditAccountTransChild.Designer.cs">
+      <DependentUpon>uctlEditAccountTransChild.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlEditBankDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlEditBankDetail.Designer.cs">
+      <DependentUpon>uctlEditBankDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlEditBrokersCollateralInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlEditBrokersCollateralInfo.Designer.cs">
+      <DependentUpon>uctlEditBrokersCollateralInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlFeesMaster.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlFeesMaster.designer.cs">
+      <DependentUpon>uctlFeesMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlFeesMasterMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlFeesMasterMain.Designer.cs">
+      <DependentUpon>uctlFeesMasterMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlFind.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlFind.Designer.cs">
+      <DependentUpon>uctlFind.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlForceLogOut.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlForceLogOut.Designer.cs">
+      <DependentUpon>uctlForceLogOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlGatewayMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlGatewayMain.Designer.cs">
+      <DependentUpon>uctlGatewayMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlGateway.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlGateway.Designer.cs">
+      <DependentUpon>uctlGateway.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlGeneric.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlGeneric.designer.cs">
+      <DependentUpon>uctlGeneric.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlHolidays.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlHolidays.designer.cs">
+      <DependentUpon>uctlHolidays.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlHolidaysMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlHolidaysMain.designer.cs">
+      <DependentUpon>uctlHolidaysMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlInstrumentClosingPrice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlInstrumentClosingPrice.Designer.cs">
+      <DependentUpon>uctlInstrumentClosingPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlIpAccess.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlIpAccess.designer.cs">
+      <DependentUpon>uctlIpAccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlIPAccessLstMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlIPAccessLstMain.designer.cs">
+      <DependentUpon>uctlIPAccessLstMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlMapOrders.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlMapOrders.Designer.cs">
+      <DependentUpon>uctlMapOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlOperationsLog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlOperationsLog.Designer.cs">
+      <DependentUpon>uctlOperationsLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlOrder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlOrder.designer.cs">
+      <DependentUpon>uctlOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlOrderMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlOrderMain.designer.cs">
+      <DependentUpon>uctlOrderMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlProductContracts.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlProductContracts.Designer.cs">
+      <DependentUpon>uctlProductContracts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlContractInformation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlContractInformation.designer.cs">
+      <DependentUpon>uctlContractInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlSymbolChildSession.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlSymbolChildSession.designer.cs">
+      <DependentUpon>uctlSymbolChildSession.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlSymbolMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlSymbolMain.designer.cs">
+      <DependentUpon>uctlSymbolMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlTaxMaster.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlTaxMaster.designer.cs">
+      <DependentUpon>uctlTaxMaster.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlTaxMasterMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlTaxMasterMain.Designer.cs">
+      <DependentUpon>uctlTaxMasterMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlTickChild.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlTickChild.Designer.cs">
+      <DependentUpon>uctlTickChild.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlTickManagerMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlTickManagerMain.Designer.cs">
+      <DependentUpon>uctlTickManagerMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlTime.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlTime.designer.cs">
+      <DependentUpon>uctlTime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlTimeMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlTimeMain.designer.cs">
+      <DependentUpon>uctlTimeMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlTimeNew.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlTimeNew.Designer.cs">
+      <DependentUpon>uctlTimeNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlTradeMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlTradeMain.Designer.cs">
+      <DependentUpon>uctlTradeMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlTradeModify.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlTradeModify.Designer.cs">
+      <DependentUpon>uctlTradeModify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlTradeNew.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlTradeNew.Designer.cs">
+      <DependentUpon>uctlTradeNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlTrades.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlTrades.Designer.cs">
+      <DependentUpon>uctlTrades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlTradeSettle.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlTradeSettle.Designer.cs">
+      <DependentUpon>uctlTradeSettle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlTradesMain.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlTradesMain.Designer.cs">
+      <DependentUpon>uctlTradesMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlVirtualDealer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlVirtualDealer.designer.cs">
+      <DependentUpon>uctlVirtualDealer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uctl\uctlVirtualDealerChild.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Uctl\uctlVirtualDealerChild.designer.cs">
+      <DependentUpon>uctlVirtualDealerChild.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\brokerstrip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\charges-strip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\exchanges-strip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\file-strip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\tools-strip-20-by-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\windowstrip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\trade-strip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Images\splash-8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\BOEngineServiceTCP\" />
+    <WCFMetadataStorage Include="Service References\ReportService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DS\DS4Trade.xsc">
+      <DependentUpon>DS4Trade.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4Trade.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4Trade.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DS\DS4Trade.xss">
+      <DependentUpon>DS4Trade.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BOEngineServiceTCP\Arrays.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BOEngineServiceTCP\Arrays1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BOEngineServiceTCP\BOEngine1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BOEngineServiceTCP\BOEngineServiceClasses.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BOEngineServiceTCP\BOEngineServiceClasses1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BOEngineServiceTCP\service.wsdl" />
+    <None Include="Service References\BOEngineServiceTCP\service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BOEngineServiceTCP\service1.wsdl" />
+    <None Include="Service References\BOEngineServiceTCP\service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BOEngineServiceTCP\service2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BOEngineServiceTCP\service3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BOEngineServiceTCP\service4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\BOEngineServiceTCP\service5.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\ReportService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\ReportService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DS\DS4ClientComm.xsc">
+      <DependentUpon>DS4ClientComm.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4ClientComm.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4ClientComm.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS\DS4ClientComm.xss">
+      <DependentUpon>DS4ClientComm.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4ClientHoldingStock.xsc">
+      <DependentUpon>DS4ClientHoldingStock.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4ClientHoldingStock.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4ClientHoldingStock.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS\DS4ClientHoldingStock.xss">
+      <DependentUpon>DS4ClientHoldingStock.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4MarginReports.xsc">
+      <DependentUpon>DS4MarginReports.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4MarginReports.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4MarginReports.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS\DS4MarginReports.xss">
+      <DependentUpon>DS4MarginReports.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4NewClientInfo.xsc">
+      <DependentUpon>DS4NewClientInfo.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4NewClientInfo.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4NewClientInfo.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS\DS4NewClientInfo.xss">
+      <DependentUpon>DS4NewClientInfo.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4Order.xsc">
+      <DependentUpon>DS4Order.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4Order.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4Order.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS\DS4Order.xss">
+      <DependentUpon>DS4Order.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4StockLevel.xsc">
+      <DependentUpon>DS4StockLevel.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4StockLevel.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4StockLevel.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS\DS4StockLevel.xss">
+      <DependentUpon>DS4StockLevel.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4TopTradedInst.xsc">
+      <DependentUpon>DS4TopTradedInst.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4TopTradedInst.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4TopTradedInst.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS\DS4TopTradedInst.xss">
+      <DependentUpon>DS4TopTradedInst.xsd</DependentUpon>
+    </None>
+    <None Include="Service References\ReportService\BOADMIN_NEW.ReportService.clsClientHoldingStock.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ReportService\BOADMIN_NEW.ReportService.clsMarginReports.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ReportService\BOADMIN_NEW.ReportService.clsNewClientInfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ReportService\BOADMIN_NEW.ReportService.clsStockLevel.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ReportService\BOADMIN_NEW.ReportService.clsTopTradedInstruments.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ReportService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\ReportService\ReportServiceClasses1.xsd" />
+    <None Include="Service References\ReportService\ReportServiceClasses11.xsd" />
+    <None Include="Service References\ReportService\ReportServiceClasses12.xsd" />
+    <None Include="Service References\ReportService\ReportServiceClasses13.xsd" />
+    <None Include="Service References\ReportService\service1.wsdl" />
+    <None Include="Service References\ReportService\service11.wsdl" />
+    <None Include="Service References\ReportService\service12.wsdl" />
+    <None Include="Service References\ReportService\service13.wsdl" />
+    <None Include="Service References\ReportService\service2.xsd" />
+    <None Include="Service References\ReportService\service21.xsd" />
+    <None Include="Service References\ReportService\service22.xsd" />
+    <None Include="Service References\ReportService\service23.xsd" />
+    <None Include="Service References\ReportService\service24.xsd" />
+    <None Include="Service References\ReportService\service25.xsd" />
+    <None Include="Service References\ReportService\service26.xsd" />
+    <None Include="Service References\ReportService\service27.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DS\DS4AccountTrans.xsc">
+      <DependentUpon>DS4AccountTrans.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4AccountTrans.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4AccountTrans.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS\DS4AccountTrans.xss">
+      <DependentUpon>DS4AccountTrans.xsd</DependentUpon>
+    </None>
+    <None Include="Service References\ReportService\Arrays.xsd" />
+    <None Include="Service References\ReportService\BOADMIN_NEW.ReportService.clsAccountTrans.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ReportService\BOADMIN_NEW.ReportService.clsClientCommission.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ReportService\BOADMIN_NEW.ReportService.clsOrderReport.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ReportService\BOADMIN_NEW.ReportService.clsReportsMasterInfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ReportService\BOADMIN_NEW.ReportService.clsTradeReport.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ReportService\ReportServiceClasses14.xsd" />
+    <None Include="Service References\ReportService\service14.wsdl" />
+    <None Include="Service References\ReportService\service28.xsd" />
+    <None Include="Service References\ReportService\service29.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+    <None Include="Service References\ReportService\Arrays1.xsd" />
+    <None Include="Service References\ReportService\BOADMIN_NEW.ReportService.clsDayClosing.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ReportService\ReportServiceClasses2.xsd" />
+    <None Include="Service References\ReportService\service2.wsdl" />
+    <None Include="Service References\ReportService\service3.xsd" />
+    <None Include="Service References\ReportService\service4.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\downarrow.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DS\DS4DayClosingReport.xsc">
+      <DependentUpon>DS4DayClosingReport.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4DayClosingReport.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4DayClosingReport.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS\DS4DayClosingReport.xss">
+      <DependentUpon>DS4DayClosingReport.xsd</DependentUpon>
+    </None>
+    <None Include="Service References\ReportService\Arrays2.xsd" />
+    <None Include="Service References\ReportService\BOADMIN_NEW.ReportService.clsDayClosing.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\ReportService\ReportServiceClasses15.xsd" />
+    <None Include="Service References\ReportService\service15.wsdl" />
+    <None Include="Service References\ReportService\service210.xsd" />
+    <None Include="Service References\ReportService\service211.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DS\DS4OpenPosition.xsc">
+      <DependentUpon>DS4OpenPosition.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4OpenPosition.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4OpenPosition.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS\DS4OpenPosition.xss">
+      <DependentUpon>DS4OpenPosition.xsd</DependentUpon>
+    </None>
+    <None Include="Images\Splash.png" />
+    <None Include="Resources\favicon.ico" />
+    <None Include="DS\DS4EditAccountTrans.xsc">
+      <DependentUpon>DS4EditAccountTrans.xsd</DependentUpon>
+    </None>
+    <None Include="DS\DS4EditAccountTrans.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS4EditAccountTrans.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS\DS4EditAccountTrans.xss">
+      <DependentUpon>DS4EditAccountTrans.xsd</DependentUpon>
+    </None>
+    <None Include="Service References\ReportService\Arrays3.xsd" />
+    <None Include="Service References\ReportService\Arrays4.xsd" />
+    <None Include="Service References\ReportService\ReportServiceClasses16.xsd" />
+    <None Include="Service References\ReportService\service16.wsdl" />
+    <None Include="Service References\ReportService\service212.xsd" />
+    <None Include="Service References\ReportService\service213.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+    <Content Include="LogSetting.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Service References\BOEngineServiceTCP\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\BOEngineServiceTCP\configuration.svcinfo" />
+    <None Include="Service References\BOEngineServiceTCP\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PS\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

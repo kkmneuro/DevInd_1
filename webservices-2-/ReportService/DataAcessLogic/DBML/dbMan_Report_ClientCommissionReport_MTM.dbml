@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="BOExchange_NG" Class="dbMan_Report_ClientCommissionReport_MTMDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=BOExchange_NG;Integrated Security=True" SettingsObjectName="DataAcessLogic.Properties.Settings" SettingsPropertyName="BOExchange_NGConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.Report_ClientCommissionReport_MTM" Method="Report_ClientCommissionReport_MTM">
+    <Parameter Name="AccountID" Parameter="accountID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="FromDatetime" Parameter="fromDatetime" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="Symbol" Parameter="symbol" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="BrokerID" Parameter="brokerID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ParentBrokerID" Parameter="parentBrokerID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ToDatetime" Parameter="toDatetime" Type="System.DateTime" DbType="DateTime" />
+    <ElementType Name="Report_ClientCommissionReport_MTMResult">
+      <Column Name="FK_AccountID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Symbol" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="DateTime" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="BuyQty" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="BuyValue" Type="System.Decimal" DbType="Decimal(0,0) NOT NULL" CanBeNull="false" />
+      <Column Name="BuyAvg" Type="System.Decimal" DbType="Decimal(0,0) NOT NULL" CanBeNull="false" />
+      <Column Name="SellQty" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SellValue" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="SellAvg" Type="System.Decimal" DbType="Decimal(0,0) NOT NULL" CanBeNull="false" />
+      <Column Name="NetQty" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SqrQty" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="NetValue" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="NetAvgPrice" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="MarketCapitaliz" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="GrossPL" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="Commission" Type="System.Decimal" DbType="Decimal(0,0) NOT NULL" CanBeNull="false" />
+      <Column Name="Tax" Type="System.Decimal" DbType="Decimal(0,0) NOT NULL" CanBeNull="false" />
+      <Column Name="NetPL" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="BrokerId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

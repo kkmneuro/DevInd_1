@@ -1,0 +1,2191 @@
+0	2016.08.23 11:18:29.656		MetaTrader 4 Manager API build 910 initialized
+0	2016.08.23 11:18:29.935		MetaTrader 4 Manager API build 910 initialized
+0	2016.08.23 11:18:30.390	74.201.176.48:443	Connect
+0	2016.08.23 11:18:30.709	74.201.176.48:443	Connect
+0	2016.08.23 11:18:33.172	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 11:18:33.964	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 11:18:34.308	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 11:18:35.587	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 11:18:36.842	74.201.176.48:443	'7': pumping mode started
+3	2016.08.23 11:18:37.368	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:37.713	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:38.044	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:38.352	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:38.678	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:39.011	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:39.317	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:39.641	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:39.948	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:40.255	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:40.555	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:40.871	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:41.204	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:41.542	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:41.866	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:42.190	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:42.530	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:42.839	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:43.191	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:43.519	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:43.835	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:44.214	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:44.585	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:44.986	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:45.300	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:45.670	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:46.056	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:46.466	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:46.823	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:47.170	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:47.505	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:47.836	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:48.146	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:48.462	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:48.768	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:49.103	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:49.435	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:49.752	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:50.068	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:50.438	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:50.770	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:51.108	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:51.415	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:51.709	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:52.041	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:52.373	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:52.716	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:53.042	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:53.421	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:53.781	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:54.127	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:54.489	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:54.859	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:55.207	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:55.512	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:55.834	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:56.147	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:56.493	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:56.841	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:57.157	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:57.477	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:57.842	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:58.187	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:58.509	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:58.814	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:59.135	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:59.430	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:18:59.762	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:00.101	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:00.420	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:00.733	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:01.039	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:01.340	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:01.656	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:02.026	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:02.342	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:02.643	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:02.959	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:03.291	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:03.645	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:03.999	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:04.363	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:04.679	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:05.018	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:05.334	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:05.650	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:05.951	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:06.268	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:06.683	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:07.020	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:07.342	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:07.676	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:07.986	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:08.318	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:08.624	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:08.959	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:09.327	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:10.094	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:10.401	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:10.719	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:11.032	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:11.343	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:11.681	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:12.026	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:12.365	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:12.681	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:13.006	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:13.348	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:13.668	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:13.974	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:14.269	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:14.601	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:14.939	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:15.271	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:15.619	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:15.972	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:16.284	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:16.600	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:16.923	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:17.224	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:17.540	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:17.857	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:18.189	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:18.489	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:18.806	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:19.138	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:19.445	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:19.752	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:20.107	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:20.445	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:20.792	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:21.109	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:21.431	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:21.779	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:22.117	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:22.448	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:22.755	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:23.090	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:23.396	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:23.701	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:24.007	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:24.303	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:24.625	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:24.927	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:25.261	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:25.567	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:25.872	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:26.182	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:26.489	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:26.795	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:27.101	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:27.411	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:27.753	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:28.673	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:28.981	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:29.292	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:29.602	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:29.928	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:30.245	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:30.568	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:30.882	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:31.200	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:31.528	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:31.865	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:32.166	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:32.513	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:32.833	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:33.137	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:33.438	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:33.751	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:34.067	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:34.380	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:34.686	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:34.991	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:35.299	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:35.641	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:35.949	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:36.256	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:36.580	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:37.326	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:37.652	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:37.953	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:38.290	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:38.590	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:38.891	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:39.208	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:39.526	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:39.832	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 11:19:40.138	74.201.176.48:443	'7': request ticks (Invalid parameters)
+1	2016.08.23 11:19:40.450	74.201.176.48:443	'7': request ticks for 'EURUSD' (0 ticks) (OK/None)
+1	2016.08.23 11:19:40.759	74.201.176.48:443	'7': request ticks for 'USDJPY' (0 ticks) (OK/None)
+1	2016.08.23 11:19:41.065	74.201.176.48:443	'7': request ticks for 'GBPUSD' (0 ticks) (OK/None)
+1	2016.08.23 11:19:41.371	74.201.176.48:443	'7': request ticks for 'EURCHF' (0 ticks) (OK/None)
+1	2016.08.23 11:19:41.676	74.201.176.48:443	'7': request ticks for 'AUDUSD' (0 ticks) (OK/None)
+1	2016.08.23 11:19:41.982	74.201.176.48:443	'7': request ticks for 'EURGBP' (0 ticks) (OK/None)
+1	2016.08.23 11:19:42.294	74.201.176.48:443	'7': request ticks for 'NZDUSD' (0 ticks) (OK/None)
+1	2016.08.23 11:19:42.599	74.201.176.48:443	'7': request ticks for 'USDCAD' (0 ticks) (OK/None)
+1	2016.08.23 11:19:42.900	74.201.176.48:443	'7': request ticks for 'USDCHF' (0 ticks) (OK/None)
+1	2016.08.23 11:19:43.628	74.201.176.48:443	'7': request ticks for 'EURJPY' (0 ticks) (OK/None)
+1	2016.08.23 11:19:44.934	74.201.176.48:443	'7': request ticks for 'AUDCAD' (0 ticks) (OK/None)
+1	2016.08.23 11:19:45.250	74.201.176.48:443	'7': request ticks for 'AUDCHF' (0 ticks) (OK/None)
+1	2016.08.23 11:19:45.639	74.201.176.48:443	'7': request ticks for 'AUDJPY' (0 ticks) (OK/None)
+1	2016.08.23 11:19:45.963	74.201.176.48:443	'7': request ticks for 'AUDSGD' (0 ticks) (OK/None)
+1	2016.08.23 11:19:46.263	74.201.176.48:443	'7': request ticks for 'CADCHF' (0 ticks) (OK/None)
+1	2016.08.23 11:19:46.579	74.201.176.48:443	'7': request ticks for 'CHFJPY' (0 ticks) (OK/None)
+1	2016.08.23 11:19:46.885	74.201.176.48:443	'7': request ticks for 'AUDNZD' (0 ticks) (OK/None)
+1	2016.08.23 11:19:47.185	74.201.176.48:443	'7': request ticks for 'CADJPY' (0 ticks) (OK/None)
+1	2016.08.23 11:19:47.485	74.201.176.48:443	'7': request ticks for 'NOKSEK' (0 ticks) (OK/None)
+1	2016.08.23 11:19:47.805	74.201.176.48:443	'7': request ticks for 'NZDCAD' (0 ticks) (OK/None)
+1	2016.08.23 11:19:48.110	74.201.176.48:443	'7': request ticks for 'NZDCHF' (0 ticks) (OK/None)
+1	2016.08.23 11:19:48.419	74.201.176.48:443	'7': request ticks for 'NZDJPY' (0 ticks) (OK/None)
+1	2016.08.23 11:19:48.725	74.201.176.48:443	'7': request ticks for 'SGDJPY' (0 ticks) (OK/None)
+1	2016.08.23 11:19:49.036	74.201.176.48:443	'7': request ticks for 'USDSGD' (0 ticks) (OK/None)
+1	2016.08.23 11:19:49.342	74.201.176.48:443	'7': request ticks for 'EURAUD' (0 ticks) (OK/None)
+1	2016.08.23 11:19:49.652	74.201.176.48:443	'7': request ticks for 'EURCAD' (0 ticks) (OK/None)
+1	2016.08.23 11:19:49.958	74.201.176.48:443	'7': request ticks for 'EURNZD' (0 ticks) (OK/None)
+1	2016.08.23 11:19:50.266	74.201.176.48:443	'7': request ticks for 'GBPCHF' (0 ticks) (OK/None)
+1	2016.08.23 11:19:50.575	74.201.176.48:443	'7': request ticks for 'CHFSGD' (0 ticks) (OK/None)
+1	2016.08.23 11:19:50.881	74.201.176.48:443	'7': request ticks for 'GBPAUD' (0 ticks) (OK/None)
+1	2016.08.23 11:19:51.187	74.201.176.48:443	'7': request ticks for 'GBPCAD' (0 ticks) (OK/None)
+1	2016.08.23 11:19:51.480	74.201.176.48:443	'7': request ticks for 'GBPJPY' (0 ticks) (OK/None)
+1	2016.08.23 11:19:51.803	74.201.176.48:443	'7': request ticks for 'GBPSGD' (0 ticks) (OK/None)
+1	2016.08.23 11:19:52.110	74.201.176.48:443	'7': request ticks for 'GBPNZD' (0 ticks) (OK/None)
+1	2016.08.23 11:19:52.416	74.201.176.48:443	'7': request ticks for 'USDCZK' (0 ticks) (OK/None)
+1	2016.08.23 11:19:52.722	74.201.176.48:443	'7': request ticks for 'USDTRY' (0 ticks) (OK/None)
+1	2016.08.23 11:19:53.029	74.201.176.48:443	'7': request ticks for 'EURSGD' (0 ticks) (OK/None)
+1	2016.08.23 11:19:53.331	74.201.176.48:443	'7': request ticks for 'EURCZK' (0 ticks) (OK/None)
+1	2016.08.23 11:19:53.632	74.201.176.48:443	'7': request ticks for 'EURTRY' (0 ticks) (OK/None)
+1	2016.08.23 11:19:53.947	74.201.176.48:443	'7': request ticks for 'USDPLN' (0 ticks) (OK/None)
+1	2016.08.23 11:19:54.256	74.201.176.48:443	'7': request ticks for 'EURPLN' (0 ticks) (OK/None)
+1	2016.08.23 11:19:54.567	74.201.176.48:443	'7': request ticks for 'GBPTRY' (0 ticks) (OK/None)
+1	2016.08.23 11:19:54.878	74.201.176.48:443	'7': request ticks for 'USDDKK' (0 ticks) (OK/None)
+1	2016.08.23 11:19:55.190	74.201.176.48:443	'7': request ticks for 'USDNOK' (0 ticks) (OK/None)
+1	2016.08.23 11:19:55.498	74.201.176.48:443	'7': request ticks for 'USDSEK' (0 ticks) (OK/None)
+1	2016.08.23 11:19:55.803	74.201.176.48:443	'7': request ticks for 'EURDKK' (0 ticks) (OK/None)
+1	2016.08.23 11:19:56.225	74.201.176.48:443	'7': request ticks for 'USDHKD' (0 ticks) (OK/None)
+1	2016.08.23 11:19:56.552	74.201.176.48:443	'7': request ticks for 'EURNOK' (0 ticks) (OK/None)
+1	2016.08.23 11:19:56.859	74.201.176.48:443	'7': request ticks for 'EURSEK' (0 ticks) (OK/None)
+1	2016.08.23 11:19:57.347	74.201.176.48:443	'7': request ticks for 'XAGUSD' (0 ticks) (OK/None)
+1	2016.08.23 11:19:58.080	74.201.176.48:443	'7': request ticks for 'XAUUSD' (0 ticks) (OK/None)
+1	2016.08.23 11:19:58.387	74.201.176.48:443	'7': request ticks for 'EURHKD.' (0 ticks) (OK/None)
+1	2016.08.23 11:19:58.685	74.201.176.48:443	'7': request ticks for 'USDZAR.' (0 ticks) (OK/None)
+1	2016.08.23 11:19:58.989	74.201.176.48:443	'7': request ticks for 'USDCNH.' (0 ticks) (OK/None)
+1	2016.08.23 11:19:59.303	74.201.176.48:443	'7': request ticks for 'USDMXN.' (0 ticks) (OK/None)
+1	2016.08.23 11:19:59.615	74.201.176.48:443	'7': request ticks for 'USDTHB.' (0 ticks) (OK/None)
+1	2016.08.23 11:19:59.922	74.201.176.48:443	'7': request ticks for 'ZARJPY.' (0 ticks) (OK/None)
+1	2016.08.23 11:20:00.229	74.201.176.48:443	'7': request ticks for 'GBPNOK.' (0 ticks) (OK/None)
+1	2016.08.23 11:20:00.542	74.201.176.48:443	'7': request ticks for 'GBPSEK.' (0 ticks) (OK/None)
+1	2016.08.23 11:20:00.847	74.201.176.48:443	'7': request ticks for 'NOKJPY.' (0 ticks) (OK/None)
+1	2016.08.23 11:20:01.142	74.201.176.48:443	'7': request ticks for 'XPTUSD.' (0 ticks) (OK/None)
+1	2016.08.23 11:20:01.467	74.201.176.48:443	'7': request ticks for 'XPDUSD.' (0 ticks) (OK/None)
+1	2016.08.23 11:20:01.781	74.201.176.48:443	'7': request ticks for 'XAUEUR.' (0 ticks) (OK/None)
+1	2016.08.23 11:20:02.115	74.201.176.48:443	'7': request ticks for 'EURUSD' (0 ticks) (OK/None)
+1	2016.08.23 11:20:02.421	74.201.176.48:443	'7': request ticks for 'USDJPY' (0 ticks) (OK/None)
+1	2016.08.23 11:20:02.731	74.201.176.48:443	'7': request ticks for 'GBPUSD' (0 ticks) (OK/None)
+1	2016.08.23 11:20:03.032	74.201.176.48:443	'7': request ticks for 'EURCHF' (0 ticks) (OK/None)
+1	2016.08.23 11:20:03.343	74.201.176.48:443	'7': request ticks for 'AUDUSD' (0 ticks) (OK/None)
+1	2016.08.23 11:20:03.649	74.201.176.48:443	'7': request ticks for 'EURGBP' (0 ticks) (OK/None)
+1	2016.08.23 11:20:03.958	74.201.176.48:443	'7': request ticks for 'NZDUSD' (0 ticks) (OK/None)
+1	2016.08.23 11:20:04.270	74.201.176.48:443	'7': request ticks for 'USDCAD' (0 ticks) (OK/None)
+1	2016.08.23 11:20:04.576	74.201.176.48:443	'7': request ticks for 'USDCHF' (0 ticks) (OK/None)
+1	2016.08.23 11:20:05.417	74.201.176.48:443	'7': request ticks for 'EURJPY' (0 ticks) (OK/None)
+1	2016.08.23 11:20:05.733	74.201.176.48:443	'7': request ticks for 'AUDCAD' (0 ticks) (OK/None)
+1	2016.08.23 11:20:06.075	74.201.176.48:443	'7': request ticks for 'AUDCHF' (0 ticks) (OK/None)
+1	2016.08.23 11:20:06.791	74.201.176.48:443	'7': request ticks for 'AUDJPY' (0 ticks) (OK/None)
+1	2016.08.23 11:20:07.100	74.201.176.48:443	'7': request ticks for 'AUDSGD' (0 ticks) (OK/None)
+1	2016.08.23 11:20:07.420	74.201.176.48:443	'7': request ticks for 'CADCHF' (0 ticks) (OK/None)
+1	2016.08.23 11:20:07.752	74.201.176.48:443	'7': request ticks for 'CHFJPY' (0 ticks) (OK/None)
+1	2016.08.23 11:20:08.053	74.201.176.48:443	'7': request ticks for 'AUDNZD' (0 ticks) (OK/None)
+1	2016.08.23 11:20:08.372	74.201.176.48:443	'7': request ticks for 'CADJPY' (0 ticks) (OK/None)
+1	2016.08.23 11:20:08.677	74.201.176.48:443	'7': request ticks for 'NOKSEK' (0 ticks) (OK/None)
+1	2016.08.23 11:20:08.986	74.201.176.48:443	'7': request ticks for 'NZDCAD' (0 ticks) (OK/None)
+1	2016.08.23 11:20:09.292	74.201.176.48:443	'7': request ticks for 'NZDCHF' (0 ticks) (OK/None)
+1	2016.08.23 11:20:09.612	74.201.176.48:443	'7': request ticks for 'NZDJPY' (0 ticks) (OK/None)
+1	2016.08.23 11:20:09.929	74.201.176.48:443	'7': request ticks for 'SGDJPY' (0 ticks) (OK/None)
+1	2016.08.23 11:20:10.254	74.201.176.48:443	'7': request ticks for 'USDSGD' (0 ticks) (OK/None)
+1	2016.08.23 11:20:10.560	74.201.176.48:443	'7': request ticks for 'EURAUD' (0 ticks) (OK/None)
+1	2016.08.23 11:20:10.866	74.201.176.48:443	'7': request ticks for 'EURCAD' (0 ticks) (OK/None)
+1	2016.08.23 11:20:11.236	74.201.176.48:443	'7': request ticks for 'EURNZD' (0 ticks) (OK/None)
+1	2016.08.23 11:20:11.531	74.201.176.48:443	'7': request ticks for 'GBPCHF' (0 ticks) (OK/None)
+1	2016.08.23 11:20:11.848	74.201.176.48:443	'7': request ticks for 'CHFSGD' (0 ticks) (OK/None)
+1	2016.08.23 11:20:12.157	74.201.176.48:443	'7': request ticks for 'GBPAUD' (0 ticks) (OK/None)
+1	2016.08.23 11:20:12.476	74.201.176.48:443	'7': request ticks for 'GBPCAD' (0 ticks) (OK/None)
+1	2016.08.23 11:20:12.830	74.201.176.48:443	'7': request ticks for 'GBPJPY' (0 ticks) (OK/None)
+1	2016.08.23 11:20:13.139	74.201.176.48:443	'7': request ticks for 'GBPSGD' (0 ticks) (OK/None)
+1	2016.08.23 11:20:13.449	74.201.176.48:443	'7': request ticks for 'GBPNZD' (0 ticks) (OK/None)
+1	2016.08.23 11:20:13.758	74.201.176.48:443	'7': request ticks for 'USDCZK' (0 ticks) (OK/None)
+1	2016.08.23 11:20:14.067	74.201.176.48:443	'7': request ticks for 'USDTRY' (0 ticks) (OK/None)
+1	2016.08.23 11:20:14.359	74.201.176.48:443	'7': request ticks for 'EURSGD' (0 ticks) (OK/None)
+1	2016.08.23 11:20:14.675	74.201.176.48:443	'7': request ticks for 'EURCZK' (0 ticks) (OK/None)
+1	2016.08.23 11:20:14.984	74.201.176.48:443	'7': request ticks for 'EURTRY' (0 ticks) (OK/None)
+1	2016.08.23 11:20:15.290	74.201.176.48:443	'7': request ticks for 'USDPLN' (0 ticks) (OK/None)
+1	2016.08.23 11:20:15.596	74.201.176.48:443	'7': request ticks for 'EURPLN' (0 ticks) (OK/None)
+1	2016.08.23 11:20:15.902	74.201.176.48:443	'7': request ticks for 'GBPTRY' (0 ticks) (OK/None)
+1	2016.08.23 11:20:16.208	74.201.176.48:443	'7': request ticks for 'USDDKK' (0 ticks) (OK/None)
+1	2016.08.23 11:20:16.514	74.201.176.48:443	'7': request ticks for 'USDNOK' (0 ticks) (OK/None)
+1	2016.08.23 11:20:16.812	74.201.176.48:443	'7': request ticks for 'USDSEK' (0 ticks) (OK/None)
+1	2016.08.23 11:20:17.126	74.201.176.48:443	'7': request ticks for 'EURDKK' (0 ticks) (OK/None)
+1	2016.08.23 11:20:17.433	74.201.176.48:443	'7': request ticks for 'USDHKD' (0 ticks) (OK/None)
+1	2016.08.23 11:20:17.741	74.201.176.48:443	'7': request ticks for 'EURNOK' (0 ticks) (OK/None)
+1	2016.08.23 11:20:18.049	74.201.176.48:443	'7': request ticks for 'EURSEK' (0 ticks) (OK/None)
+1	2016.08.23 11:20:18.362	74.201.176.48:443	'7': request ticks for 'XAGUSD' (0 ticks) (OK/None)
+1	2016.08.23 11:20:18.667	74.201.176.48:443	'7': request ticks for 'XAUUSD' (0 ticks) (OK/None)
+1	2016.08.23 11:20:18.973	74.201.176.48:443	'7': request ticks for 'EURHKD.' (0 ticks) (OK/None)
+1	2016.08.23 11:20:19.278	74.201.176.48:443	'7': request ticks for 'USDZAR.' (0 ticks) (OK/None)
+1	2016.08.23 11:20:19.584	74.201.176.48:443	'7': request ticks for 'USDCNH.' (0 ticks) (OK/None)
+1	2016.08.23 11:20:19.890	74.201.176.48:443	'7': request ticks for 'USDMXN.' (0 ticks) (OK/None)
+1	2016.08.23 11:20:20.195	74.201.176.48:443	'7': request ticks for 'USDTHB.' (0 ticks) (OK/None)
+1	2016.08.23 11:20:20.501	74.201.176.48:443	'7': request ticks for 'ZARJPY.' (0 ticks) (OK/None)
+1	2016.08.23 11:20:20.872	74.201.176.48:443	'7': request ticks for 'GBPNOK.' (0 ticks) (OK/None)
+1	2016.08.23 11:20:21.178	74.201.176.48:443	'7': request ticks for 'GBPSEK.' (0 ticks) (OK/None)
+1	2016.08.23 11:20:21.484	74.201.176.48:443	'7': request ticks for 'NOKJPY.' (0 ticks) (OK/None)
+1	2016.08.23 11:20:21.854	74.201.176.48:443	'7': request ticks for 'XPTUSD.' (0 ticks) (OK/None)
+1	2016.08.23 11:20:22.191	74.201.176.48:443	'7': request ticks for 'XPDUSD.' (0 ticks) (OK/None)
+1	2016.08.23 11:20:22.497	74.201.176.48:443	'7': request ticks for 'XAUEUR.' (0 ticks) (OK/None)
+0	2016.08.23 11:33:25.716	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 11:33:30.707	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 11:33:30.708	74.201.176.48:443	'7': disconnect
+0	2016.08.23 11:33:30.993	74.201.176.48:443	Connect
+0	2016.08.23 11:33:31.366	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 11:33:31.654	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 11:33:32.864	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 11:33:34.012	74.201.176.48:443	'7': pumping mode started
+2	2016.08.23 11:39:06.741	74.201.176.48:443	'7': pumping ping (Common error)
+0	2016.08.23 11:39:06.742	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 11:39:07.171	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 11:39:07.171	74.201.176.48:443	'7': disconnect
+0	2016.08.23 11:39:07.456	74.201.176.48:443	Connect
+0	2016.08.23 11:39:07.857	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 11:39:08.158	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 11:39:09.390	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 11:39:10.587	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 11:45:03.869	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 11:45:08.823	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 11:45:08.823	74.201.176.48:443	'7': disconnect
+0	2016.08.23 11:45:09.091	74.201.176.48:443	Connect
+0	2016.08.23 11:45:09.477	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 11:45:09.758	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 11:45:10.899	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 11:45:12.035	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 11:51:05.512	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 11:51:10.466	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 11:51:10.466	74.201.176.48:443	'7': disconnect
+0	2016.08.23 11:51:10.745	74.201.176.48:443	Connect
+0	2016.08.23 11:51:11.118	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 11:51:11.396	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 11:51:12.538	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 11:51:13.639	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 11:56:16.803	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 11:56:21.774	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 11:56:21.774	74.201.176.48:443	'7': disconnect
+0	2016.08.23 11:56:22.058	74.201.176.48:443	Connect
+0	2016.08.23 11:56:22.444	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 11:56:22.729	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 11:56:24.558	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 11:56:25.722	74.201.176.48:443	'7': pumping mode started
+2	2016.08.23 11:59:28.949	74.201.176.48:443	'7': pumping ping (Common error)
+0	2016.08.23 11:59:28.949	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 11:59:33.091	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 11:59:33.091	74.201.176.48:443	'7': disconnect
+0	2016.08.23 11:59:33.411	74.201.176.48:443	Connect
+0	2016.08.23 11:59:33.815	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 11:59:34.119	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 11:59:35.380	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 11:59:36.614	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 12:02:19.455	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 12:02:24.445	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 12:02:24.445	74.201.176.48:443	'7': disconnect
+0	2016.08.23 12:02:24.730	74.201.176.48:443	Connect
+0	2016.08.23 12:02:25.116	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 12:02:25.417	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 12:02:26.620	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 12:02:27.821	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 12:05:10.493	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 12:05:15.486	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 12:05:15.486	74.201.176.48:443	'7': disconnect
+0	2016.08.23 12:05:15.765	74.201.176.48:443	Connect
+0	2016.08.23 12:05:16.143	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 12:05:16.422	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 12:05:17.559	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 12:05:18.677	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 12:07:26.534	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 12:07:31.516	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 12:07:31.516	74.201.176.48:443	'7': disconnect
+0	2016.08.23 12:07:31.799	74.201.176.48:443	Connect
+0	2016.08.23 12:07:32.181	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 12:07:32.467	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 12:07:33.653	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 12:07:34.801	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 12:10:47.556	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 12:10:52.518	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 12:10:52.518	74.201.176.48:443	'7': disconnect
+0	2016.08.23 12:10:52.807	74.201.176.48:443	Connect
+0	2016.08.23 12:10:53.194	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 12:10:53.483	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 12:10:54.658	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 12:10:55.817	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 12:12:33.542	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 12:12:38.517	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 12:12:38.517	74.201.176.48:443	'7': disconnect
+6	2016.08.23 12:12:43.518	74.201.176.48:443	Connect (No connection)
+6	2016.08.23 12:12:53.519	74.201.176.48:443	Connect (No connection)
+6	2016.08.23 12:13:03.519	74.201.176.48:443	Connect (No connection)
+6	2016.08.23 12:13:13.521	74.201.176.48:443	Connect (No connection)
+6	2016.08.23 12:13:23.522	74.201.176.48:443	Connect (No connection)
+0	2016.08.23 12:13:28.603		Unload: manager F708E8 not released
+0	2016.08.23 12:13:28.719	74.201.176.48:443	'7': disconnect
+0	2016.08.23 12:13:28.719		Remove: manager F708E8
+0	2016.08.23 12:13:28.719		Unload: manager F67E80 not released
+0	2016.08.23 12:13:28.835	74.201.176.48:443	'7': disconnect
+0	2016.08.23 12:13:28.835		Remove: manager F67E80
+0	2016.08.23 12:42:26.718		MetaTrader 4 Manager API build 910 initialized
+0	2016.08.23 12:42:26.921		MetaTrader 4 Manager API build 910 initialized
+0	2016.08.23 12:42:27.247	74.201.176.48:443	Connect
+0	2016.08.23 12:42:27.533	74.201.176.48:443	Connect
+0	2016.08.23 12:42:29.889	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 12:42:30.540	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 12:42:30.836	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 12:42:32.035	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 12:42:33.193	74.201.176.48:443	'7': pumping mode started
+3	2016.08.23 12:42:33.791	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:34.075	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:34.366	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:34.661	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:34.949	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:35.237	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:35.525	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:35.823	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:36.109	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:36.396	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:36.692	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:37.004	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:37.291	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:37.579	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:37.866	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:38.191	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:38.482	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:38.780	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:39.069	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:39.355	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:39.647	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:39.943	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:40.260	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:40.545	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:40.831	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:41.117	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:41.407	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:41.699	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:41.990	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:42.275	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:42.567	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:42.861	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:43.168	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:43.454	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:43.739	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:44.030	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:44.327	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:44.624	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:44.910	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:45.195	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:45.485	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:45.785	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:46.072	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:46.368	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:46.654	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:46.943	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:47.247	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:47.552	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:47.838	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:48.124	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:48.414	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:48.705	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:48.997	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:49.283	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:49.605	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:49.904	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:50.194	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:50.486	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:50.772	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:51.058	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:51.370	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:51.658	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:51.953	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:52.251	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:52.535	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:52.842	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:53.145	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:53.447	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:53.736	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:54.024	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:54.309	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:54.601	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:54.890	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:55.180	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:55.485	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:55.774	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:56.082	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:56.372	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:56.658	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:56.951	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:57.236	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:57.568	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:57.857	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:58.146	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:58.433	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:58.720	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:59.007	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:59.295	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:59.595	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:42:59.894	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:00.182	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:00.490	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:00.800	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:01.090	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:01.382	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:01.667	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:01.963	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:02.296	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:02.582	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:02.906	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:03.205	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:03.509	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:03.817	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:04.107	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:04.396	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:04.683	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:04.974	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:05.263	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:05.560	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:05.846	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:06.132	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:06.425	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:06.735	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:07.034	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:07.322	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:07.615	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:07.919	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:08.204	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:08.555	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:08.849	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:09.154	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:09.446	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:09.733	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:10.412	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:10.714	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:10.999	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:11.289	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:11.586	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:11.891	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:12.181	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:12.508	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:12.831	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:13.149	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:13.437	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:13.780	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:14.089	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:14.406	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:14.752	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:15.043	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:15.412	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:15.738	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:16.041	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:16.328	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:16.630	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:16.936	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:17.238	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:17.557	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:17.844	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:18.136	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:18.428	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:18.716	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:19.005	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:19.290	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:19.614	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:19.906	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:20.201	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:20.507	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:20.794	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:21.090	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:21.386	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:21.739	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:22.028	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:22.320	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:22.608	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:22.893	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:23.227	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:23.540	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:23.829	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:24.122	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:24.492	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:24.789	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:25.113	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:25.442	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:25.770	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:26.145	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:26.454	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:26.739	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:27.036	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:27.324	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:27.623	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:27.911	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:28.198	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:28.488	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:28.804	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:29.098	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:29.385	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:29.718	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:30.016	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 12:43:30.316	74.201.176.48:443	'7': request ticks (Invalid parameters)
+1	2016.08.23 12:43:30.611	74.201.176.48:443	'7': request ticks for 'EURUSD' (0 ticks) (OK/None)
+1	2016.08.23 12:43:30.986	74.201.176.48:443	'7': request ticks for 'USDJPY' (0 ticks) (OK/None)
+1	2016.08.23 12:43:31.279	74.201.176.48:443	'7': request ticks for 'GBPUSD' (0 ticks) (OK/None)
+1	2016.08.23 12:43:31.578	74.201.176.48:443	'7': request ticks for 'EURCHF' (0 ticks) (OK/None)
+1	2016.08.23 12:43:31.873	74.201.176.48:443	'7': request ticks for 'AUDUSD' (0 ticks) (OK/None)
+1	2016.08.23 12:43:32.602	74.201.176.48:443	'7': request ticks for 'EURGBP' (0 ticks) (OK/None)
+1	2016.08.23 12:43:32.933	74.201.176.48:443	'7': request ticks for 'NZDUSD' (0 ticks) (OK/None)
+1	2016.08.23 12:43:33.257	74.201.176.48:443	'7': request ticks for 'USDCAD' (0 ticks) (OK/None)
+1	2016.08.23 12:43:33.992	74.201.176.48:443	'7': request ticks for 'USDCHF' (0 ticks) (OK/None)
+0	2016.08.23 12:43:41.679	74.201.176.48:443	'7': request ticks for 'EURJPY' (43415 ticks)
+1	2016.08.23 12:43:42.048	74.201.176.48:443	'7': request ticks for 'AUDCAD' (0 ticks) (OK/None)
+1	2016.08.23 12:43:42.334	74.201.176.48:443	'7': request ticks for 'AUDCHF' (0 ticks) (OK/None)
+1	2016.08.23 12:43:42.623	74.201.176.48:443	'7': request ticks for 'AUDJPY' (0 ticks) (OK/None)
+1	2016.08.23 12:43:42.918	74.201.176.48:443	'7': request ticks for 'AUDSGD' (0 ticks) (OK/None)
+1	2016.08.23 12:43:43.245	74.201.176.48:443	'7': request ticks for 'CADCHF' (0 ticks) (OK/None)
+1	2016.08.23 12:43:43.532	74.201.176.48:443	'7': request ticks for 'CHFJPY' (0 ticks) (OK/None)
+1	2016.08.23 12:43:43.836	74.201.176.48:443	'7': request ticks for 'AUDNZD' (0 ticks) (OK/None)
+1	2016.08.23 12:43:44.586	74.201.176.48:443	'7': request ticks for 'CADJPY' (0 ticks) (OK/None)
+1	2016.08.23 12:43:44.893	74.201.176.48:443	'7': request ticks for 'NOKSEK' (0 ticks) (OK/None)
+1	2016.08.23 12:43:45.180	74.201.176.48:443	'7': request ticks for 'NZDCAD' (0 ticks) (OK/None)
+1	2016.08.23 12:43:45.507	74.201.176.48:443	'7': request ticks for 'NZDCHF' (0 ticks) (OK/None)
+1	2016.08.23 12:43:45.799	74.201.176.48:443	'7': request ticks for 'NZDJPY' (0 ticks) (OK/None)
+1	2016.08.23 12:43:46.133	74.201.176.48:443	'7': request ticks for 'SGDJPY' (0 ticks) (OK/None)
+1	2016.08.23 12:43:46.422	74.201.176.48:443	'7': request ticks for 'USDSGD' (0 ticks) (OK/None)
+1	2016.08.23 12:43:46.768	74.201.176.48:443	'7': request ticks for 'EURAUD' (0 ticks) (OK/None)
+1	2016.08.23 12:43:47.061	74.201.176.48:443	'7': request ticks for 'EURCAD' (0 ticks) (OK/None)
+1	2016.08.23 12:43:47.354	74.201.176.48:443	'7': request ticks for 'EURNZD' (0 ticks) (OK/None)
+1	2016.08.23 12:43:47.660	74.201.176.48:443	'7': request ticks for 'GBPCHF' (0 ticks) (OK/None)
+1	2016.08.23 12:43:47.967	74.201.176.48:443	'7': request ticks for 'CHFSGD' (0 ticks) (OK/None)
+1	2016.08.23 12:43:48.261	74.201.176.48:443	'7': request ticks for 'GBPAUD' (0 ticks) (OK/None)
+1	2016.08.23 12:43:48.546	74.201.176.48:443	'7': request ticks for 'GBPCAD' (0 ticks) (OK/None)
+1	2016.08.23 12:43:48.870	74.201.176.48:443	'7': request ticks for 'GBPJPY' (0 ticks) (OK/None)
+1	2016.08.23 12:43:49.171	74.201.176.48:443	'7': request ticks for 'GBPSGD' (0 ticks) (OK/None)
+1	2016.08.23 12:43:49.460	74.201.176.48:443	'7': request ticks for 'GBPNZD' (0 ticks) (OK/None)
+1	2016.08.23 12:43:49.778	74.201.176.48:443	'7': request ticks for 'USDCZK' (0 ticks) (OK/None)
+1	2016.08.23 12:43:50.075	74.201.176.48:443	'7': request ticks for 'USDTRY' (0 ticks) (OK/None)
+1	2016.08.23 12:43:50.783	74.201.176.48:443	'7': request ticks for 'EURSGD' (0 ticks) (OK/None)
+1	2016.08.23 12:43:51.069	74.201.176.48:443	'7': request ticks for 'EURCZK' (0 ticks) (OK/None)
+1	2016.08.23 12:43:51.374	74.201.176.48:443	'7': request ticks for 'EURTRY' (0 ticks) (OK/None)
+1	2016.08.23 12:43:51.662	74.201.176.48:443	'7': request ticks for 'USDPLN' (0 ticks) (OK/None)
+1	2016.08.23 12:43:51.956	74.201.176.48:443	'7': request ticks for 'EURPLN' (0 ticks) (OK/None)
+1	2016.08.23 12:43:52.242	74.201.176.48:443	'7': request ticks for 'GBPTRY' (0 ticks) (OK/None)
+1	2016.08.23 12:43:52.537	74.201.176.48:443	'7': request ticks for 'USDDKK' (0 ticks) (OK/None)
+1	2016.08.23 12:43:52.846	74.201.176.48:443	'7': request ticks for 'USDNOK' (0 ticks) (OK/None)
+1	2016.08.23 12:43:53.131	74.201.176.48:443	'7': request ticks for 'USDSEK' (0 ticks) (OK/None)
+1	2016.08.23 12:43:53.430	74.201.176.48:443	'7': request ticks for 'EURDKK' (0 ticks) (OK/None)
+1	2016.08.23 12:43:53.759	74.201.176.48:443	'7': request ticks for 'USDHKD' (0 ticks) (OK/None)
+1	2016.08.23 12:43:54.052	74.201.176.48:443	'7': request ticks for 'EURNOK' (0 ticks) (OK/None)
+1	2016.08.23 12:43:54.379	74.201.176.48:443	'7': request ticks for 'EURSEK' (0 ticks) (OK/None)
+0	2016.08.23 12:43:58.652	74.201.176.48:443	'7': request ticks for 'XAGUSD' (20435 ticks)
+0	2016.08.23 12:44:04.674	74.201.176.48:443	'7': request ticks for 'XAUUSD' (41341 ticks)
+1	2016.08.23 12:44:05.105	74.201.176.48:443	'7': request ticks for 'EURHKD.' (0 ticks) (OK/None)
+1	2016.08.23 12:44:05.398	74.201.176.48:443	'7': request ticks for 'USDZAR.' (0 ticks) (OK/None)
+1	2016.08.23 12:44:05.746	74.201.176.48:443	'7': request ticks for 'USDCNH.' (0 ticks) (OK/None)
+1	2016.08.23 12:44:06.041	74.201.176.48:443	'7': request ticks for 'USDMXN.' (0 ticks) (OK/None)
+1	2016.08.23 12:44:06.335	74.201.176.48:443	'7': request ticks for 'USDTHB.' (0 ticks) (OK/None)
+1	2016.08.23 12:44:06.638	74.201.176.48:443	'7': request ticks for 'ZARJPY.' (0 ticks) (OK/None)
+1	2016.08.23 12:44:06.928	74.201.176.48:443	'7': request ticks for 'GBPNOK.' (0 ticks) (OK/None)
+1	2016.08.23 12:44:07.214	74.201.176.48:443	'7': request ticks for 'GBPSEK.' (0 ticks) (OK/None)
+1	2016.08.23 12:44:07.499	74.201.176.48:443	'7': request ticks for 'NOKJPY.' (0 ticks) (OK/None)
+1	2016.08.23 12:44:07.785	74.201.176.48:443	'7': request ticks for 'XPTUSD.' (0 ticks) (OK/None)
+1	2016.08.23 12:44:08.094	74.201.176.48:443	'7': request ticks for 'XPDUSD.' (0 ticks) (OK/None)
+1	2016.08.23 12:44:08.380	74.201.176.48:443	'7': request ticks for 'XAUEUR.' (0 ticks) (OK/None)
+1	2016.08.23 12:44:08.681	74.201.176.48:443	'7': request ticks for 'EURUSD' (0 ticks) (OK/None)
+1	2016.08.23 12:44:08.980	74.201.176.48:443	'7': request ticks for 'USDJPY' (0 ticks) (OK/None)
+1	2016.08.23 12:44:09.265	74.201.176.48:443	'7': request ticks for 'GBPUSD' (0 ticks) (OK/None)
+1	2016.08.23 12:44:09.565	74.201.176.48:443	'7': request ticks for 'EURCHF' (0 ticks) (OK/None)
+1	2016.08.23 12:44:09.860	74.201.176.48:443	'7': request ticks for 'AUDUSD' (0 ticks) (OK/None)
+1	2016.08.23 12:44:10.146	74.201.176.48:443	'7': request ticks for 'EURGBP' (0 ticks) (OK/None)
+1	2016.08.23 12:44:10.441	74.201.176.48:443	'7': request ticks for 'NZDUSD' (0 ticks) (OK/None)
+1	2016.08.23 12:44:10.733	74.201.176.48:443	'7': request ticks for 'USDCAD' (0 ticks) (OK/None)
+1	2016.08.23 12:44:11.044	74.201.176.48:443	'7': request ticks for 'USDCHF' (0 ticks) (OK/None)
+1	2016.08.23 12:44:11.359	74.201.176.48:443	'7': request ticks for 'EURJPY' (0 ticks) (OK/None)
+1	2016.08.23 12:44:11.690	74.201.176.48:443	'7': request ticks for 'AUDCAD' (0 ticks) (OK/None)
+1	2016.08.23 12:44:12.013	74.201.176.48:443	'7': request ticks for 'AUDCHF' (0 ticks) (OK/None)
+1	2016.08.23 12:44:12.303	74.201.176.48:443	'7': request ticks for 'AUDJPY' (0 ticks) (OK/None)
+1	2016.08.23 12:44:12.589	74.201.176.48:443	'7': request ticks for 'AUDSGD' (0 ticks) (OK/None)
+1	2016.08.23 12:44:12.878	74.201.176.48:443	'7': request ticks for 'CADCHF' (0 ticks) (OK/None)
+1	2016.08.23 12:44:13.211	74.201.176.48:443	'7': request ticks for 'CHFJPY' (0 ticks) (OK/None)
+1	2016.08.23 12:44:13.498	74.201.176.48:443	'7': request ticks for 'AUDNZD' (0 ticks) (OK/None)
+1	2016.08.23 12:44:13.784	74.201.176.48:443	'7': request ticks for 'CADJPY' (0 ticks) (OK/None)
+1	2016.08.23 12:44:14.092	74.201.176.48:443	'7': request ticks for 'NOKSEK' (0 ticks) (OK/None)
+1	2016.08.23 12:44:14.381	74.201.176.48:443	'7': request ticks for 'NZDCAD' (0 ticks) (OK/None)
+1	2016.08.23 12:44:14.699	74.201.176.48:443	'7': request ticks for 'NZDCHF' (0 ticks) (OK/None)
+1	2016.08.23 12:44:14.985	74.201.176.48:443	'7': request ticks for 'NZDJPY' (0 ticks) (OK/None)
+1	2016.08.23 12:44:15.285	74.201.176.48:443	'7': request ticks for 'SGDJPY' (0 ticks) (OK/None)
+1	2016.08.23 12:44:15.570	74.201.176.48:443	'7': request ticks for 'USDSGD' (0 ticks) (OK/None)
+1	2016.08.23 12:44:15.907	74.201.176.48:443	'7': request ticks for 'EURAUD' (0 ticks) (OK/None)
+1	2016.08.23 12:44:16.214	74.201.176.48:443	'7': request ticks for 'EURCAD' (0 ticks) (OK/None)
+1	2016.08.23 12:44:16.518	74.201.176.48:443	'7': request ticks for 'EURNZD' (0 ticks) (OK/None)
+1	2016.08.23 12:44:16.805	74.201.176.48:443	'7': request ticks for 'GBPCHF' (0 ticks) (OK/None)
+1	2016.08.23 12:44:17.092	74.201.176.48:443	'7': request ticks for 'CHFSGD' (0 ticks) (OK/None)
+1	2016.08.23 12:44:17.378	74.201.176.48:443	'7': request ticks for 'GBPAUD' (0 ticks) (OK/None)
+1	2016.08.23 12:44:17.666	74.201.176.48:443	'7': request ticks for 'GBPCAD' (0 ticks) (OK/None)
+1	2016.08.23 12:44:17.957	74.201.176.48:443	'7': request ticks for 'GBPJPY' (0 ticks) (OK/None)
+1	2016.08.23 12:44:18.277	74.201.176.48:443	'7': request ticks for 'GBPSGD' (0 ticks) (OK/None)
+1	2016.08.23 12:44:18.606	74.201.176.48:443	'7': request ticks for 'GBPNZD' (0 ticks) (OK/None)
+1	2016.08.23 12:44:18.966	74.201.176.48:443	'7': request ticks for 'USDCZK' (0 ticks) (OK/None)
+1	2016.08.23 12:44:19.254	74.201.176.48:443	'7': request ticks for 'USDTRY' (0 ticks) (OK/None)
+1	2016.08.23 12:44:19.541	74.201.176.48:443	'7': request ticks for 'EURSGD' (0 ticks) (OK/None)
+1	2016.08.23 12:44:19.843	74.201.176.48:443	'7': request ticks for 'EURCZK' (0 ticks) (OK/None)
+1	2016.08.23 12:44:20.138	74.201.176.48:443	'7': request ticks for 'EURTRY' (0 ticks) (OK/None)
+1	2016.08.23 12:44:20.433	74.201.176.48:443	'7': request ticks for 'USDPLN' (0 ticks) (OK/None)
+1	2016.08.23 12:44:20.728	74.201.176.48:443	'7': request ticks for 'EURPLN' (0 ticks) (OK/None)
+1	2016.08.23 12:44:21.019	74.201.176.48:443	'7': request ticks for 'GBPTRY' (0 ticks) (OK/None)
+1	2016.08.23 12:44:21.306	74.201.176.48:443	'7': request ticks for 'USDDKK' (0 ticks) (OK/None)
+1	2016.08.23 12:44:21.605	74.201.176.48:443	'7': request ticks for 'USDNOK' (0 ticks) (OK/None)
+1	2016.08.23 12:44:21.894	74.201.176.48:443	'7': request ticks for 'USDSEK' (0 ticks) (OK/None)
+1	2016.08.23 12:44:22.182	74.201.176.48:443	'7': request ticks for 'EURDKK' (0 ticks) (OK/None)
+1	2016.08.23 12:44:22.470	74.201.176.48:443	'7': request ticks for 'USDHKD' (0 ticks) (OK/None)
+1	2016.08.23 12:44:22.768	74.201.176.48:443	'7': request ticks for 'EURNOK' (0 ticks) (OK/None)
+1	2016.08.23 12:44:23.075	74.201.176.48:443	'7': request ticks for 'EURSEK' (0 ticks) (OK/None)
+1	2016.08.23 12:44:23.383	74.201.176.48:443	'7': request ticks for 'XAGUSD' (0 ticks) (OK/None)
+1	2016.08.23 12:44:23.668	74.201.176.48:443	'7': request ticks for 'XAUUSD' (0 ticks) (OK/None)
+1	2016.08.23 12:44:23.956	74.201.176.48:443	'7': request ticks for 'EURHKD.' (0 ticks) (OK/None)
+1	2016.08.23 12:44:24.245	74.201.176.48:443	'7': request ticks for 'USDZAR.' (0 ticks) (OK/None)
+1	2016.08.23 12:44:24.533	74.201.176.48:443	'7': request ticks for 'USDCNH.' (0 ticks) (OK/None)
+1	2016.08.23 12:44:24.822	74.201.176.48:443	'7': request ticks for 'USDMXN.' (0 ticks) (OK/None)
+1	2016.08.23 12:44:25.108	74.201.176.48:443	'7': request ticks for 'USDTHB.' (0 ticks) (OK/None)
+1	2016.08.23 12:44:25.403	74.201.176.48:443	'7': request ticks for 'ZARJPY.' (0 ticks) (OK/None)
+1	2016.08.23 12:44:25.689	74.201.176.48:443	'7': request ticks for 'GBPNOK.' (0 ticks) (OK/None)
+1	2016.08.23 12:44:25.978	74.201.176.48:443	'7': request ticks for 'GBPSEK.' (0 ticks) (OK/None)
+1	2016.08.23 12:44:26.271	74.201.176.48:443	'7': request ticks for 'NOKJPY.' (0 ticks) (OK/None)
+1	2016.08.23 12:44:26.556	74.201.176.48:443	'7': request ticks for 'XPTUSD.' (0 ticks) (OK/None)
+1	2016.08.23 12:44:26.841	74.201.176.48:443	'7': request ticks for 'XPDUSD.' (0 ticks) (OK/None)
+1	2016.08.23 12:44:27.126	74.201.176.48:443	'7': request ticks for 'XAUEUR.' (0 ticks) (OK/None)
+6	2016.08.23 12:44:27.460	74.201.176.48:443	'7': pumping ping (No connection)
+0	2016.08.23 12:44:27.460	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 12:44:30.851	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 12:44:30.851	74.201.176.48:443	'7': disconnect
+0	2016.08.23 12:44:31.160	74.201.176.48:443	Connect
+0	2016.08.23 12:44:31.565	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 12:44:31.882	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 12:44:33.146	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 12:44:34.388	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 12:46:32.078	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 12:46:37.037	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 12:46:37.037	74.201.176.48:443	'7': disconnect
+0	2016.08.23 12:46:37.338	74.201.176.48:443	Connect
+0	2016.08.23 12:46:37.727	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 12:46:38.000	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 12:46:39.183	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 12:46:40.313	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 12:49:23.335	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 12:49:28.330	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 12:49:28.330	74.201.176.48:443	'7': disconnect
+0	2016.08.23 12:49:28.614	74.201.176.48:443	Connect
+0	2016.08.23 12:49:29.002	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 12:49:29.275	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 12:49:30.478	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 12:49:31.634	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 12:51:59.705	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 12:52:04.644	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 12:52:04.644	74.201.176.48:443	'7': disconnect
+0	2016.08.23 12:52:04.933	74.201.176.48:443	Connect
+0	2016.08.23 12:52:05.336	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 12:52:05.637	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 12:52:06.867	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 12:52:08.115	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 12:53:55.915	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 12:54:00.900	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 12:54:00.900	74.201.176.48:443	'7': disconnect
+0	2016.08.23 12:54:01.183	74.201.176.48:443	Connect
+0	2016.08.23 12:54:01.590	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 12:54:01.877	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 12:54:03.087	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 12:54:04.246	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 12:55:17.078	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 12:55:22.067	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 12:55:22.067	74.201.176.48:443	'7': disconnect
+0	2016.08.23 12:55:22.381	74.201.176.48:443	Connect
+0	2016.08.23 12:55:22.813	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 12:55:23.120	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 12:55:24.416	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 12:55:25.701	74.201.176.48:443	'7': pumping mode started
+2	2016.08.23 12:57:28.266	74.201.176.48:443	'7': pumping ping (Common error)
+0	2016.08.23 12:57:28.266	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 12:57:28.429	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 12:57:28.429	74.201.176.48:443	'7': disconnect
+0	2016.08.23 12:57:28.729	74.201.176.48:443	Connect
+0	2016.08.23 12:57:29.151	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 12:57:29.456	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 12:57:30.714	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 12:57:31.983	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 12:59:34.791	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 12:59:39.759	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 12:59:39.759	74.201.176.48:443	'7': disconnect
+0	2016.08.23 12:59:40.055	74.201.176.48:443	Connect
+0	2016.08.23 12:59:40.451	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 12:59:40.755	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 12:59:41.965	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 12:59:43.167	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 13:01:01.002	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 13:01:05.955	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 13:01:05.955	74.201.176.48:443	'7': disconnect
+0	2016.08.23 13:01:06.240	74.201.176.48:443	Connect
+0	2016.08.23 13:01:06.626	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 13:01:06.930	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 13:01:08.136	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 13:01:09.314	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 13:03:12.805	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 13:03:17.230	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 13:03:17.230	74.201.176.48:443	'7': disconnect
+0	2016.08.23 13:03:17.531	74.201.176.48:443	Connect
+0	2016.08.23 13:03:17.932	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 13:03:18.217	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 13:03:19.436	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 13:03:20.645	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 13:05:23.860	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 13:05:28.524	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 13:05:28.524	74.201.176.48:443	'7': disconnect
+0	2016.08.23 13:05:28.809	74.201.176.48:443	Connect
+0	2016.08.23 13:05:29.210	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 13:05:29.511	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 13:05:30.729	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 13:05:31.945	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 13:07:29.816	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 13:07:34.792	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 13:07:34.792	74.201.176.48:443	'7': disconnect
+0	2016.08.23 13:07:35.068	74.201.176.48:443	Connect
+0	2016.08.23 13:07:35.459	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 13:07:35.743	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 13:07:36.914	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 13:07:38.054	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 13:09:56.070	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 13:10:01.052	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 13:10:01.052	74.201.176.48:443	'7': disconnect
+0	2016.08.23 13:10:01.336	74.201.176.48:443	Connect
+0	2016.08.23 13:10:01.744	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 13:10:02.035	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 13:10:04.408	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 13:10:05.617	74.201.176.48:443	'7': pumping mode started
+2	2016.08.23 13:12:38.488	74.201.176.48:443	'7': pumping ping (Common error)
+0	2016.08.23 13:12:38.488	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 13:12:42.413	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 13:12:42.413	74.201.176.48:443	'7': disconnect
+0	2016.08.23 13:12:42.714	74.201.176.48:443	Connect
+0	2016.08.23 13:12:43.131	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 13:12:43.463	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 13:12:44.735	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 13:12:46.001	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 13:15:43.916	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 13:15:48.885	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 13:15:48.885	74.201.176.48:443	'7': disconnect
+0	2016.08.23 13:15:49.190	74.201.176.48:443	Connect
+0	2016.08.23 13:15:49.586	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 13:15:49.896	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 13:15:51.204	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 13:15:52.551	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 13:20:17.154	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 13:20:22.140	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 13:20:22.140	74.201.176.48:443	'7': disconnect
+0	2016.08.23 13:20:22.403	74.201.176.48:443	Connect
+0	2016.08.23 13:20:22.804	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 13:20:23.089	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 13:20:24.245	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 13:20:25.378	74.201.176.48:443	'7': pumping mode started
+2	2016.08.23 13:25:59.352	74.201.176.48:443	'7': pumping ping (Common error)
+0	2016.08.23 13:25:59.352	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 13:26:00.562	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 13:26:00.562	74.201.176.48:443	'7': disconnect
+0	2016.08.23 13:26:00.847	74.201.176.48:443	Connect
+0	2016.08.23 13:26:01.233	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 13:26:01.518	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 13:26:02.719	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 13:26:03.886	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 13:30:18.690	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 13:30:23.679	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 13:30:23.679	74.201.176.48:443	'7': disconnect
+0	2016.08.23 13:30:23.948	74.201.176.48:443	Connect
+0	2016.08.23 13:30:24.318	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 13:30:24.603	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 13:30:25.752	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 13:30:27.417	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 13:32:39.942	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 13:32:44.900	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 13:32:44.900	74.201.176.48:443	'7': disconnect
+0	2016.08.23 13:32:45.185	74.201.176.48:443	Connect
+0	2016.08.23 13:32:45.570	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 13:32:45.871	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 13:32:47.075	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 13:32:48.265	74.201.176.48:443	'7': pumping mode started
+2	2016.08.23 13:35:48.821	74.201.176.48:443	'7': pumping ping (Common error)
+0	2016.08.23 13:35:48.821	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 13:35:51.273	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 13:35:51.273	74.201.176.48:443	'7': disconnect
+0	2016.08.23 13:35:51.559	74.201.176.48:443	Connect
+0	2016.08.23 13:35:51.960	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 13:35:52.245	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 13:35:53.432	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 13:35:54.619	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 13:41:33.005	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 13:41:37.987	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 13:41:37.987	74.201.176.48:443	'7': disconnect
+0	2016.08.23 13:41:38.272	74.201.176.48:443	Connect
+0	2016.08.23 13:41:38.663	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 13:41:38.952	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 13:41:40.117	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 13:41:41.298	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 13:45:39.493	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 13:45:44.474	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 13:45:44.474	74.201.176.48:443	'7': disconnect
+0	2016.08.23 13:45:44.763	74.201.176.48:443	Connect
+0	2016.08.23 13:45:45.176	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 13:45:45.468	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 13:45:46.726	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 13:45:47.925	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 13:48:50.921	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 13:48:55.913	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 13:48:55.913	74.201.176.48:443	'7': disconnect
+0	2016.08.23 13:48:56.198	74.201.176.48:443	Connect
+0	2016.08.23 13:48:56.615	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 13:48:56.900	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 13:48:58.103	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 13:48:59.290	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 13:52:52.476	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 13:52:57.437	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 13:52:57.437	74.201.176.48:443	'7': disconnect
+0	2016.08.23 13:52:57.737	74.201.176.48:443	Connect
+0	2016.08.23 13:52:58.154	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 13:52:58.471	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 13:52:59.727	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 13:53:01.009	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 13:55:28.836	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 13:55:33.817	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 13:55:33.817	74.201.176.48:443	'7': disconnect
+0	2016.08.23 13:55:34.102	74.201.176.48:443	Connect
+0	2016.08.23 13:55:34.486	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 13:55:34.766	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 13:55:35.953	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 13:55:37.156	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 16:21:19.457		Unload: manager F24488 not released
+0	2016.08.23 16:21:19.573	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 16:21:19.573	74.201.176.48:443	'7': disconnect
+0	2016.08.23 16:21:19.573		Remove: manager F24488
+0	2016.08.23 16:21:19.573		Unload: manager F1BA20 not released
+0	2016.08.23 16:21:19.674	74.201.176.48:443	'7': disconnect
+0	2016.08.23 16:21:19.674		Remove: manager F1BA20
+0	2016.08.23 16:21:48.663		MetaTrader 4 Manager API build 910 initialized
+0	2016.08.23 16:21:48.835		MetaTrader 4 Manager API build 910 initialized
+0	2016.08.23 16:21:49.116	74.201.176.48:443	Connect
+0	2016.08.23 16:21:49.390	74.201.176.48:443	Connect
+0	2016.08.23 16:21:51.776	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 16:21:52.415	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 16:21:52.694	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 16:21:53.841	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 16:21:54.973	74.201.176.48:443	'7': pumping mode started
+3	2016.08.23 16:21:55.522	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:21:55.799	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:21:56.078	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:21:56.356	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:21:56.632	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:21:56.911	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:21:57.191	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:21:57.467	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:21:57.742	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:21:58.020	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:21:58.299	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:21:58.574	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:21:58.850	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:21:59.126	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:21:59.403	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:21:59.679	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:21:59.956	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:00.233	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:00.511	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:00.788	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:01.064	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:01.342	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:01.617	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:01.893	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:02.170	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:02.446	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:02.722	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:02.998	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:03.274	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:03.552	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:03.827	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:04.103	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:04.379	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:04.655	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:04.933	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:05.208	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:05.485	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:05.761	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:06.037	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:06.313	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:06.622	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:06.899	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:07.179	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:07.456	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:07.732	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:08.033	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:08.310	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:08.609	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:08.885	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:09.162	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:09.438	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:09.714	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:09.990	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:10.267	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:10.563	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:10.841	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:11.128	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:11.405	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:11.682	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:11.958	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:12.234	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:12.511	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:12.786	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:13.063	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:13.340	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:13.615	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:13.892	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:14.167	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:14.444	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:14.721	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:14.997	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:15.272	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:15.549	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:15.825	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:16.103	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:16.379	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:16.655	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:16.932	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:17.207	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:17.482	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:17.759	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:18.036	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:18.312	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:18.591	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:18.867	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:19.149	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:19.424	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:19.701	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:19.978	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:20.254	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:20.530	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:20.807	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:21.082	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:21.358	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:21.636	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:21.911	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:22.187	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:22.819	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:23.106	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:23.382	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:23.659	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:23.935	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:24.211	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:24.489	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:24.766	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:25.042	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:25.319	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:25.597	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:25.875	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:26.168	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:26.445	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:26.721	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:26.999	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:27.275	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:27.552	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:27.830	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:28.107	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:28.383	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:28.659	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:28.935	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:29.211	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:29.488	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:29.763	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:30.040	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:30.316	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:30.592	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:30.869	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:31.145	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:31.420	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:31.700	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:31.977	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:32.253	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:32.530	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:32.807	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:33.082	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:33.368	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:33.644	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:33.939	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:34.216	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:34.493	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:34.770	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:35.047	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:35.323	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:35.599	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:35.875	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:36.152	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:36.428	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:36.704	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:36.980	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:37.257	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:37.532	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:37.809	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:38.085	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:38.361	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:38.637	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:38.913	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:39.188	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:39.465	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:39.741	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:40.017	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:40.292	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:40.584	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:40.861	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:41.137	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:41.415	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:41.693	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:41.969	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:42.245	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:42.522	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:42.799	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:43.075	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:43.351	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:43.627	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:43.915	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:44.191	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:44.468	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:44.745	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:45.020	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:45.301	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:45.577	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:45.853	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:46.129	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:46.406	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:46.682	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:46.985	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:47.261	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:47.537	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:47.813	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:22:48.090	74.201.176.48:443	'7': request ticks (Invalid parameters)
+1	2016.08.23 16:22:48.380	74.201.176.48:443	'7': request ticks for 'EURUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:22:48.655	74.201.176.48:443	'7': request ticks for 'USDJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:22:48.932	74.201.176.48:443	'7': request ticks for 'GBPUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:22:49.209	74.201.176.48:443	'7': request ticks for 'EURCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:22:49.487	74.201.176.48:443	'7': request ticks for 'AUDUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:22:49.763	74.201.176.48:443	'7': request ticks for 'EURGBP' (0 ticks) (OK/None)
+1	2016.08.23 16:22:50.039	74.201.176.48:443	'7': request ticks for 'NZDUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:22:50.316	74.201.176.48:443	'7': request ticks for 'USDCAD' (0 ticks) (OK/None)
+1	2016.08.23 16:22:50.592	74.201.176.48:443	'7': request ticks for 'USDCHF' (0 ticks) (OK/None)
+0	2016.08.23 16:22:55.305	74.201.176.48:443	'7': request ticks for 'EURJPY' (25081 ticks)
+1	2016.08.23 16:22:55.627	74.201.176.48:443	'7': request ticks for 'AUDCAD' (0 ticks) (OK/None)
+1	2016.08.23 16:22:55.902	74.201.176.48:443	'7': request ticks for 'AUDCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:22:56.178	74.201.176.48:443	'7': request ticks for 'AUDJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:22:56.457	74.201.176.48:443	'7': request ticks for 'AUDSGD' (0 ticks) (OK/None)
+1	2016.08.23 16:22:56.733	74.201.176.48:443	'7': request ticks for 'CADCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:22:57.009	74.201.176.48:443	'7': request ticks for 'CHFJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:22:57.285	74.201.176.48:443	'7': request ticks for 'AUDNZD' (0 ticks) (OK/None)
+1	2016.08.23 16:22:57.561	74.201.176.48:443	'7': request ticks for 'CADJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:22:57.837	74.201.176.48:443	'7': request ticks for 'NOKSEK' (0 ticks) (OK/None)
+1	2016.08.23 16:22:58.113	74.201.176.48:443	'7': request ticks for 'NZDCAD' (0 ticks) (OK/None)
+1	2016.08.23 16:22:58.392	74.201.176.48:443	'7': request ticks for 'NZDCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:22:58.668	74.201.176.48:443	'7': request ticks for 'NZDJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:22:58.965	74.201.176.48:443	'7': request ticks for 'SGDJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:22:59.241	74.201.176.48:443	'7': request ticks for 'USDSGD' (0 ticks) (OK/None)
+1	2016.08.23 16:22:59.518	74.201.176.48:443	'7': request ticks for 'EURAUD' (0 ticks) (OK/None)
+1	2016.08.23 16:22:59.794	74.201.176.48:443	'7': request ticks for 'EURCAD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:00.070	74.201.176.48:443	'7': request ticks for 'EURNZD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:00.348	74.201.176.48:443	'7': request ticks for 'GBPCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:23:00.624	74.201.176.48:443	'7': request ticks for 'CHFSGD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:00.901	74.201.176.48:443	'7': request ticks for 'GBPAUD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:01.180	74.201.176.48:443	'7': request ticks for 'GBPCAD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:01.456	74.201.176.48:443	'7': request ticks for 'GBPJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:23:01.732	74.201.176.48:443	'7': request ticks for 'GBPSGD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:02.011	74.201.176.48:443	'7': request ticks for 'GBPNZD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:02.287	74.201.176.48:443	'7': request ticks for 'USDCZK' (0 ticks) (OK/None)
+1	2016.08.23 16:23:02.562	74.201.176.48:443	'7': request ticks for 'USDTRY' (0 ticks) (OK/None)
+1	2016.08.23 16:23:02.838	74.201.176.48:443	'7': request ticks for 'EURSGD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:03.115	74.201.176.48:443	'7': request ticks for 'EURCZK' (0 ticks) (OK/None)
+1	2016.08.23 16:23:03.393	74.201.176.48:443	'7': request ticks for 'EURTRY' (0 ticks) (OK/None)
+1	2016.08.23 16:23:03.668	74.201.176.48:443	'7': request ticks for 'USDPLN' (0 ticks) (OK/None)
+1	2016.08.23 16:23:03.945	74.201.176.48:443	'7': request ticks for 'EURPLN' (0 ticks) (OK/None)
+1	2016.08.23 16:23:04.221	74.201.176.48:443	'7': request ticks for 'GBPTRY' (0 ticks) (OK/None)
+1	2016.08.23 16:23:04.498	74.201.176.48:443	'7': request ticks for 'USDDKK' (0 ticks) (OK/None)
+1	2016.08.23 16:23:04.775	74.201.176.48:443	'7': request ticks for 'USDNOK' (0 ticks) (OK/None)
+1	2016.08.23 16:23:05.052	74.201.176.48:443	'7': request ticks for 'USDSEK' (0 ticks) (OK/None)
+1	2016.08.23 16:23:05.329	74.201.176.48:443	'7': request ticks for 'EURDKK' (0 ticks) (OK/None)
+1	2016.08.23 16:23:05.604	74.201.176.48:443	'7': request ticks for 'USDHKD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:05.881	74.201.176.48:443	'7': request ticks for 'EURNOK' (0 ticks) (OK/None)
+1	2016.08.23 16:23:06.158	74.201.176.48:443	'7': request ticks for 'EURSEK' (0 ticks) (OK/None)
+0	2016.08.23 16:23:07.457	74.201.176.48:443	'7': request ticks for 'XAGUSD' (11512 ticks)
+0	2016.08.23 16:23:09.607	74.201.176.48:443	'7': request ticks for 'XAUUSD' (22200 ticks)
+1	2016.08.23 16:23:09.932	74.201.176.48:443	'7': request ticks for 'EURHKD.' (0 ticks) (OK/None)
+1	2016.08.23 16:23:10.208	74.201.176.48:443	'7': request ticks for 'USDZAR.' (0 ticks) (OK/None)
+1	2016.08.23 16:23:10.484	74.201.176.48:443	'7': request ticks for 'USDCNH.' (0 ticks) (OK/None)
+1	2016.08.23 16:23:10.760	74.201.176.48:443	'7': request ticks for 'USDMXN.' (0 ticks) (OK/None)
+1	2016.08.23 16:23:11.037	74.201.176.48:443	'7': request ticks for 'USDTHB.' (0 ticks) (OK/None)
+1	2016.08.23 16:23:11.319	74.201.176.48:443	'7': request ticks for 'ZARJPY.' (0 ticks) (OK/None)
+1	2016.08.23 16:23:11.595	74.201.176.48:443	'7': request ticks for 'GBPNOK.' (0 ticks) (OK/None)
+1	2016.08.23 16:23:11.871	74.201.176.48:443	'7': request ticks for 'GBPSEK.' (0 ticks) (OK/None)
+1	2016.08.23 16:23:12.147	74.201.176.48:443	'7': request ticks for 'NOKJPY.' (0 ticks) (OK/None)
+1	2016.08.23 16:23:12.423	74.201.176.48:443	'7': request ticks for 'XPTUSD.' (0 ticks) (OK/None)
+1	2016.08.23 16:23:12.699	74.201.176.48:443	'7': request ticks for 'XPDUSD.' (0 ticks) (OK/None)
+1	2016.08.23 16:23:12.975	74.201.176.48:443	'7': request ticks for 'XAUEUR.' (0 ticks) (OK/None)
+1	2016.08.23 16:23:13.252	74.201.176.48:443	'7': request ticks for 'EURUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:13.528	74.201.176.48:443	'7': request ticks for 'USDJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:23:13.803	74.201.176.48:443	'7': request ticks for 'GBPUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:14.080	74.201.176.48:443	'7': request ticks for 'EURCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:23:14.356	74.201.176.48:443	'7': request ticks for 'AUDUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:14.632	74.201.176.48:443	'7': request ticks for 'EURGBP' (0 ticks) (OK/None)
+1	2016.08.23 16:23:14.908	74.201.176.48:443	'7': request ticks for 'NZDUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:15.189	74.201.176.48:443	'7': request ticks for 'USDCAD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:15.465	74.201.176.48:443	'7': request ticks for 'USDCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:23:15.740	74.201.176.48:443	'7': request ticks for 'EURJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:23:16.016	74.201.176.48:443	'7': request ticks for 'AUDCAD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:16.297	74.201.176.48:443	'7': request ticks for 'AUDCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:23:16.572	74.201.176.48:443	'7': request ticks for 'AUDJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:23:16.848	74.201.176.48:443	'7': request ticks for 'AUDSGD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:17.125	74.201.176.48:443	'7': request ticks for 'CADCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:23:17.401	74.201.176.48:443	'7': request ticks for 'CHFJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:23:17.681	74.201.176.48:443	'7': request ticks for 'AUDNZD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:17.987	74.201.176.48:443	'7': request ticks for 'CADJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:23:18.274	74.201.176.48:443	'7': request ticks for 'NOKSEK' (0 ticks) (OK/None)
+1	2016.08.23 16:23:18.552	74.201.176.48:443	'7': request ticks for 'NZDCAD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:18.828	74.201.176.48:443	'7': request ticks for 'NZDCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:23:19.105	74.201.176.48:443	'7': request ticks for 'NZDJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:23:19.382	74.201.176.48:443	'7': request ticks for 'SGDJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:23:19.658	74.201.176.48:443	'7': request ticks for 'USDSGD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:19.947	74.201.176.48:443	'7': request ticks for 'EURAUD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:20.223	74.201.176.48:443	'7': request ticks for 'EURCAD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:20.498	74.201.176.48:443	'7': request ticks for 'EURNZD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:20.775	74.201.176.48:443	'7': request ticks for 'GBPCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:23:21.063	74.201.176.48:443	'7': request ticks for 'CHFSGD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:21.351	74.201.176.48:443	'7': request ticks for 'GBPAUD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:21.627	74.201.176.48:443	'7': request ticks for 'GBPCAD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:21.903	74.201.176.48:443	'7': request ticks for 'GBPJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:23:22.179	74.201.176.48:443	'7': request ticks for 'GBPSGD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:22.455	74.201.176.48:443	'7': request ticks for 'GBPNZD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:22.732	74.201.176.48:443	'7': request ticks for 'USDCZK' (0 ticks) (OK/None)
+1	2016.08.23 16:23:23.023	74.201.176.48:443	'7': request ticks for 'USDTRY' (0 ticks) (OK/None)
+1	2016.08.23 16:23:23.300	74.201.176.48:443	'7': request ticks for 'EURSGD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:23.576	74.201.176.48:443	'7': request ticks for 'EURCZK' (0 ticks) (OK/None)
+1	2016.08.23 16:23:23.851	74.201.176.48:443	'7': request ticks for 'EURTRY' (0 ticks) (OK/None)
+1	2016.08.23 16:23:24.127	74.201.176.48:443	'7': request ticks for 'USDPLN' (0 ticks) (OK/None)
+1	2016.08.23 16:23:24.429	74.201.176.48:443	'7': request ticks for 'EURPLN' (0 ticks) (OK/None)
+1	2016.08.23 16:23:24.723	74.201.176.48:443	'7': request ticks for 'GBPTRY' (0 ticks) (OK/None)
+1	2016.08.23 16:23:24.999	74.201.176.48:443	'7': request ticks for 'USDDKK' (0 ticks) (OK/None)
+1	2016.08.23 16:23:25.276	74.201.176.48:443	'7': request ticks for 'USDNOK' (0 ticks) (OK/None)
+1	2016.08.23 16:23:25.556	74.201.176.48:443	'7': request ticks for 'USDSEK' (0 ticks) (OK/None)
+1	2016.08.23 16:23:25.833	74.201.176.48:443	'7': request ticks for 'EURDKK' (0 ticks) (OK/None)
+1	2016.08.23 16:23:26.109	74.201.176.48:443	'7': request ticks for 'USDHKD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:26.385	74.201.176.48:443	'7': request ticks for 'EURNOK' (0 ticks) (OK/None)
+1	2016.08.23 16:23:26.661	74.201.176.48:443	'7': request ticks for 'EURSEK' (0 ticks) (OK/None)
+1	2016.08.23 16:23:26.944	74.201.176.48:443	'7': request ticks for 'XAGUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:27.220	74.201.176.48:443	'7': request ticks for 'XAUUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:23:27.496	74.201.176.48:443	'7': request ticks for 'EURHKD.' (0 ticks) (OK/None)
+1	2016.08.23 16:23:27.787	74.201.176.48:443	'7': request ticks for 'USDZAR.' (0 ticks) (OK/None)
+1	2016.08.23 16:23:28.063	74.201.176.48:443	'7': request ticks for 'USDCNH.' (0 ticks) (OK/None)
+1	2016.08.23 16:23:28.339	74.201.176.48:443	'7': request ticks for 'USDMXN.' (0 ticks) (OK/None)
+1	2016.08.23 16:23:28.621	74.201.176.48:443	'7': request ticks for 'USDTHB.' (0 ticks) (OK/None)
+1	2016.08.23 16:23:28.897	74.201.176.48:443	'7': request ticks for 'ZARJPY.' (0 ticks) (OK/None)
+1	2016.08.23 16:23:29.174	74.201.176.48:443	'7': request ticks for 'GBPNOK.' (0 ticks) (OK/None)
+1	2016.08.23 16:23:29.450	74.201.176.48:443	'7': request ticks for 'GBPSEK.' (0 ticks) (OK/None)
+1	2016.08.23 16:23:29.735	74.201.176.48:443	'7': request ticks for 'NOKJPY.' (0 ticks) (OK/None)
+1	2016.08.23 16:23:30.004	74.201.176.48:443	'7': request ticks for 'XPTUSD.' (0 ticks) (OK/None)
+1	2016.08.23 16:23:30.289	74.201.176.48:443	'7': request ticks for 'XPDUSD.' (0 ticks) (OK/None)
+1	2016.08.23 16:23:30.558	74.201.176.48:443	'7': request ticks for 'XAUEUR.' (0 ticks) (OK/None)
+0	2016.08.23 16:25:19.071		Unload: manager 1215B18 not released
+0	2016.08.23 16:25:19.172	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 16:25:19.172	74.201.176.48:443	'7': disconnect
+0	2016.08.23 16:25:19.172		Remove: manager 1215B18
+0	2016.08.23 16:25:19.172		Unload: manager 120BCE0 not released
+0	2016.08.23 16:25:19.273	74.201.176.48:443	'7': disconnect
+0	2016.08.23 16:25:19.273		Remove: manager 120BCE0
+0	2016.08.23 16:25:38.887		MetaTrader 4 Manager API build 910 initialized
+0	2016.08.23 16:25:39.087		MetaTrader 4 Manager API build 910 initialized
+0	2016.08.23 16:25:39.384	74.201.176.48:443	Connect
+0	2016.08.23 16:25:39.669	74.201.176.48:443	Connect
+0	2016.08.23 16:25:42.072	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 16:25:42.764	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 16:25:43.046	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 16:25:44.224	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 16:25:45.358	74.201.176.48:443	'7': pumping mode started
+3	2016.08.23 16:25:46.075	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:46.390	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:46.681	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:47.001	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:47.305	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:47.604	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:47.905	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:48.221	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:48.527	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:48.831	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:49.130	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:49.435	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:49.736	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:50.036	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:50.353	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:50.654	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:50.954	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:51.261	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:51.562	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:51.876	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:52.181	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:52.485	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:52.787	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:53.094	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:53.408	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:53.712	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:54.014	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:54.330	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:54.646	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:54.962	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:55.272	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:55.577	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:55.881	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:56.185	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:56.489	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:56.794	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:57.098	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:57.403	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:57.693	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:58.014	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:58.313	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:58.613	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:58.945	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:59.245	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:59.562	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:25:59.856	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:00.166	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:00.475	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:00.779	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:01.085	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:01.389	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:01.694	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:01.998	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:02.303	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:02.608	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:02.913	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:03.220	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:03.525	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:03.829	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:04.133	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:04.438	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:04.742	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:05.054	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:05.365	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:05.668	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:05.973	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:06.277	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:06.582	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:06.887	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:07.191	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:07.495	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:07.800	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:08.104	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:08.408	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:08.711	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:09.016	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:09.320	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:09.624	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:09.928	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:10.229	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:10.529	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:10.830	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:11.146	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:11.450	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:11.754	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:12.059	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:12.363	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:12.668	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:12.976	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:13.281	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:13.587	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:13.891	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:14.194	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:14.499	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:14.803	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:15.109	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:15.413	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:15.717	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:16.020	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:16.321	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:16.621	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:16.935	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:17.239	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:17.545	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:17.848	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:18.152	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:18.457	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:18.753	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:19.070	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:19.375	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:19.679	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:19.997	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:20.303	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:20.609	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:20.915	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:21.218	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:21.522	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:21.827	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:22.131	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:22.435	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:22.739	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:23.043	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:23.347	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:23.651	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:23.956	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:24.260	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:24.576	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:24.892	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:25.208	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:25.509	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:25.809	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:26.120	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:26.425	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:26.729	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:27.034	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:27.334	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:27.651	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:27.951	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:28.253	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:28.568	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:28.868	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:29.173	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:29.489	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:29.790	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:30.106	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:30.407	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:30.707	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:31.029	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:31.330	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:32.032	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:32.334	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:32.642	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:33.007	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:33.327	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:33.656	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:34.032	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:34.370	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:34.674	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:34.999	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:35.303	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:35.616	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:35.921	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:36.226	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:36.531	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:36.842	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:37.147	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:37.450	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:37.761	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:38.066	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:38.371	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:38.676	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:38.990	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:39.314	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:39.619	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:39.923	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:40.227	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:40.528	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:40.876	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:41.194	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:41.515	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:41.834	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:42.151	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:42.476	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:42.799	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:43.122	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:43.422	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:43.738	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:44.042	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:26:44.349	74.201.176.48:443	'7': request ticks (Invalid parameters)
+1	2016.08.23 16:26:44.656	74.201.176.48:443	'7': request ticks for 'EURUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:26:45.374	74.201.176.48:443	'7': request ticks for 'USDJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:26:45.691	74.201.176.48:443	'7': request ticks for 'GBPUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:26:46.071	74.201.176.48:443	'7': request ticks for 'EURCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:26:46.380	74.201.176.48:443	'7': request ticks for 'AUDUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:26:46.728	74.201.176.48:443	'7': request ticks for 'EURGBP' (0 ticks) (OK/None)
+1	2016.08.23 16:26:47.078	74.201.176.48:443	'7': request ticks for 'NZDUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:26:47.382	74.201.176.48:443	'7': request ticks for 'USDCAD' (0 ticks) (OK/None)
+1	2016.08.23 16:26:47.687	74.201.176.48:443	'7': request ticks for 'USDCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:26:48.407	74.201.176.48:443	'7': request ticks for 'EURJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:26:48.707	74.201.176.48:443	'7': request ticks for 'AUDCAD' (0 ticks) (OK/None)
+1	2016.08.23 16:26:49.120	74.201.176.48:443	'7': request ticks for 'AUDCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:26:49.425	74.201.176.48:443	'7': request ticks for 'AUDJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:26:49.731	74.201.176.48:443	'7': request ticks for 'AUDSGD' (0 ticks) (OK/None)
+1	2016.08.23 16:26:50.063	74.201.176.48:443	'7': request ticks for 'CADCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:26:50.375	74.201.176.48:443	'7': request ticks for 'CHFJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:26:50.798	74.201.176.48:443	'7': request ticks for 'AUDNZD' (0 ticks) (OK/None)
+1	2016.08.23 16:26:51.102	74.201.176.48:443	'7': request ticks for 'CADJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:26:51.407	74.201.176.48:443	'7': request ticks for 'NOKSEK' (0 ticks) (OK/None)
+1	2016.08.23 16:26:51.711	74.201.176.48:443	'7': request ticks for 'NZDCAD' (0 ticks) (OK/None)
+1	2016.08.23 16:26:52.016	74.201.176.48:443	'7': request ticks for 'NZDCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:26:52.321	74.201.176.48:443	'7': request ticks for 'NZDJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:26:52.663	74.201.176.48:443	'7': request ticks for 'SGDJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:26:52.988	74.201.176.48:443	'7': request ticks for 'USDSGD' (0 ticks) (OK/None)
+1	2016.08.23 16:26:53.293	74.201.176.48:443	'7': request ticks for 'EURAUD' (0 ticks) (OK/None)
+1	2016.08.23 16:26:53.605	74.201.176.48:443	'7': request ticks for 'EURCAD' (0 ticks) (OK/None)
+1	2016.08.23 16:26:53.926	74.201.176.48:443	'7': request ticks for 'EURNZD' (0 ticks) (OK/None)
+1	2016.08.23 16:26:54.239	74.201.176.48:443	'7': request ticks for 'GBPCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:26:54.956	74.201.176.48:443	'7': request ticks for 'CHFSGD' (0 ticks) (OK/None)
+1	2016.08.23 16:26:55.272	74.201.176.48:443	'7': request ticks for 'GBPAUD' (0 ticks) (OK/None)
+1	2016.08.23 16:26:55.582	74.201.176.48:443	'7': request ticks for 'GBPCAD' (0 ticks) (OK/None)
+1	2016.08.23 16:26:55.886	74.201.176.48:443	'7': request ticks for 'GBPJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:26:56.190	74.201.176.48:443	'7': request ticks for 'GBPSGD' (0 ticks) (OK/None)
+1	2016.08.23 16:26:56.517	74.201.176.48:443	'7': request ticks for 'GBPNZD' (0 ticks) (OK/None)
+1	2016.08.23 16:26:56.822	74.201.176.48:443	'7': request ticks for 'USDCZK' (0 ticks) (OK/None)
+1	2016.08.23 16:26:57.126	74.201.176.48:443	'7': request ticks for 'USDTRY' (0 ticks) (OK/None)
+1	2016.08.23 16:26:57.431	74.201.176.48:443	'7': request ticks for 'EURSGD' (0 ticks) (OK/None)
+1	2016.08.23 16:26:57.731	74.201.176.48:443	'7': request ticks for 'EURCZK' (0 ticks) (OK/None)
+1	2016.08.23 16:26:58.032	74.201.176.48:443	'7': request ticks for 'EURTRY' (0 ticks) (OK/None)
+1	2016.08.23 16:26:58.370	74.201.176.48:443	'7': request ticks for 'USDPLN' (0 ticks) (OK/None)
+1	2016.08.23 16:26:58.671	74.201.176.48:443	'7': request ticks for 'EURPLN' (0 ticks) (OK/None)
+1	2016.08.23 16:26:59.038	74.201.176.48:443	'7': request ticks for 'GBPTRY' (0 ticks) (OK/None)
+1	2016.08.23 16:26:59.344	74.201.176.48:443	'7': request ticks for 'USDDKK' (0 ticks) (OK/None)
+1	2016.08.23 16:26:59.648	74.201.176.48:443	'7': request ticks for 'USDNOK' (0 ticks) (OK/None)
+1	2016.08.23 16:26:59.952	74.201.176.48:443	'7': request ticks for 'USDSEK' (0 ticks) (OK/None)
+1	2016.08.23 16:27:00.267	74.201.176.48:443	'7': request ticks for 'EURDKK' (0 ticks) (OK/None)
+1	2016.08.23 16:27:00.582	74.201.176.48:443	'7': request ticks for 'USDHKD' (0 ticks) (OK/None)
+1	2016.08.23 16:27:00.886	74.201.176.48:443	'7': request ticks for 'EURNOK' (0 ticks) (OK/None)
+1	2016.08.23 16:27:01.179	74.201.176.48:443	'7': request ticks for 'EURSEK' (0 ticks) (OK/None)
+1	2016.08.23 16:27:01.689	74.201.176.48:443	'7': request ticks for 'XAGUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:27:02.428	74.201.176.48:443	'7': request ticks for 'XAUUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:27:02.736	74.201.176.48:443	'7': request ticks for 'EURHKD.' (0 ticks) (OK/None)
+1	2016.08.23 16:27:03.037	74.201.176.48:443	'7': request ticks for 'USDZAR.' (0 ticks) (OK/None)
+1	2016.08.23 16:27:03.345	74.201.176.48:443	'7': request ticks for 'USDCNH.' (0 ticks) (OK/None)
+1	2016.08.23 16:27:03.638	74.201.176.48:443	'7': request ticks for 'USDMXN.' (0 ticks) (OK/None)
+1	2016.08.23 16:27:03.953	74.201.176.48:443	'7': request ticks for 'USDTHB.' (0 ticks) (OK/None)
+1	2016.08.23 16:27:04.254	74.201.176.48:443	'7': request ticks for 'ZARJPY.' (0 ticks) (OK/None)
+1	2016.08.23 16:27:04.565	74.201.176.48:443	'7': request ticks for 'GBPNOK.' (0 ticks) (OK/None)
+1	2016.08.23 16:27:04.867	74.201.176.48:443	'7': request ticks for 'GBPSEK.' (0 ticks) (OK/None)
+1	2016.08.23 16:27:05.168	74.201.176.48:443	'7': request ticks for 'NOKJPY.' (0 ticks) (OK/None)
+1	2016.08.23 16:27:05.478	74.201.176.48:443	'7': request ticks for 'XPTUSD.' (0 ticks) (OK/None)
+1	2016.08.23 16:27:05.770	74.201.176.48:443	'7': request ticks for 'XPDUSD.' (0 ticks) (OK/None)
+1	2016.08.23 16:27:06.085	74.201.176.48:443	'7': request ticks for 'XAUEUR.' (0 ticks) (OK/None)
+1	2016.08.23 16:27:06.403	74.201.176.48:443	'7': request ticks for 'EURUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:27:06.709	74.201.176.48:443	'7': request ticks for 'USDJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:27:07.007	74.201.176.48:443	'7': request ticks for 'GBPUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:27:07.318	74.201.176.48:443	'7': request ticks for 'EURCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:27:07.619	74.201.176.48:443	'7': request ticks for 'AUDUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:27:07.926	74.201.176.48:443	'7': request ticks for 'EURGBP' (0 ticks) (OK/None)
+1	2016.08.23 16:27:08.229	74.201.176.48:443	'7': request ticks for 'NZDUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:27:08.534	74.201.176.48:443	'7': request ticks for 'USDCAD' (0 ticks) (OK/None)
+1	2016.08.23 16:27:08.839	74.201.176.48:443	'7': request ticks for 'USDCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:27:09.144	74.201.176.48:443	'7': request ticks for 'EURJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:27:09.449	74.201.176.48:443	'7': request ticks for 'AUDCAD' (0 ticks) (OK/None)
+1	2016.08.23 16:27:09.754	74.201.176.48:443	'7': request ticks for 'AUDCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:27:10.045	74.201.176.48:443	'7': request ticks for 'AUDJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:27:10.363	74.201.176.48:443	'7': request ticks for 'AUDSGD' (0 ticks) (OK/None)
+1	2016.08.23 16:27:10.668	74.201.176.48:443	'7': request ticks for 'CADCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:27:10.989	74.201.176.48:443	'7': request ticks for 'CHFJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:27:11.294	74.201.176.48:443	'7': request ticks for 'AUDNZD' (0 ticks) (OK/None)
+1	2016.08.23 16:27:11.598	74.201.176.48:443	'7': request ticks for 'CADJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:27:11.902	74.201.176.48:443	'7': request ticks for 'NOKSEK' (0 ticks) (OK/None)
+1	2016.08.23 16:27:12.206	74.201.176.48:443	'7': request ticks for 'NZDCAD' (0 ticks) (OK/None)
+1	2016.08.23 16:27:12.510	74.201.176.48:443	'7': request ticks for 'NZDCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:27:12.814	74.201.176.48:443	'7': request ticks for 'NZDJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:27:13.120	74.201.176.48:443	'7': request ticks for 'SGDJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:27:13.426	74.201.176.48:443	'7': request ticks for 'USDSGD' (0 ticks) (OK/None)
+1	2016.08.23 16:27:13.716	74.201.176.48:443	'7': request ticks for 'EURAUD' (0 ticks) (OK/None)
+1	2016.08.23 16:27:14.034	74.201.176.48:443	'7': request ticks for 'EURCAD' (0 ticks) (OK/None)
+1	2016.08.23 16:27:14.338	74.201.176.48:443	'7': request ticks for 'EURNZD' (0 ticks) (OK/None)
+1	2016.08.23 16:27:14.641	74.201.176.48:443	'7': request ticks for 'GBPCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:27:14.938	74.201.176.48:443	'7': request ticks for 'CHFSGD' (0 ticks) (OK/None)
+1	2016.08.23 16:27:15.239	74.201.176.48:443	'7': request ticks for 'GBPAUD' (0 ticks) (OK/None)
+1	2016.08.23 16:27:15.554	74.201.176.48:443	'7': request ticks for 'GBPCAD' (0 ticks) (OK/None)
+1	2016.08.23 16:27:15.859	74.201.176.48:443	'7': request ticks for 'GBPJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:27:16.149	74.201.176.48:443	'7': request ticks for 'GBPSGD' (0 ticks) (OK/None)
+1	2016.08.23 16:27:16.467	74.201.176.48:443	'7': request ticks for 'GBPNZD' (0 ticks) (OK/None)
+1	2016.08.23 16:27:16.772	74.201.176.48:443	'7': request ticks for 'USDCZK' (0 ticks) (OK/None)
+1	2016.08.23 16:27:17.077	74.201.176.48:443	'7': request ticks for 'USDTRY' (0 ticks) (OK/None)
+1	2016.08.23 16:27:17.383	74.201.176.48:443	'7': request ticks for 'EURSGD' (0 ticks) (OK/None)
+1	2016.08.23 16:27:17.687	74.201.176.48:443	'7': request ticks for 'EURCZK' (0 ticks) (OK/None)
+1	2016.08.23 16:27:18.009	74.201.176.48:443	'7': request ticks for 'EURTRY' (0 ticks) (OK/None)
+1	2016.08.23 16:27:18.313	74.201.176.48:443	'7': request ticks for 'USDPLN' (0 ticks) (OK/None)
+1	2016.08.23 16:27:18.614	74.201.176.48:443	'7': request ticks for 'EURPLN' (0 ticks) (OK/None)
+1	2016.08.23 16:27:18.923	74.201.176.48:443	'7': request ticks for 'GBPTRY' (0 ticks) (OK/None)
+1	2016.08.23 16:27:19.229	74.201.176.48:443	'7': request ticks for 'USDDKK' (0 ticks) (OK/None)
+1	2016.08.23 16:27:19.534	74.201.176.48:443	'7': request ticks for 'USDNOK' (0 ticks) (OK/None)
+1	2016.08.23 16:27:19.837	74.201.176.48:443	'7': request ticks for 'USDSEK' (0 ticks) (OK/None)
+1	2016.08.23 16:27:20.155	74.201.176.48:443	'7': request ticks for 'EURDKK' (0 ticks) (OK/None)
+1	2016.08.23 16:27:20.460	74.201.176.48:443	'7': request ticks for 'USDHKD' (0 ticks) (OK/None)
+1	2016.08.23 16:27:20.765	74.201.176.48:443	'7': request ticks for 'EURNOK' (0 ticks) (OK/None)
+1	2016.08.23 16:27:21.068	74.201.176.48:443	'7': request ticks for 'EURSEK' (0 ticks) (OK/None)
+1	2016.08.23 16:27:21.373	74.201.176.48:443	'7': request ticks for 'XAGUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:27:21.679	74.201.176.48:443	'7': request ticks for 'XAUUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:27:21.998	74.201.176.48:443	'7': request ticks for 'EURHKD.' (0 ticks) (OK/None)
+1	2016.08.23 16:27:22.303	74.201.176.48:443	'7': request ticks for 'USDZAR.' (0 ticks) (OK/None)
+1	2016.08.23 16:27:22.626	74.201.176.48:443	'7': request ticks for 'USDCNH.' (0 ticks) (OK/None)
+1	2016.08.23 16:27:22.931	74.201.176.48:443	'7': request ticks for 'USDMXN.' (0 ticks) (OK/None)
+1	2016.08.23 16:27:23.235	74.201.176.48:443	'7': request ticks for 'USDTHB.' (0 ticks) (OK/None)
+1	2016.08.23 16:27:23.541	74.201.176.48:443	'7': request ticks for 'ZARJPY.' (0 ticks) (OK/None)
+1	2016.08.23 16:27:23.846	74.201.176.48:443	'7': request ticks for 'GBPNOK.' (0 ticks) (OK/None)
+1	2016.08.23 16:27:24.150	74.201.176.48:443	'7': request ticks for 'GBPSEK.' (0 ticks) (OK/None)
+1	2016.08.23 16:27:24.453	74.201.176.48:443	'7': request ticks for 'NOKJPY.' (0 ticks) (OK/None)
+1	2016.08.23 16:27:24.759	74.201.176.48:443	'7': request ticks for 'XPTUSD.' (0 ticks) (OK/None)
+1	2016.08.23 16:27:25.063	74.201.176.48:443	'7': request ticks for 'XPDUSD.' (0 ticks) (OK/None)
+1	2016.08.23 16:27:25.378	74.201.176.48:443	'7': request ticks for 'XAUEUR.' (0 ticks) (OK/None)
+0	2016.08.23 16:39:08.723	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 16:39:13.678	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 16:39:13.678	74.201.176.48:443	'7': disconnect
+0	2016.08.23 16:39:14.074	74.201.176.48:443	Connect
+0	2016.08.23 16:39:14.542	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 16:39:14.927	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 16:39:29.134	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 16:39:32.211	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 16:44:52.369		Unload: manager DDD878 not released
+0	2016.08.23 16:44:52.470	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 16:44:52.470	74.201.176.48:443	'7': disconnect
+0	2016.08.23 16:44:52.470		Remove: manager DDD878
+0	2016.08.23 16:44:52.470		Unload: manager DD4D08 not released
+0	2016.08.23 16:44:52.571	74.201.176.48:443	'7': disconnect
+0	2016.08.23 16:44:52.571		Remove: manager DD4D08
+0	2016.08.23 16:57:41.512		MetaTrader 4 Manager API build 910 initialized
+0	2016.08.23 16:57:41.727		MetaTrader 4 Manager API build 910 initialized
+0	2016.08.23 16:57:42.008	74.201.176.48:443	Connect
+0	2016.08.23 16:57:42.309	74.201.176.48:443	Connect
+0	2016.08.23 16:57:44.692	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 16:57:45.357	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 16:57:45.658	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 16:57:46.929	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 16:57:48.155	74.201.176.48:443	'7': pumping mode started
+3	2016.08.23 16:57:48.658	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:48.936	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:49.277	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:49.650	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:49.947	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:50.273	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:50.617	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:50.911	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:51.214	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:51.500	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:51.825	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:52.144	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:52.428	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:53.182	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:54.667	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:54.945	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:55.223	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:55.526	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:55.804	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:56.086	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:56.370	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:56.665	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:56.945	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:57.256	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:57.553	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:57.862	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:58.163	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:58.459	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:58.748	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:59.043	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:59.335	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:59.640	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:57:59.943	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:00.259	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:00.539	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:00.819	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:01.125	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:01.411	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:01.711	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:01.994	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:02.279	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:02.556	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:02.835	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:03.124	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:03.413	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:03.695	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:03.991	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:04.267	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:04.545	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:04.823	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:05.142	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:05.421	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:05.699	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:05.977	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:06.300	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:06.623	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:06.917	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:07.195	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:07.475	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:07.768	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:08.076	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:08.357	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:08.646	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:08.943	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:09.224	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:09.501	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:09.777	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:10.058	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:10.397	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:10.687	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:11.003	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:11.285	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:11.996	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:12.278	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:12.557	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:12.835	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:13.147	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:13.484	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:13.766	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:14.091	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:14.368	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:14.655	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:14.936	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:15.214	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:15.492	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:15.771	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:16.054	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:16.336	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:16.614	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:16.892	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:17.174	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:17.463	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:17.740	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:18.017	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:18.296	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:18.582	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:18.862	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:19.140	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:19.417	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:19.694	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:19.981	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:20.261	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:20.538	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:20.823	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:21.105	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:21.384	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:21.664	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:21.952	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:22.230	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:22.506	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:22.804	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:23.081	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:23.380	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:23.670	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:23.964	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:24.248	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:24.528	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:24.804	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:25.093	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:25.371	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:25.654	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:25.943	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:26.222	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:26.499	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:26.781	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:27.083	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:27.361	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:27.643	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:27.958	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:28.239	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:28.534	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:28.820	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:29.102	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:29.380	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:29.664	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:29.964	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:30.248	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:30.529	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:30.811	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:31.125	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:31.407	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:31.687	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:31.969	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:32.291	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:32.584	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:32.866	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:33.144	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:33.436	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:33.732	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:34.010	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:34.304	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:34.585	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:34.875	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:35.167	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:35.445	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:35.726	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:36.008	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:36.293	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:36.569	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:36.846	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:37.124	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:37.404	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:37.706	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:38.003	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:38.335	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:38.626	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:38.906	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:39.194	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:39.473	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:39.752	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:40.043	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:40.340	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:40.644	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:40.932	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:41.245	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:41.523	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:41.859	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:42.148	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:42.500	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:42.829	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:43.120	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:43.409	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:43.718	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:43.998	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:44.284	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:44.589	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:44.877	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:45.156	74.201.176.48:443	'7': request ticks (Invalid parameters)
+3	2016.08.23 16:58:45.438	74.201.176.48:443	'7': request ticks (Invalid parameters)
+1	2016.08.23 16:58:45.724	74.201.176.48:443	'7': request ticks for 'EURUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:58:46.008	74.201.176.48:443	'7': request ticks for 'USDJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:58:46.303	74.201.176.48:443	'7': request ticks for 'GBPUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:58:46.598	74.201.176.48:443	'7': request ticks for 'EURCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:58:46.890	74.201.176.48:443	'7': request ticks for 'AUDUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:58:47.204	74.201.176.48:443	'7': request ticks for 'EURGBP' (0 ticks) (OK/None)
+1	2016.08.23 16:58:47.898	74.201.176.48:443	'7': request ticks for 'NZDUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:58:48.191	74.201.176.48:443	'7': request ticks for 'USDCAD' (0 ticks) (OK/None)
+1	2016.08.23 16:58:48.469	74.201.176.48:443	'7': request ticks for 'USDCHF' (0 ticks) (OK/None)
+0	2016.08.23 16:58:55.928	74.201.176.48:443	'7': request ticks for 'EURJPY' (43415 ticks)
+1	2016.08.23 16:58:56.296	74.201.176.48:443	'7': request ticks for 'AUDCAD' (0 ticks) (OK/None)
+1	2016.08.23 16:58:56.585	74.201.176.48:443	'7': request ticks for 'AUDCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:58:56.869	74.201.176.48:443	'7': request ticks for 'AUDJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:58:57.147	74.201.176.48:443	'7': request ticks for 'AUDSGD' (0 ticks) (OK/None)
+1	2016.08.23 16:58:57.424	74.201.176.48:443	'7': request ticks for 'CADCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:58:57.708	74.201.176.48:443	'7': request ticks for 'CHFJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:58:57.985	74.201.176.48:443	'7': request ticks for 'AUDNZD' (0 ticks) (OK/None)
+1	2016.08.23 16:58:58.273	74.201.176.48:443	'7': request ticks for 'CADJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:58:58.550	74.201.176.48:443	'7': request ticks for 'NOKSEK' (0 ticks) (OK/None)
+1	2016.08.23 16:58:58.828	74.201.176.48:443	'7': request ticks for 'NZDCAD' (0 ticks) (OK/None)
+1	2016.08.23 16:58:59.107	74.201.176.48:443	'7': request ticks for 'NZDCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:58:59.393	74.201.176.48:443	'7': request ticks for 'NZDJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:58:59.670	74.201.176.48:443	'7': request ticks for 'SGDJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:58:59.948	74.201.176.48:443	'7': request ticks for 'USDSGD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:00.228	74.201.176.48:443	'7': request ticks for 'EURAUD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:00.522	74.201.176.48:443	'7': request ticks for 'EURCAD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:00.804	74.201.176.48:443	'7': request ticks for 'EURNZD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:01.082	74.201.176.48:443	'7': request ticks for 'GBPCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:59:01.390	74.201.176.48:443	'7': request ticks for 'CHFSGD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:01.693	74.201.176.48:443	'7': request ticks for 'GBPAUD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:02.363	74.201.176.48:443	'7': request ticks for 'GBPCAD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:02.648	74.201.176.48:443	'7': request ticks for 'GBPJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:59:02.925	74.201.176.48:443	'7': request ticks for 'GBPSGD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:03.206	74.201.176.48:443	'7': request ticks for 'GBPNZD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:03.498	74.201.176.48:443	'7': request ticks for 'USDCZK' (0 ticks) (OK/None)
+1	2016.08.23 16:59:03.785	74.201.176.48:443	'7': request ticks for 'USDTRY' (0 ticks) (OK/None)
+1	2016.08.23 16:59:04.069	74.201.176.48:443	'7': request ticks for 'EURSGD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:04.363	74.201.176.48:443	'7': request ticks for 'EURCZK' (0 ticks) (OK/None)
+1	2016.08.23 16:59:04.662	74.201.176.48:443	'7': request ticks for 'EURTRY' (0 ticks) (OK/None)
+1	2016.08.23 16:59:04.943	74.201.176.48:443	'7': request ticks for 'USDPLN' (0 ticks) (OK/None)
+1	2016.08.23 16:59:05.227	74.201.176.48:443	'7': request ticks for 'EURPLN' (0 ticks) (OK/None)
+1	2016.08.23 16:59:05.522	74.201.176.48:443	'7': request ticks for 'GBPTRY' (0 ticks) (OK/None)
+1	2016.08.23 16:59:05.814	74.201.176.48:443	'7': request ticks for 'USDDKK' (0 ticks) (OK/None)
+1	2016.08.23 16:59:06.109	74.201.176.48:443	'7': request ticks for 'USDNOK' (0 ticks) (OK/None)
+1	2016.08.23 16:59:06.912	74.201.176.48:443	'7': request ticks for 'USDSEK' (0 ticks) (OK/None)
+1	2016.08.23 16:59:07.192	74.201.176.48:443	'7': request ticks for 'EURDKK' (0 ticks) (OK/None)
+1	2016.08.23 16:59:07.470	74.201.176.48:443	'7': request ticks for 'USDHKD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:07.746	74.201.176.48:443	'7': request ticks for 'EURNOK' (0 ticks) (OK/None)
+1	2016.08.23 16:59:08.026	74.201.176.48:443	'7': request ticks for 'EURSEK' (0 ticks) (OK/None)
+0	2016.08.23 16:59:12.695	74.201.176.48:443	'7': request ticks for 'XAGUSD' (20435 ticks)
+0	2016.08.23 16:59:17.766	74.201.176.48:443	'7': request ticks for 'XAUUSD' (41341 ticks)
+1	2016.08.23 16:59:18.168	74.201.176.48:443	'7': request ticks for 'EURHKD.' (0 ticks) (OK/None)
+1	2016.08.23 16:59:18.470	74.201.176.48:443	'7': request ticks for 'USDZAR.' (0 ticks) (OK/None)
+1	2016.08.23 16:59:18.790	74.201.176.48:443	'7': request ticks for 'USDCNH.' (0 ticks) (OK/None)
+1	2016.08.23 16:59:19.080	74.201.176.48:443	'7': request ticks for 'USDMXN.' (0 ticks) (OK/None)
+1	2016.08.23 16:59:19.357	74.201.176.48:443	'7': request ticks for 'USDTHB.' (0 ticks) (OK/None)
+1	2016.08.23 16:59:19.648	74.201.176.48:443	'7': request ticks for 'ZARJPY.' (0 ticks) (OK/None)
+1	2016.08.23 16:59:19.953	74.201.176.48:443	'7': request ticks for 'GBPNOK.' (0 ticks) (OK/None)
+1	2016.08.23 16:59:20.251	74.201.176.48:443	'7': request ticks for 'GBPSEK.' (0 ticks) (OK/None)
+1	2016.08.23 16:59:20.534	74.201.176.48:443	'7': request ticks for 'NOKJPY.' (0 ticks) (OK/None)
+1	2016.08.23 16:59:20.819	74.201.176.48:443	'7': request ticks for 'XPTUSD.' (0 ticks) (OK/None)
+1	2016.08.23 16:59:21.100	74.201.176.48:443	'7': request ticks for 'XPDUSD.' (0 ticks) (OK/None)
+1	2016.08.23 16:59:21.391	74.201.176.48:443	'7': request ticks for 'XAUEUR.' (0 ticks) (OK/None)
+1	2016.08.23 16:59:21.719	74.201.176.48:443	'7': request ticks for 'EURUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:22.009	74.201.176.48:443	'7': request ticks for 'USDJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:59:22.286	74.201.176.48:443	'7': request ticks for 'GBPUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:22.579	74.201.176.48:443	'7': request ticks for 'EURCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:59:22.858	74.201.176.48:443	'7': request ticks for 'AUDUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:23.151	74.201.176.48:443	'7': request ticks for 'EURGBP' (0 ticks) (OK/None)
+1	2016.08.23 16:59:23.461	74.201.176.48:443	'7': request ticks for 'NZDUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:23.761	74.201.176.48:443	'7': request ticks for 'USDCAD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:24.075	74.201.176.48:443	'7': request ticks for 'USDCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:59:24.415	74.201.176.48:443	'7': request ticks for 'EURJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:59:24.700	74.201.176.48:443	'7': request ticks for 'AUDCAD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:25.012	74.201.176.48:443	'7': request ticks for 'AUDCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:59:25.341	74.201.176.48:443	'7': request ticks for 'AUDJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:59:25.623	74.201.176.48:443	'7': request ticks for 'AUDSGD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:25.903	74.201.176.48:443	'7': request ticks for 'CADCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:59:26.196	74.201.176.48:443	'7': request ticks for 'CHFJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:59:26.474	74.201.176.48:443	'7': request ticks for 'AUDNZD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:26.778	74.201.176.48:443	'7': request ticks for 'CADJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:59:27.077	74.201.176.48:443	'7': request ticks for 'NOKSEK' (0 ticks) (OK/None)
+1	2016.08.23 16:59:27.357	74.201.176.48:443	'7': request ticks for 'NZDCAD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:27.648	74.201.176.48:443	'7': request ticks for 'NZDCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:59:27.936	74.201.176.48:443	'7': request ticks for 'NZDJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:59:28.235	74.201.176.48:443	'7': request ticks for 'SGDJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:59:28.521	74.201.176.48:443	'7': request ticks for 'USDSGD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:28.799	74.201.176.48:443	'7': request ticks for 'EURAUD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:29.118	74.201.176.48:443	'7': request ticks for 'EURCAD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:29.423	74.201.176.48:443	'7': request ticks for 'EURNZD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:29.766	74.201.176.48:443	'7': request ticks for 'GBPCHF' (0 ticks) (OK/None)
+1	2016.08.23 16:59:30.085	74.201.176.48:443	'7': request ticks for 'CHFSGD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:30.375	74.201.176.48:443	'7': request ticks for 'GBPAUD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:30.673	74.201.176.48:443	'7': request ticks for 'GBPCAD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:31.011	74.201.176.48:443	'7': request ticks for 'GBPJPY' (0 ticks) (OK/None)
+1	2016.08.23 16:59:31.289	74.201.176.48:443	'7': request ticks for 'GBPSGD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:31.607	74.201.176.48:443	'7': request ticks for 'GBPNZD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:32.320	74.201.176.48:443	'7': request ticks for 'USDCZK' (0 ticks) (OK/None)
+1	2016.08.23 16:59:32.636	74.201.176.48:443	'7': request ticks for 'USDTRY' (0 ticks) (OK/None)
+1	2016.08.23 16:59:32.913	74.201.176.48:443	'7': request ticks for 'EURSGD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:33.190	74.201.176.48:443	'7': request ticks for 'EURCZK' (0 ticks) (OK/None)
+1	2016.08.23 16:59:33.468	74.201.176.48:443	'7': request ticks for 'EURTRY' (0 ticks) (OK/None)
+1	2016.08.23 16:59:33.804	74.201.176.48:443	'7': request ticks for 'USDPLN' (0 ticks) (OK/None)
+1	2016.08.23 16:59:34.083	74.201.176.48:443	'7': request ticks for 'EURPLN' (0 ticks) (OK/None)
+1	2016.08.23 16:59:34.378	74.201.176.48:443	'7': request ticks for 'GBPTRY' (0 ticks) (OK/None)
+1	2016.08.23 16:59:34.657	74.201.176.48:443	'7': request ticks for 'USDDKK' (0 ticks) (OK/None)
+1	2016.08.23 16:59:34.935	74.201.176.48:443	'7': request ticks for 'USDNOK' (0 ticks) (OK/None)
+1	2016.08.23 16:59:35.211	74.201.176.48:443	'7': request ticks for 'USDSEK' (0 ticks) (OK/None)
+1	2016.08.23 16:59:35.508	74.201.176.48:443	'7': request ticks for 'EURDKK' (0 ticks) (OK/None)
+1	2016.08.23 16:59:35.799	74.201.176.48:443	'7': request ticks for 'USDHKD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:36.114	74.201.176.48:443	'7': request ticks for 'EURNOK' (0 ticks) (OK/None)
+1	2016.08.23 16:59:36.396	74.201.176.48:443	'7': request ticks for 'EURSEK' (0 ticks) (OK/None)
+1	2016.08.23 16:59:36.694	74.201.176.48:443	'7': request ticks for 'XAGUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:36.974	74.201.176.48:443	'7': request ticks for 'XAUUSD' (0 ticks) (OK/None)
+1	2016.08.23 16:59:37.264	74.201.176.48:443	'7': request ticks for 'EURHKD.' (0 ticks) (OK/None)
+1	2016.08.23 16:59:37.548	74.201.176.48:443	'7': request ticks for 'USDZAR.' (0 ticks) (OK/None)
+1	2016.08.23 16:59:37.825	74.201.176.48:443	'7': request ticks for 'USDCNH.' (0 ticks) (OK/None)
+1	2016.08.23 16:59:38.111	74.201.176.48:443	'7': request ticks for 'USDMXN.' (0 ticks) (OK/None)
+1	2016.08.23 16:59:38.401	74.201.176.48:443	'7': request ticks for 'USDTHB.' (0 ticks) (OK/None)
+1	2016.08.23 16:59:38.678	74.201.176.48:443	'7': request ticks for 'ZARJPY.' (0 ticks) (OK/None)
+1	2016.08.23 16:59:38.956	74.201.176.48:443	'7': request ticks for 'GBPNOK.' (0 ticks) (OK/None)
+1	2016.08.23 16:59:39.234	74.201.176.48:443	'7': request ticks for 'GBPSEK.' (0 ticks) (OK/None)
+1	2016.08.23 16:59:39.522	74.201.176.48:443	'7': request ticks for 'NOKJPY.' (0 ticks) (OK/None)
+1	2016.08.23 16:59:39.801	74.201.176.48:443	'7': request ticks for 'XPTUSD.' (0 ticks) (OK/None)
+1	2016.08.23 16:59:40.081	74.201.176.48:443	'7': request ticks for 'XPDUSD.' (0 ticks) (OK/None)
+1	2016.08.23 16:59:40.370	74.201.176.48:443	'7': request ticks for 'XAUEUR.' (0 ticks) (OK/None)
+0	2016.08.23 17:02:30.795	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 17:02:35.773	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 17:02:35.773	74.201.176.48:443	'7': disconnect
+0	2016.08.23 17:02:36.039	74.201.176.48:443	Connect
+0	2016.08.23 17:02:36.453	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 17:02:36.753	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 17:02:37.992	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 17:02:39.186	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 17:09:07.016	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 17:09:11.978	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 17:09:11.978	74.201.176.48:443	'7': disconnect
+0	2016.08.23 17:09:12.264	74.201.176.48:443	Connect
+0	2016.08.23 17:09:12.654	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 17:09:12.932	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 17:09:14.172	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 17:09:16.289	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 17:14:08.212	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 17:14:13.163	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 17:14:13.163	74.201.176.48:443	'7': disconnect
+0	2016.08.23 17:14:13.472	74.201.176.48:443	Connect
+0	2016.08.23 17:14:13.880	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 17:14:14.209	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 17:14:15.678	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 17:14:17.790	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 17:18:59.461	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 17:19:04.427	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 17:19:04.427	74.201.176.48:443	'7': disconnect
+0	2016.08.23 17:19:04.728	74.201.176.48:443	Connect
+0	2016.08.23 17:19:05.136	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 17:19:05.451	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 17:19:07.042	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 17:19:08.273	74.201.176.48:443	'7': pumping mode started
+2	2016.08.23 17:22:41.387	74.201.176.48:443	'7': pumping ping (Common error)
+0	2016.08.23 17:22:41.388	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 17:22:45.481	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 17:22:45.481	74.201.176.48:443	'7': disconnect
+0	2016.08.23 17:22:45.766	74.201.176.48:443	Connect
+0	2016.08.23 17:22:46.165	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 17:22:46.457	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 17:22:47.664	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 17:22:48.858	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 17:27:11.524	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 17:27:16.483	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 17:27:16.483	74.201.176.48:443	'7': disconnect
+0	2016.08.23 17:27:16.772	74.201.176.48:443	Connect
+0	2016.08.23 17:27:17.177	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 17:27:17.475	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 17:27:18.655	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 17:27:19.822	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 17:29:02.526	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 17:29:07.488	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 17:29:07.488	74.201.176.48:443	'7': disconnect
+0	2016.08.23 17:29:07.794	74.201.176.48:443	Connect
+0	2016.08.23 17:29:08.178	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 17:29:08.464	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 17:29:09.708	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 17:29:10.938	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 17:31:28.512	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 17:31:33.480	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 17:31:33.480	74.201.176.48:443	'7': disconnect
+0	2016.08.23 17:31:33.812	74.201.176.48:443	Connect
+0	2016.08.23 17:31:34.225	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 17:31:34.534	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 17:31:35.819	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 17:31:37.116	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 17:33:24.580	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 17:33:29.550	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 17:33:29.550	74.201.176.48:443	'7': disconnect
+0	2016.08.23 17:33:29.861	74.201.176.48:443	Connect
+0	2016.08.23 17:33:30.253	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 17:33:30.538	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 17:33:31.730	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 17:33:32.897	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 17:36:25.584	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 17:36:30.555	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 17:36:30.555	74.201.176.48:443	'7': disconnect
+0	2016.08.23 17:36:30.848	74.201.176.48:443	Connect
+0	2016.08.23 17:36:31.210	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 17:36:31.506	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 17:36:33.357	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 17:36:35.585	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 17:39:26.560	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 17:39:31.526	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 17:39:31.526	74.201.176.48:443	'7': disconnect
+0	2016.08.23 17:39:31.841	74.201.176.48:443	Connect
+0	2016.08.23 17:39:32.258	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 17:39:32.585	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 17:39:33.909	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 17:39:35.199	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 17:43:02.752	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 17:43:07.721	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 17:43:07.721	74.201.176.48:443	'7': disconnect
+0	2016.08.23 17:43:08.020	74.201.176.48:443	Connect
+0	2016.08.23 17:43:08.421	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 17:43:08.731	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 17:43:09.999	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 17:43:11.236	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 17:45:33.913	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 17:45:38.914	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 17:45:38.914	74.201.176.48:443	'7': disconnect
+0	2016.08.23 17:45:39.218	74.201.176.48:443	Connect
+0	2016.08.23 17:45:39.614	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 17:45:39.911	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 17:45:41.150	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 17:45:42.331	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 17:48:35.228	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 17:48:40.180	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 17:48:40.181	74.201.176.48:443	'7': disconnect
+0	2016.08.23 17:48:40.490	74.201.176.48:443	Connect
+0	2016.08.23 17:48:40.897	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 17:48:41.209	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 17:48:42.447	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 17:48:43.704	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 17:50:26.277	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 17:50:31.291	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 17:50:31.291	74.201.176.48:443	'7': disconnect
+0	2016.08.23 17:50:31.558	74.201.176.48:443	Connect
+0	2016.08.23 17:50:31.965	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 17:50:32.261	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 17:50:33.412	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 17:50:34.577	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 17:52:32.540	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 17:52:37.497	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 17:52:37.497	74.201.176.48:443	'7': disconnect
+0	2016.08.23 17:52:37.794	74.201.176.48:443	Connect
+0	2016.08.23 17:52:38.191	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 17:52:38.490	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 17:52:39.711	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 17:52:40.914	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 17:54:58.785	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 17:55:03.752	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 17:55:03.752	74.201.176.48:443	'7': disconnect
+0	2016.08.23 17:55:04.033	74.201.176.48:443	Connect
+0	2016.08.23 17:55:04.408	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 17:55:04.705	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 17:55:05.878	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 17:55:07.035	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 17:57:19.915	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 17:57:24.879	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 17:57:24.879	74.201.176.48:443	'7': disconnect
+0	2016.08.23 17:57:25.179	74.201.176.48:443	Connect
+0	2016.08.23 17:57:25.580	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 17:57:25.883	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 17:57:27.211	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 17:57:28.432	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 18:00:16.012	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 18:00:20.965	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 18:00:20.965	74.201.176.48:443	'7': disconnect
+0	2016.08.23 18:00:21.255	74.201.176.48:443	Connect
+0	2016.08.23 18:00:21.642	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 18:00:21.937	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 18:00:23.151	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 18:00:24.349	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 18:02:27.067	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 18:02:32.057	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 18:02:32.057	74.201.176.48:443	'7': disconnect
+0	2016.08.23 18:02:32.365	74.201.176.48:443	Connect
+0	2016.08.23 18:02:32.784	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 18:02:33.091	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 18:02:36.680	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 18:02:42.063	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 18:04:28.221	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 18:04:33.174	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 18:04:33.174	74.201.176.48:443	'7': disconnect
+0	2016.08.23 18:04:33.478	74.201.176.48:443	Connect
+0	2016.08.23 18:04:33.839	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 18:04:34.140	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 18:04:36.891	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 18:04:38.102	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 18:07:29.224	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 18:07:34.190	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 18:07:34.190	74.201.176.48:443	'7': disconnect
+0	2016.08.23 18:07:34.488	74.201.176.48:443	Connect
+0	2016.08.23 18:07:34.886	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 18:07:35.188	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 18:07:36.414	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 18:07:37.616	74.201.176.48:443	'7': pumping mode started
+2	2016.08.23 18:09:10.549	74.201.176.48:443	'7': pumping ping (Common error)
+0	2016.08.23 18:09:10.551	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 18:09:15.209	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 18:09:15.209	74.201.176.48:443	'7': disconnect
+0	2016.08.23 18:09:15.509	74.201.176.48:443	Connect
+0	2016.08.23 18:09:15.905	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 18:09:16.207	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 18:09:17.678	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 18:09:18.875	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 18:11:16.358	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 18:11:21.356	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 18:11:21.356	74.201.176.48:443	'7': disconnect
+0	2016.08.23 18:11:21.662	74.201.176.48:443	Connect
+0	2016.08.23 18:11:22.069	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 18:11:22.376	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 18:11:23.631	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 18:11:24.908	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 18:13:47.561	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 18:13:52.538	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 18:13:52.538	74.201.176.48:443	'7': disconnect
+0	2016.08.23 18:13:52.822	74.201.176.48:443	Connect
+0	2016.08.23 18:13:53.203	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 18:13:53.584	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 18:13:54.752	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 18:13:55.896	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 18:16:58.664	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 18:17:03.617	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 18:17:03.617	74.201.176.48:443	'7': disconnect
+0	2016.08.23 18:17:03.915	74.201.176.48:443	Connect
+0	2016.08.23 18:17:04.311	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 18:17:04.611	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 18:17:05.839	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 18:17:07.044	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 18:19:09.812	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 18:19:14.791	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 18:19:14.791	74.201.176.48:443	'7': disconnect
+0	2016.08.23 18:19:15.088	74.201.176.48:443	Connect
+0	2016.08.23 18:19:15.496	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 18:19:15.799	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 18:19:17.042	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 18:19:18.285	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 18:21:10.980	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 18:21:15.950	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 18:21:15.950	74.201.176.48:443	'7': disconnect
+0	2016.08.23 18:21:16.247	74.201.176.48:443	Connect
+0	2016.08.23 18:21:16.622	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 18:21:16.935	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 18:21:18.116	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 18:21:19.278	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 18:24:17.237	74.201.176.48:443	'7': pumping mode stopped
+0	2016.08.23 18:24:22.230	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 18:24:22.230	74.201.176.48:443	'7': disconnect
+0	2016.08.23 18:24:22.527	74.201.176.48:443	Connect
+0	2016.08.23 18:24:22.923	74.201.176.48:443	'7': login (server build 950)
+0	2016.08.23 18:24:23.222	74.201.176.48:443	'7': pumping switch
+0	2016.08.23 18:24:24.440	74.201.176.48:443	'7': refresh symbols
+0	2016.08.23 18:24:25.686	74.201.176.48:443	'7': pumping mode started
+0	2016.08.23 18:25:33.387		Unload: manager 5C3478 not released
+0	2016.08.23 18:25:33.488	74.201.176.48:443	'7': disconnect pumping
+0	2016.08.23 18:25:33.488	74.201.176.48:443	'7': disconnect
+0	2016.08.23 18:25:33.488		Remove: manager 5C3478
+0	2016.08.23 18:25:33.488		Unload: manager 5B9A08 not released
+0	2016.08.23 18:25:33.589	74.201.176.48:443	'7': disconnect
+0	2016.08.23 18:25:33.589		Remove: manager 5B9A08

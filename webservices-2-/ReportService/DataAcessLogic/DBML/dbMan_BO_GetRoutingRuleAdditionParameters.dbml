@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="BOExchange" Class="dbMan_BO_GetRoutingRuleAdditionParametersDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.1.101;Initial Catalog=BOExchange;User ID=sa" SettingsObjectName="DataAcessLogic.Properties.Settings" SettingsPropertyName="BOExchangeConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_GetRoutingRuleAdditionParameter" Method="BO_GetRoutingRuleAdditionParameter">
+    <Parameter Name="RoutingRuleID" Parameter="routingRuleID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="BO_GetRoutingRuleAdditionParameterResult">
+      <Column Name="FK_RoutingAdditionalConditionID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Type" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Condition" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="[Values]" Member="Values" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

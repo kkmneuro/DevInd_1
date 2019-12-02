@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="BOExchange" Class="dbMan_Report_StockLevelDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.1.101;Initial Catalog=BOExchange;User ID=sa" SettingsObjectName="DataAcessLogic.Properties.Settings" SettingsPropertyName="BOExchangeConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.Report_StockLevel" Method="Report_StockLevel">
+    <Parameter Name="Symbol" Parameter="symbol" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="SecurityName" Parameter="securityName" Type="System.String" DbType="VarChar(10)" />
+    <Parameter Name="BrokerID" Parameter="brokerID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ParentBrokerID" Parameter="parentBrokerID" Type="System.Int32" DbType="Int" />
+    <ElementType Name="Report_StockLevelResult">
+      <Column Name="SecurityTypeID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ProductType" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="FK_Symbol" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Symbol" Type="System.String" DbType="VarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="BuyUnit" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SellUnit" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Capital" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

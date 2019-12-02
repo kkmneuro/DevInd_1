@@ -1,0 +1,13 @@
+D:\DevIndia\bo_admin-1-\archive\Socket\obj\x64\Release\DSSocket.csprojAssemblyReference.cache
+D:\DevIndia\bo_admin-1-\archive\Socket\bin\x64\Release\Log4net.config
+D:\DevIndia\bo_admin-1-\archive\Socket\bin\x64\Release\dll\log4net.dll
+D:\DevIndia\bo_admin-1-\archive\Socket\bin\x64\Release\DSSocket.dll
+D:\DevIndia\bo_admin-1-\archive\Socket\bin\x64\Release\DSSocket.pdb
+D:\DevIndia\bo_admin-1-\archive\Socket\bin\x64\Release\clsInterface4OME.dll
+D:\DevIndia\bo_admin-1-\archive\Socket\bin\x64\Release\ProtocolStructs.dll
+D:\DevIndia\bo_admin-1-\archive\Socket\bin\x64\Release\clsInterface4OME.pdb
+D:\DevIndia\bo_admin-1-\archive\Socket\bin\x64\Release\clsInterface4OME.dll.config
+D:\DevIndia\bo_admin-1-\archive\Socket\bin\x64\Release\ProtocolStructs.pdb
+D:\DevIndia\bo_admin-1-\archive\Socket\obj\x64\Release\DSSocket.csproj.CopyComplete
+D:\DevIndia\bo_admin-1-\archive\Socket\obj\x64\Release\DSSocket.dll
+D:\DevIndia\bo_admin-1-\archive\Socket\obj\x64\Release\DSSocket.pdb

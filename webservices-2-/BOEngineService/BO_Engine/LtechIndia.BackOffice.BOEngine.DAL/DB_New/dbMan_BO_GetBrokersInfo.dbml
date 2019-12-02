@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="BOExchange" Class="dbMan_BO_GetBrokersInfoDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.1.87;Initial Catalog=BOExchange;Persist Security Info=True;User ID=sa" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="BOExchangeConnectionString1" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_GetBrokersInfo" Method="BO_GetBrokersInfo">
+    <ElementType Name="BO_GetBrokersInfoResult">
+      <Column Name="PK_AccountGroupID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AccountGroupName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Owner" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Leverage" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Charges" Type="System.Decimal" DbType="Decimal(0,0)" CanBeNull="true" />
+      <Column Name="IsEnable" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="FK_BrokerTypeID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BrokerType" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="BrokerAddress" Type="System.String" DbType="VarChar(256)" CanBeNull="true" />
+      <Column Name="BrokerCity" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BrokerState" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BrokerPhone1" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="BrokerPhone2" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="BrokerFax" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="BrokerEmail" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ParentAccountGroupID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MarginCallLevel1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MarginCallLevel2" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MarginCallLevel3" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="News" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="MaximumOrders" Type="System.String" DbType="VarChar(256)" CanBeNull="true" />
+      <Column Name="MaximumSymbols" Type="System.String" DbType="VarChar(256)" CanBeNull="true" />
+      <Column Name="Roles" Type="System.String" DbType="VarChar(64)" CanBeNull="true" />
+      <Column Name="RoleId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RoleName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="LoginId" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

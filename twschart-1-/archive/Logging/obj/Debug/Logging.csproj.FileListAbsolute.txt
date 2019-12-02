@@ -1,0 +1,7 @@
+D:\DevIndia\twschart-1-\bin\LogSetting.xml
+D:\DevIndia\twschart-1-\bin\Logging.dll
+D:\DevIndia\twschart-1-\bin\Logging.pdb
+D:\DevIndia\twschart-1-\archive\Logging\obj\Debug\Logging.csprojAssemblyReference.cache
+D:\DevIndia\twschart-1-\archive\Logging\obj\Debug\Logging.csproj.CopyComplete
+D:\DevIndia\twschart-1-\archive\Logging\obj\Debug\Logging.dll
+D:\DevIndia\twschart-1-\archive\Logging\obj\Debug\Logging.pdb

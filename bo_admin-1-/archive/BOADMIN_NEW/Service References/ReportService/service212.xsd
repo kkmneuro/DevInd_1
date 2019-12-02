@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://schemas.datacontract.org/2004/07/ReportServiceClasses" />
+  <xs:element name="GetTradeReportData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="userIdPwd" nillable="true" type="xs:string" />
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/ReportServiceClasses" minOccurs="0" name="searchValues" nillable="true" type="q1:TradeReportSearchValues" />
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/ReportServiceClasses" minOccurs="0" name="searchType" type="q2:TradeReportSearchType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTradeReportDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/ReportServiceClasses" minOccurs="0" name="GetTradeReportDataResult" nillable="true" type="q3:ArrayOfclsTradeReport" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOrderReportData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="userIdPwd" nillable="true" type="xs:string" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/ReportServiceClasses" minOccurs="0" name="searchValues" nillable="true" type="q4:TradeReportSearchValues" />
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/ReportServiceClasses" minOccurs="0" name="searchType" type="q5:TradeReportSearchType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetOrderReportDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/ReportServiceClasses" minOccurs="0" name="GetOrderReportDataResult" nillable="true" type="q6:ArrayOfclsOrderReport" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetClientCommmissionReportData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="userIdPwd" nillable="true" type="xs:string" />
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/ReportServiceClasses" minOccurs="0" name="searchValues" nillable="true" type="q7:ClientCommissionSearchValues" />
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/ReportServiceClasses" minOccurs="0" name="searchType" type="q8:ClientCommissionSearchType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetClientCommmissionReportDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/ReportServiceClasses" minOccurs="0" name="GetClientCommmissionReportDataResult" nillable="true" type="q9:ArrayOfclsClientCommission" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetStockLevelReportData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="userIdPwd" nillable="true" type="xs:string" />
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/ReportServiceClasses" minOccurs="0" name="searchValues" nillable="true" type="q10:StockLevelSearchValues" />
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/ReportServiceClasses" minOccurs="0" name="searchType" type="q11:StockLevelSearchType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetStockLevelReportDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/ReportServiceClasses" minOccurs="0" name="GetStockLevelReportDataResult" nillable="true" type="q12:ArrayOfclsStockLevel" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetClientHoldingReportData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="userIdPwd" nillable="true" type="xs:string" />
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/ReportServiceClasses" minOccurs="0" name="searchValues" nillable="true" type="q13:ClientHoldingSearchValues" />
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/ReportServiceClasses" minOccurs="0" name="searchType" type="q14:ClientHoldingSearchType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetClientHoldingReportDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/ReportServiceClasses" minOccurs="0" name="GetClientHoldingReportDataResult" nillable="true" type="q15:ArrayOfclsClientHoldingStock" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMarginReportData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="userIdPwd" nillable="true" type="xs:string" />
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/ReportServiceClasses" minOccurs="0" name="searchValues" nillable="true" type="q16:MarginSearchValues" />
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/ReportServiceClasses" minOccurs="0" name="searchType" type="q17:MarginSearchType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMarginReportDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/ReportServiceClasses" minOccurs="0" name="GetMarginReportDataResult" nillable="true" type="q18:ArrayOfclsMarginReports" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAccountTransReportData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="userIdPwd" nillable="true" type="xs:string" />
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/ReportServiceClasses" minOccurs="0" name="searchValues" nillable="true" type="q19:AccountTransSearchValues" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAccountTransReportDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/ReportServiceClasses" minOccurs="0" name="GetAccountTransReportDataResult" nillable="true" type="q20:ArrayOfclsAccountTrans" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTopTradedInstReportData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="userIdPwd" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTopTradedInstReportDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/ReportServiceClasses" minOccurs="0" name="GetTopTradedInstReportDataResult" nillable="true" type="q21:ArrayOfclsTopTradedInstruments" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNewClientInfoReportData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="userIdPwd" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetNewClientInfoReportDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/ReportServiceClasses" minOccurs="0" name="GetNewClientInfoReportDataResult" nillable="true" type="q22:ArrayOfclsNewClientInfo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReportsMasterInfo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="userIdPwd" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetReportsMasterInfoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q23="http://schemas.datacontract.org/2004/07/ReportServiceClasses" minOccurs="0" name="GetReportsMasterInfoResult" nillable="true" type="q23:clsReportsMasterInfo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDayClosingReportData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="userIdPwd" nillable="true" type="xs:string" />
+        <xs:element xmlns:q24="http://schemas.datacontract.org/2004/07/ReportServiceClasses" minOccurs="0" name="searchValues" nillable="true" type="q24:DayClosingSearchValues" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetDayClosingReportDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q25="http://schemas.datacontract.org/2004/07/ReportServiceClasses" minOccurs="0" name="GetDayClosingReportDataResult" nillable="true" type="q25:ArrayOfclsDayClosing" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMasterInfo">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMasterInfoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q26="http://schemas.datacontract.org/2004/07/ReportServiceClasses" minOccurs="0" name="GetMasterInfoResult" nillable="true" type="q26:clsBOMasterInfo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HandleRoutingOperations">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="userIdPwd" nillable="true" type="xs:string" />
+        <xs:element xmlns:q27="http://schemas.datacontract.org/2004/07/ReportServiceClasses" minOccurs="0" name="routingRules" nillable="true" type="q27:clsRoutingRules" />
+        <xs:element xmlns:q28="http://schemas.datacontract.org/2004/07/ReportServiceClasses" minOccurs="0" name="opType" type="q28:OperationType" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HandleRoutingOperationsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q29="http://schemas.datacontract.org/2004/07/ReportServiceClasses" minOccurs="0" name="HandleRoutingOperationsResult" nillable="true" type="q29:ArrayOfclsRoutingRules" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS4LiveUpdate" targetNamespace="http://tempuri.org/DS4LiveUpdate.xsd" xmlns:mstns="http://tempuri.org/DS4LiveUpdate.xsd" xmlns="http://tempuri.org/DS4LiveUpdate.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS4LiveUpdate" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS4LiveUpdate" msprop:Generator_DataSetName="DS4LiveUpdate" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtLiveUpdate" msprop:Generator_UserTableName="dtLiveUpdate" msprop:Generator_RowDeletedName="dtLiveUpdateRowDeleted" msprop:Generator_RowChangedName="dtLiveUpdateRowChanged" msprop:Generator_RowClassName="dtLiveUpdateRow" msprop:Generator_RowChangingName="dtLiveUpdateRowChanging" msprop:Generator_RowEvArgName="dtLiveUpdateRowChangeEvent" msprop:Generator_RowEvHandlerName="dtLiveUpdateRowChangeEventHandler" msprop:Generator_TableClassName="dtLiveUpdateDataTable" msprop:Generator_TableVarName="tabledtLiveUpdate" msprop:Generator_RowDeletingName="dtLiveUpdateRowDeleting" msprop:Generator_TablePropName="dtLiveUpdate">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="LiveUpdateId" msprop:Generator_UserColumnName="LiveUpdateId" msprop:Generator_ColumnPropNameInRow="LiveUpdateId" msprop:Generator_ColumnVarNameInTable="columnLiveUpdateId" msprop:Generator_ColumnPropNameInTable="LiveUpdateIdColumn" type="xs:int" />
+              <xs:element name="Enable" msprop:Generator_UserColumnName="Enable" msprop:Generator_ColumnPropNameInRow="Enable" msprop:Generator_ColumnVarNameInTable="columnEnable" msprop:Generator_ColumnPropNameInTable="EnableColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Company" msprop:Generator_UserColumnName="Company" msprop:Generator_ColumnPropNameInRow="Company" msprop:Generator_ColumnVarNameInTable="columnCompany" msprop:Generator_ColumnPropNameInTable="CompanyColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Type" msprop:Generator_UserColumnName="Type" msprop:Generator_ColumnPropNameInRow="Type" msprop:Generator_ColumnVarNameInTable="columnType" msprop:Generator_ColumnPropNameInTable="TypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Folder" msprop:Generator_UserColumnName="Folder" msprop:Generator_ColumnPropNameInRow="Folder" msprop:Generator_ColumnVarNameInTable="columnFolder" msprop:Generator_ColumnPropNameInTable="FolderColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MaximumConnections" msprop:Generator_UserColumnName="MaximumConnections" msprop:Generator_ColumnPropNameInRow="MaximumConnections" msprop:Generator_ColumnVarNameInTable="columnMaximumConnections" msprop:Generator_ColumnPropNameInTable="MaximumConnectionsColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Version" msprop:Generator_UserColumnName="Version" msprop:Generator_ColumnPropNameInRow="Version" msprop:Generator_ColumnVarNameInTable="columnVersion" msprop:Generator_ColumnPropNameInTable="VersionColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtLiveUpdate" />
+      <xs:field xpath="mstns:LiveUpdateId" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

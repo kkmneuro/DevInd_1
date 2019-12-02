@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ProtocolLib">
+      <UniqueIdentifier>{5c692838-fa54-4973-993c-c4108a634bc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtocolLib\Header">
+      <UniqueIdentifier>{ff49f5ed-bc44-41d0-a9a3-55c5e21e10d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ProtocolLib\Source">
+      <UniqueIdentifier>{f032af7a-a0d3-4d75-8046-3f439b4b6f6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataDef">
+      <UniqueIdentifier>{e44b49fa-2555-4870-b7ad-580309d7385d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="build">
+      <UniqueIdentifier>{eb03fc5b-11cd-4a7e-8df2-aabec2f011df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="build\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="build\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\ClientProtocolImpl.h">
+      <Filter>ProtocolLib\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Protocol.h">
+      <Filter>ProtocolLib\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ServerInterface.h">
+      <Filter>ProtocolLib\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ServerProtocolImpl.h">
+      <Filter>ProtocolLib\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DataDef.h">
+      <Filter>DataDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IAccount.h">
+      <Filter>DataDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ICancelOrder.h">
+      <Filter>DataDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IGlobalPosition.h">
+      <Filter>DataDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IOrder.h">
+      <Filter>DataDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IPosition.h">
+      <Filter>DataDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IRMSCalculator.h">
+      <Filter>DataDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IRoute.h">
+      <Filter>DataDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RMSCalculatorFactory.h">
+      <Filter>DataDef</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\errorDefs.h">
+      <Filter>build\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>build\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>build\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>build\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\ClientProtocolImpl.cpp">
+      <Filter>ProtocolLib\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ClientSession.cpp">
+      <Filter>ProtocolLib\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ProtocolLib.cpp">
+      <Filter>ProtocolLib\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ServerProtocolImpl.cpp">
+      <Filter>ProtocolLib\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>build\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>build\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\ContractServer.tlb">
+      <Filter>DataDef</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ProtocolLib1.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

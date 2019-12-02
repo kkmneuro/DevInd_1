@@ -1,0 +1,5 @@
+D:\DevIndia\twschart-1-\archive\stockXUserctrl\stockXUserctrl\obj\x86\Debug\stockXUserctrl.csprojAssemblyReference.cache
+D:\DevIndia\twschart-1-\archive\stockXUserctrl\stockXUserctrl\obj\x86\Debug\MainWindow.baml
+D:\DevIndia\twschart-1-\archive\stockXUserctrl\stockXUserctrl\obj\x86\Debug\MainWindow.g.cs
+D:\DevIndia\twschart-1-\archive\stockXUserctrl\stockXUserctrl\obj\x86\Debug\App.g.cs
+D:\DevIndia\twschart-1-\archive\stockXUserctrl\stockXUserctrl\obj\x86\Debug\stockXUserctrl_MarkupCompile.cache

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="BOExchange_NG" Class="dbMan_BO_GetBrokersLogDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.;Initial Catalog=BOExchange_NG;Integrated Security=True" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="BOExchange_NGConnectionString1" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_GetBrokersLogNew" Method="BO_GetBrokersLogNew">
+    <Parameter Name="brokerGroupId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Startdate" Parameter="startdate" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="Enddate" Parameter="enddate" Type="System.DateTime" DbType="DateTime" />
+    <ElementType Name="BO_GetBrokersLogNewResult">
+      <Column Name="SNo" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="BrokerName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="BrokerID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OperationName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="DateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Message" Type="System.String" DbType="VarChar(256)" CanBeNull="true" />
+      <Column Name="IPAddress" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

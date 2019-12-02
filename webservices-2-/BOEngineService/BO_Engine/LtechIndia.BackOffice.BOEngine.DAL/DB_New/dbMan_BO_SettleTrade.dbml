@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="OMSExchange" Class="dbMan_BO_SettleTradeDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.1.101;Initial Catalog=OMSExchange;Persist Security Info=True;User ID=sa" SettingsObjectName="LtechIndia.BackOffice.BOEngine.DAL.Properties.Settings" SettingsPropertyName="OMSExchangeConnectionString3" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.BO_SettleOrders" Method="BO_SettleOrders">
+    <Parameter Name="SettledOrderID" Parameter="settledOrderID" Type="System.Int64" DbType="BigInt" />
+    <Parameter Name="AccountID" Parameter="accountID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PositionSize" Parameter="positionSize" Type="System.Int64" DbType="BigInt" />
+    <Parameter Name="Price" Parameter="price" Type="System.Int64" DbType="BigInt" />
+    <Parameter Name="OrderType" Parameter="orderType" Type="System.Char" DbType="Char(1)" />
+    <Parameter Name="OrderStatusID" Parameter="orderStatusID" Type="System.Char" DbType="Char(1)" />
+    <Parameter Name="Side" Parameter="side" Type="System.Char" DbType="Char(1)" />
+    <Parameter Name="Symbol" Parameter="symbol" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="TIF" Parameter="tIF" Type="System.Char" DbType="Char(1)" />
+    <Parameter Name="IPAddress" Parameter="iPAddress" Type="System.String" DbType="VarChar(15)" />
+    <Parameter Name="UsedMargin" Parameter="usedMargin" Type="System.Double" DbType="Float" />
+    <Parameter Name="CloseQty" Parameter="closeQty" Type="System.Int32" DbType="Int" />
+    <Parameter Name="SettledQty" Parameter="settledQty" Type="System.Int32" DbType="Int" />
+    <ElementType Name="BO_SettleOrdersResult">
+      <Column Name="Column1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Column2" Type="System.String" DbType="NVarChar(4000)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

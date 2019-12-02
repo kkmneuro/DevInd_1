@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS4Groups" targetNamespace="http://tempuri.org/DSGroups.xsd" xmlns:mstns="http://tempuri.org/DSGroups.xsd" xmlns="http://tempuri.org/DSGroups.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS4Groups" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DS4Groups" msprop:Generator_DataSetName="DS4Groups" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtCommon" msprop:Generator_UserTableName="dtCommon" msprop:Generator_RowDeletedName="dtCommonRowDeleted" msprop:Generator_RowChangedName="dtCommonRowChanged" msprop:Generator_RowClassName="dtCommonRow" msprop:Generator_RowChangingName="dtCommonRowChanging" msprop:Generator_RowEvArgName="dtCommonRowChangeEvent" msprop:Generator_RowEvHandlerName="dtCommonRowChangeEventHandler" msprop:Generator_TableClassName="dtCommonDataTable" msprop:Generator_TableVarName="tabledtCommon" msprop:Generator_RowDeletingName="dtCommonRowDeleting" msprop:Generator_TablePropName="dtCommon">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Owner" msprop:Generator_UserColumnName="Owner" msprop:Generator_ColumnVarNameInTable="columnOwner" msprop:Generator_ColumnPropNameInRow="Owner" msprop:Generator_ColumnPropNameInTable="OwnerColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DepositCurrency" msprop:Generator_UserColumnName="DepositCurrency" msprop:Generator_ColumnVarNameInTable="columnDepositCurrency" msprop:Generator_ColumnPropNameInRow="DepositCurrency" msprop:Generator_ColumnPropNameInTable="DepositCurrencyColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DepositByDefault" msprop:Generator_UserColumnName="DepositByDefault" msprop:Generator_ColumnVarNameInTable="columnDepositByDefault" msprop:Generator_ColumnPropNameInRow="DepositByDefault" msprop:Generator_ColumnPropNameInTable="DepositByDefaultColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LeverageByDefault" msprop:Generator_UserColumnName="LeverageByDefault" msprop:Generator_ColumnVarNameInTable="columnLeverageByDefault" msprop:Generator_ColumnPropNameInRow="LeverageByDefault" msprop:Generator_ColumnPropNameInTable="LeverageByDefaultColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AnnualInterestRate" msprop:Generator_UserColumnName="AnnualInterestRate" msprop:Generator_ColumnVarNameInTable="columnAnnualInterestRate" msprop:Generator_ColumnPropNameInRow="AnnualInterestRate" msprop:Generator_ColumnPropNameInTable="AnnualInterestRateColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="IsAdvancedSecurity" msprop:Generator_UserColumnName="IsAdvancedSecurity" msprop:Generator_ColumnVarNameInTable="columnIsAdvancedSecurity" msprop:Generator_ColumnPropNameInRow="IsAdvancedSecurity" msprop:Generator_ColumnPropNameInTable="IsAdvancedSecurityColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="GroupID" msprop:Generator_UserColumnName="GroupID" msprop:Generator_ColumnPropNameInRow="GroupID" msprop:Generator_ColumnVarNameInTable="columnGroupID" msprop:Generator_ColumnPropNameInTable="GroupIDColumn" type="xs:long" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtArchiving" msprop:Generator_UserTableName="dtArchiving" msprop:Generator_RowDeletedName="dtArchivingRowDeleted" msprop:Generator_RowChangedName="dtArchivingRowChanged" msprop:Generator_RowClassName="dtArchivingRow" msprop:Generator_RowChangingName="dtArchivingRowChanging" msprop:Generator_RowEvArgName="dtArchivingRowChangeEvent" msprop:Generator_RowEvHandlerName="dtArchivingRowChangeEventHandler" msprop:Generator_TableClassName="dtArchivingDataTable" msprop:Generator_TableVarName="tabledtArchiving" msprop:Generator_RowDeletingName="dtArchivingRowDeleting" msprop:Generator_TablePropName="dtArchiving">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="InactivePeriod" msprop:Generator_UserColumnName="InactivePeriod" msprop:Generator_ColumnPropNameInRow="InactivePeriod" msprop:Generator_ColumnVarNameInTable="columnInactivePeriod" msprop:Generator_ColumnPropNameInTable="InactivePeriodColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="MaxBalance" msprop:Generator_UserColumnName="MaxBalance" msprop:Generator_ColumnPropNameInRow="MaxBalance" msprop:Generator_ColumnVarNameInTable="columnMaxBalance" msprop:Generator_ColumnPropNameInTable="MaxBalanceColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ArchiveDeletedPendingOrder" msprop:Generator_UserColumnName="ArchiveDeletedPendingOrder" msprop:Generator_ColumnPropNameInRow="ArchiveDeletedPendingOrder" msprop:Generator_ColumnVarNameInTable="columnArchiveDeletedPendingOrder" msprop:Generator_ColumnPropNameInTable="ArchiveDeletedPendingOrderColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FK_GroupID" msprop:Generator_UserColumnName="FK_GroupID" msprop:Generator_ColumnPropNameInRow="FK_GroupID" msprop:Generator_ColumnVarNameInTable="columnFK_GroupID" msprop:Generator_ColumnPropNameInTable="FK_GroupIDColumn" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtMargins" msprop:Generator_UserTableName="dtMargins" msprop:Generator_RowDeletedName="dtMarginsRowDeleted" msprop:Generator_RowChangedName="dtMarginsRowChanged" msprop:Generator_RowClassName="dtMarginsRow" msprop:Generator_RowChangingName="dtMarginsRowChanging" msprop:Generator_RowEvArgName="dtMarginsRowChangeEvent" msprop:Generator_RowEvHandlerName="dtMarginsRowChangeEventHandler" msprop:Generator_TableClassName="dtMarginsDataTable" msprop:Generator_TableVarName="tabledtMargins" msprop:Generator_RowDeletingName="dtMarginsRowDeleting" msprop:Generator_TablePropName="dtMargins">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MarginCallLevel" msprop:Generator_UserColumnName="MarginCallLevel" msprop:Generator_ColumnPropNameInRow="MarginCallLevel" msprop:Generator_ColumnVarNameInTable="columnMarginCallLevel" msprop:Generator_ColumnPropNameInTable="MarginCallLevelColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="StopOutLevel" msprop:Generator_UserColumnName="StopOutLevel" msprop:Generator_ColumnPropNameInRow="StopOutLevel" msprop:Generator_ColumnVarNameInTable="columnStopOutLevel" msprop:Generator_ColumnPropNameInTable="StopOutLevelColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="StopOutLevelIn" msprop:Generator_UserColumnName="StopOutLevelIn" msprop:Generator_ColumnPropNameInRow="StopOutLevelIn" msprop:Generator_ColumnVarNameInTable="columnStopOutLevelIn" msprop:Generator_ColumnPropNameInTable="StopOutLevelInColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FK_GroupID" msprop:Generator_UserColumnName="FK_GroupID" msprop:Generator_ColumnPropNameInRow="FK_GroupID" msprop:Generator_ColumnVarNameInTable="columnFK_GroupID" msprop:Generator_ColumnPropNameInTable="FK_GroupIDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="MarginCallLevel2" msprop:Generator_UserColumnName="MarginCallLevel2" msprop:Generator_ColumnVarNameInTable="columnMarginCallLevel2" msprop:Generator_ColumnPropNameInRow="MarginCallLevel2" msprop:Generator_ColumnPropNameInTable="MarginCallLevel2Column" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtReports" msprop:Generator_UserTableName="dtReports" msprop:Generator_RowDeletedName="dtReportsRowDeleted" msprop:Generator_RowChangedName="dtReportsRowChanged" msprop:Generator_RowClassName="dtReportsRow" msprop:Generator_RowChangingName="dtReportsRowChanging" msprop:Generator_RowEvArgName="dtReportsRowChangeEvent" msprop:Generator_RowEvHandlerName="dtReportsRowChangeEventHandler" msprop:Generator_TableClassName="dtReportsDataTable" msprop:Generator_TableVarName="tabledtReports" msprop:Generator_RowDeletingName="dtReportsRowDeleting" msprop:Generator_TablePropName="dtReports">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SMTPServer" msprop:Generator_UserColumnName="SMTPServer" msprop:Generator_ColumnPropNameInRow="SMTPServer" msprop:Generator_ColumnVarNameInTable="columnSMTPServer" msprop:Generator_ColumnPropNameInTable="SMTPServerColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TemplatePath" msprop:Generator_UserColumnName="TemplatePath" msprop:Generator_ColumnPropNameInRow="TemplatePath" msprop:Generator_ColumnVarNameInTable="columnTemplatePath" msprop:Generator_ColumnPropNameInTable="TemplatePathColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SMTPLogin" msprop:Generator_UserColumnName="SMTPLogin" msprop:Generator_ColumnPropNameInRow="SMTPLogin" msprop:Generator_ColumnVarNameInTable="columnSMTPLogin" msprop:Generator_ColumnPropNameInTable="SMTPLoginColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SMTPPassword" msprop:Generator_UserColumnName="SMTPPassword" msprop:Generator_ColumnPropNameInRow="SMTPPassword" msprop:Generator_ColumnVarNameInTable="columnSMTPPassword" msprop:Generator_ColumnPropNameInTable="SMTPPasswordColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SupportEmail" msprop:Generator_UserColumnName="SupportEmail" msprop:Generator_ColumnPropNameInRow="SupportEmail" msprop:Generator_ColumnVarNameInTable="columnSupportEmail" msprop:Generator_ColumnPropNameInTable="SupportEmailColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Signature" msprop:Generator_UserColumnName="Signature" msprop:Generator_ColumnPropNameInRow="Signature" msprop:Generator_ColumnVarNameInTable="columnSignature" msprop:Generator_ColumnPropNameInTable="SignatureColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IsCopyReportToSupport" msprop:Generator_UserColumnName="IsCopyReportToSupport" msprop:Generator_ColumnPropNameInRow="IsCopyReportToSupport" msprop:Generator_ColumnVarNameInTable="columnIsCopyReportToSupport" msprop:Generator_ColumnPropNameInTable="IsCopyReportToSupportColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="FK_GroupID" msprop:Generator_UserColumnName="FK_GroupID" msprop:Generator_ColumnPropNameInRow="FK_GroupID" msprop:Generator_ColumnVarNameInTable="columnFK_GroupID" msprop:Generator_ColumnPropNameInTable="FK_GroupIDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="IsEnable" msprop:Generator_UserColumnName="IsEnable" msprop:Generator_ColumnPropNameInRow="IsEnable" msprop:Generator_ColumnVarNameInTable="columnIsEnable" msprop:Generator_ColumnPropNameInTable="IsEnableColumn" type="xs:boolean" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtSecurities" msprop:Generator_UserTableName="dtSecurities" msprop:Generator_RowDeletedName="dtSecuritiesRowDeleted" msprop:Generator_RowChangedName="dtSecuritiesRowChanged" msprop:Generator_RowClassName="dtSecuritiesRow" msprop:Generator_RowChangingName="dtSecuritiesRowChanging" msprop:Generator_RowEvArgName="dtSecuritiesRowChangeEvent" msprop:Generator_RowEvHandlerName="dtSecuritiesRowChangeEventHandler" msprop:Generator_TableClassName="dtSecuritiesDataTable" msprop:Generator_TableVarName="tabledtSecurities" msprop:Generator_RowDeletingName="dtSecuritiesRowDeleting" msprop:Generator_TablePropName="dtSecurities">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IsTrade" msprop:Generator_UserColumnName="IsTrade" msprop:Generator_ColumnPropNameInRow="IsTrade" msprop:Generator_ColumnVarNameInTable="columnIsTrade" msprop:Generator_ColumnPropNameInTable="IsTradeColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsUseConfirmationIn" msprop:Generator_UserColumnName="IsUseConfirmationIn" msprop:Generator_ColumnPropNameInRow="IsUseConfirmationIn" msprop:Generator_ColumnVarNameInTable="columnIsUseConfirmationIn" msprop:Generator_ColumnPropNameInTable="IsUseConfirmationInColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Execution" msprop:Generator_UserColumnName="Execution" msprop:Generator_ColumnPropNameInRow="Execution" msprop:Generator_ColumnVarNameInTable="columnExecution" msprop:Generator_ColumnPropNameInTable="ExecutionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SpreadDifference" msprop:Generator_UserColumnName="SpreadDifference" msprop:Generator_ColumnPropNameInRow="SpreadDifference" msprop:Generator_ColumnVarNameInTable="columnSpreadDifference" msprop:Generator_ColumnPropNameInTable="SpreadDifferenceColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MaximumDeviation" msprop:Generator_UserColumnName="MaximumDeviation" msprop:Generator_ColumnPropNameInRow="MaximumDeviation" msprop:Generator_ColumnVarNameInTable="columnMaximumDeviation" msprop:Generator_ColumnPropNameInTable="MaximumDeviationColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="IsDoNotCheckFreeMarginAfterDealersAnswer" msprop:Generator_UserColumnName="IsDoNotCheckFreeMarginAfterDealersAnswer" msprop:Generator_ColumnPropNameInRow="IsDoNotCheckFreeMarginAfterDealersAnswer" msprop:Generator_ColumnVarNameInTable="columnIsDoNotCheckFreeMarginAfterDealersAnswer" msprop:Generator_ColumnPropNameInTable="IsDoNotCheckFreeMarginAfterDealersAnswerColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsFastConfirmationOnIEWithDeviationSpecified" msprop:Generator_UserColumnName="IsFastConfirmationOnIEWithDeviationSpecified" msprop:Generator_ColumnPropNameInRow="IsFastConfirmationOnIEWithDeviationSpecified" msprop:Generator_ColumnVarNameInTable="columnIsFastConfirmationOnIEWithDeviationSpecified" msprop:Generator_ColumnPropNameInTable="IsFastConfirmationOnIEWithDeviationSpecifiedColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="IsMultipleCloseByOrders" msprop:Generator_UserColumnName="IsMultipleCloseByOrders" msprop:Generator_ColumnPropNameInRow="IsMultipleCloseByOrders" msprop:Generator_ColumnVarNameInTable="columnIsMultipleCloseByOrders" msprop:Generator_ColumnPropNameInTable="IsMultipleCloseByOrdersColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="AutoCloseOut" msprop:Generator_UserColumnName="AutoCloseOut" msprop:Generator_ColumnPropNameInRow="AutoCloseOut" msprop:Generator_ColumnVarNameInTable="columnAutoCloseOut" msprop:Generator_ColumnPropNameInTable="AutoCloseOutColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LotsMinimum" msprop:Generator_UserColumnName="LotsMinimum" msprop:Generator_ColumnPropNameInRow="LotsMinimum" msprop:Generator_ColumnVarNameInTable="columnLotsMinimum" msprop:Generator_ColumnPropNameInTable="LotsMinimumColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LotsMaximum" msprop:Generator_UserColumnName="LotsMaximum" msprop:Generator_ColumnPropNameInRow="LotsMaximum" msprop:Generator_ColumnVarNameInTable="columnLotsMaximum" msprop:Generator_ColumnPropNameInTable="LotsMaximumColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LotsStep" msprop:Generator_UserColumnName="LotsStep" msprop:Generator_ColumnPropNameInRow="LotsStep" msprop:Generator_ColumnVarNameInTable="columnLotsStep" msprop:Generator_ColumnPropNameInTable="LotsStepColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="FK_GroupID" msprop:Generator_UserColumnName="FK_GroupID" msprop:Generator_ColumnPropNameInRow="FK_GroupID" msprop:Generator_ColumnVarNameInTable="columnFK_GroupID" msprop:Generator_ColumnPropNameInTable="FK_GroupIDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="CommissionStandard" msprop:Generator_UserColumnName="CommissionStandard" msprop:Generator_ColumnPropNameInRow="CommissionStandard" msprop:Generator_ColumnVarNameInTable="columnCommissionStandard" msprop:Generator_ColumnPropNameInTable="CommissionStandardColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="CommissionTaxes" msprop:Generator_UserColumnName="CommissionTaxes" msprop:Generator_ColumnPropNameInRow="CommissionTaxes" msprop:Generator_ColumnVarNameInTable="columnCommissionTaxes" msprop:Generator_ColumnPropNameInTable="CommissionTaxesColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Pt_Point" msprop:Generator_UserColumnName="Pt_Point" msprop:Generator_ColumnVarNameInTable="columnPt_Point" msprop:Generator_ColumnPropNameInRow="Pt_Point" msprop:Generator_ColumnPropNameInTable="Pt_PointColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Pt_PerLots" msprop:Generator_UserColumnName="Pt_PerLots" msprop:Generator_ColumnVarNameInTable="columnPt_PerLots" msprop:Generator_ColumnPropNameInRow="Pt_PerLots" msprop:Generator_ColumnPropNameInTable="Pt_PerLotsColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CommissionAgent" msprop:Generator_UserColumnName="CommissionAgent" msprop:Generator_ColumnVarNameInTable="columnCommissionAgent" msprop:Generator_ColumnPropNameInRow="CommissionAgent" msprop:Generator_ColumnPropNameInTable="CommissionAgentColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SecurityId" msprop:Generator_UserColumnName="SecurityId" msprop:Generator_ColumnPropNameInRow="SecurityId" msprop:Generator_ColumnVarNameInTable="columnSecurityId" msprop:Generator_ColumnPropNameInTable="SecurityIdColumn" type="xs:string" />
+              <xs:element name="Agent_Pt_Point" msprop:Generator_UserColumnName="Agent_Pt_Point" msprop:Generator_ColumnVarNameInTable="columnAgent_Pt_Point" msprop:Generator_ColumnPropNameInRow="Agent_Pt_Point" msprop:Generator_ColumnPropNameInTable="Agent_Pt_PointColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Agent_Pt_PerLots" msprop:Generator_UserColumnName="Agent_Pt_PerLots" msprop:Generator_ColumnVarNameInTable="columnAgent_Pt_PerLots" msprop:Generator_ColumnPropNameInRow="Agent_Pt_PerLots" msprop:Generator_ColumnPropNameInTable="Agent_Pt_PerLotsColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="EnableSecurity" msprop:Generator_UserColumnName="EnableSecurity" msprop:Generator_ColumnPropNameInRow="EnableSecurity" msprop:Generator_ColumnVarNameInTable="columnEnableSecurity" msprop:Generator_ColumnPropNameInTable="EnableSecurityColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="SecurityRowId" msprop:Generator_UserColumnName="SecurityRowId" msprop:Generator_ColumnVarNameInTable="columnSecurityRowId" msprop:Generator_ColumnPropNameInRow="SecurityRowId" msprop:Generator_ColumnPropNameInTable="SecurityRowIdColumn" type="xs:long" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtSymbol" msprop:Generator_UserTableName="dtSymbol" msprop:Generator_RowDeletedName="dtSymbolRowDeleted" msprop:Generator_RowChangedName="dtSymbolRowChanged" msprop:Generator_RowClassName="dtSymbolRow" msprop:Generator_RowChangingName="dtSymbolRowChanging" msprop:Generator_RowEvArgName="dtSymbolRowChangeEvent" msprop:Generator_RowEvHandlerName="dtSymbolRowChangeEventHandler" msprop:Generator_TableClassName="dtSymbolDataTable" msprop:Generator_TableVarName="tabledtSymbol" msprop:Generator_RowDeletingName="dtSymbolRowDeleting" msprop:Generator_TablePropName="dtSymbol">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Symbol" msprop:Generator_UserColumnName="Symbol" msprop:Generator_ColumnPropNameInRow="Symbol" msprop:Generator_ColumnVarNameInTable="columnSymbol" msprop:Generator_ColumnPropNameInTable="SymbolColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LongPositioningSwap" msprop:Generator_UserColumnName="LongPositioningSwap" msprop:Generator_ColumnPropNameInRow="LongPositioningSwap" msprop:Generator_ColumnVarNameInTable="columnLongPositioningSwap" msprop:Generator_ColumnPropNameInTable="LongPositioningSwapColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ShortPositiioningSwap" msprop:Generator_UserColumnName="ShortPositiioningSwap" msprop:Generator_ColumnPropNameInRow="ShortPositiioningSwap" msprop:Generator_ColumnVarNameInTable="columnShortPositiioningSwap" msprop:Generator_ColumnPropNameInTable="ShortPositiioningSwapColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="MarginPercentage" msprop:Generator_UserColumnName="MarginPercentage" msprop:Generator_ColumnPropNameInRow="MarginPercentage" msprop:Generator_ColumnVarNameInTable="columnMarginPercentage" msprop:Generator_ColumnPropNameInTable="MarginPercentageColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="FK_GroupID" msprop:Generator_UserColumnName="FK_GroupID" msprop:Generator_ColumnPropNameInRow="FK_GroupID" msprop:Generator_ColumnVarNameInTable="columnFK_GroupID" msprop:Generator_ColumnPropNameInTable="FK_GroupIDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="SymbolId" msprop:Generator_UserColumnName="SymbolId" msprop:Generator_ColumnVarNameInTable="columnSymbolId" msprop:Generator_ColumnPropNameInRow="SymbolId" msprop:Generator_ColumnPropNameInTable="SymbolIdColumn" type="xs:string" />
+              <xs:element name="SymbolRowId" msprop:Generator_UserColumnName="SymbolRowId" msprop:Generator_ColumnVarNameInTable="columnSymbolRowId" msprop:Generator_ColumnPropNameInRow="SymbolRowId" msprop:Generator_ColumnPropNameInTable="SymbolRowIdColumn" type="xs:long" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="dtPermission" msprop:Generator_UserTableName="dtPermission" msprop:Generator_RowDeletedName="dtPermissionRowDeleted" msprop:Generator_RowChangedName="dtPermissionRowChanged" msprop:Generator_RowClassName="dtPermissionRow" msprop:Generator_RowChangingName="dtPermissionRowChanging" msprop:Generator_RowEvArgName="dtPermissionRowChangeEvent" msprop:Generator_RowEvHandlerName="dtPermissionRowChangeEventHandler" msprop:Generator_TableClassName="dtPermissionDataTable" msprop:Generator_TableVarName="tabledtPermission" msprop:Generator_RowDeletingName="dtPermissionRowDeleting" msprop:Generator_TablePropName="dtPermission">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TimeOut" msprop:Generator_UserColumnName="TimeOut" msprop:Generator_ColumnVarNameInTable="columnTimeOut" msprop:Generator_ColumnPropNameInRow="TimeOut" msprop:Generator_ColumnPropNameInTable="TimeOutColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="News" msprop:Generator_UserColumnName="News" msprop:Generator_ColumnVarNameInTable="columnNews" msprop:Generator_ColumnPropNameInRow="News" msprop:Generator_ColumnPropNameInTable="NewsColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MaxSymbols" msprop:Generator_UserColumnName="MaxSymbols" msprop:Generator_ColumnVarNameInTable="columnMaxSymbols" msprop:Generator_ColumnPropNameInRow="MaxSymbols" msprop:Generator_ColumnPropNameInTable="MaxSymbolsColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MaxOrders" msprop:Generator_UserColumnName="MaxOrders" msprop:Generator_ColumnPropNameInRow="MaxOrders" msprop:Generator_ColumnVarNameInTable="columnMaxOrders" msprop:Generator_ColumnPropNameInTable="MaxOrdersColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FK_GroupID" msprop:Generator_UserColumnName="FK_GroupID" msprop:Generator_ColumnPropNameInRow="FK_GroupID" msprop:Generator_ColumnVarNameInTable="columnFK_GroupID" msprop:Generator_ColumnPropNameInTable="FK_GroupIDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="GroupPermission" msprop:Generator_UserColumnName="GroupPermission" msprop:Generator_ColumnVarNameInTable="columnGroupPermission" msprop:Generator_ColumnPropNameInRow="GroupPermission" msprop:Generator_ColumnPropNameInTable="GroupPermissionColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="dtCommonKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtCommon" />
+      <xs:field xpath="mstns:GroupID" />
+    </xs:unique>
+    <xs:unique name="dtSecuritiesKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtSecurities" />
+      <xs:field xpath="mstns:SecurityRowId" />
+    </xs:unique>
+    <xs:unique name="dtSymbolKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:dtSymbol" />
+      <xs:field xpath="mstns:SymbolRowId" />
+    </xs:unique>
+    <xs:keyref name="FK_dtCommon_dtPermission" refer="dtCommonKey1" msdata:ConstraintOnly="true" msdata:AcceptRejectRule="Cascade">
+      <xs:selector xpath=".//mstns:dtPermission" />
+      <xs:field xpath="mstns:FK_GroupID" />
+    </xs:keyref>
+    <xs:keyref name="FK_dtCommon_dtSymbol" refer="dtCommonKey1" msdata:ConstraintOnly="true" msdata:AcceptRejectRule="Cascade">
+      <xs:selector xpath=".//mstns:dtSymbol" />
+      <xs:field xpath="mstns:FK_GroupID" />
+    </xs:keyref>
+    <xs:keyref name="FK_dtCommon_dtSecurities" refer="dtCommonKey1" msdata:ConstraintOnly="true" msdata:AcceptRejectRule="Cascade">
+      <xs:selector xpath=".//mstns:dtSecurities" />
+      <xs:field xpath="mstns:FK_GroupID" />
+    </xs:keyref>
+    <xs:keyref name="FK_dtCommon_dtReports" refer="dtCommonKey1" msdata:ConstraintOnly="true" msdata:AcceptRejectRule="Cascade">
+      <xs:selector xpath=".//mstns:dtReports" />
+      <xs:field xpath="mstns:FK_GroupID" />
+    </xs:keyref>
+    <xs:keyref name="FK_dtCommon_dtMargins" refer="dtCommonKey1" msdata:ConstraintOnly="true" msdata:AcceptRejectRule="Cascade">
+      <xs:selector xpath=".//mstns:dtMargins" />
+      <xs:field xpath="mstns:FK_GroupID" />
+    </xs:keyref>
+    <xs:keyref name="FK_dtCommon_dtArchiving" refer="dtCommonKey1" msdata:ConstraintOnly="true" msdata:AcceptRejectRule="Cascade">
+      <xs:selector xpath=".//mstns:dtArchiving" />
+      <xs:field xpath="mstns:FK_GroupID" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,379 @@
+﻿  stdafx.cpp
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  dllmain.cpp
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  MyIOCP.cpp
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\socket.h(13,2): warning C4091: 'typedef ': ignored on left of 'SocketError' when no variable is declared
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\socket.h(36,34): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\socket.h(36,40): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\socket.h(36,40): error C2143: syntax error: missing ',' before '&'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(27,50): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(27,57): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(28,48): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(28,55): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(29,72): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(29,79): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(61,26): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(61,33): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(62,36): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(62,43): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(64,31): error C2535: 'BOOL CIOCPBuffer::CreatePackage(BYTE)': member function already defined or declared
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(62): message : see declaration of 'CIOCPBuffer::CreatePackage'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(65,70): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(65,77): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(74,27): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(74,34): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(76,39): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(76,46): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(93,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(93,20): error C3646: 'm_Data': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(93,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(137,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(137,25): error C3646: 'm_sReceived': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(137,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(311,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(311,30): error C3646: 'm_sServerVersion': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(311,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(376,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(376,28): error C3646: 'GetHostAddress': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(376,28): error C2059: syntax error: '('
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(376,43): error C2238: unexpected token(s) preceding ';'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(382,26): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(382,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(382,32): error C2143: syntax error: missing ',' before '&'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(384,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(384,23): error C3646: 'GetHostIP': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(384,23): error C2059: syntax error: '('
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(384,25): error C2238: unexpected token(s) preceding ';'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(426,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(426,28): error C3646: 'GetHostKeyName': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(426,28): error C2059: syntax error: '('
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(426,43): error C2238: unexpected token(s) preceding ';'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(444,30): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(444,37): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(455,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(455,28): error C3646: 'ErrorCode2Text': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(455,28): error C2059: syntax error: '('
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(455,38): error C2238: unexpected token(s) preceding ';'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\myIOCP.h(26,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\myIOCP.h(26,25): error C3646: 'm_sSendText': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\myIOCP.h(26,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\myIOCP.h(42,30): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\myIOCP.h(42,37): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\myIOCP.h(54,56): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\myIOCP.h(54,63): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\myIOCP.h(55,45): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\myIOCP.h(55,52): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\myIOCP.h(56,37): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\myIOCP.h(56,44): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\myIOCP.h(60,60): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\myIOCP.h(60,67): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\myIOCP.h(61,49): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\myIOCP.h(61,56): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\myIOCP.h(68,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\myIOCP.h(68,30): error C3646: 'm_sAutoReconnect': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\myIOCP.h(68,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(23,2): error C2065: 'm_sSendText': undeclared identifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(26,2): error C2065: 'm_sAutoReconnect': undeclared identifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(93,29): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(93,36): error C2065: 'string': undeclared identifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(93,36): error C2146: syntax error: missing ')' before identifier 'msg'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(94,1): error C2143: syntax error: missing ';' before '{'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(94,1): error C2447: '{': missing function header (old-style formal list?)
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(106,58): error C3861: 'GetHostAddress': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(106,103): error C2660: 'ISocketEvents::OnConnect': function does not take 3 arguments
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\socket.h(19,15): message : see declaration of 'ISocketEvents::OnConnect'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(111,59): error C3861: 'GetHostAddress': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(111,103): error C2660: 'ISocketEvents::OnConnect': function does not take 3 arguments
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\socket.h(19,15): message : see declaration of 'ISocketEvents::OnConnect'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(118,11): error C2065: 'm_sAutoReconnect': undeclared identifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(143,24): error C2039: 'm_sReceived': is not a member of 'ClientContext'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(103): message : see declaration of 'ClientContext'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(157,38): error C2065: 'm_sSendText': undeclared identifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(240,53): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(240,60): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(248,36): error C2065: 'sText': undeclared identifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(255,64): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(255,71): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(260,55): error C2065: 'sText': undeclared identifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(264,69): error C2660: 'ITIOCP::AppendLog': function does not take 1 arguments
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\myIOCP.h(42,15): message : see declaration of 'ITIOCP::AppendLog'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(280,56): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(280,63): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(287,40): error C2065: 'sFile': undeclared identifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(292,44): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(292,51): error C2065: 'string': undeclared identifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(292,51): error C2146: syntax error: missing ')' before identifier 'sText'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(293,1): error C2143: syntax error: missing ';' before '{'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(293,1): error C2447: '{': missing function header (old-style formal list?)
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(320,67): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+  IOCPS.cpp
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\MyIOCP.cpp(320,74): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(27,50): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(27,57): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(28,48): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(28,55): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(29,72): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(29,79): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(61,26): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(61,33): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(62,36): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(62,43): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(64,31): error C2535: 'BOOL CIOCPBuffer::CreatePackage(BYTE)': member function already defined or declared
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(62): message : see declaration of 'CIOCPBuffer::CreatePackage'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(65,70): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(65,77): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(74,27): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(74,34): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(76,39): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(76,46): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\socket.h(13,2): warning C4091: 'typedef ': ignored on left of 'SocketError' when no variable is declared
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\socket.h(36,34): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\socket.h(36,40): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\socket.h(36,40): error C2143: syntax error: missing ',' before '&'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(93,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(93,20): error C3646: 'm_Data': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(93,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(137,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(137,25): error C3646: 'm_sReceived': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(137,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(311,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(311,30): error C3646: 'm_sServerVersion': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(311,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(376,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(376,28): error C3646: 'GetHostAddress': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(376,28): error C2059: syntax error: '('
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(376,43): error C2238: unexpected token(s) preceding ';'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(382,26): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(382,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(382,32): error C2143: syntax error: missing ',' before '&'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(384,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(384,23): error C3646: 'GetHostIP': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(384,23): error C2059: syntax error: '('
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(384,25): error C2238: unexpected token(s) preceding ';'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(426,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(426,28): error C3646: 'GetHostKeyName': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(426,28): error C2059: syntax error: '('
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(426,43): error C2238: unexpected token(s) preceding ';'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(444,30): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(444,37): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(455,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(455,28): error C3646: 'ErrorCode2Text': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(455,28): error C2059: syntax error: '('
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(455,38): error C2238: unexpected token(s) preceding ';'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(38,2): error C2065: 'm_sServerVersion': undeclared identifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(314,151): error C2039: 'ErrorCode2Text': is not a member of 'IOCPS'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(145): message : see declaration of 'IOCPS'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(505,144): error C3861: 'ErrorCode2Text': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(514,133): error C3861: 'ErrorCode2Text': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(554,164): error C3861: 'ErrorCode2Text': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(559,188): error C3861: 'ErrorCode2Text': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(667,122): error C3861: 'GetHostKeyName': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(794,140): error C3861: 'ErrorCode2Text': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(826,144): error C3861: 'ErrorCode2Text': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(863,181): error C3861: 'ErrorCode2Text': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(1150,119): error C3861: 'ErrorCode2Text': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(1328,146): error C3861: 'ErrorCode2Text': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(1333,138): error C3861: 'ErrorCode2Text': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(1372,20): error C2039: 'GetHostKeyName': is not a member of 'IOCPS'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(145): message : see declaration of 'IOCPS'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(1396,20): error C2039: 'GetHostAddress': is not a member of 'IOCPS'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(145): message : see declaration of 'IOCPS'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(1407,1): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+D:\Windows Kits\10\Include\10.0.18362.0\um\winsock2.h(1849): message : see declaration of 'inet_ntoa'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(1620,29): warning C4018: '<': signed/unsigned mismatch
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(1737,156): error C3861: 'ErrorCode2Text': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(1762,155): error C3861: 'ErrorCode2Text': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(1859,153): error C3861: 'ErrorCode2Text': identifier not found
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(1876,20): error C2039: 'ErrorCode2Text': is not a member of 'IOCPS'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(145): message : see declaration of 'IOCPS'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(2196,72): warning C4302: 'type cast': truncation from 'HANDLE' to 'WORD'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(2537,57): warning C4018: '<': signed/unsigned mismatch
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(2614,31): warning C4018: '<': signed/unsigned mismatch
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(2755,1): warning C4996: 'WSASocketA': Use WSASocketW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+D:\Windows Kits\10\Include\10.0.18362.0\um\winsock2.h(3416): message : see declaration of 'WSASocketA'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(2902,20): error C2039: 'GetHostIP': is not a member of 'IOCPS'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(145): message : see declaration of 'IOCPS'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(2907,1): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+D:\Windows Kits\10\Include\10.0.18362.0\um\winsock2.h(2219): message : see declaration of 'gethostbyname'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(2908,1): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+D:\Windows Kits\10\Include\10.0.18362.0\um\winsock2.h(1849): message : see declaration of 'inet_ntoa'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(2932,1): error C2511: 'BOOL IOCPS::Connect(const std::string &,int)': overloaded member function not found in 'IOCPS'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(145): message : see declaration of 'IOCPS'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(2933,17): error C2597: illegal reference to non-static member 'IOCPS::m_bShutDown'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(2938,2): error C2352: 'IOCPS::Start': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(70): message : see declaration of 'IOCPS::Start'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(2992,10): error C2352: 'IOCPS::AssociateIncomingClientWithContext': illegal call of non-static member function
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(443): message : see declaration of 'IOCPS::AssociateIncomingClientWithContext'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(2955,1): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+D:\Windows Kits\10\Include\10.0.18362.0\um\winsock2.h(1831): message : see declaration of 'inet_addr'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.cpp(3548,1): error C2511: 'void IOCPS::AppendLog(std::string)': overloaded member function not found in 'IOCPS'
+  IOCPBuffer.cpp
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(145): message : see declaration of 'IOCPS'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\socket.h(13,2): warning C4091: 'typedef ': ignored on left of 'SocketError' when no variable is declared
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\socket.h(36,34): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\socket.h(36,40): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\socket.h(36,40): error C2143: syntax error: missing ',' before '&'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(93,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(93,20): error C3646: 'm_Data': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(93,20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(137,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(137,25): error C3646: 'm_sReceived': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(137,25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(311,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(311,30): error C3646: 'm_sServerVersion': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(311,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(376,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(376,28): error C3646: 'GetHostAddress': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(376,28): error C2059: syntax error: '('
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(376,43): error C2238: unexpected token(s) preceding ';'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(382,26): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(382,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(382,32): error C2143: syntax error: missing ',' before '&'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(384,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(384,23): error C3646: 'GetHostIP': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(384,23): error C2059: syntax error: '('
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(384,25): error C2238: unexpected token(s) preceding ';'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(426,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(426,28): error C3646: 'GetHostKeyName': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(426,28): error C2059: syntax error: '('
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(426,43): error C2238: unexpected token(s) preceding ';'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(444,30): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(444,37): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(455,7): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(455,28): error C3646: 'ErrorCode2Text': unknown override specifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(455,28): error C2059: syntax error: '('
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPS.h(455,38): error C2238: unexpected token(s) preceding ';'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(27,50): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(27,57): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(28,48): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(28,55): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(29,72): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(29,79): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(61,26): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(61,33): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(62,36): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(62,43): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(64,31): error C2535: 'BOOL CIOCPBuffer::CreatePackage(BYTE)': member function already defined or declared
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(62): message : see declaration of 'CIOCPBuffer::CreatePackage'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(65,70): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(65,77): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(74,27): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(74,34): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(76,39): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.h(76,46): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(227,38): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(227,45): error C2065: 'string': undeclared identifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(227,45): error C2146: syntax error: missing ')' before identifier 'stxt'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(228,1): error C2143: syntax error: missing ';' before '{'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(228,1): error C2447: '{': missing function header (old-style formal list?)
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(259,48): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(259,55): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(261,17): error C2065: 'stxt': undeclared identifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(281,14): error C2065: 'stxt': undeclared identifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(282,19): error C2065: 'stxt': undeclared identifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(300,1): error C2084: function 'BOOL CIOCPBuffer::CreatePackage(BYTE)' already has a body
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(259): message : see previous definition of 'CreatePackage'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(369,59): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(369,66): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(371,17): error C2065: 'stxt': undeclared identifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(398,14): error C2065: 'stxt': undeclared identifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(400,20): error C2065: 'stxt': undeclared identifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(417,82): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(417,89): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(419,17): error C2065: 'stxt': undeclared identifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(448,14): error C2065: 'stxt': undeclared identifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(450,20): error C2065: 'stxt': undeclared identifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(531,39): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(531,46): error C2065: 'string': undeclared identifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(531,47): error C2065: 'stxt': undeclared identifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(531,51): error C2761: 'GetPackageInfo': redeclaration of member is not allowed
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(532,1): error C2448: 'CIOCPBuffer::GetPackageInfo': function-style initializer appears to be a function definition
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(545,51): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(545,58): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(554,3): error C2065: 'stxt': undeclared identifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(582,87): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(582,94): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(596,3): error C2065: 'stxt': undeclared identifier
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(603,62): error C2039: 'string': is not a member of 'std'
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\queue(18): message : see declaration of 'std'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(603,69): error C2061: syntax error: identifier 'string'
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(615,3): error C2065: 'stxt': undeclared identifier
+  Generating Code...
+D:\DevIndia\exchangeprojects-3-\archive\WSS\src\SocketOLD\build\IOCPBuffer.cpp(624,15): warning C4018: '<': signed/unsigned mismatch
